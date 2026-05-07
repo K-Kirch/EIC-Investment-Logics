@@ -1,0 +1,44 @@
+# =============================================================================
+# Git ignores for a LaTeX thesis project
+# =============================================================================
+
+# Compiled output
+*.pdf
+!figures/**/*.pdf            # but DO track figure PDFs
+
+# Auxiliary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.idx
+*.ilg
+*.ind
+
+# todonotes
+*.tdo
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# LaTeX backups
+*~
+*.bak

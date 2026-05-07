@@ -1,0 +1,148 @@
+%==============================================================================
+%  preamble.tex — packages, formatting and project-wide settings
+%  Loaded from main.tex via \input{preamble}.
+%==============================================================================
+
+%-------------------------------- Encoding ------------------------------------
+\usepackage[utf8]{inputenc}      % allow UTF-8 source files
+\usepackage[T1]{fontenc}         % proper output encoding (æøå, ligatures)
+\usepackage[british]{babel}      % switch to [danish] if writing in Danish
+
+%-------------------------------- Fonts ---------------------------------------
+\usepackage{helvet}                          % Helvetica — closest to DTU Arial
+\renewcommand{\familydefault}{\sfdefault}    % make sans-serif the document default
+\usepackage{microtype}                       % subtle micro-typography improvements
+
+%-------------------------------- Page layout ---------------------------------
+\usepackage[a4paper,
+            top=2.8cm, bottom=2.8cm,
+            inner=3.0cm, outer=2.5cm,
+            headheight=14pt]{geometry}
+\usepackage{setspace}
+\onehalfspacing                  % 1.5 line spacing — common for theses
+\setlength{\parskip}{0.5em plus 0.2em minus 0.1em}
+\setlength{\parindent}{0pt}      % paragraphs separated by space, not indent
+\usepackage{emptypage}           % suppress headers/footers on blank pages
+\usepackage{ragged2e}
+
+%-------------------------------- Colours -------------------------------------
+\usepackage{xcolor}
+\definecolor{dtured}{RGB}{196,0,13}        % DTU corporate red  (#C4000D)
+\definecolor{dtublue}{RGB}{30,61,255}      % DTU blue           (#1F3DFF)
+\definecolor{linknavy}{RGB}{0,51,102}
+
+%-------------------------------- Graphics / TikZ / floats -------------------
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+\usepackage{tikz}                % required for cover page
+\usepackage{caption}
+\usepackage{subcaption}
+\captionsetup{font=small,labelfont=bf,labelsep=period}
+\usepackage{float}
+
+%-------------------------------- Headers / footers ---------------------------
+% DTU template: no running header; footer carries thesis short title + page
+% number.  On even (left) pages: page# at left, title at right.
+% On odd (right) pages: title at left, page# at right.
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[LE]{\small\thepage}
+\fancyfoot[RE]{\small\nouppercase{\thesisrunningtitle}}
+\fancyfoot[LO]{\small\nouppercase{\thesisrunningtitle}}
+\fancyfoot[RO]{\small\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% Same footer on plain pages (chapter opening pages)
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[LE]{\small\thepage}%
+  \fancyfoot[RE]{\small\nouppercase{\thesisrunningtitle}}%
+  \fancyfoot[LO]{\small\nouppercase{\thesisrunningtitle}}%
+  \fancyfoot[RO]{\small\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\footrulewidth}{0pt}%
+}
+
+%-------------------------------- Chapter / section titles --------------------
+\usepackage{titlesec}
+% DTU style: "1  Introduction" — chapter number inline with title, no prefix
+\titleformat{\chapter}[hang]
+  {\normalfont\Huge\bfseries}
+  {\thechapter}{20pt}{\Huge\bfseries}
+\titlespacing*{\chapter}{0pt}{30pt}{20pt}
+
+% Sub-sub sections: bold but NOT numbered (DTU template convention)
+\setcounter{secnumdepth}{2}
+
+%-------------------------------- Mathematics ---------------------------------
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{siunitx}             % units: \SI{42}{\percent}
+
+%-------------------------------- Tables --------------------------------------
+\usepackage{booktabs}            % \toprule \midrule \bottomrule
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{array}
+
+%-------------------------------- Lists ---------------------------------------
+\usepackage{enumitem}
+\setlist{itemsep=2pt,topsep=4pt}
+
+%-------------------------------- Quotations ----------------------------------
+\usepackage{csquotes}            % required by biblatex; use \enquote{...}
+\usepackage{epigraph}            % chapter epigraphs (optional)
+
+%-------------------------------- Bibliography (biblatex + biber) -------------
+\usepackage[backend=biber,
+            style=authoryear,
+            sorting=nyt,
+            sortcites=true,
+            uniquename=false,
+            uniquelist=false,
+            maxcitenames=2,
+            maxbibnames=99,
+            giveninits=true,
+            natbib=true,
+            url=true,
+            doi=true,
+            isbn=false,
+            backref=false]{biblatex}
+\renewcommand*{\nameyeardelim}{\addcomma\space}
+
+%-------------------------------- Hyperlinks ----------------------------------
+\usepackage[hidelinks,
+            colorlinks=false,
+            linkcolor=linknavy,
+            citecolor=linknavy,
+            urlcolor=linknavy,
+            bookmarksnumbered=true,
+            pdfencoding=auto]{hyperref}
+\usepackage[noabbrev,capitalise]{cleveref}   % \cref / \Cref
+\urlstyle{same}
+
+%-------------------------------- Code listings -------------------------------
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  showstringspaces=false,
+  keywordstyle=\color{linknavy}\bfseries,
+  commentstyle=\color{gray}\itshape,
+  numbers=left, numberstyle=\tiny\color{gray}, numbersep=8pt,
+}
+
+%-------------------------------- Drafting helpers ----------------------------
+\usepackage[colorinlistoftodos,textsize=small]{todonotes}
+\newcommand{\todoinline}[1]{\todo[inline,color=yellow!40]{#1}}
+
+%-------------------------------- Misc ----------------------------------------
+\usepackage{lipsum}              % filler text — REMOVE before final submission
+\usepackage{appendix}
+
+%==============================================================================
+%  End of preamble.tex
+%==============================================================================

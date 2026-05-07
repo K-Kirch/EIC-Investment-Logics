@@ -1,0 +1,2423 @@
+=== PAGE 1 ===
+ 
+ 
+1  
+  
+ 
+EN 
+Annex 
+European Commission Decision C(2025)7410 of 5 November 2025   
+ 
+European Innovation 
+Council (EIC) 
+Work Programme 2026 
+ 
+ 
+ 
+ 
+European Innovation Council (EIC) established by the European 
+Commission, under the Horizon Europe programme (2021-27) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PAGE 2 ===
+ 
+ 
+2  
+  
+ 
+Who should read this document? 
+ 
+This document presents the 2026 European Innovation Council (EIC) Work Programme 
+funded by the European Union’s Horizon Europe Framework Programme for Research 
+and Innovation. It sets out how the EIC will allocate its funding of over EUR 1.424 billion 
+for the year 2026 and has been prepared following the advice of the EIC Board.    
+The Work Programme defines the calls for applications targeting innovative 
+researchers, startups and small and medium enterprises (SMEs), scale up companies, 
+and funders and other organisations and individuals interested in innovation. The focus 
+is on breakthrough technologies and game-changing innovations which are high risk 
+and with a high potential for impact and to scale up internationally and become market 
+leaders.    
+A broad range of support is available, ranging from grants, investments through the 
+EIC Fund, prizes to Business Acceleration Services (including access to coaching and 
+mentoring, expertise and ecosystem partners). The Work Programme sets out the type 
+of support available, how to apply, and how selection decisions are taken.  
+It's important for those seeking funding opportunities through the EIC to carefully read 
+and understand the Work Programme to ensure they align with the objectives and meet 
+the eligibility criteria as well as understand each step of the process.   
+Potential applicants, and those interested in the EIC in general, can find more 
+information, including background to the EIC mission, organisation and practical 
+guidance (e.g. challenge guides, frequently asked questions), on the EIC website: 
+https://eic.ec.europa.eu.  
+Support and advice for potential applicants is available in each EU Member State and 
+Associated County, through National Contact Points of Horizon Europe (Funding & 
+tenders 
+(europa.eu)) 
+and 
+through 
+the 
+Enterprise 
+Europe 
+Network 
+(https://een.ec.europa.eu/).  
+Applications can be submitted through the Funding & Tenders Portal 
+(https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home), which 
+can also be accessed via the EIC website (https://eic.ec.europa.eu/).   
+ 
+ 
+
+=== PAGE 3 ===
+ 
+ 
+3  
+  
+ 
+ 
+
+=== PAGE 4 ===
+ 
+ 
+4  
+  
+Table of Contents  
+ 
+Table of Contents ...................................................................................................................................... 3 
+I. Introduction ............................................................................................................................................. 6 
+Strategic goals and Key Performance Indicators ...................................................................... 6 
+Overview of the 2026 Work Programme ..................................................................................... 7 
+Main changes of the 2026 Work Programme ......................................................................... 11 
+Key features of EIC support ........................................................................................................... 11 
+Outlook for 2027 ............................................................................................................................... 18 
+Glossary................................................................................................................................................. 18 
+II. EIC Pathfinder ..................................................................................................................................... 25 
+II.1  
+EIC Pathfinder Open ........................................................................................................... 25 
+II.2  
+EIC Pathfinder Challenges ................................................................................................ 30 
+II.2.1 Advanced Materials for Miniaturised Energy Harvesting Systems ................... 37 
+II.2.2 Biotechnology for Healthy Ageing .............................................................................. 39 
+II.2.3 DeepRAP: Deep Reasoning, Abstraction & Planning towards trustworthy 
+Cognitive AI Systems ................................................................................................................... 43 
+III. EIC Transition ..................................................................................................................................... 47 
+IV. EIC Advanced Innovation Challenges- Pilot........................................................................... 58 
+IV.1 Accelerating Physical AI: Embodied Intelligence for the Next Frontier of AI-
+Powered Robotics ............................................................................................................................. 65 
+IV.2 Translating Disruptive New Approach Methodologies (NAMs) into Practice .... 68 
+V. EIC Accelerator ................................................................................................................................... 71 
+V.1 EIC Accelerator Open ............................................................................................................... 88 
+V.2 EIC Accelerator Challenges..................................................................................................... 89 
+V.2.1 Advanced Materials for Renewable Energy and Energy Storage Systems .... 89 
+V.2.2 Alternative Concepts and Key Enabling Technologies for Fusion Power Plants
+ ............................................................................................................................................................. 91 
+V.2.3 Biotech for Regenerating Agricultural Soils ............................................................. 94 
+
+=== PAGE 5 ===
+ 
+ 
+5  
+  
+V.2.4 Boosting the European Critical Raw Materials value chain ................................ 96 
+V.2.5 Deep Tech for Climate Adaptation .............................................................................. 98 
+VI. EIC Strategic Technologies for Europe Platform (STEP) Scale Up Call ........................ 101 
+VII. Business Acceleration Services ................................................................................................ 111 
+VII.1 EIC business coaches (direct EIC services) .................................................................... 114 
+VII.2 International Trade Fairs  4.0 ............................................................................................. 115 
+VII.3 Financial support to access services from Ecosystem partners ............................ 116 
+VII.4 EIC Scaling Club 2.0 .............................................................................................................. 119 
+VII.5 Strategic access to innovation procurement ............................................................... 122 
+VII.6 Corporate partnership 4.0 .................................................................................................. 123 
+VIII. EIC Prizes ........................................................................................................................................ 125 
+VIII.1 The European Prize for Women Innovators ............................................................... 125 
+VIII.2 The European Capital of Innovation Awards (iCapital) ........................................... 128 
+IX. Other Actions .................................................................................................................................. 134 
+IX.1 Honoraria and expenses of the EIC Board ..................................................................... 134 
+IX.2  
+External expertise for monitoring, ethics and policy advice .............................. 135 
+IX.3 Communication, outreach, events .................................................................................... 136 
+IX.4 EIC Data management and IT systems integration .................................................... 137 
+IX.5 Future-oriented strategic intelligence research to support EIC internal 
+knowledge production and management ............................................................................. 139 
+IX.6 European innovation gender and diversity index ....................................................... 140 
+IX.7 Fees for the European Investment Bank for tasks related to the investment 
+component of the EIC Accelerator............................................................................................ 142 
+IX.8 Irish Presidency Conference ................................................................................................ 142 
+X. Annexes .............................................................................................................................................. 144 
+Annex 1  
+Estimated Indicative Budget ................................................................................. 145 
+Annex 2  
+General conditions ................................................................................................... 147 
+A. ADMISSIBILITY ........................................................................................................................ 147 
+B. ELIGIBILITY ................................................................................................................................ 149 
+C. Financial and operational capacity and exclusion ..................................................... 161 
+
+=== PAGE 6 ===
+ 
+ 
+6  
+  
+D. AWARD CRITERIA .................................................................................................................. 165 
+E. DOCUMENTS ........................................................................................................................... 166 
+F. PROCEDURE ............................................................................................................................. 167 
+G. LEGAL AND FINANCIAL SET-UP OF THE GRANT AGREEMENTS .......................... 170 
+H. APPLICANT   AGREEMENT REQUIREMENTS ................................................................ 175 
+Annex 3  
+Fast Track scheme to apply for the EIC Accelerator ..................................... 176 
+Annex 4  
+EIC Plug-in scheme for the EIC Accelerator .................................................... 178 
+Annex 5  
+Booster grants for EIC Pathfinder and EIC Transition Awardees ............. 179 
+Annex 6  
+Additional provisions concerning Intellectual Property for EIC 
+Pathfinder and EIC Transition ...................................................................................................... 182 
+ 
+ 
+ 
+ 
+
+=== PAGE 7 ===
+ 
+ 
+7  
+  
+I. Introduction  
+Strategic goals and Key Performance Indicators  
+The EIC was established to identify, develop and scale up breakthrough technologies 
+and companies, to achieve the green and digital transition.  
+The EIC Board provides strategic advice for the EIC Work Programme1 For the period 
+2021-27 the EIC Board has recommended six strategic goals, with associated Key 
+Performance Indicators (KPIs), providing clear direction, track progress, and guide 
+implementation and potential new actions2. The baselines and progress against KPI 
+targets will be included in the annual EIC impact reports. The KPIs represent mid to 
+long term targets.  
+Six Strategic Goals for the EIC:   
+1. To be the investor of choice for those with visionary ideas: The EIC must have 
+continent-wide recognition and traction with high potential start-ups, 
+entrepreneurs and innovative researchers, in particular from underrepresented 
+groups such as women innovators and those from less developed ecosystems.  
+2. To crowd in EUR 30-50 billion investment into European deep tech3: The EIC 
+must bridge a critical financing gap faced by deep tech companies and leverage 
+the EIC Fund to influence the allocation of private assets in their support.   
+3. To pull through high-risk technologies in critical areas for society and open 
+strategic autonomy: The EIC must take risks and support the most promising 
+deep tech opportunities from the earliest stage to commercial scale-up, 
+delivering relevant innovations for society and safeguarding against 
+dependencies for key technologies.  
+4. To increase the number of European unicorns and scale ups: The EIC must 
+support the growth and scaling up of European start-ups and SMEs to match 
+and ultimately surpass the performance of the USA and Asia.   
+5. To catalyse innovation impacts from European public research and innovation: 
+The EIC must build partnerships to draw on, and commercialise, the best ideas 
+from the research base across the EU, and scale-up start-ups funded under other 
+EU or national initiatives.  
+ 
+1 In line with Article 12 (1) (b) Council Decision 2021/764 
+2 European Innovation Council EIC) Board (E03823) at https://ec.europa.eu/transparency/expert-groups-register/screen/expert-
+groups?lang=en    
+3 As defined in the Glossary 
+
+=== PAGE 8 ===
+ 
+ 
+8  
+  
+6. To achieve operational excellence: The agility and speed of EIC operations and 
+decision making must align with the expectations of applicants, investors and 
+market norms.  
+In addition, the EIC Board has published a set of recommendations to improve the 
+participation of innovators from widening countries in the EIC.4 The recommendations 
+are taken forward in the implementation of the EIC Work Programme, for example in 
+the outreach activities and selection of EIC experts and jury members.  
+Overview of the 2026 Work Programme  
+The funding and support available in 2026 is organised into five main funding 
+schemes:  
+1. the EIC Pathfinder for advanced research to develop the scientific basis to 
+underpin breakthrough technologies (Section II);  
+2. the EIC Transition to validate technologies and develop business plans for 
+specific applications (Section III);  
+3. The EIC Advance Innovation Challenges to solve demand-driven specific, 
+ambitious societal or technological problems quickly through funding 
+milestones (section IV)  
+4. the EIC Accelerator to support companies (SMEs, start-ups, spin-offs and in 
+some cases small mid-caps) to bring their innovations to market and scale 
+them up (Section V); and  
+5. the EIC Strategic Technologies for Europe Platform (STEP) Scale Up which 
+provides high amounts of investments to scaleup companies in critical areas5 
+(SMEs, start-ups, spin-offs and small mid-caps) (Section VI).  
+In each case, the direct financial support for visionary researchers and innovators is 
+complemented with access to a range of Business Acceleration Services (Section VII) 
+providing access to leading expertise, corporates, investors and ecosystem actors.  
+Pathfinder, Transition and Accelerator provide for “Open” funding which can support 
+technologies and innovations in any field without any predefined priority areas. In the 
+case of the Pathfinder and Accelerator, this Open funding is complemented by a set 
+of “Challenges” which target specific technologies and innovations of strategic 
+interest for the Union. The EIC STEP Scale Up call targets technologies and 
+innovations within the fields of digital technologies, clean and resource efficient 
+technologies, including net-zero technologies; and biotechnologies. Outside of the 
+ 
+4 https://eic.ec.europa.eu/system/files/2023-08/EIC_Board_Statement_Widening_final31072023.pdf  
+5 Regulation - EU - 2024/795 - EN - EUR-Lex 
+
+=== PAGE 9 ===
+ 
+ 
+9  
+  
+calls, a budget is also set aside to support follow on investments to companies 
+selected under previous EIC Work Programmes.  
+The Work Programme also supports a number of innovation prizes (Section VIII), and 
+additional supporting actions allowing the functioning of the EIC such as expert 
+contracts, data management, communication and IT (Section IX).   
+Linkages between these funding schemes will be maximised through proactive 
+management (see below) and approaches, such as additional ‘Booster’ grants to EIC 
+Pathfinder and EIC Transition projects (Annex 5), the Fast Track scheme to accelerate 
+the access of successful projects from EU programmes to the EIC Accelerator (Annex 
+3) and the Plug in for access of projects stemming from national programmes (Annex 
+4).  
+ 
+ 
+
+=== PAGE 10 ===
+ 
+ 
+ 
+Table 1. Summary of main calls in 20266  
+  
+  
+  
+EIC Open  
+EIC Challenges   
+ 
+Call  
+Who can apply  
+What for  
+Deadlines  
+Indicativ
+e  
+Budget 
+(EUR 
+million)  
+EIC Challenge  
+Deadlines/  
+Cut-offs  
+Indicative  
+Budget (EUR 
+million)  
+EIC  
+Pathfinder  
+Open call: only consortia can 
+apply.  
+Challenges 
+call: 
+smaller 
+consortia 
+(at 
+least 
+two 
+eligible entities) or single 
+applicants as well as larger 
+consortia.  
+Grants up to EUR 4 million.    
+Higher amounts if duly justified.   
+Projects to achieve the proof of principle 
+and validate the scientific basis of 
+breakthrough technologies (starting from 
+early TRLs aiming at achieving TRL3 or 4)  
+12/05/2026 
+166 
+II.2.1 
+Advanced 
+Materials 
+for 
+Miniaturised Energy Harvesting Systems 
+II.2.2 Biotechnology for Healthy Ageing 
+II.2.3 
+DeepRAP: 
+Deep 
+Reasoning, 
+Abstraction 
+& 
+Planning 
+towards 
+trustworthy Cognitive AI Systems 
+28/10/2026 
+96 
+EIC   
+Transition  
+Single applicants (SMEs, 
+spin-offs, 
+start-ups, 
+research 
+organisations, 
+universities) 
+or 
+small 
+consortia 
+(minimum 
+2, 
+maximum 
+5 
+eligible 
+entities).  
+Grants of up to EUR 2.5 million to validate 
+and 
+demonstrate 
+technology 
+in 
+application-relevant environment (starting 
+at TRL 3 achieved or 4 aiming at achieving 
+TRL 5 or 6) and develop business and 
+market readiness.  
+16/09/2026 
+100 
+ 
+ 
+ 
+EIC Advanced 
+Innovation 
+Challenges 
+Single applicants (SMEs, 
+spin-offs, 
+start-ups, 
+research 
+organisations, 
+universities) 
+or 
+small 
+consortia 
+(minimum 
+2, 
+maximum 
+3 
+eligible 
+entities).  
+First stage grants up to €0.3m to validate 
+and benchmark potential solutions (starting 
+at TRL 4) followed by larger grants up to 
+€2.5m to develop, validate and user test 
+selected solutions (aiming to reach TRL 6/7) 
+ 
+ 
+IV.1 Accelerating Physical AI: Embodied 
+Intelligence for the Next Frontier of AI-
+Powered Robotics 
+IV.2 
+Translating 
+Disruptive 
+New 
+Approach Methodologies (NAMs) into 
+Practice 
+26/02/2026 
+18/06/2027 
+6 in 2026;  
+25 in 20277 
+ 
+6 This table provides a simplified overview. All applicants need to read the relevant sections for the full information on eligibility and conditions for funding, including Annex 2. As affiliated entities do 
+not sign the grant agreement, they do not count towards the minimum eligibility criteria for consortium composition (if any). The Director-General responsible for the call may decide to open the 
+calls up to one month prior to or after the envisaged date(s) of opening. The Director-General responsible may delay the call deadline(s) by up to two months.   
+7 The 2027 call will be budgeted and fully funded from EIC 2027 budget 
+
+=== PAGE 11 ===
+ 
+ 
+ 
+EIC  
+Accelerator  
+Single start-ups and SMEs 
+(including 
+spin-offs), 
+individuals (intending to 
+launch a start-up/ SME) and 
+in some cases small mid-
+caps 
+(fewer 
+than 
+499 
+employees).  
+Grant component below EUR 2.5M for 
+innovation activities (TRL 6 to 8)  
+Investment component of EUR 1M up to 10 
+million for scaling up and other activities.   
+Grant only and investment only component 
+under certain conditions.   
+Continuous 
+with batches 
+7/01/2026; 
+04/03/2026; 
+06/05/2026; 
+08/07/2026; 
+02/09/2026; 
+04/11/2026 
+414 
+V.2.1 Advanced Materials for Renewable 
+Energy and Energy Storage System 
+V.2.2 Alternative Concepts and Key 
+Enabling Technologies for Fusion Power 
+Plants 
+V.2.3 
+Biotech 
+for 
+Regenerating 
+Agricultural Soils 
+V.2.4 Boosting the European Critical Raw 
+Materials value chain 
+V.2.5 Deep Tech for Climate Adaptation 
+Continuous 
+with batches 
+7/01/2026; 
+04/03/2026; 
+06/05/2026; 
+08/07/2026; 
+02/09/2026; 
+04/11/2026 
+220 
+EIC– STEP 
+Scale Up  
+Single startups and SMEs, 
+small mid-caps, investors 
+on 
+behalf 
+of 
+eligible 
+companies  
+Investment component of EUR 10 up to 30 
+million 
+for 
+scaling 
+up 
+strategic 
+technologies for Europe.   
+One batch per 
+quarter:   
+11/02/2026; 
+06/05/2026; 
+09/09/2026; 
+25/11/2026 
+300 
+ 
+ 
+ 
+
+=== PAGE 12 ===
+ 
+ 
+ 
+Main changes of the 2026 Work Programme  
+The 2026 EIC Work Programme introduces a number of changes and simplifications, 
+following advice from the EIC Board, the mid-term review of Horizon Europe, the policy 
+priorities of the EU in particular the Startup and Scaleup Strategy, and experience and 
+feedback from implementation.  
+ 
+Main changes are 
+ 
+ Introduction of pilot EIC Advance Innovation Challenges to reinforce the risk 
+taking and user uptake of innovations. This call will be implemented through two 
+stages of funding, a first stage open to all applicants calls for proposed solutions 
+to the challenge, and a second stage to be funded through a call for 2027 to select 
+a limited number of the first stage projects to proceed to implement their solutions.  
+ An increase in the indicative budget size of EIC Pathfinder projects to €4 million 
+to enable progress to proof-of-concept stage, along with further introduction of 
+lump sum together with some minor improvements to the evaluation process. 
+ The inclusion of research results from Horizon Europe and Horizon 2020 research 
+infrastructures as eligible for the EIC Transition call, alongside results from EIC 
+Pathfinder, ERC Proof of Concept, and from Pillar 2 of Horizon Europe.   
+ A major simplification and shortening of the EIC Accelerator evaluation process 
+with more frequent batching of proposals for evaluation and introduction of more 
+detailed due diligence at the application stage to enable faster investment 
+decisions.  
+ Clarifications for the EIC STEP Scaleup call, reflecting experience of 
+implementing this call in 2025 
+ Reinforced Business Acceleration Services for internationalisation and engaging 
+with corporates, in line with the Startup and Scaleup Strategy 
+ Support for a regular Gender and Diversity Innovation index, building on the 
+recent pilot projects 
+ An update of the Plug-In scheme, following the completion of the pilot phase in 
+2023-25.  
+ 
+Key features of EIC support  
+A combination of financial and non-financial support to accelerate and grow EIC 
+innovations and companies.  
+
+=== PAGE 13 ===
+ 
+ 
+13  
+  
+The EIC support goes far beyond funding, and it aims at supporting the emergence, 
+acceleration and growth of EIC innovations and deep tech companies. In order to 
+further leverage the EIC investments, all EIC Awardees will be provided with access to 
+a range of externally contracted, bespoke Business Acceleration Services (BAS) at any 
+stage of development of their activities. The EIC uses its pan-European reach to connect 
+EIC Awardees with partners from all around Europe and beyond, thereby also 
+contributing to further develop the innovation ecosystem in Europe by providing 
+access to and from a deal flow of top-level European innovators.   
+EIC Awardees will also be offered facilitated or priority access to relevant research and 
+technology infrastructures, including those hosted by the Joint Research Centre and 
+receiving funding from Union programmes including on High Performance Computing 
+and in-orbit demonstration and verification activities.    
+Proactive project and portfolio management by EIC Programme Managers  
+Support awarded by the EIC, and in particular by the EIC Pathfinder, is more than a one-
+off funding of a research project. By covering the full innovation cycle, whenever 
+possible EIC aims to push results to higher Technology Readiness Levels (TRL). Whilst 
+EIC Pathfinder Awardees will bear no obligation regarding the development of 
+innovations as part of their project (beyond the evaluated proposal), the EIC will 
+encourage and stimulate further maturation of preliminary findings and results by 
+providing guidance as well as additional and continuous support, including financial 
+one.   
+Moreover, EIC takes a proactive approach of project and programme management, 
+performed by EIC Programme Managers,8 to identify, develop and implement such 
+technology visions and to nurture potential market-creating innovations out of EIC 
+funded projects and activities. This will include leveraging existing networks such as the 
+European Digital Innovation Hubs. Proactive management applies to EIC Pathfinder 
+Challenges, EIC Transition and EIC Accelerator projects and consists of the following:  
+ The milestones defined by the proposals for funding will be used to periodically 
+review the progress. Reviews will assess whether the activities foreseen to reach the 
+milestones have been completed and will consider the results and outputs against 
+the overall objectives. The reviews will be undertaken with support of independent 
+experts and overseen by EIC Programme Managers for projects within their 
+portfolios.  
+ Following the reviews, the EIC support may be continued on the basis of its 
+implementation according to the description of action, amendments to the grant 
+ 
+8 Appointed in accordance with point 1.2.2. of Pillar III in Annex I to Council Decision 2021/764, EIC Programme Managers are 
+temporary staff employed by the Agency to manage one or more EIC Portfolios.  
+
+=== PAGE 14 ===
+ 
+ 
+14  
+  
+agreements may be requested or, in case a project has not met agreed milestones, 
+it may be suspended/terminated. It can be even terminated if it has completely lost 
+economic or technological relevance (in accordance with the grant agreement). 
+Reviews may also result in requests for amendments to ongoing or planned 
+activities or deployment of some necessary Business Acceleration Services (or other 
+relevant ones, like those from EIT-KICs), including additional coaching days and 
+access to crucial expertise. For EIC Pathfinder and EIC Transition projects, reviews 
+may also involve an assessment to submit a proposal directly to the EIC Accelerator 
+under the Fast Track scheme (see Annex 3) or to submit a proposal for additional 
+Booster grants (see Annex 5). In addition to the reviews, the EIC Awardees will be 
+expected to keep the Agency regularly informed of progress and pre-alerted in 
+case of difficulties.   
+ The EIC funded projects may be included in one or more thematic or Challenge 
+based portfolios of projects (‘EIC Portfolios’), providing the projects with a 
+productive setting in which to advance their ideas. For EIC Challenges, the portfolio 
+will reflect the scope of the challenge (“Challenge Portfolio”). Projects to be funded 
+through EIC Open calls may be requested to join one or more Thematic Portfolios.   
+ Projects selected under EIC Pathfinder Challenges will work together with 
+Programme Managers and pursue together as a portfolio a common roadmap for 
+the Challenge. This roadmap is prepared under the guidance of the EIC programme 
+Manager and sets out collective activities, objectives and milestones. In order to 
+take into account relevant changes in science and innovation or the portfolio’s 
+achievements or consistency, the objectives and roadmap of an EIC Challenge 
+Portfolio must regularly be assessed and if necessary, revised. Based on any such 
+revision, the Agency may request to amend the projects’ activities, milestones and 
+deliverables in accordance with the grant agreement. If a project has been selected 
+under an EIC Challenge topic, and where no amendment can be agreed upon to 
+ensure coherence with the updated objectives of the related Challenge Portfolio, 
+the Agency may suspend or terminate the project in accordance with the grant 
+agreement.   
+ EIC portfolio activities are identified and developed by EIC Programme Managers 
+in consultation with the EIC Awardees of the projects in the EIC Portfolio, with 
+relevant Commission services and where appropriate with other interested EIC 
+Community members and third parties such as members of the innovation 
+ecosystem. They aim at developing cooperation within an EIC Portfolio in order to 
+achieve its objectives, enhance research, prepare transition to innovation and 
+stimulate business opportunities understanding and enhancing of regulatory 
+framework, and strengthen the EIC Community. Such activities may cover 
+
+=== PAGE 15 ===
+ 
+ 
+15  
+  
+participation to conferences, workshops or meetings, experience and data sharing, 
+and participation to any relevant Business Acceleration Services events.  
+A tailored approach to proposal evaluation   
+The EIC approach to the evaluation of proposals is tailored to the objectives of each of 
+the EIC funding schemes. For the most mature technologies, when business and market 
+readiness levels are close to market funding, greater emphasis is put on interviews with 
+applicants and a simplified binary scoring (GO/ NO GO).  
+For the EIC Pathfinder, which supports science-towards-technology breakthrough 
+research, the evaluation follows a peer review method where proposals are evaluated, 
+scored and ranked by experts based on weighted criteria and thresholds (see Section  
+II).  
+For the EIC Transition, which funds innovation activities that go beyond the 
+experimental proof of concept, proposals will first be evaluated remotely, scored, and 
+ranked based on criteria and thresholds. For the top ranked applicants which are invited 
+to the interview, the jury will decide based on a binary scoring (GO/NO GO, see Section  
+III).  
+For the EIC Accelerator, which supports high risk/high gain innovations to go to the 
+market and scale up, proposals will be evaluated remotely based on a scoring and the 
+top ranked evaluated at interviews based on a binary scoring (GO/NO GO) 9 (see 
+Section V).  
+For the EIC STEP Scale Up, which supports promising companies developing critical 
+technologies10 , to help them secure larger funding rounds for further scaling their 
+businesses, proposals will be evaluated following remote interview based on a binary 
+scoring (GO/NO GO) (see Section VI).  
+Policy of open access and Intellectual Property rights11  
+For the EIC Pathfinder, provisions will be applied to ensure open access to scientific 
+publications and promote the uptake of research results (see Annex 2 on open science).  
+Moreover, EIC aims to stimulate the cross-fertilisation and exploitation of results from 
+EIC supported projects. Therefore, EIC Pathfinder and EIC Transition projects may be 
+requested at any stage by EIC Programme Managers to actively share information 
+about results (including preliminary findings), within their EIC Portfolio and with other 
+ 
+9 In line with Article 28(3) and Article 29(2) of the Horizon Europe Regulation (Regulation (EU) 2021/695) of the European Parliament and 
+of the Council of 28 April 2021 establishing Horizon Europe – the Framework Programme for Research and Innovation, laying down its 
+rules for participation and dissemination, and repealing Regulations (EU) No 1290/2013 and (EU) No 1291/2013, OJ L 170, 12.5.2021, p. 
+1, (“Horizon Europe Regulation”).  
+10 Regulation - EU - 2024/795 - EN - EUR-Lex (europa.eu)  
+11 For the EIC Accelerator, the Intellectual Property rules are included in the contract and/or investment agreement.  
+
+=== PAGE 16 ===
+ 
+ 
+16  
+  
+relevant EIC projects and parties, as detailed in Annex 6. The goal is to stimulate and 
+nurture potential innovation out of EIC Pathfinder or EIC Transition results and explore 
+pathways to further development. This exchange of information between EIC Awardees 
+will be without prejudice to their own legitimate interests to exploit the results or 
+findings. To ensure full confidentiality, such sharing will be subject to non-disclosure 
+obligations regarding confidential results, with EIC Awardees retaining the right on a 
+case-by-case basis to fully disclose or not their intellectual property.  
+Technology transfer and other relevant support is expected to be provided by 
+universities and research organisations for exploiting the results of EIC projects. In the 
+absence of such support and without prejudice to ownership of results, the inventors 
+of results generated by EIC Pathfinder and Transition projects may be entrusted with 
+appropriate access rights for the purpose of further development and exploitation.  
+Exploitation activities may be eligible to additional financial support and services 
+offered by the EIC, as further detailed in Annex 5.   
+Economic security  
+Following the Communication on the European Economic Security Strategy12 and the 
+Commission Recommendation on critical technology areas for the EU's economic 
+security13 a number of provisions have been made to protect Europe from economic 
+security risks.   
+These measures are:  
+ Eligibility criteria: In line with Article 136 of the Financial Regulation14, in order to 
+protect the Union’s strategic assets, interests, or security also taking into account 
+the technological objectives and expected outcomes, where necessary and duly 
+justified, legal entities which are directly or indirectly controlled by a non-eligible 
+third country15 or by a legal entity established in a non-eligible third country 
+cannot participate as beneficiaries in Accelerator grant-only actions 16 . This 
+restriction is exceptionally applied under the following calls:  
+o specific Challenge under the EIC Accelerator related to critical raw 
+materials (see Section V);   
+ 
+12 Joint Communication by the European Commission and the High Representative of the Union for Foreign Affairs and Security Policy: 
+European Economic Security Strategy, 26.06.2023, JOIN (2023) 20 final  
+13 Commission Recommendation C(2023)6689 of 3 October 2023 on critical technology areas for the EU's economic security for further 
+risk assessment with Member States - European Commission (europa.eu)  
+14 EU Financial Regulation 2024/2509  
+15 Non-eligible third countries are countries other than countries associated to the Horizon Europe Framework Programme for the 
+purposes of the relevant EIC actions and other countries specified in the call texts.  
+16 The eligibility criteria do not apply to blended finance actions and to equity-only actions because appropriate controls are 
+implemented for the investment component in the context of the Know Your Customer (KYC) / “Red Flag” report prior to any EIC Fund 
+investment. In addition, Investment safeguards can be introduced, where appropriate, in the investment agreements. 
+
+=== PAGE 17 ===
+ 
+ 
+17  
+  
+ 
+ 
+Investment safeguards: The inclusion of economic security safeguards 
+provisions in investment agreements by the EIC Fund for companies selected to 
+receive an investment component under the EIC Accelerator, in order to safeguard 
+the Union’s strategic assets, interests, autonomy, or security and to achieve 
+technological objectives and expected outcomes for companies selected under the 
+EIC STEP Scale Up call as well as within the four priority technology areas defined 
+in the Commission Recommendation on critical technology areas, namely: 
+advanced semiconductors technologies, artificial intelligence technologies, 
+quantum technologies and biotechnologies. . The different possible safeguards are 
+described in the EIC Fund Investment Guidelines and will be tailored to each 
+specific investee. Where the need for such safeguard measures is identified in the 
+Commission Award Decision, the EIC Fund will apply at least one of the safeguard 
+measures in the investment agreement. 
+The requirement for investment-related measures will be introduced in the 
+Commission Award Decision only in the case of projects (i) selected under the STEP 
+Scale up call or falling within the four priority technology areas and (ii) involving 
+specific technologies listed in the second column of the Annex to Commission 
+Recommendation C(2023)6689. Moreover, the safeguard measures will only 
+concern projects whose core purpose is to develop one of these specific 
+technologies and not projects where these technologies are a tool or method that 
+will be applied for a specific application, but without substantial development of 
+the technology itself. 
+ 
+ Intellectual Property: A requirement exists in the grant agreement for all EIC 
+beneficiaries to inform the Agency in cases where the Intellectual Property 
+generated by EIC projects is proposed to be transferred to an entity in a non-
+associated third country.  
+Details of the above economic security measures are provided in the call texts below.  
+EIC investments  
+The conditions concerning the list of non-cooperative jurisdictions (as amended from 
+time to time) for tax purposes issued by the Council (OJ C 438, 19.12.2017, p. 5) (the 
+"Council Conclusions") are applied by the EIC in respect of EIC Accelerator investments.   
+
+=== PAGE 18 ===
+ 
+ 
+18  
+  
+The EIC Fund shall not enter into any contract or maintain a business relationship with 
+any institution or individual listed on sanction lists17, and in particular shall not make 
+any funds available directly or indirectly to any institution or individual listed in sanction 
+lists18. 
+The EIC applies the EU rules, policies and procedures, addressing the requirements in 
+respect of money laundering, terrorism financing, tax avoidance, tax fraud, tax evasion 
+contained in Article 158(2)(a) of the Financial Regulation 19 and complies with the 
+prohibition to enter into new or renewed operations with entities incorporated or 
+established in jurisdictions listed under the relevant Union policy on non-cooperative 
+jurisdictions or that are identified as high-risk third countries20 or that do not effectively 
+comply with Union or internationally agreed tax standards on transparency and 
+exchange of information, as well as the possibility to derogate from this requirement 
+when the action is physically implemented in one of those jurisdictions, contained in 
+Article 158(2)(b) of the Financial Regulation21.  
+The breach of these obligations may lead to the interruption of the equity investment 
+process.  
+EIC-EIT Collaboration   
+The EIC is progressively increasing collaboration and synergies with the EIT and its 
+Knowledge and Innovation Communities (KICs) with the overall aim of strengthening 
+the European Innovation Ecosystem. A number of collaboration areas are already in 
+place and will continue to be supported under the current Work Programme facilitating 
+the access to services to European innovators. The Fast Track process by EIT KICs, that 
+allows proposals from companies selected by the EIT KICs to enter the EIC Accelerator 
+evaluation at the second stage will continue; EIC beneficiaries will have access to the 
+services provided by the EIT KICs via the partnerships agreed with the Business 
+Acceleration Services. The “Next Generation Innovation Talents” scheme allows EIT 
+Label Masters and Doctoral programmes, EIT Alumni, EIT Jumpstarter beneficiaries to 
+undertake secondments in EIC and EIT supported startups and SMEs. Collaboration will 
+ 
+17 Consolidated list of sanctions:  
+https://eeas.europa.eu/headquarters/headquarters-homepage_en/8442/Consolidated%20list%20of%20sanctions   
+18 See Council Regulation (EU) No 833/2014 of 31 July 2014 concerning restrictive measures in view of Russia's actions destabilising the 
+situation in Ukraine. OJ L 229, 31.7.2014, p.1. , as last amended by Council Regulation [please insert the references of the regulation on 
+the 14th package].  
+19 EU Financial Regulation 2024/2509.   
+20 Pursuant to Article 9(2) of Directive (EU) 2015/849 of the European Parliament and of the Council of 20 May 2015 on the prevention 
+of the use of the financial system for the purposes of money laundering or terrorist financing, amending Regulation (EU) No 648/2012 
+of the European Parliament and of the Council, and repealing Directive 2005/60/EC of the European Parliament and of the Council and 
+Commission Directive 2006/70/EC (OJ L 141,  
+5.6.2015, p. 73), as may be amended.   
+21 EU Financial Regulation 2024/2509.   
+
+=== PAGE 19 ===
+ 
+ 
+19  
+  
+continue to promote women entrepreneurs, with EIT access to the EIC Women 
+Leadership Programme and a joint approach to the women innovator’s prizes (see  
+Section VIII).    
+Outlook for 2027  
+The EIC Work Programme for 2027 will be prepared following the advice provided by 
+the EIC Board. It is envisaged that the main calls on Pathfinder, Transition, Accelerator 
+and STEP will continue without major changes. The experience with the Advanced 
+Innovation challenges call will be assessed with a view to the continuation and 
+improvement of this support. The identification of the challenges will draw from the 
+insights of the EIC Programme Managers and reflect the EU policy priorities and 
+continuation of co-funding with Pillar 2. Further pilots and changes may be introduced 
+to bridge with proposals for the future of the EIC under the successor to the Horizon 
+Europe programme. 
+Subject to the adoption of the legislative changes proposed by the Commission on a 
+defence mini-omnibus22 an amendment of the EIC Work Programme is envisaged to 
+provide for EIC Accelerator to support to dual-use innovations and equity only 
+investments in defence. The flagship action set out in the Startup and Scaleup 
+Strategy23 to launch a Scaleup Europe Fund may also require an amendment to the EIC 
+Work Programme. 
+Glossary24  
+The Agency entrusted by the European Commission with the implementation of  
+Horizon Europe EIC activities, except for the EIC Fund, is the European Innovation 
+Council and SMEs Executive Agency (EISMEA).  
+Deep tech 25  is technology that is based on cutting-edge scientific advances and 
+discoveries and is characterised by the need to stay at the technological forefront by 
+constant interaction with new ideas and results from the lab. Deep tech innovations are 
+understood to be those that have the potential to deliver transformative solutions, 
+rooted in cutting-edge science, technology and engineering, including innovation that 
+ 
+22 Proposal for a regulation of the European Parliament and of the Council amending Regulations (EU) 2021/694, (EU) 2021/695, (EU) 
+2021/697, (EU) 2021/1153, (EU) 2023/1525 and 2024/795, as regards incentivising defence-related investments in the EU budget to 
+implement the ReArm Europe Plan 
+23 “The EU Startup and Scaleup Strategy: Choose Europe to start and scale”, COM(2025)270 
+24 These definitions are complemented by specific definitions regarding provisions concerning management of EIC Portfolios and 
+Intellectual Property for EIC Pathfinder and EIC Transition actions detailed in Annex 6.  
+25 Deep tech ventures have the following characteristics: positioning at the knowledge frontier with long and uncertain R&I cycles; 
+relates to tangible products and industrialisation processes; linked to the ecosystem and especially higher education institutions, 
+problem orientated, or mission driven, focused on the creation of an option space and a dynamic de-risking cycle.  
+
+=== PAGE 20 ===
+ 
+ 
+20  
+  
+combines advances in the physical, biological and digital spheres. Deep tech is distinct 
+from ‘high tech’ which tends to refer only to R&D intensity26.   
+The EIC Board oversees the strategy and implementation of EIC activities and provides 
+advice on EIC Work Programmes. It comprises 20 leading innovators and innovative 
+researchers, as well as a full time President of the EIC Board. The EIC Board is appointed 
+by the European Commission following an open call for expressions of interest. The EIC 
+Board members are subject to strict rules concerning conflicts of interest and 
+confidentiality.  
+The EIC Awardees or EIC recipients are the beneficiaries identified in an EIC Grant 
+agreement (Pathfinder, Transition and Accelerator), or investees (for EIC Accelerator 
+including EIC Step Scale Up Call), as well as winners of EIC Prizes. The Horizon Europe 
+model grant agreements and contracts are available on the Funding and Tenders 
+Portal27.  
+EIC Business Acceleration Services (BAS) are support services provided to the EIC 
+Awardees and other eligible organisations as defined in Section VII to support the 
+innovation development of EIC project results and the commercialisation and scaling 
+up of EIC supported innovations, including  access to coaches and training, access to 
+services of the EIC Ecosystem Partners, and access to global partners (leading 
+corporates, investors, procurers, distributors, clients), see Section VII for more detail.  
+EIC business coaches are independent external experts with entrepreneurial and 
+investment backgrounds who provide business development insights and guidance to 
+EIC Awardees and applicants. They are part of the Business Acceleration Services.  
+EIC Community platform is a platform available to all EIC Awardees and Awardees of 
+EIC Seals of Excellence28, EIC Pre-Accelerator Seals of Excellence and EIC Sovereignty 
+(STEP) Seals29 and other eligible entities. It facilitates links to Business Acceleration 
+Services as well as enabling discussions, exchanges and match making. The EIC 
+Community platform is a virtual meeting place where EIC Awardees and all other 
+eligible entities can access services specifically designed for EIC beneficiaries that 
+connect them with peers, mentors and coaches, inventors, corporates, and innovation 
+procurers. Additionally, the EIC Community platform also facilitate access the EIC 
+Ecosystem Partners. 
+ 
+26 Ratio of a firm's R&D investment to its revenue.  
+27 HE Model grant agreement   
+28 As foreseen in Article 2(23), Regulation (EU) 2021/695 establishing Horizon Europe-the Framework Programme for Research and 
+Innovation, laying down its rules for participation and dissemination, and repealing Regulations (EU) No 1290/2013 and (EU) No 
+1291/2013  
+29 As foreseen in Article  4 of Regulation (EU) 2024/795 of the European Parliament and of the Council of 29 February 2024 establishing 
+the Strategic Technologies for Europe Platform (STEP), and amending Directive 2003/87/EC and Regulations (EU) 2021/1058, (EU) 
+2021/1056, (EU) 2021/1057, (EU) No 1303/2013, (EU) No 223/2014, (EU) 2021/1060, (EU) 2021/523, (EU) 2021/695, (EU) 2021/697 and 
+(EU) 2021/241 (europa.eu)  
+
+=== PAGE 21 ===
+ 
+ 
+21  
+  
+EIC Ecosystem Partners are high quality, topic, or sector specific services from service 
+providers from all over Europe and internationally that are not only focusing on EIC 
+beneficiaries, that have been selected to provide Business Acceleration Services or 
+other support to EIC Awardees, Awardees of EIC Seals of Excellence30, EIC Sovereignty 
+(STEP) Sealsand EIC Pre-Accelerator Seals of Excellence and  other eligible entities. EIC 
+Ecosystem Partners can include, for example, investors, business angels, mentors and 
+coaches, innovation agencies, business associations, clusters, accelerators, incubators, 
+technology transfer offices, venture builders, etc. They may also include the Knowledge 
+and Innovation Communities (KICs) of the EIT, members of the Enterprise Europe 
+Network and Startup Europe, and the European IP Helpdesk.  
+EIC Expert Evaluators are external independent experts in their field who assess 
+proposals for funding against the criteria defined in the Work Programme. The EIC 
+expert evaluators are selected from the Funding & Tenders Portal Expert Database.  
+EIC expert monitors are external independent experts in their field who assist the 
+Agency and, in some cases, EIC Programme Managers in the monitoring of projects’ 
+implementation.  
+EIC evaluation committees are panels of EIC expert evaluators who evaluate 
+proposals and rank those that have passed the applicable thresholds. In the case of EIC 
+Pathfinder Challenges, EIC Programme Managers participate as members in some 
+evaluation committees as specified in the call texts.  
+The EIC Fund is an alternative investment fund (AIF) that has been established for the 
+specific purpose of investing in companies selected through EIC Accelerator calls. An 
+external alternative investment fund manager (AIFM, the “EIC Fund Manager”) 
+manages the EIC Fund. The European Investment Bank (EIB) supports the EIC Fund as 
+Investment Advisor.     
+The EIC Fund Manager makes investment and divestment decisions on the companies 
+selected through the EIC Accelerator call by following a due diligence performed by 
+the EIB according to the EIC Investment Guidelines.31 The EIC Fund Manager manages 
+the EIC portfolio of invested companies, supported by the EIB, and in close 
+coordination with the grant support provided to investee companies by the European 
+Commission and managed by the Agency, as well as the provision of Business 
+Acceleration Services (including access to other potential investors via the EIC 
+ 
+30 As foreseen in Article 2(23), Regulation (EU) 2021/695 establishing Horizon Europe-the Framework Programme for Research and 
+Innovation, laying down its rules for participation and dissemination, and repealing Regulations (EU) No 1290/2013 and (EU) No 
+1291/2013  
+31 About the EIC Fund - European Commission (europa.eu)   
+
+=== PAGE 22 ===
+ 
+ 
+22  
+  
+CoInvestment Platform) and the performance of technology due diligence by the 
+Agency.  
+The EIC Forum brings different innovation drivers and levels of governance closer 
+together to discuss openly and informally relevant policy issues. 32  The policy 
+recommendations and activities of the EIC Forum will aim at supporting and 
+complementing initiatives undertaken in Horizon Europe.  
+EIC Juries are panels of specifically selected EIC expert evaluators (including, for 
+example, independent investors, business angels and entrepreneurs) who conduct face 
+to face interviews with applicants to the EIC Transition, EIC Accelerator and EIC STEP 
+Scale Up calls as part of the evaluation procedure. EIC Programme Managers and, in 
+the case of the EIC Accelerator representatives of the EIB as Investment Adviser to the 
+EIC Fund, may participate in jury interviews as observers, but will not be members of 
+the jury and will not take part in the jury’s decisions. Interviews with EIC Juries may 
+take place in either a physical or virtual setting.  
+EIC Portfolio is a set of actions presenting thematic similarities (Thematic Portfolio) 
+or contributing to the same EIC Challenge (Challenge Portfolio). Further information 
+can be found in the proactive project and portfolio management by EIC Programme 
+Managers section. EIC Programme Managers are high-level experts in specific fields 
+of technology, business and innovation and who manage one or more EIC Portfolios. 
+They are appointed to work in the Agency for a limited duration, in order to develop 
+visions for breakthrough technologies and innovations, and to proactively manage 
+portfolios of projects to achieve these breakthroughs. They are supported by EIC 
+Project Officers as well as by EIC Tech to Market advisers. The EIC Programme Managers 
+are subject to strict rules concerning conflicts of interest and confidentiality.   
+EIC Plug-In scheme provides that certified national or regional programmes may 
+submit applications directly to the full application stage of the EIC Accelerator 
+evaluation. Further details are provided in Annex 4.  
+EIC Tech to Market Advisers are agents employed by the Agency to assist primarily 
+the EIC Transition projects, in agreement with EIC Programme Managers and in 
+cooperation with EIC Project Officers, with the design and the execution of the 
+transition plan and to facilitate access to, and follow-up of, the relevant Business 
+Acceleration Service offerings.  
+EIC Project Officers are officials and other agents appointed by the Agency to manage 
+an action.  
+ 
+32 The EIC Forum is supported under the ‘European Innovation Ecosystems’ part of the Horizon Europe work programme.  
+
+=== PAGE 23 ===
+ 
+ 
+23  
+  
+The Enterprise Europe Network (EEN) is a network of business intermediary 
+organisations (chambers of commerce, technology poles, innovation support 
+organisations, universities and research institutes, regional development organisations) 
+that help Small and Medium-sized Enterprises (SMEs) innovate and grow 
+internationally.  
+The Innovation Radar experts are a diverse group of professionals whose expertise 
+lies in identifying, evaluating high-potential innovations for inclusion in the Innovation 
+Radar platform33, helping to determine which EU-funded research outputs have the 
+greatest market potential and scalability.  
+National Contact Points (NCPs) are appointed by Member States and Associated 
+Countries to provide guidance, practical information and assistance to applicants on 
+all aspects of participation in Horizon Europe.   
+Next Generation Innovation Talents scheme supports EU funded researchers (from 
+European Innovation Council (EIC), European Research Council (ERC), European 
+Institute of Technology (EIT), Marie Sklodowska Curie Actions (MSCA) to carry out an 
+innovation internship in a startup funded by the EIC or EIT. The aim is on the one hand 
+to enable researchers and aspiring innovators to better understand and gain direct 
+experience of real-world innovation and entrepreneurship while allowing innovative 
+start-ups to access new ideas and insights from cutting edge of research.   
+Seal of Excellence: is a quality label awarded to excellent proposals which could not 
+be funded due to lack of available budget and meeting the conditions set out in the 
+call text, in order to facilitate access to funding from other sources34. Awardees of the 
+Seal of Excellence also have access to relevant Business Acceleration Services. Member 
+States may decide to transfer budget from European Regional Development Fund 
+Programmes to the Agency to fund directly Seal of Excellence proposals.   
+Sovereignty (STEP) Seal: is awarded to all proposals that meet the evaluation 
+thresholds in calls contributing to the Strategic Technologies for Europe Platform 
+(STEP). It concerns both those proposals selected for funding (to support access to 
+complementary funding sources) and those not selected for funding due to a lack of 
+budget (to support access to alternative funding sources). It provides access to 
+Business Acceleration Services. For proposals not selected for funding, Member States 
+may decide to transfer budget from European Regional Development Fund 
+Programmes to the Agency to fund directly Sovereignty (STEP) Seal proposals.  
+ 
+33 https://innovation-radar.ec.europa.eu/ 
+34 Information on public funding bodies that recognise and support Seal of Excellence projects is available at 
+https://ec.europa.eu/info/research-and-innovation/funding/funding-opportunities/seal-excellence.   
+
+=== PAGE 24 ===
+ 
+ 
+24  
+  
+Small and Medium-sized Enterprises (SMEs) is a category of micro, small and 
+medium-sized enterprises. It consists of enterprises that employ fewer than 250 
+persons and have either an annual turnover not exceeding EUR 50 million, or an annual 
+balance sheet total not exceeding EUR 43 million. A full definition is provided in 
+Commission Recommendation 2003/361/EC.35 Under the EIC, this category includes 
+start-ups.  
+Small mid-cap means an enterprise employing up to 499 employees.36  
+Technology Readiness Levels (TRLs) provide a guide to the stage of development. 
+TRLs are used in the Work Programme for guidance, but do not preclude support for 
+non-technological innovations. A strong degree of importance will also be given to 
+market readiness and business readiness,37 as described in the award criteria of the call 
+texts. The following definitions of TRLs apply, recognising that there are important 
+differences between technological fields38:  
+TRL1 - Basic principles observed  
+TRL2 - Technology concept formulated  
+TRL3 - Experimental proof of concept  
+TRL4 - Technology validated in lab  
+TRL5 - Technology validated in relevant environment (industrially relevant environment 
+in the case of key enabling technologies)  
+TRL6 - Technology demonstrated in relevant environment (industrially relevant 
+environment in the case of key enabling technologies)  
+TRL7 - System prototype demonstration in operational environment  
+TRL8 - System complete and qualified  
+TRL9 - Actual system proven in operational environment (competitive manufacturing 
+in the case of key enabling technologies, or in space)  
+Women-led SMEs (including start-ups) means companies where the position of either 
+the Chief Executive Officer (CEO), Chief Technology Officer (CTO) or Chief Scientific 
+ 
+35 Commission Recommendation of 6 May 2003 concerning the definition of micro, small and medium-sized enterprises (2003/361/EC), 
+OJ L 124, 20.5.2003, p. 36. and the User Guide to SME Definition: https://op.europa.eu/en/publication-detail/-/publication/756d9260-
+ee54-11ea-991b-01aa75ed71a1  
+36 Where the staff headcount is calculated in accordance with Articles 3, 4, 5 and 6 of Title I of the Annex of Commission 
+Recommendation 2003/361/EC.   
+37 Further information on market readiness and business readiness will be provided in the guidance documents.  38 See for instance: 
+https://horizoneuropencpportal.eu/store/trl-assessment and    
+https://euraxess.ec.europa.eu/career-development/researchers/manual-scientific-entrepreneurship/major-steps/trl  
+38 See for instance for health: https://euraxess.ec.europa.eu/career-development/researchers/manual-scientific-entrepreneurship/major-
+steps/trl 
+
+=== PAGE 25 ===
+ 
+ 
+25  
+  
+Officer (CSO) is held by a woman at the time of application, interview and award of the 
+EU financial support.   
+Women-led consortia means consortia where the consortium coordinator is a woman 
+and at least 50% of Work Package leaders, including the consortium coordinator, are 
+women at the time of application, interview and award of the EU financial support.  
+ 
+ 
+
+=== PAGE 26 ===
+ 
+ 
+26  
+  
+II. EIC Pathfinder  
+The overall objective of the EIC Pathfinder for advanced research is to develop the 
+scientific basis to underpin breakthrough technologies. It provides support for the 
+earliest stages of scientific, technological or deep tech research and development. 
+Pathfinder projects aim to build on new, cutting-edge directions in science and 
+technology to disrupt a field and a market or create new opportunities by realising 
+innovative technological solutions through:  
+ ‘EIC Pathfinder Open’, open to support projects in any field of science, 
+technology or application without predefined thematic priorities.  
+ ‘EIC Pathfinder Challenges’ to support coherent portfolios of projects within 
+predefined thematic areas with the aim to achieve specific objectives for each 
+Challenge.  
+ II.1  EIC Pathfinder Open  
+ Do you have an ambitious vision for a novel future technology that could make 
+a real difference to our lives?  
+ Do you see a plausible way of achieving the scientific breakthrough that will 
+make this technology possible?   
+ Can you imagine collaborating with an interdisciplinary team of researchers and 
+innovators to validate the scientific basis of the future technology, realise a proof 
+of principle, and explore paths to impact?   
+If the answer to each one of these questions is ‘yes’, then EIC Pathfinder Open may be 
+the right call for you.   
+Why should you apply?  
+You should apply if you are looking for support from EIC Pathfinder Open to realise an 
+ambitious vision for radically new technology, with potential to create new markets, 
+respond to societal needs and/or to provide solutions for global challenges. EIC 
+Pathfinder Open supports early-stage development of such future technologies (e.g., 
+various activities at low Technology Readiness Levels from 1 to 4), based on high-
+risk/high-gain science-towards-technology breakthrough research ( ‘deep tech’). This 
+research must provide the foundations of the technology you are envisioning.   
+EIC Pathfinder Open may support your work, especially if it is highly risky: you may set 
+out to try things that will not work; you may be faced with questions that nobody knows 
+the answer to yet; you may realise that there are many aspects of the problem that you 
+
+=== PAGE 27 ===
+ 
+ 
+27  
+  
+do not master. On the contrary, if the approach you want to follow is incremental by 
+nature or known, EIC Pathfinder Open will not support you.    
+Before applying to this call, you should verify that your proposal meets all the following 
+essential characteristics (‘Gatekeepers’):  
+ Convincing long-term vision of a radically new technology that has the potential 
+to have a transformative positive effect to solving a challenge in our economy 
+and society.  
+ Concrete, novel and ambitious science-towards-technology breakthrough, 
+providing advancement towards the envisioned technology.  
+ High-risk/high-gain research approach and methodology, with concrete and 
+plausible objectives.  
+EIC Pathfinder Open involves interdisciplinary research and development. By bringing 
+diverse areas of research together, often with different perspectives, terminologies and 
+methodologies, within individual projects and within a portfolio of projects, really new 
+things can be generated, and entirely new areas of research can be opened up. It is up 
+to you to compose the team that you need, that you can learn from, and that you can 
+move forward with.   
+The expected output of your project is the proof of principle that the main ideas of the 
+envisioned future technology are feasible, thus validating its scientific and 
+technological basis. Project results should include top-level scientific publications in 
+open access. While your vision is expected to be worthwhile because of its potential 
+for future impact, for instance to create new markets, improve our lives, or provide 
+solutions for global challenges, these are not expected to be achieved in the course of 
+your EIC Pathfinder Open project. However, you are expected to take the necessary 
+measures in the course of the project to allow future uptake to take place. This includes:  
+an adequate formal protection of the generated Intellectual Property (IP)39, a plan for 
+future exploitation and an assessment of relevant aspects related to regulation, 
+certification, and standardisation.  
+In addition, you are encouraged to involve and empower in your team key actors that 
+have the potential to become future leaders in their field such as excellent early-career 
+researchers or promising high-tech SMEs, including start-ups. Your project should 
+reinforce their mind-set for targeted research and development aimed at high impact 
+applied results. This will strengthen Europe’s capacity for exploiting the scientific 
+discoveries made in Europe throughout the steps to market success or for solving 
+ 
+39 IP includes industrial property (patents, trademarks, designs and geographic indications of source) and copyright. See also Section I 
+and Annex 6 for more information on the EIC policy of Open Access and IP rights.  
+
+=== PAGE 28 ===
+ 
+ 
+28  
+  
+global challenges. You are particularly encouraged to empower female researchers in 
+your project and to achieve gender balance among your work package leaders.   
+Can you apply?   
+This call is open for collaborative research. Your proposal must be submitted by the 
+coordinator, on behalf of a consortium including as beneficiaries, at least three legal 
+entities, independent from each other and each established in a different country as 
+follows:   
+ at least one legal entity established in a Member State; and   
+ at least two other independent legal entities, each established in different 
+Member States or Associated Countries.  
+The legal entities may for example be universities, research organisations, SMEs, 
+startups, industrial partners or natural persons.  
+The standard admissibility and eligibility conditions and the eligibility of applicants 
+from third countries are detailed in Annex 2. The eligibility of associated countries and 
+third countries is detailed in Annex 2.   
+Research proposals within the scope of Annex I to the Euratom Treaty, namely those 
+directed towards nuclear energy applications, must be submitted to relevant calls 
+under the Euratom Research and Training Programme.  
+Applications with elements that concern the evolution of European communication 
+networks (5G, post-5G and other technologies linked to the evolution of European 
+communication networks) will be subject to restriction for the protection of European 
+communication networks (see Annex II – Section B1)  
+What support will you receive if your proposal is funded?  
+The total indicative budget for this call is EUR 166 million.   
+You will receive a grant for a Research and Innovation Action to cover the eligible costs, 
+necessary for the implementation of your project. For this call, the EIC considers 
+proposals with a requested EU contribution of up to EUR 4 million as appropriate. 
+Nonetheless, this does not preclude you to request larger amounts, if duly justified. 
+The funding rate of this grant will be 100% of the eligible costs.   
+Eligible costs will take the form of a lump sum, and the amount will be determined 
+during the evaluation process. Applicants must therefore propose the amount of the 
+lump sum based on their estimated project costs as defined in the Decision of 7 July 
+2021 authorising the use of lump sum contributions under the Horizon Europe 
+Programme – the Framework Programme for Research and Innovation (2021-2027) – 
+
+=== PAGE 29 ===
+ 
+ 
+29  
+  
+and in actions under the Research and Training Programme of the European Atomic 
+Energy Community (20212025).40  
+In addition to funding, successful applicants will receive tailor-made access to a wide 
+range of Business Acceleration Services (see Section VII) and interactions with EIC 
+Programme Managers (see Section I).   
+Projects funded through EIC Pathfinder (including grants resulting from certain EIC pilot 
+Pathfinder, FET-Open and Proactive calls) may be eligible:  
+ to receive Booster grants of a fixed amount not exceeding EUR 50 000 to 
+undertake complementary activities to explore potential pathways to 
+commercialisation or for portfolio activities (see Annex 5);  
+ to submit an EIC Transition proposal (see section III for more information about 
+the eligibility conditions);  
+ to submit an EIC Accelerator proposal via the Fast Track scheme (see Annex 3);   
+ to participate in the ‘Next Generation Innovation Talents’ scheme (described in 
+the glossary). The personnel costs of researchers participating in this scheme are 
+eligible under your Pathfinder grants.  
+The Model Grant Agreement41 can be found on the EU Funding & Tenders Portal.  
+How do you apply; how long does it take?   
+The deadline for submitting your proposal is 12 May 2026 at 17h00 Brussels local 
+time.42  
+You must submit your proposal via the Funding & Tenders Portal before the deadline.   
+Sections 1 to 3 of the part B of your proposal, corresponding respectively to the award 
+criteria Excellence, Impact, and Quality and Efficiency of the Implementation, must 
+consist of a maximum of 22 format A4 pages.   
+You will be informed about the outcome of the evaluation within 5 months from the 
+call deadline (indicative) and, if your proposal is selected for funding, you can expect 
+your grant agreement to be signed by 8 months after the call deadline (indicative).  
+ 
+ 
+40  This decision is available on the Funding & Tenders Portal, in the reference documents section for Horizon Europe, under ‘Simplified 
+costs decisions’ or through this link: https://ec.europa.eu/info/fundingtenders/opportunities/docs/2021-2027/horizon/guidance/ls-
+decision_he_en.pdf   
+41 general-mga_horizon-euratom_en.pdf (europa.eu), general-mga_horizon-euratom_en.pdf (europa.eu)  
+42 The call will open on 05 February 2026. The Director-General responsible for the call may decide to open the call up to one month 
+prior to or after the envisaged date(s) of opening. The Director-General responsible may delay the deadline(s) by up to two months.  
+
+=== PAGE 30 ===
+ 
+ 
+30  
+  
+How does the EIC decide if your proposal will be funded?  
+Your proposal will be first evaluated and scored individually by at least three EIC expert 
+evaluators with respect to the award criteria. The score for each award criterion will be 
+the average of the evaluators’ scores. The overall score from this individual evaluation 
+phase will be the weighted sum of the three average scores from the three award 
+criteria.  
+The evaluation committee, which will be composed of EIC expert evaluators different 
+than those who evaluated the proposals individually, will decide on the final score on 
+the basis of the score from the individual evaluation phase and the outcome of its 
+consensus discussions.  
+The Evaluation Summary Report will comprise the final score, comments that 
+summarises the assessment by the evaluation committee as well as any additional 
+comments, possibly including advice not to resubmit the proposal.  
+Proposals will be assessed (Table 2) and the evaluation scores will be awarded for the 
+criteria in accordance with the table. Each criterion will be scored out of 5. Proposals 
+that pass the individual threshold, will be considered for funding, within the limits of 
+the available call budget. Other proposals will be rejected. 
+Table 2. Award criteria for EIC Pathfinder Open  
+Excellence (Threshold: 4/5, weight 50%)  
+Long-term vision: How convincing is the vision of a radically new technology and relevant 
+potential solutions, towards which the project would contribute in the long term?  
+Science-towards-technology breakthrough: How concrete, novel, and ambitious is the 
+proposed science-towards-technology breakthrough with respect to the state-of-the-art?  
+What advancement does it provide towards realising the envisioned technology?  
+Objectives: How concrete and plausible are the proposed objectives to reach the envisaged 
+proof of principle? To what extent is the high-risk/high-gain research approach appropriate 
+for achieving them? How sound is the proposed methodology, including the underlying 
+concepts, 
+models, 
+assumptions, alternative 
+directions 
+and 
+options, 
+appropriate 
+consideration of the gender dimension in research content, and the quality of open science 
+practices?  
+Interdisciplinarity: How relevant is the interdisciplinary approach from traditionally distant 
+disciplines for achieving the proposed breakthrough?   
+
+=== PAGE 31 ===
+ 
+ 
+31  
+  
+Impact (Threshold: 3.5/5, weight 30%  
+Long-term impact:  How significant are the potential transformative positive effects that the 
+envisioned new technological solution would have to our economy, environment and 
+society?  
+Innovation potential: To what extent does the envisioned new technology have potential 
+for generating disruptive innovations in the future and for creating new markets?  How 
+adequate are the proposed measures for protection of results and any other exploitation 
+measures to facilitate future translation of research results into innovations? How suitable  
+are the proposed measures for involving and empowering key actors that have the potential 
+to take the lead in translating research into innovations in the future?  
+Communication and Dissemination: How suitable are the measures to maximise expected 
+outcomes and impacts, including scientific publications, communication activities, for raising 
+awareness about the project results’ potential to establish new markets and/or address 
+global challenges?  
+Quality and efficiency of the implementation (Threshold 3/5, weight 20%)   
+Work plan: How coherent and effective are the work plan (work packages, tasks, 
+deliverables, milestones, timeline, etc.) and risk mitigation measures in order to achieve the 
+project objectives?   
+Allocation of resources: How appropriate and effective is the allocation of resources 
+(comprising person-months and other cost items) to work packages and consortium 
+members?  
+Quality of the consortium: To what extent do all the consortium members have the 
+necessary capacity and high-quality expertise for performing the project tasks?   
+For proposals with the same final score, priority will be based on the following factors, 
+in order: higher score under the criterion Excellence; higher score under the criterion 
+Impact; gender balance among the work package leaders as identified in the proposal; 
+number of applicants that are SMEs; number of Member States and Associated 
+Countries represented in the consortium; other factors related to the objectives of the 
+call to be determined by the evaluation committee.  
+ II.2  EIC Pathfinder Challenges  
+EIC Pathfinder Challenges aim to build on new, cutting-edge directions in science and 
+technology to disrupt a field and a market or create new opportunities by realising 
+
+=== PAGE 32 ===
+ 
+ 
+32  
+  
+innovative technological solutions grounded in high-risk/high-gain research and 
+development.    
+With each specific Challenge, a portfolio of projects will be established that explore 
+different perspectives, competing approaches or complementary aspects of the 
+Challenge. The complexity and high-risk nature of this research will require 
+multidisciplinary collaborations.   
+A dedicated Programme Manager, who establishes a common roadmap and 
+proactively steers the portfolio towards the goals of each Challenge, oversees a specific 
+EIC Pathfinder Challenge. The projects in a Challenge portfolio are expected to interact 
+and exchange, remaining flexible and reactive in the light of developments within the 
+portfolio or in the relevant global scientific or industrial community. They will progress 
+together towards common goals and create new opportunities for radical innovation.    
+This section refers to common criteria for all EIC Pathfinder Challenges. Please refer to 
+the description below of each Challenge for specific information and requirements.  
+Why should you apply?  
+You should apply if you have a potential cutting-edge project proposal that would 
+contribute to the specific objectives of the respective Challenge. Specifically, your 
+proposed project must aim to deliver by its end the expected outcomes defined in the 
+respective Challenge. In general, the starting point of a proposal is early TRL (e.g., 2) to 
+up to proof of concept or validation in the lab (e.g., TRL 3 or 4). Project results should 
+also include top-level scientific publications, adequate formal protection of the 
+generated intellectual property (IP) as well as an assessment of relevant aspects related 
+to regulation, certification and standardisation.  
+In addition, you are encouraged to involve and empower in your team key actors that 
+have the potential to become future leaders in their fields such as excellent early-career 
+researchers or promising high-tech SMEs, including start-ups. Your proposed project 
+should reinforce the mind-set for targeted research and development aimed at high 
+impact applied results. This will strengthen Europe’s capacity for exploiting the 
+scientific discoveries made in Europe throughout the steps to market success or for 
+solving global challenges. You are particularly encouraged to empower female 
+researchers in your project and to achieve gender balance among your work package 
+leaders.  
+Before you decide to apply, you are strongly encouraged to read the respective EIC 
+Pathfinder Challenge Guide that will be published on the EIC website and the EU 
+Funding & Tenders Portal. The Challenge Guide will provide you with more information 
+about the objectives of the Challenges, technical information underpinning the 
+
+=== PAGE 33 ===
+ 
+ 
+33  
+  
+objectives and portfolio considerations used for the final selection of proposals to be 
+funded.  
+Can you apply?   
+In order to apply, your proposal must meet the general eligibility requirements (see 
+Annex 2) as well as specific eligibility requirements for the Challenge (if applicable). 
+Please check for particular elements (e.g., specific application focus or technology) in 
+the respective Challenge chapter below.  
+The EIC Pathfinder Challenges can support projects from consortia or from single legal 
+entities.  In case of a consortium your proposal must be submitted by the coordinator 
+on behalf of the consortium. Consortia of two entities must be comprised of 
+independent legal entities from two different Member States or Associated Countries.  
+Consortia of three or more entities must include as beneficiaries at least three legal 
+entities, independent from each other and each established in a different country as 
+follows:   
+ at least one legal entity established in a Member State; and   
+ at least two other independent legal entities, each established in different Member 
+States or Associated Countries.  
+If the proposal is from one single legal entity, this entity must be established in a 
+Member State or an Associated Country (unless stated otherwise in the specific 
+Challenge chapter). 
+The legal entities may for example be universities, research organisations, SMEs, 
+startups, natural persons. In the case of single beneficiary projects, mid-caps and larger 
+companies will not be permitted.   
+Applications with elements that concern the evolution of European communication 
+networks (5G, post-5G and other technologies linked to the evolution of European 
+communication networks) will be subject to restriction for the protection of European 
+communication networks (see Annex II – Section B1).  
+The standard admissibility and eligibility conditions and the eligibility of applicants 
+from third countries are detailed in Annex 2.  
+What support will you receive if your proposal is funded?  
+The total indicative budget for this call is EUR 96 million which is expected to be 
+allocated in approximately equal shares across the Challenges.   
+You will receive a grant for a Research and Innovation Action to cover the eligible costs, 
+necessary for the implementation of your project, including the portfolio activities. For 
+
+=== PAGE 34 ===
+ 
+ 
+34  
+  
+this call, the EIC considers proposals with an EU contribution of up to EUR 4 million as 
+appropriate. Nonetheless, this does not preclude you to request larger amounts, if duly 
+justified or stated otherwise in the specific Challenge.   
+The funding rate of this grant will be 100% of the eligible costs. Eligible costs will take 
+the form of a lump sum and the amount will be determined during the evaluation 
+process. Applicants must therefore propose the amount of the lump sum based on 
+their estimated project costs as defined in the Decision of 7 July 2021 authorising the 
+use of lump sum contributions under the Horizon Europe Programme – the Framework 
+Programme for Research and Innovation (2021-2027) – and in actions under the 
+Research and Training Programme of the European Atomic Energy Community 
+(20212025).43 It is advised to include a work package dedicated to portfolio activities 
+and allocate at least 10 person-month to it.  
+In addition to funding, successful applicants will receive tailor-made access to a wide 
+range of Business Acceleration Services (see Section VII) and interactions with EIC 
+Programme Managers and other actions in the portfolio of projects selected (see  
+Section I) to help them with the protection and exploitations of the results of the 
+project. 
+Projects funded through EIC Pathfinder (including grants resulting from certain EIC pilot 
+Pathfinder, FET-Open and Proactive calls) may be eligible:  
+ to receive Booster grants of a fixed amount not exceeding EUR 50 000 to undertake 
+complementary activities to explore potential pathways to commercialisation or for 
+portfolio activities (see Annex 5);  
+ to submit an EIC Transition proposal (see Section III for more information about 
+the eligibility conditions);  
+ to submit an EIC Accelerator proposal via the Fast Track scheme (see Annex 3);   
+ to participate in the ‘Next Generation Innovation Talents’ scheme (described in the 
+glossary). The personnel costs of researchers participating in this scheme are 
+eligible under your EIC Pathfinder grant agreements.  
+The Model Grant Agreement can be found on the Funding & Tenders Portal.  
+How do you apply; how long does it take?   
+The call deadline for submitting your proposal is 28 October 2026 at 17h00 Brussels 
+local time. 44  
+ 
+43  This decision is available on the Funding & Tenders Portal, in the reference documents section for Horizon Europe, under ‘Simplified 
+costs decisions’ or through this link: https://ec.europa.eu/info/fundingtenders/opportunities/docs/2021-2027/horizon/guidance/ls-
+decision_he_en.pdf   
+44 The call will open on 28-July-2025. The Director-General responsible for the call may decide to open the call up to one month prior to 
+or after the envisaged date(s) of opening. The Director-General responsible may delay the deadline(s) by up to two months.  
+
+=== PAGE 35 ===
+ 
+ 
+35  
+  
+You must submit your proposal via the Funding & Tenders Portal before the deadline.  
+Sections 1 to 3 of the part B of your proposal, corresponding respectively to the award 
+criteria Excellence, Impact, and Quality and Efficiency of the Implementation, must 
+consist of a maximum of 30 format A4 pages.   
+You will be informed about the outcome of the evaluation by 5 months after call 
+deadline (indicative), and, if your proposal is accepted for funding, you can expect your 
+grant agreement to be signed by 8 months after the call deadline (indicative).  
+How does the EIC decide if your proposal will be funded?  
+After the submission of your proposal, it will be evaluated in two steps:   
+1. The EIC expert evaluators will assess each proposal separately against the award 
+criteria and the EIC evaluation committee will ensure consistency across scores.  
+2. The EIC evaluation committee will consider all proposals passing the first step 
+together in order to assess the best portfolio of projects to achieve the specific 
+objectives of the Challenge (so called portfolio considerations). The evaluation 
+committee will be composed of EIC expert evaluators and EIC Programme 
+Managers.  
+Step1 (assessment of each proposal separately):  
+Your proposal will be first evaluated and scored individually by at least three EIC expert 
+evaluators with respect to the award criteria. After the individual evaluation, these 
+evaluators will get together in a consensus group to agree on a common position on 
+comments and scores.  
+After the consensus phase, the evaluation committee will check consistency across the 
+evaluation of each individual proposal and finalise the scores and comments for all 
+proposals.  
+For step 1, proposals will be assessed according to the following award criteria (Table 
+3).  
+Table 3. Award criteria for EIC Pathfinder Challenges  
+Excellence (Threshold: 4/5; weight 50%)  
+Objectives and relevance to the Challenge: How clear are the project’s objectives? How 
+relevant are they in contributing to the overall goal and the specific objectives of the 
+Challenge?  
+Novelty: To what extent is the proposed work ambitious and goes beyond the state-of-the-
+art?  
+
+=== PAGE 36 ===
+ 
+ 
+36  
+  
+Plausibility of the methodology: How sound is the proposed methodology, including the 
+underlying concepts, models, assumptions, appropriate consideration of the gender 
+dimension in research content, and the quality of open science practices?  
+Impact (Threshold: 3.5/5; weight 30%)  
+Potential Impact: How credible are the pathways to achieve the expected outcomes and 
+impacts of the Challenge? To what extent would the successful completion of the project 
+contribute to this?  
+Innovation potential: How realistic is the proof of principle for demonstrating the potential 
+impact of the technology for the challenge? How adequate are the proposed measures for 
+protection of results and any other exploitation measures to facilitate future translation of 
+research results into innovations with positive societal, economic or environmental impact? 
+How suitable are the proposed measures for involving and empowering key actors that have 
+the potential to take the lead in translating research into innovations in the future?  
+Communication and Dissemination: How suitable are the proposed measures, including 
+communication activities, to maximise expected outcomes and impacts for raising awareness 
+about the project results’ potential to establish new markets and/or address global 
+challenges?  
+Quality and efficiency of the implementation (Threshold 3/5; weight 20%)   
+Work plan: How coherent and effective are the work plan (work packages, tasks, 
+deliverables, milestones, timeline, etc.) and risk mitigation measures in order to achieve the 
+project objectives?  
+Allocation of resources: How appropriate and effective is the allocation of resources 
+(comprising person-months and other cost items) to work packages and consortium 
+members?  
+Quality of the applicant/consortium (depends if mono or multi-beneficiaries): To what 
+extent does the applicant / do all consortium members have the necessary capacity and high 
+quality expertise for performing the project tasks?  
+ All proposals that meet the thresholds defined in the award criteria will be considered 
+in step 2.  
+Step 2 (portfolio considerations):  
+In step 2, the evaluation committee will consider each proposal’s contribution to setting 
+up a consistent Challenge Portfolio of projects.   
+
+=== PAGE 37 ===
+ 
+ 
+37  
+  
+First, the evaluation committee will map the proposals in a number of categories 
+stemming from the overall goal and specific objectives of the Challenge. Examples of 
+possible categories are: building blocks or subsystems, technical areas and/or 
+competing technologies, platforms, applications areas, risk level, stage of technology 
+readiness level, size, etc.   
+Following this mapping of proposals against categories, a suitable portfolio of 
+proposals will be selected by the evaluation committee by applying portfolio 
+considerations in order to propose for funding a coherent set of projects that will 
+achieve the expected outcomes and impacts of the Challenge and maximise their 
+impact.   
+Further information and details about the categories and the portfolio considerations 
+will be provided in EIC Pathfinder Challenge Guides45, which will be topic and domain 
+specific.  
+The evaluation committee may also propose some minor adjustments to the proposals 
+as far as needed for the consistency of the portfolio approach. These adjustments will 
+be in conformity with the conditions for participation and comply with the principle of 
+equal treatment.  
+You will receive feedback in the Evaluation Summary Report which will comprise the 
+final score and the comments endorsed by the evaluation committee as well as any 
+additional comments. If your proposal was either retained for funding or not retained 
+for funding while it received a score that was higher than other proposals retained for 
+funding under the same Challenge, then you will also be informed about the underlying 
+portfolio considerations. Comments on the detailed lump sum budget table will be 
+provided in the Evaluation Summary Report only for proposals invited to grant 
+agreement preparation or placed in the reserve list or rejected (possibly in part) due to 
+significant overestimation or underestimation of costs.  
+What happens after a proposal is evaluated and retained for funding?  
+The applicant/coordinator of the proposal will receive a letter announcing the proposal 
+has been retained for funding and the next steps regarding grant agreement signature. 
+Grant agreement preparation and signature is expected to be completed within three 
+months, but shorter timelines may be specified.   
+The EIC Project Officer and relevant EIC Programme Manager will contact applicants 
+and provide support during the grant agreement preparation to plan the portfolio 
+activities which y will be expected to entail collaboration between projects within the 
+ 
+45 To be published in the EIC website, European Innovation Council - European Commission (europa.eu)  
+
+=== PAGE 38 ===
+ 
+ 
+38  
+  
+Challenge Portfolio, and to start the preparation of the Challenge roadmap which will 
+define the collective deliverables, activities and objectives of the portfolio of projects 
+selected.  
+During the execution of the project, you will interact continuously with the EIC Project 
+Officer assigned to your project and the EIC Programme Manager, assigned to the 
+Challenge Portfolio of your project, who will oversee all the portfolio projects.  
+II.2.1 Advanced Materials for Miniaturised Energy Harvesting Systems 
+Background and Scope 
+The exponential rise in the development and deployment of IoT (Internet of Things) 
+systems and of connected objects (~100 billion by 2025 and ~250 billion by 203046,47) 
+will in turn increase the number of sensor networks required to provide data on the 
+ground, with estimates pointing to ~1Trillion by 2025 and ~10 trillion by 2040  
+A consequence of such an expansion is a commensurate increase in energy consumption 
+coupled with detrimental impacts on environmental sustainability: studies point to the 
+total electricity consumed by IoTs in 2040, equalling total global energy consumption at 
+present. Moreover, the sensor networks, generally powered by batteries, will result in 80 
+million batteries having to be changed each day, with knock-on effects on the wider 
+environment.  
+Mitigating the impact of a rising number of such devices calls for solutions that will 
+reduce energy consumption and increase the energy autonomy of connected sensors 
+such as Wireless Sensor Networks (WSN) and of the IoT systems integrating such 
+sensors.  
+This Challenge therefore focuses on the development of a new generation of advanced 
+materials 48  to deliver miniaturised integrated energy harvesting devices, with 
+significantly enhanced performance compared to the state of the art, that will give rise 
+to highly effective energetically autonomous devices and systems.  
+This Challenge supports the ambitions of the European Commission Communication 
+“Advanced Materials for Industrial Leadership49 ”, which identified an urgent need to 
+boost the development of advanced materials to enhance the EU’s strategic autonomy 
+in strategic fields while addressing sustainability, circularity and safety issues. 
+ 
+46 https://link.springer.com/chapter/10.1007/978-981-15-5584-8_3 
+47 https://www.statista.com/statistics/471264/iot-number-of-connected-devices-worldwide/ 
+48 Advanced materials are understood as materials that are rationally designed to have (i) new or enhanced properties, and/or (ii) 
+targeted or enhanced structural features with the objective to achieve specific or improved functional performance. This includes both 
+new emerging manufactured materials (high tech materials), and materials that are manufactured from traditional materials (low tech 
+materials). OECD working description on advanced materials https://one.oecd.org/document/ENV/CBC/MONO(2022)29/en/pdf 
+49https://research-and-innovation.ec.europa.eu/research-area/industrial-research-and-innovation/chemicals-and-advanced-
+materials/advanced-materials-industrial-leadership_en 
+
+=== PAGE 39 ===
+ 
+ 
+39  
+  
+Specific Objectives 
+Applicants to this Challenge must address all of the following objectives: 
+ The identification and development of innovative advanced materials for energy 
+harvesting, harnessing new physical/ chemical phenomena, leading to a radical shift 
+in application range and performance while reducing the reliance on Critical Raw 
+Materials (CRMs) 
+ The implementation of the advanced materials in a miniaturised energy harvesting 
+module, such as, but not limited to, miniaturised solar cells, thermoelectric 
+generators (e.g. TEG), nanotribological/ piezoelectric devices, electromagnetic wave 
+harvesting devices 
+ Integration of the miniaturised energy harvesting modules in energetically 
+autonomous systems (e.g. wireless integrated sensors) and 
+ Benchmarking the harvesting modules in a representative use case in a laboratory 
+environment (TRL 4) with a view to demonstrating significant efficiency 
+improvements, in terms of energy harvested, compared to the state of the art.  
+Leveraging digital tools such as AI to accelerate the process of identifying, designing, 
+fabricating, and characterising these new materials is encouraged. 
+All proposals should also identify potential markets and the associated impacts of their 
+innovations.  
+Expected Outcomes 
+Ambitious proposals put forward under this call will: 
+ identify a new generation of advanced materials for miniaturised energy harvesting 
+modules, and 
+ achieve TRL 4 for the resulting energetically autonomous systems. 
+Portfolio Approach 
+The portfolio of selected projects should lead to the development of a variety of 
+advanced materials applied to a range of miniaturised energy harvesting modules and 
+final integrated systems.  
+To achieve this objective, the following factors will inform the choice of projects in the 
+portfolio: 
+ Phenomena exploited to harvest energy from the environment (e.g. solar, 
+thermoelectric, piezoelectric, nanotribological etc.) 
+ Composition of the proposed advanced materials, and 
+ Field of application (e.g. agriculture, automotive, health monitoring, wearables, smart 
+city management, energy management, industrial monitoring etc.).  
+
+=== PAGE 40 ===
+ 
+ 
+40  
+  
+The selected projects will be assigned to lead and/or engage in portfolio activities 
+centred on the following priorities:  
+ benchmarking to compare proposed technologies, phenomena exploited, advanced 
+materials used and approaches 
+ sharing scientific considerations, results on the different physical/chemical 
+phenomena studied to advance the knowledge and foster new disclosures in the 
+field with potential shifts in the paradigm 
+ sharing insights on integration of the modules to solve potential issues and help 
+advance towards delivering effective operational energetically autonomous systems 
+ developing an integrated approach with different complimentary energy harvesting 
+modules for specific use-cases and to enhance the final energy harvested, and 
+ communicating to target audiences such as corporates, investors, alongside the 
+broader public to raise awareness on the topic with a view to accelerating the 
+adoption of these radical innovations. 
+Expected Impacts 
+The main impacts of this Challenge will be: 
+ A new generation of energetically autonomous systems enabling new services that 
+will improve the life of European citizens through applications in areas such as point 
+of care diagnostics, smart sustainable cities etc. 
+ Supporting sustainability in energy consumption and production in keeping with the 
+ambitions of RePowerEU50 and the Green Deal51, and   
+ Enhancement of the sustainability of IoTs and energetically autonomous systems in 
+general. 
+ 
+II.2.2 Biotechnology for Healthy Ageing 
+Background and Scope  
+Ageing, the gradual decline of organismal homeostasis and of physiologic functions 
+throughout the body and mind, is a critical shared risk factor for many ageing-related 
+chronic diseases. The EU also has an ageing society - by 2050, the share of 85+ year-
+olds in the EU is expected to more than double, but extended life expectancy is not 
+matched with years spent in good health, which currently stands at 70.5 years. This will 
+present significant social, economic and healthcare challenges and thus calls for 
+interventions that will promote healthy longevity, as well as tools that will enable the 
+adoption of these interventions. 
+ 
+50 https://commission.europa.eu/topics/energy/repowereu_en 
+51 https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal_en 
+
+=== PAGE 41 ===
+ 
+ 
+41  
+  
+Over the past decades basic research has identified hallmarks and cellular mechanisms 
+of ageing, creating the basis for biotechnology-based or pharmaceutical therapeutic 
+interventions, such as targeting cellular maintenance pathways, stem cell exhaustion, 
+cellular senescence or metabolic fitness. Nonetheless, translating these insights into 
+clinical interventions has had a low success rate, partially due to the difficulty of:  
+ Translating approaches from model systems  
+ Identifying when to intervene   
+ Rigorous validation, and  
+ End-to-end considerations of implementation (i.e. the delivery of an intervention).  
+This Challenge therefore looks to translate decades of ageing research into tangible 
+biopharmaceutical solutions for healthy ageing  
+Specific Objectives  
+Applicants to this Challenge will be expected to develop a proof of concept in one of 
+the following three areas:  
+1. An 
+innovative 
+preventative 
+or 
+therapeutic 
+biotechnology-based 
+or 
+pharmaceutical intervention that prevents, delays or reverts the onset of   a specific 
+age-related disease.  Such projects must address all of the following objectives:  
+ develop an intervention that targets a fundamental molecular or cellular process 
+of ageing, such as the hallmarks of ageing 
+ assess the generalisability of the intervention (showing that it is applicable more 
+broadly to ageing-related traits beyond the primary indication targeted) by 
+assessing the impact of the intervention on another distinct trait related to ageing 
+ demonstrate proof of concept by carrying out an interventional study in a 
+vertebrate animal model of ageing that is physiologically aged. Projects are also 
+encouraged to include small-scale interventional clinical studies but must at a 
+minimum anticipate how the intervention could be feasibly tested in a clinical 
+setting, and 
+ develop a plan for exploitation, which considers ethical and societal perception, 
+economic viability and regulatory approval. At least two of these areas, 
+considered most relevant for the intended application, must be assessed in 
+greater depth, suitably informing the project’s technology development and 
+contributing to the portfolio activities. 
+
+=== PAGE 42 ===
+ 
+ 
+42  
+  
+2. A biomarker52 based tool to enable the responsible deployment of ageing-related 
+interventions, taking into consideration the following:  
+ The tool should be based on previously identified potential biomarker candidates 
+or ageing clocks. All types of biomarkers are welcome, for example digital, 
+molecular or physiological biomarkers (such as frailty measurements), 
+combinations of biomarkers and multimodal biomarkers); as well as biomarkers 
+for different applications (e.g. predictive, diagnostics). Biomarker discovery is 
+explicitly excluded 
+ The tool should integrate different measurements of multiple molecular, 
+anatomic, physiologic, biomechanical or biochemical traits, as appropriate, to 
+comprehensively capture the ageing process (i.e. it should not exclusively 
+measure a single parameter/hallmark of ageing)  
+ The above selected biomarker signature should enable a clear linkage between 
+clinical features and the mechanisms of ageing to be shown  
+ The signature should be robust to inter-individual and intra-individual variability 
+in ageing to provide actionable, personalised insights 
+ The tool should be assessed in an initial retrospective study to establish proof-
+of-concept. Applicants must therefore convincingly demonstrate that they have 
+access to suitable longevity cohorts, and 
+ The selection of the biomarkers and the development of the tool should 
+prioritise deployment feasibility and actively incorporate feedback from 
+potential users.   
+3. A New Approach Methodology (NAM)53 that goes beyond the current state-of-
+the art to enable the future development of interventions for healthy ageing. The 
+NAM should: 
+ robustly capture the aged status of the system and the systemic/integrative 
+nature of ageing (i.e. it should capture more than 1 molecular or cellular aspect 
+of ageing, and more than 1 tissue type)  
+ be benchmarked against a relevant animal model of ageing, and 
+ be tested in the setting of a clearly specified use case (e.g. development of an 
+intervention; as pre-clinical model in a regulatory setting).    
+ 
+52 Biomarkers are biological characteristics, which can be molecular, anatomic, physiologic, or biochemical. These characteristics can be 
+measured and evaluated objectively. They act as indicators of a normal or a pathogenic biological process. They allow the assessment 
+of the pharmacological response to a therapeutic intervention. A biomarker shows a specific physical trait or a measurable biologically 
+produced change in the body that is linked to a disease or a particular health condition. A biomarker may be used to assess or detect a 
+specific disease as early as possible (diagnostic biomarker), the risk of developing a disease (susceptibility/risk biomarker), the evolution 
+of a disease (prognostic biomarker) – but it can also predict response to a given treatment including potential toxicity (predictive 
+biomarker) 
+53 New approach methodologies (NAMs) represent potential alternatives to animal testing in the non-clinical development phase of 
+new medicines. They may include human organoids or microphysiological systems (e.g. organ-on-chip, disease-on-chip), in chemico 
+methods, digital twins, virtual patient simulations, AI-enhanced predictive models, mechanistic or integrated in silico platforms, 3D- 
+advanced human tissue model 
+
+=== PAGE 43 ===
+ 
+ 
+43  
+  
+Precision nutrition, the development of novel ageing clocks and wellness applications 
+fall outside the scope of this Challenge.  
+All proposals should consider biological sex and gender-specific health determinants54 
+in their development, with reproductive ageing also in scope.  
+Expected Outcomes 
+Ambitious proposals put forward under this call will deliver: 
+ Proof-of-concepts (TRL3 completed) of biotechnology-based or pharmaceutical 
+interventions that prevents or delays the onset of, or reverts, an age-related disease 
+in a vertebrate model system, based on the hallmarks of ageing, taking into 
+consideration practical challenges of implementing such an intervention  
+ Tools to facilitate development or adoption of the interventions above, such as proof-
+of-concept validation of biomarker signatures or suitable pre-clinical models, and  
+ Approaches to address the shared regulatory hurdles and societal challenges linked 
+to ageing-related interventions, thereby facilitating their adoption.  
+Portfolio approach 
+The portfolio of projects selected under this Challenge will ensure a coverage of projects 
+developing interventions, biomarkers and NAMs, considering the following guidelines 
+for portfolio composition:  
+ Interventions: no more than 5 projects. The portfolio of selected projects should 
+collectively address a variety molecular and cellular processes related to ageing, and 
+a variety of different age-related diseases.  
+ Biomarkers: no more than 3 projects. Projects will be selected to capture different 
+application areas (diagnostic, predictive, prognostic biomarker), with preference to 
+the inclusion of at least one diagnostic biomarker).  
+ NAMs: No more than 2 projects. Projects will be selected to capture a diversity of 
+approaches to assess aged status in NAMs, different tissues or cell types and different 
+use cases. 
+The selected consortia will benefit from mutual learning, and the exchange of expertise. 
+Consortia will be encouraged to collaborate to address the following shared challenges 
+faced by all ageing interventions:  
+ Scientific: preclinical models; Biomarkers of healthy/unhealthy ageing  
+ Path to Market: Defining suitable regulatory pathways, and  
+ 
+54 Sex: Refers to biological characteristics (including genetic, hormonal, physiological, anatomical) that distinguish between male, 
+female, and intersex (in humans) or hermaphrodite (in non-human animals). Gender: Refers to socio-cultural norms, identities and 
+relations that, together, shape and sanction what are considered “feminine” and “masculine” behaviours, and structure societies and 
+organisations. From Gender In EU Research and Innovation (https://rea.ec.europa.eu/gender-eu-research-and-innovation_en)  
+
+=== PAGE 44 ===
+ 
+ 
+44  
+  
+ Societal: Acceptance and role of preventative / therapeutic interventions, Need for 
+improved longevity literacy.  
+Expected Impacts  
+This Challenge looks to accelerate the development and uptake of clinically validated 
+interventions that target the root cause of multiple age-related morbidities. It will:  
+ Deliver biotechnology-based interventions for healthy ageing  
+ Accelerate the implementation of personalised care in ageing based on molecular 
+phenotyping 
+ Provide recommendations for regulatory pathways addressing ageing as a target to 
+inform developers, regulators, and other decision makers, and  
+ Improve citizen literacy on longevity. 
+ 
+II.2.3 DeepRAP: Deep Reasoning, Abstraction & Planning towards trustworthy 
+Cognitive AI Systems 
+Background and Scope  
+Artificial Intelligence (AI) systems have achieved remarkable progress as evidenced by 
+the ability of Generative AI to recognise patterns and generate contextually relevant 
+outputs based on ever larger models and associated datasets. However, despite the 
+remarkable strides made over the past decade, there remains a significant gap between 
+the capabilities of the human brain and machine intelligence, which must be overcome 
+to achieve robust performance and enable effective interactions with users and 
+stakeholders.   
+Current Generative AI models can release very accurate outputs and even solve some 
+mathematical problems but might struggle with some complex reasoning benchmarks 
+and to understand the real world. These models frequently fail to reliably solve logic 
+tasks and long-term planning, even when provably correct solutions exist, limiting their 
+effectiveness in critical applications where precision is essential.  
+Inspired by the human brain’s ability to process information at multiple levels of 
+abstraction—enabling perception, reasoning, and goal-directed planning—the goal of 
+this Challenge is to move beyond the current state-of-the-art in traditional AI 
+approaches, whether symbolic (e.g., rules, decision trees, symbolic regression, etc.) or 
+connectionist, neural (e.g., deep learning, large language models, reinforcement 
+learning). The goal is to significantly improve the Reasoning, Abstraction, and Planning 
+(RAP) capabilities of AI systems.   
+This will overcome the limitations of current deep learning models, which despite their 
+strengths, 
+have 
+limitations 
+in 
+critical 
+cognitive 
+functions 
+for 
+abstraction, 
+
+=== PAGE 45 ===
+ 
+ 
+45  
+  
+contextualisation, causality, explainability, and intelligible reasoning — competencies 
+that are fundamental to move towards human-like intelligence. 
+Specific Objectives  
+Innovative ideas put forward under this Challenge must explore novel approaches, 
+including combinations of existing techniques (i.e. neuro-symbolic AI), or the creation of 
+entirely new frameworks that go beyond current, traditional, deep learning and 
+reinforcement learning paradigms. These could be inspired by developments in diverse 
+fields such as neuroscience, biology, physics, philosophy and more.   
+The proposals should address one or more of the following cognitive capabilities:  
+1. Deep Reasoning: Moving beyond statistical pattern matching to support causal 
+inference, logical reasoning, and context-aware or commonsense decision-making 
+in complex, unstructured environments. This requires shifting from purely data-
+driven correlations to AI systems capable of understanding why patterns emerge, 
+identifying underlying causes, and drawing valid conclusions through both deductive 
+and inductive processes. Neuro-symbolic approaches, which combine the learning 
+power of neural networks with the structured inference of symbolic reasoning are 
+particularly encouraged to advance these capabilities. Integrating contextual and 
+commonsense knowledge enables AI to interpret information more holistically, 
+adapt decisions dynamically, and handle ambiguity and uncertainty. Deep reasoning 
+systems should be able to reconcile multiple sources of information, provide 
+transparent and explainable rationales for their outputs, and align with human values 
+and expectations, ensuring trustworthy and accountable operations in demanding 
+real-world scenarios.  
+2. Deep Abstraction: Enabling AI systems to generalise insights from limited data by 
+forming, manipulating, and refining high-level concepts, analogies, and 
+representations that can be transferred across diverse application domains. This 
+includes the development of internal world models to support abstraction, foster 
+commonsense understanding, and integrate semantic and contextual awareness. 
+Approaches that combine symbolic reasoning, analogical mapping, and 
+representation learning are particularly encouraged, as they empower AI to interpret 
+meaning, intent, and relationships within complex environments. Progress in deep 
+abstraction is essential for achieving cognitive flexibility, robust transfer learning, and 
+adaptive reasoning in dynamic, data-scarce, or rapidly evolving settings.  
+3. Deep 
+Planning: 
+Developing 
+robust, 
+adaptive, 
+and 
+scalable 
+planning 
+algorithms/models capable of operating in open-world, agentic, or uncertain real-
+time environments. This involves leveraging advanced deep learning techniques such 
+as deep reinforcement learning and architectures tailored for planning tasks to 
+enable AI systems to autonomously devise, optimise, and adjust complex strategies 
+
+=== PAGE 46 ===
+ 
+ 
+46  
+  
+in dynamic settings. Neuro-symbolic approaches integrating neural networks with 
+symbolic reasoning are particularly encouraged to address uncertainty, provide 
+formal guarantees, and enable explainable, dependable decision-making.  Emphasis 
+is placed on long-term, flexible planning that incorporates cognitive timing and 
+predictive modelling, enabling systems to anticipate and adapt within dynamic 
+contexts. Approaches should explore hierarchical planning across multiple temporal 
+levels, contingency planning for effective fallback strategies, and continual re-
+planning to dynamically update plans as environments evolve. These advancements 
+will underpin resilient, coordinated, and trustworthy AI planning in complex, 
+unpredictable scenarios.   
+Expected Outcomes 
+Ambitious proposals put forward under this call will deliver:  
+ Models and/or architectures that handle multimodal data and knowledge, 
+uncertainty, and can be trained and deployed with constrained computational 
+resources   
+ Provable trustworthiness mechanisms ensuring explainability, transparency, fairness, 
+risk evaluation, security and alignment with ethical and legal standards, including 
+fundamental rights and the EU AI Act, and 
+ Demonstrate the developed capabilities integrated in a cognitive AI system (reaching 
+TRL4) performing complex real-world tasks (e.g., scientific discovery, decision 
+support, problem solving) as well as simulations at a scale.  
+In addition, proposals will:  
+ Propose new methods and metrics for evaluating and certifying reasoning and 
+trustworthiness in AI as well as the use of the computational resources  
+ Follow the FAIR principles ensuring all data, models, and results are Findable, 
+Accessible, Interoperable, and Reusable to maximise transparency, reproducibility, 
+and impact, and 
+ Develop synergies with EU initiatives such as TEFs (AI Testing and Experimentation 
+Facilities)55 , eBrains56 , Resource for AI Science in Europe (RAISE)57 , AI-on-demand 
+Platform (AIoD)58 and the Quantum Flagship59.    
+Portfolio approach  
+ 
+55 Sectorial AI Testing and Experimentation Facilities under the Digital Europe Programme | Shaping Europe’s digital future 
+56 EBRAINS: Europe's Research Infrastructure for Brain Research - EBRAINS 
+57 Researchers and innovators invited to shape Europe’s AI Strategy in Science | Shaping Europe’s digital future 
+58 Home Page | AI-on-Demand 
+59 Introduction to the Quantum Flagship | Quantum Flagship 
+
+=== PAGE 47 ===
+ 
+ 
+47  
+  
+The composition of the portfolio of projects to be funded under the DeepRAP Challenge 
+will ensure comprehensive coverage across the following categories with a view to 
+ensuring breadth and enabling synergies between the projects: 
+ Category 1 – Cognitive Function Capability: Reasoning, abstraction, and planning 
+should be covered by the selected portfolio. 
+ Category 2 – Technological Approach: The selected projects are expected to use a 
+variety of technological approaches, including but not limited to, neuro-symbolic AI, 
+deep learning, reinforcement learning, and novel frameworks inspired by 
+interdisciplinary fields, and  
+ Category 3 – Use Case and Application Domain: The selected projects will cover a 
+variety of real-world domains, such as industry, mobility, civil security, scientific 
+discovery, health, cybersecurity, justice and human-robot interaction.  
+The selected projects will also be assigned to lead and/or engage in portfolio activities 
+centred on the following priorities:  
+ Interoperability: Establishing common standards and protocols to ensure seamless 
+alignment between projects  
+ Benchmark Development: Co-creating a DeepRAP benchmark with shared tasks and 
+an open evaluation platform for transparent assessment 
+ Common Pilots: Delivering joint pilot demonstrations addressing complex real-world 
+problems to showcase DeepRAP capabilities 
+ Multiagent Integration:  where feasible, combining project outcomes into modular, 
+multiagent AI systems demonstrating collective reasoning and planning through 
+structured interactions among multiple agents  
+ Application Shaping: Defining impactful use cases and engaging stakeholders to 
+guide the development and adoption of innovative cognitive AI systems, and  
+ Ethical and Societal Alignment:  Proactively addressing ethical, legal, and societal 
+considerations, including fundamental rights, transparency, privacy, safety, and 
+fairness of cognitive AI systems.  
+Expected Impact 
+The resulting portfolio will not only advance the scientific state-of-the-art but also build a 
+robust, interoperable, and application-driven community, positioning Europe at the 
+forefront of trustworthy cognitive AI. It should also lay the foundations for future 
+European leadership in safe, human-centric cognitive AI, supporting sovereignty and 
+competitiveness in key sectors.  It will support the ambitions of the AI Act60 and the 
+European approach to Artificial Intelligence61. 
+ 
+ 
+60https://digital-strategy.ec.europa.eu/en/news/commission-launches-ai-innovation-package-support-artificial-intelligence-startups-
+and-smes 
+61 https://ec.europa.eu/commission/presscorner/detail/en/ip_24_383 150 AI Act | Shaping Europe’s digital future (europa.eu) 
+
+=== PAGE 48 ===
+ 
+ 
+102  
+  
+VI. EIC Strategic Technologies for Europe Platform 
+(STEP) Scale Up Call169  
+ Does your company have a game-changing innovative technology focused on the 
+development and commercialisation of a strategic technology for Europe in digital 
+and deep tech, cleantech or biotech?  
+ Has your company already secured an initial investment, and is now looking to 
+raise a major funding round to scale up rapidly and become a global leader?  
+ Does the successful commercialisation and scaling or your technology/ innovation 
+represent significant risks which mean that it cannot be sufficiently financed from 
+the market investors?  
+If you answered yes to all questions, then the EIC Strategic Technology for Europe 
+Platform (STEP) Scale Up call could be your launchpad to success. This call provides 
+significant funding to fuel groundbreaking innovation in strategic technologies170, 
+propelling Europe's economic, industrial, and technological competitiveness. This is a 
+new call that has been introduced as a pilot action following the STEP Regulation171 to 
+address an important market gap in financing deep tech scale up companies in Europe 
+and to inform decisions on future support.   
+Why should you apply?  
+The EIC STEP Scale Up call presents a unique opportunity for ambitious scale up 
+companies (SMEs and small mid-caps) with game-changing innovations in Europe's 
+critical technology areas. It offers a powerful combination of financial and strategic 
+support designed to propel your groundbreaking solution to the forefront of these 
+sectors.  
+The companies selected under the EIC STEP Scale Up call shall receive investments 
+ranging from EUR 10 to EUR 30 million. This investment can significantly accelerate 
+the development and market launch of your technology, product, or service. With this 
+funding, you'll gain the power to disrupt established markets and forge new ones 
+across Europe, potentially achieving significant global impact. Crucially, this investment 
+ 
+169 EIC STEP Scale Up call is a specific call as part of the EIC Accelerator as defined under Article 48 of the Horizon Europe Regulation - 
+2021/695 - EN - EUR-Lex (europa.eu) following its amendment by Article 17(2) of the STEP Regulation . The same provisions on indirect 
+management and on parent and holding companies as set out under the Accelerator call apply.  
+170 Guidance Note concerning certain provisions of Regulation (EU) 2024/795 establishing the Strategic Technologies for Europe 
+Platform (STEP)   
+171 Strategic Technologies for Europe Platform (STEP), and amending Directive 2003/87/EC and Regulations (EU) 2021/1058, (EU) 
+2021/1056, (EU) 2021/1057, (EU) No 1303/2013, (EU) No 223/2014, (EU) 2021/1060, (EU) 2021/523, (EU)  
+2021/695, (EU) 
+2021/697 and (EU)  2021/241, OJ L, 2024/795,  
+29.2.2024, ELI: http://data.europa.eu/eli/reg/2024/795/oj.  
+
+=== PAGE 49 ===
+ 
+ 
+103  
+  
+is designed to catalyse major funding rounds in the range of EUR  50 to 150 million, 
+and at least 3-5 times the EIC investment.   
+This call is part of the implementation of the Strategic Technologies for Europe Platform 
+(STEP))172 which supports the development or manufacturing of critical technologies 
+throughout the Union or safeguarding and strengthening their respective value chains. 
+Besides, support from the EIC, the projects may be eligible for support under other EU 
+programmes included in STEP.   
+In 2026 support for start-ups in semiconductor technologies and quantum 
+technologies will be pursued in particular through the STEP Scale Up call which foresees 
+larger investments targeting strategic technologies including in support of the Chips 
+Act. The EIC Accelerator Open call remains available in general for startups and SMEs 
+including for quantum and semiconductor technologies.  
+Can you apply?  
+In order to apply, your innovation must be within the scope of the priority sectors 
+defined in the STEP regulation173, which includes Critical Raw Materials, and further 
+developed in the Guidance note174   
+a. Digital technologies175 , and deep tech innovations. This includes: advanced 
+semiconductor technologies; artificial intelligence technologies; quantum 
+technologies; advanced connectivity, navigation and digital technologies; 
+advanced sensing technologies; robotics and autonomous systems; Deep tech 
+innovations (see Glossary).  
+b. Clean and resource efficient technologies, including net-zero technologies. 
+This includes: solar technologies; onshore wind and offshore renewable 
+technologies;  energy storage technologies; heat pumps and geothermal 
+technologies; hydrogen technologies; sustainable biogas and biomethane 
+technologies; carbon capture and storage technologies; electricity grid 
+technologies; nuclear fission technologies, sustainable alternative fuel 
+technologies; hydropower technologies; other renewable technologies; energy 
+system -related energy efficiency technologies; renewable fuels of nonbiological 
+origin technologies; biotech climate and energy solutions; transformative 
+industrial technologies for decarbonisation; CO2 transport and utilisation 
+technologies; wind and electric propulsion technologies; other nuclear 
+ 
+172 https://strategic-technologies.europa.eu/index_en  
+173 Regulation - EU - 2024/795 - EN - EUR-Lex (europa.eu), Article 2(1), point (a) of the STEP Regulation  
+174 Guidance Note concerning certain provisions of Regulation (EU) 2024/795 establishing the Strategic Technologies for Europe 
+Platform (STEP). C(2025)3148 of 8 May 2024.   
+175 Including those contributing to the targets and objectives of the Digital Decade Policy Programme 2030, multi-country projects as 
+defined in Article 2(2) of Decision (EU) 2022/2481  
+
+=== PAGE 50 ===
+ 
+ 
+104  
+  
+technologies; advanced materials176, manufacturing and recycling technologies, 
+technologies vital to sustainability such as water purification and desalination; 
+and circular economy technologies.  
+c. Biotechnologies, including medicinal products on the Union list of critical 
+medicines and their components. Including DNA/RNA; proteins and other 
+molecules; cell and tissue culture and engineering; process biotechnology 
+techniques; Gene and RNA vectors; bioinformatics; and nanobiotechnology.  
+These technologies are deemed critical where they meet either of the following 
+conditions:  
+a. they bring to the internal market an innovative, emerging and cutting-edge element 
+with significant economic potential;  
+b. they contribute to reducing or preventing strategic dependencies of the Union.  
+The Commission Guidance Note, concerning certain provisions of STEP Regulation 
+adopted on May 2024, provides detailed information on the criticality conditions.  
+This call targets companies raising significant funding rounds and you must 
+demonstrate an initial market interest such that the EIC investment acts as a catalyst 
+for larger funding rounds.  
+You will therefore need to demonstrate that the company already has a 
+precommitment177 for an equity investment which meets the following elements:  
+ The pre-commitment comes from a single qualified investor
+178  with 
+demonstrable know-how and experience in the relevant market, technology 
+and jurisdiction and subject to KYC by the EIC Fund or the EIF.179. The pre-
+committed investor may be an existing investor in the company and does 
+not necessarily need to be the investor who intends to lead the investment 
+round.   
+ The pre-commitment represents at least 20% of the total target funding 
+round you are aiming to raise.   
+The following entities are eligible to apply:  
+ A single company classified as a SME or small mid-cap (up to 499 employees) 
+established within a Member State or an Associated Country (see Annex 2). 
+ 
+176 According to the guidance note, this includes critical raw materials 
+177 The pre-commitment is non-legally binding in nature and will be assessed at the time of proposal evaluation.  
+178 Qualified Investor is an investor — public or private — with demonstrable know-how and experience in the relevant market, 
+technology and jurisdiction, and which has been subject to KYC/AML screening and not considered high-risk. In case of high risk, such 
+an investor can be exceptionally considered qualified if duly justified to protect against risks to economic security 
+179 Investors who have not undergone a KYC by the EIC Fund or EIF may also  provide pre-commitments, but this will be subject to the 
+completion of a KYC during the eligibility checks.  
+
+=== PAGE 51 ===
+ 
+ 
+105  
+  
+The company may have a holding entity for the purposes of the investment, 
+and this holding company must also be established in a Member State or an 
+Associated Country.  
+ An investor may submit a proposal on behalf of an eligible SME or small 
+midcap as defined above, provided that a prior agreement exists with the 
+company. The investment agreement will be signed with the selected SME 
+or small mid-cap.  
+The applicable admissibility and eligibility conditions are detailed in Annex 2 unless 
+otherwise stated in this call. Furthermore, in case of investment support, specific 
+safeguards may be introduced in the investment agreement (see Introduction, section 
+on Economic Security). 
+Concurrent submissions to both the EIC Accelerator and EIC STEP Scale Up calls are not 
+permitted; in the event of multiple submissions, only the proposal submittedmost 
+recently will be evaluated, and it will be assessed according to the merits and evaluation 
+criteria of its respective call (Accelerator or STEP). 
+What support will you receive if your proposal is funded?     
+The EIC STEP Scale Up call offers a total indicative budget of EUR 300 million for 2026, 
+which is expected to rise to EUR 900 million for the period 2025-2027180. Any unused 
+amount from this budget will be allocated with priority to the EIC Accelerator Open 
+call.181  
+The support will be in the form of equity-only investments managed by the EIC Fund. 
+Applicants to this call will not receive a grant component. It provides significant 
+financial support, and applicants should apply for an investment of a minimum of   
+EUR 10 million 182  and maximum of EUR 30 million, to co-invest in a funding 
+round183 in the range of EUR 50 to 150 million, and at least three to five times the 
+amount of the requested EIC contribution. The specific terms of each investment are 
+considered and negotiated on a case-by-case basis in accordance with the EIC Fund 
+Investment Guidelines. This ensures the investment is tailored to your company's needs 
+while aligning with EIC's objectives.   
+EIC STEP Scale Up is designed to fill the funding gap for companies to invest in the 
+scale up of high-risk innovations and where the amount needed for the scale up cannot 
+ 
+180 This includes the EUR 300 million allocated under the EIC 2025 Work Programme and which may be reused in this call if there are 
+unused amounts.  
+181 If applicants have been selected for funding under the Accelerator Open call. Otherwise, any remaining amounts may be allocated to 
+other calls within the general flexibility of the Work Programme.  
+182 Applicants wishing to apply for lower investment amounts may apply to the EIC Accelerator call.  
+183 The EIC Fund may join the round when relevant ongoing/upcoming /past. 
+
+=== PAGE 52 ===
+ 
+ 
+106  
+  
+be fully financed by other investors, including InvestEU direct and indirect financial 
+products provided by implementing partners. Applicants are encouraged to consider 
+in particular complementarity with Venture Debt from InvestEU implementing partners 
+in order to meet their financing needs.  
+When implementing investments, the EIC Fund will ensure that supported companies 
+keep most of their value, including their IP, in the EU or in the Associated Countries in 
+order to contribute to their economic growth and job creation. Where necessary, the 
+EIC Fund will be requested to take appropriate safeguard measures for individual 
+companies on a case-by-case basis in order to protect European interests as defined 
+in the Investment Guidelines.  
+Beyond funding, your company will benefit from a strong support system that fosters 
+your continued growth within Europe through Business Acceleration Services (details 
+available in Section VII). Applicants to the EIC STEP Scale Up call who meet the 
+evaluation thresholds will also be awarded a Sovereignty (STEP) Seal, to facilitate 
+and provide possibility of the access to funding and support from other EU 
+programmes and other funders and investors.   
+How do you apply; how long does it take?   
+You may submit an application to the EIC STEP Scale Up call at any time.  The 
+evaluations of applications submitted will be organised with one batch per quarter 
+(11/02/2026; 06/05/2026;  09/09/2026; 25/11/2026)184. You must submit your proposal 
+via the Funding and Tenders Portal.  
+1. Submission of proposals   
+To be deemed admissible and eligible, proposals must consist of:   
+ a full business plan, including information on the company’s ownership and 
+financial structure and a justification on the STEP related objectives (maximum 
+50 pages);  
+ a pitch-deck (maximum 15 pages) in pdf format (this version will be presented 
+to the jury if invited to interview);    
+ a pre-commitment from a single qualified investor (according to the official 
+template on the Funding and Tenders Portal and also available on the EIC 
+website); The pre-commitment must represent at least 20% of the total target 
+funding round, which must range between EUR  50 to 150 million, and be at 
+least 3-5 times the EIC investment); 
+ 
+184 Proposals will be batched at 17h00 Brussels time. 
+
+=== PAGE 53 ===
+ 
+ 
+107  
+  
+ a financial plan and agreement document (according to the template available 
+on the EIC website). 
+ Results of the freedom to operate (FTO) analysis. If you do not have one, please 
+upload a note of maximum 2 pages outlining your freedom to operate and 
+providing as much information as possible on this issue. In cases where the FTO 
+is not relevant (e.g. software), please upload a simple statement. 
+ CVs of key personnel 
+ 
+All personal data and information in your proposal will be kept strictly confidential. 
+However, before submitting your full proposal, you will need to give agreement to 
+share necessary information with the EIC Fund.   
+In addition, you will be asked as part of your application whether your company would 
+be interested in Venture Debt support from InvestEU implementing partners, if your 
+company is awarded a Sovereignty (STEP) Seal 185.   
+Upon submission, your proposal will be assessed if it meets the eligibility criteria set 
+out above in terms of whether it falls within scope of the STEP technologies; the pre-
+commitment from a single   investor; and the eligibility of the applicant entity.   
+The investment adviser to the EIC Fund, may be requested to support the eligibility 
+assessment regarding the pre-commitment from an investor.   
+In cases where a Technology Due Diligence report is not already available, this will be 
+conducted by a suitably qualified external expert.  
+If your application meets these requirements, you will be invited to attend a jury 
+interview. It is expected that you will be informed about the interview within 
+approximately 4-6 weeks from the start of the evaluation process following the relevant 
+batching date.   
+2. Interviews with an EIC Jury   
+At the interview, you will be assessed by a Jury of maximum six members (see Glossary). 
+Detailed information about the format of the interview will be communicated to you in 
+the invitation. 
+You will be informed about the result of the interview within approximately two weeks 
+from the end of the interview session. 
+An award decision will be adopted by the Commission, which will authorise a maximum 
+amount of investment by the EIC Fund, which will follow the amount requested in the 
+application, with an additional flexibility amount of maximum EUR 5 million per 
+ 
+185 InvestEU Implementing partners - European Union (europa.eu)  
+
+=== PAGE 54 ===
+ 
+ 
+108  
+  
+proposal. The flexibility amount is to enable the EIC Fund to make an investment 
+decision for a higher amount than requested if justified to take account of 
+developments of the company since the date of application and the opportunity of 
+catalysing a larger overall funding round with co-investors. The additional flexibility 
+amount may only be used if there are sufficient amounts available on the EIC Fund 
+accounts (e.g., due to budget available from other investments).   
+The relevant information from your proposal will be passed to the investment adviser 
+for the EIC Fund, to proceed with the detailed due diligence and subject to a positive 
+due diligence and subsequent EIC Fund Investment Committee decision, the 
+investment agreement. Should the investment due diligence result in a lower 
+investment amount the released amount will be made available for additional funding 
+under the EIC STEP Scale up call. 
+If you have expressed an interest and given agreement  and your company has been 
+awarded a Sovereignty (STEP) Seal following the evaluation, the relevant information 
+from your proposal will be passed to the relevant InvestEU implementing partners to 
+consider for Venture Debt support.  
+How does the EIC decide if your proposal will be selected for a potential 
+investment by the EIC Fund?    
+Your proposal will be assessed on its merits by leading experts and the Commission 
+will ensure open and fair competition to all eligible proposals submitted.    
+The EIC STEP Scale Up call utilizes a "first come, first served" approach to evaluate 
+proposals. However, juries will be asked to take account of overall budget availability 
+for the full year and will be limited to recommend proposals amounting to no more 
+than 70% of the available budget for the calendar year within the first six months of 
+the year. The Jury will be informed about budget availability, including additional 
+amounts that may be available due to previous amounts awarded that were not fully 
+used.  
+Proposals will be assessed according to the following award criteria (Table 8). The EIC 
+Jury may focus the interview on any element of your proposal based on its own 
+assessment.   
+The EIC Jury members, based on your interview and their overall assessment, will 
+recommend one of three outcomes for your proposal:  
+ GO and Sovereignty (STEP) Seal:  
+Your proposal meets all of the evaluation criteria (see below) and is recommended for 
+a potential equity investment. The Jury may provide observations for consideration by 
+
+=== PAGE 55 ===
+ 
+ 
+109  
+  
+the EIC Fund regarding the investment amount or other considerations for the 
+investment decision or management. The Jury may recommend a different investment 
+amount than requested by the applicant in line with the call’s requirements.   It is 
+important to remember that investment amounts authorised in the Commission Award 
+Decision are subject to successful completion of the due diligence and negotiation by 
+the EIC Fund according to the Investment Guidelines, and investment amounts may be 
+reduced or rejected by the EIC Fund for justified reasons.   
+Your project will also be awarded the Sovereignty (STEP) Seal and will have access to 
+Business Acceleration Services.  
+ NO GO and Sovereignty (STEP) Seal:  
+Your proposal meets the main elements of the award criteria, including the contribution 
+to the STEP objectives, but is not recommended for funding based on the jury’s overall 
+consideration of the submitted proposals and due to the lack of budget availability.    
+Your project will be awarded the Sovereignty (STEP) Seal and access to Business 
+Acceleration Services.   
+ NO GO:  
+Your proposal does not meet all the evaluation criteria required for funding. You will 
+receive detailed feedback outlining the areas where your proposal fell short to help 
+you improve for future applications.  
+The Jury may also provide recommendations regarding a potential resubmission, or 
+not, of your application and improvements needed.  
+Table  9. Award criteria elements for EIC STEP Scale Up proposals    
+Excellence   
+Innovation – Deep tech and breakthrough nature: Is the proposed innovation deep 
+tech in nature stemming from cutting-edge scientific or technological advances? Does it 
+represent a significant improvement in cost or performance compared to existing or 
+alternative solutions? 
+Technological feasibility: Has the technology been developed in a safe, secure and 
+reliable manner? Has it been adequately assessed, validated or certified?    
+Intellectual Property: Does the innovation have adequate IP protection and sound IP 
+strategy to enter the market to be addressed?  
+Impact   
+
+=== PAGE 56 ===
+ 
+ 
+110  
+  
+Market opportunity: What and how big is the market addressed? What is the realistic 
+expectation of the share of the total market? 
+Business model: Are the detailed business model and revenue strategy sound? Are the 
+financial projections realistic? 
+STEP Impact: Does the innovation have a clear and measurable positive impact either by:  
+Bringing to the Union’s internal market an innovative, emerging and current-edge 
+innovation with significant economic potential; or reducing or preventing strategic 
+dependencies of the Union. (Note: applicants from Associated Countries will need to 
+demonstrate contributions to the EU internal market or strategic dependencies) 
+Level of risk, implementation, and need for Union support   
+Team capability: Does the company have the necessary team in terms of skills and 
+competences to develop the innovation and scale the company? Does the company have 
+adequate governance and is the team sufficiently incentivised? Have any skills/ 
+competence gaps been identified, including adequate gender balance, with a credible 
+plan to fill the gaps? 
+Risk level of the investment: Does the nature and level of risk of the investment in your 
+innovation mean that European market actors are unwilling to commit the full amount 
+that is needed without an investment from the EIC Fund?   
+Investment leverage: Does the proposal provide a convincing and realistic plan for 
+raising an equity financing round using the EIC Fund investment to attract 3-5 times the 
+amount from other investors? What is the anticipated timeline for concluding the 
+financing round? How many investors have committed or are engaged in advanced 
+discussions? How pressing is the timeline for finalising this deal?  
+Risk management: Have the main risks (e.g., technological, market, financial, 
+regulatory) been comprehensively identified, together with measures to take to mitigate 
+them?   
+Application submission limits   
+The EIC STEP Scale Up call applies limitations on the number of unsuccessful submissions 
+of the same/improved proposal by the same legal entity.  
+As from 1 January 2026, after three unsuccessful submissions of the same/improved 
+proposal by the same legal entity to the EIC STEP Scale Up call which can be at any stage 
+of the process (eligibility check, interviews), an applicant may not apply again to the EIC 
+STEP Scale Up call under the Horizon Europe Framework Programme.  
+
+=== PAGE 57 ===
+ 
+ 
+111  
+  
+In all cases, applicants are expected to take into account the feedback on their previous 
+submission and only reapply if they have made significant improvements.   
+ 
+ 
+ 
+

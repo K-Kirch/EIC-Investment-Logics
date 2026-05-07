@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Institutional Logics — Quick Reference Matrix</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #1a1a1a;
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 32px 60px;
+      background: #fff;
+    }
+
+    h1 {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 4px;
+      color: #1a1a1a;
+    }
+
+    h2 {
+      font-size: 15px;
+      font-weight: normal;
+      color: #444;
+      margin-top: 0;
+      margin-bottom: 32px;
+      letter-spacing: 0.02em;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 48px;
+      margin-bottom: 6px;
+      color: #1a1a1a;
+    }
+
+    p.tension-intro {
+      margin-top: 0;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    /* ── Main matrix ── */
+    table.main {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 48px;
+      table-layout: fixed;
+    }
+
+    table.main th,
+    table.main td {
+      border: 1px solid #d0d0d0;
+      padding: 10px 13px;
+      vertical-align: top;
+    }
+
+    /* Row-label column */
+    table.main td:first-child,
+    table.main th:first-child {
+      width: 14%;
+      font-weight: bold;
+      background: #f7f7f7;
+      color: #1a1a1a;
+      font-size: 13px;
+    }
+
+    /* Logic header row */
+    table.main thead tr th {
+      text-align: center;
+      font-size: 13px;
+      font-weight: bold;
+      color: #fff;
+      padding: 12px 13px;
+      letter-spacing: 0.03em;
+    }
+
+    table.main thead th:nth-child(2) { background: #2c5f8a; } /* Science  — blue   */
+    table.main thead th:nth-child(3) { background: #3a7d44; } /* Market   — green  */
+    table.main thead th:nth-child(4) { background: #8a3a2c; } /* State    — red    */
+    table.main thead th:nth-child(5) { background: #6b4e8a; } /* Profession — purple */
+
+    /* Alternating row shading */
+    table.main tbody tr:nth-child(even) td { background: #fafafa; }
+    table.main tbody tr:nth-child(even) td:first-child { background: #f0f0f0; }
+
+    /* Programme signal rows — slightly emphasised */
+    table.main tbody tr:nth-child(8) td,
+    table.main tbody tr:nth-child(9) td {
+      font-style: italic;
+      font-size: 13px;
+    }
+
+    /* Vocabulary cells — quoted terms */
+    table.main tbody tr:nth-child(5) td:not(:first-child) {
+      font-size: 12.5px;
+      color: #333;
+    }
+
+    /* ── Tension table ── */
+    table.tension {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+    }
+
+    table.tension th,
+    table.tension td {
+      border: 1px solid #d0d0d0;
+      padding: 9px 13px;
+      vertical-align: top;
+    }
+
+    table.tension thead th {
+      background: #444;
+      color: #fff;
+      font-size: 13px;
+      text-align: left;
+      font-weight: bold;
+    }
+
+    table.tension tbody tr:nth-child(even) td { background: #fafafa; }
+
+    table.tension td:first-child {
+      width: 18%;
+      font-weight: bold;
+      font-family: 'Courier New', monospace;
+      font-size: 12.5px;
+      white-space: nowrap;
+      color: #333;
+    }
+
+    /* ── Footer ── */
+    p.citation {
+      margin-top: 48px;
+      font-size: 12px;
+      color: #777;
+      border-top: 1px solid #e0e0e0;
+      padding-top: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Institutional Logics — Quick Reference Matrix</h1>
+  <h2>EIC Pathfinder &amp; STEP Scale Up</h2>
+
+  <table class="main">
+    <thead>
+      <tr>
+        <th></th>
+        <th>LOGIC_SCIENCE</th>
+        <th>LOGIC_MARKET</th>
+        <th>LOGIC_STATE</th>
+        <th>LOGIC_PROFESSION</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Central question</td>
+        <td>Is this excellent science?</td>
+        <td>Will this create and capture market value?</td>
+        <td>Does this serve European strategic interests?</td>
+        <td>Does this meet professional standards?</td>
+      </tr>
+      <tr>
+        <td>Source of authority</td>
+        <td>Scientific expertise and peer judgment</td>
+        <td>Investors and market signals</td>
+        <td>Legislative mandate and public institutions</td>
+        <td>Credentialled practitioners and professional bodies</td>
+      </tr>
+      <tr>
+        <td>Measure of success</td>
+        <td>Novelty, rigour, frontier contribution</td>
+        <td>Commercial viability, growth, return</td>
+        <td>Sovereignty, security, geopolitical positioning</td>
+        <td>Conformity with professional norms and expert endorsement</td>
+      </tr>
+      <tr>
+        <td>Who decides</td>
+        <td>Peer reviewers and scientific jury</td>
+        <td>Co-investors and market demand</td>
+        <td>EU institutions and the STEP Regulation</td>
+        <td>External specialists (IP, technology, investment)</td>
+      </tr>
+      <tr>
+        <td>Typical vocabulary</td>
+        <td>"scientific basis", "proof of principle", "frontier", "novel", "interdisciplinary", "TRL 1–4"</td>
+        <td>"market opportunity", "commercial potential", "funding round", "investor", "scale", "revenue", "first come first served"</td>
+        <td>"strategic dependencies", "sovereignty", "European interests", "protect", "strategic autonomy", "geopolitical"</td>
+        <td>"due diligence", "expert", "leading specialists", "Freedom to Operate", "credible plan", "assessment"</td>
+      </tr>
+      <tr>
+        <td>Instrument it favours</td>
+        <td>Open grant, peer-reviewed call</td>
+        <td>Equity, co-investment, competitive pitch</td>
+        <td>Regulated mandate, conditioned award, IP clause</td>
+        <td>Expert-validated selection, professional certification</td>
+      </tr>
+      <tr>
+        <td>Expected applicant</td>
+        <td>Rigorous researcher with an ambitious scientific vision</td>
+        <td>Commercially viable company with a credible growth plan</td>
+        <td>Strategic asset with European anchoring</td>
+        <td>Professionally organised entity able to speak expert languages</td>
+      </tr>
+      <tr>
+        <td>Pathfinder signal</td>
+        <td>Primary — Pathfinder Open</td>
+        <td>Secondary — commercialisation pathway required</td>
+        <td>Tertiary — visible in Pathfinder Challenges</td>
+        <td>Present in jury evaluation and expert review</td>
+      </tr>
+      <tr>
+        <td>STEP signal</td>
+        <td>Residual — "deep tech in nature" excellence criterion</td>
+        <td>Primary — instrument design (equity, rounds, co-investment)</td>
+        <td>Primary — programme purpose (sovereignty, strategic tech)</td>
+        <td>Primary — due diligence and evaluation architecture</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Logic Tension — When to Add <code>LOGIC_TENSION</code></h3>
+  <p class="tension-intro">Add <code>LOGIC_TENSION</code> alongside the relevant logic codes when a passage visibly tries to serve two logics at once and the text shows the strain.</p>
+
+  <table class="tension">
+    <thead>
+      <tr>
+        <th>Tension pair</th>
+        <th>What it looks like</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>SCIENCE ↔ STATE</td>
+        <td>Scientific merit criterion applied within a state-defined thematic scope; researcher autonomy constrained by strategic priorities</td>
+      </tr>
+      <tr>
+        <td>MARKET ↔ STATE</td>
+        <td>Market instrument (equity) used to achieve state goal (sovereignty, IP retention); commercial logic form, geopolitical logic content</td>
+      </tr>
+      <tr>
+        <td>SCIENCE ↔ MARKET</td>
+        <td>Commercialisation pathway required from TRL 1–4 research; impact criteria imposed on basic science</td>
+      </tr>
+      <tr>
+        <td>STATE ↔ PROFESSION</td>
+        <td>Geopolitical priority set by regulation but validated by expert due diligence; tension between political authority and expert authority</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="citation">Basis: Friedland &amp; Alford (1991); Thornton, Ocasio &amp; Lounsbury (2012)</p>
+
+</body>
+</html>

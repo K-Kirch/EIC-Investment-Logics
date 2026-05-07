@@ -1,0 +1,49 @@
+%==============================================================================
+%  Cover page — DTU style
+%
+%  To finalise before submission:
+%    1. Place dtu_logo_white.pdf in figures/ and uncomment the logo node.
+%    2. Place a campus photo in figures/cover_photo.jpg and uncomment the
+%       \includegraphics node (remove the grey placeholder box).
+%    3. The blue colour (dtublue) and layout follow the DTU Design Guide.
+%==============================================================================
+\thispagestyle{empty}
+
+\begin{tikzpicture}[remember picture, overlay]
+
+  %--- Blue top section (approx. top 55 % of page) ---------------------------
+  \fill[dtublue]
+    (current page.north west)
+    rectangle ([yshift=-0.55\paperheight]current page.north east);
+
+  %--- DTU logo (top-left) ----------------------------------------------------
+  % Uncomment after placing figures/dtu_logo_white.pdf:
+  % \node[anchor=north west, inner sep=0pt]
+  %   at ([xshift=20mm, yshift=-15mm]current page.north west)
+  %   {\includegraphics[height=18mm]{figures/dtu_logo_white.pdf}};
+
+  %--- University / department (top-right) ------------------------------------
+  \node[anchor=north east, text=white, align=right, font=\small]
+    at ([xshift=-20mm, yshift=-15mm]current page.north east)
+    {\bfseries\thesisuniversity\\[2pt]\thesisdepartment};
+
+  %--- Title block (lower part of blue section) -------------------------------
+  \node[anchor=north west, text=white, align=left,
+        text width=\paperwidth-50mm]
+    at ([xshift=20mm, yshift=-0.30\paperheight]current page.north west)
+    {\LARGE\bfseries\thesistitle\\[8pt]%
+     \large\thesissubtitle\\[14pt]%
+     \normalsize Master Thesis};
+
+  %--- Campus photo placeholder (bottom section) ------------------------------
+  % Replace the grey box with a real photo:
+  % \node[anchor=south, inner sep=0pt] at (current page.south)
+  %   {\includegraphics[width=\paperwidth, height=0.45\paperheight,
+  %    clip, keepaspectratio=false]{figures/cover_photo.jpg}};
+  \fill[black!10]
+    (current page.south west)
+    rectangle ([yshift=0.45\paperheight]current page.south east);
+
+\end{tikzpicture}
+
+\newpage

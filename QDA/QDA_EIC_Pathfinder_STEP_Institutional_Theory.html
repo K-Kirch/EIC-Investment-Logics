@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QDA: EIC Pathfinder &amp; STEP — Institutional Theory</title>
+  <style>
+    :root {
+      --bg: #fdfdfd;
+      --text: #1a1a2e;
+      --accent: #2c3e6b;
+      --accent-light: #e8ecf4;
+      --border: #c8cfe0;
+      --table-stripe: #f4f6fb;
+      --key-obs-bg: #eef2fa;
+      --key-obs-border: #3b5998;
+      --hr: #d0d7e6;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--bg);
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 32px 80px;
+    }
+
+    h1 {
+      font-size: 1.8em;
+      color: var(--accent);
+      margin-bottom: 4px;
+      border-bottom: 3px solid var(--accent);
+      padding-bottom: 8px;
+    }
+
+    h1 + h2 {
+      font-size: 1em;
+      font-weight: normal;
+      font-style: italic;
+      color: #555;
+      margin-top: 0;
+      margin-bottom: 32px;
+    }
+
+    h2 {
+      font-size: 1.4em;
+      color: var(--accent);
+      margin-top: 48px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid var(--hr);
+      padding-bottom: 6px;
+    }
+
+    h3 {
+      font-size: 1.15em;
+      color: #333;
+      margin-top: 28px;
+      margin-bottom: 12px;
+    }
+
+    h4 {
+      font-size: 1em;
+      color: #444;
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin-bottom: 14px;
+    }
+
+    strong {
+      color: #1a1a2e;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--hr);
+      margin: 36px 0;
+    }
+
+    /* Lists */
+    ul, ol {
+      margin: 10px 0 16px 24px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 24px;
+      font-size: 0.92em;
+      line-height: 1.6;
+    }
+
+    thead th {
+      background: var(--accent);
+      color: #fff;
+      font-weight: 600;
+      text-align: left;
+      padding: 10px 14px;
+      border: 1px solid var(--accent);
+    }
+
+    tbody td {
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      vertical-align: top;
+    }
+
+    tbody tr:nth-child(even) {
+      background: var(--table-stripe);
+    }
+
+    tbody tr:hover {
+      background: #e0e6f0;
+    }
+
+    /* Evidence column styling */
+    td:first-child {
+      width: 42%;
+      font-style: italic;
+      color: #333;
+    }
+
+    /* Key Observation boxes */
+    .key-observation {
+      background: var(--key-obs-bg);
+      border-left: 4px solid var(--key-obs-border);
+      padding: 14px 18px;
+      margin: 18px 0 28px;
+      border-radius: 0 4px 4px 0;
+      font-size: 0.95em;
+    }
+
+    .key-observation strong:first-child {
+      color: var(--key-obs-border);
+    }
+
+    /* Code-style labels */
+    code {
+      font-family: 'Consolas', 'Courier New', monospace;
+      background: #eef0f5;
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-size: 0.88em;
+      color: #2c3e6b;
+    }
+
+    /* Footer / source note */
+    .source-note {
+      margin-top: 40px;
+      padding-top: 16px;
+      border-top: 1px solid var(--hr);
+      font-size: 0.85em;
+      color: #666;
+      font-style: italic;
+      line-height: 1.8;
+    }
+
+    /* Print styles */
+    @media print {
+      body { max-width: 100%; padding: 20px; font-size: 11pt; }
+      .key-observation { break-inside: avoid; }
+      table { break-inside: avoid; font-size: 9pt; }
+      thead th { background: #ddd !important; color: #000 !important; -webkit-print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+<h1>Qualitative Data Analysis: EIC Pathfinder &amp; STEP</h1>
+<h2>Lens: Institutional Theory &nbsp;|&nbsp; Source: EIC Work Programme 2026</h2>
+
+<hr>
+
+<!-- ===== ANALYTICAL FRAMEWORK ===== -->
+<h2>Analytical Framework</h2>
+
+<p>This analysis applies <strong>Scott's Three-Pillar Model</strong> (1995/2014) as the primary organising structure, supplemented by:</p>
+
+<ul>
+  <li><strong>DiMaggio &amp; Powell's (1983) Isomorphic Mechanisms</strong> (coercive, mimetic, normative)</li>
+  <li><strong>Institutional Logics</strong> (Friedland &amp; Alford 1991; Thornton et al. 2012): State, Market, Science/Profession</li>
+  <li><strong>Legitimacy Theory</strong> (Suchman 1995): pragmatic, moral, cognitive</li>
+</ul>
+
+<p>The two programmes — <strong>EIC Pathfinder</strong> (early-stage deep tech research) and <strong>EIC STEP Scale Up</strong> (strategic technology commercialisation) — are analysed both independently and comparatively to reveal how the EIC as an institutional actor constructs, mediates, and enforces institutional rules across different stages of the innovation pipeline.</p>
+
+<hr>
+
+<!-- ===== 1. REGULATIVE PILLAR ===== -->
+<h2>1. Regulative Pillar</h2>
+<p><em>Rules, laws, monitoring, sanctions; compliance yields legitimacy</em></p>
+
+<h3>1.1 EIC Pathfinder</h3>
+
+<table>
+  <thead>
+    <tr><th>Evidence (verbatim)</th><th>Analysis</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>"support for the earliest stages of scientific, technological or deep tech research and development"</td>
+      <td>Regulatory boundary-setting: defines the jurisdictional scope of the programme and excludes later-stage work</td>
+    </tr>
+    <tr>
+      <td>"Technology Readiness Levels from 1 to 4" (TRL framework)</td>
+      <td>Codification of a regulative standard borrowed from aerospace/defence (NASA origin); functions as a compliance threshold disguised as a scientific framework</td>
+    </tr>
+    <tr>
+      <td>"EIC Pathfinder Challenges… within predefined thematic areas"</td>
+      <td>Top-down regulatory channelling of research; the state pre-selects themes (Advanced Materials, Healthy Ageing, Cognitive AI), constraining academic freedom under a regulative logic</td>
+    </tr>
+    <tr>
+      <td>Eligibility: consortium or single entity; admissibility page limits</td>
+      <td>Bureaucratic compliance architecture; formal rules create barriers to entry and screen out non-conformant applicants</td>
+    </tr>
+    <tr>
+      <td>Annex 6 – Additional IP provisions for Pathfinder</td>
+      <td>Regulative control over intellectual property generated with public funds; signals ownership expectations even in early-stage science</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="key-observation">
+  <strong>Key Observation:</strong> The Pathfinder operationalises state regulation of science through a TRL taxonomy that <em>appears</em> cognitive (a shared technical schema) but functions <em>regulatively</em> (as a gatekeeping mechanism). This is a form of <strong>institutional disguise</strong> — regulatory control presented as scientific neutrality.
+</div>
+
+<h3>1.2 EIC STEP Scale Up</h3>
+
+<table>
+  <thead>
+    <tr><th>Evidence (verbatim)</th><th>Analysis</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>"following the STEP Regulation (EU) 2024/795"</td>
+      <td>Explicit legislative origin; STEP derives its authority from a supranational regulatory act, making coercive isomorphism the foundational institutional mechanism</td>
+    </tr>
+    <tr>
+      <td>"KYC by the EIC Fund or the EIF" (Know Your Customer / Anti-Money Laundering)</td>
+      <td>Financial sector regulation imported into the innovation funding domain; extends state surveillance into investor-company relationships</td>
+    </tr>
+    <tr>
+      <td>"Concurrent submissions to both the EIC Accelerator and EIC STEP Scale Up calls are not permitted"</td>
+      <td>Anti-gaming rule; regulative enforcement of programme boundaries</td>
+    </tr>
+    <tr>
+      <td>"After three unsuccessful submissions… an applicant may not apply again to the EIC STEP Scale Up call under the Horizon Europe Framework Programme"</td>
+      <td>Permanent exclusion mechanism — an unusually punitive regulative instrument for an innovation programme; signals the scarcity and strategic gravity of the call</td>
+    </tr>
+    <tr>
+      <td>"The EIC Fund will ensure that supported companies keep most of their value, including their IP, in the EU"</td>
+      <td>Extraterritorial IP retention clause; extends EU regulatory reach into private investment decisions post-award; analogous to national security review mechanisms (e.g., CFIUS)</td>
+    </tr>
+    <tr>
+      <td>"specific safeguards may be introduced in the investment agreement… to protect European interests"</td>
+      <td>Open-ended regulative intervention clause; grants the EIC Fund discretionary power to impose conditions, constituting a coercive mechanism</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="key-observation">
+  <strong>Key Observation:</strong> STEP is the most explicitly <em>regulative</em> programme in the EIC portfolio. Its architecture mirrors financial market regulation (KYC, investment due diligence, equity-only instruments) more than traditional research funding. The IP retention clause represents a significant extension of state regulatory authority into private company governance — a form of <strong>regulatory reach-back</strong> with geopolitical motivation.
+</div>
+
+<hr>
+
+<!-- ===== 2. NORMATIVE PILLAR ===== -->
+<h2>2. Normative Pillar</h2>
+<p><em>Values, norms, roles, obligations; conformity yields appropriateness</em></p>
+
+<h3>2.1 EIC Pathfinder</h3>
+
+<table>
+  <thead>
+    <tr><th>Evidence (verbatim)</th><th>Analysis</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>"Do you have an ambitious vision for a novel future technology that could make a real difference to our lives?"</td>
+      <td>Normative interpellation of the ideal applicant — the visionary scientist-entrepreneur; constructs a role identity that fuses academic and entrepreneurial norms</td>
+    </tr>
+    <tr>
+      <td>"realise an ambitious vision for radically new technology, with potential to create new markets, respond to societal needs and/or to provide solutions for global challenges"</td>
+      <td>Normative hierarchy: scientific ambition is legitimised through market creation AND societal contribution — both market and civic logics are invoked as normative obligations</td>
+    </tr>
+    <tr>
+      <td>"interdisciplinary team of researchers and innovators"</td>
+      <td>Normative valorisation of collaboration across disciplinary boundaries; signals that siloed expertise is insufficient for EIC legitimacy</td>
+    </tr>
+    <tr>
+      <td>"EIC Pathfinder Open" vs. "EIC Pathfinder Challenges"</td>
+      <td>Normative tension: Open valorises scientific autonomy and researcher-led inquiry; Challenges imposes state-directed norms onto the research agenda. The co-existence of both signals a negotiated normative order</td>
+    </tr>
+    <tr>
+      <td>"validate the scientific basis… realise a proof of principle… explore paths to impact"</td>
+      <td>Normative sequencing of research as purposive and commercialisation-oriented from the outset; redefines what counts as legitimate science</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="key-observation">
+  <strong>Key Observation:</strong> Pathfinder constructs a <strong>hybrid normative identity</strong> for participants: you must be a rigorous scientist <em>and</em> a market visionary <em>and</em> a collaborative team player. This triple normative obligation reflects an <strong>institutional logic blend</strong> — science, market, and civic logics are merged into a single expected role. Failure to perform any dimension risks non-compliance with the programme's normative expectations.
+</div>
+
+<h3>2.2 EIC STEP Scale Up</h3>
+
+<table>
+  <thead>
+    <tr><th>Evidence (verbatim)</th><th>Analysis</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>"game-changing innovative technology"</td>
+      <td>Normative framing of the ideal company as a disruptor; constructs a heroic entrepreneur role analogous to Silicon Valley cultural norms — mimetic import of US tech sector identity</td>
+    </tr>
+    <tr>
+      <td>"Does the successful commercialisation… represent significant risks which mean that it cannot be sufficiently financed from the market investors?"</td>
+      <td>Market failure narrative normalises state investment; the normative expectation is that private markets <em>should</em> fund innovation, with state intervention positioned as an exception — not the norm</td>
+    </tr>
+    <tr>
+      <td>"propelling Europe's economic, industrial, and technological competitiveness"</td>
+      <td>Civic/normative obligation framing: companies are expected not just to succeed commercially but to serve European strategic interests — a form of normative conscription</td>
+    </tr>
+    <tr>
+      <td>"adequate gender balance, with a credible plan to fill the gaps"</td>
+      <td>Normative diversity obligation embedded in an evaluation criterion; signals that gender equity is now an institutional norm within the European innovation field, not merely aspirational</td>
+    </tr>
+    <tr>
+      <td>"Sovereignty (STEP) Seal" awarded even to NO GO proposals that meet criteria</td>
+      <td>Decoupling of legitimacy from funding — the Seal functions as a <strong>normative certificate of alignment</strong> with EU strategic values, usable with other funders. This is a powerful institutional device: it extends EIC's normative influence beyond its own budget</td>
+    </tr>
+    <tr>
+      <td>"smart money" (referenced in BAS section)</td>
+      <td>Normative reframing of public investment; positions the EIC not just as a funder but as a strategic partner — constructs a normative expectation of ongoing engagement, not a transactional grant</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="key-observation">
+  <strong>Key Observation:</strong> The <strong>Sovereignty Seal</strong> is the most institutionally novel device in the entire Work Programme. By awarding legitimacy independently of funding, STEP creates a <em>meta-institutional</em> instrument: the EIC certifies companies as normatively aligned with European strategic interests, enabling those companies to access <em>other</em> institutional fields (InvestEU, other EU programmes, national programmes). This is <strong>institutional field-bridging</strong> through a legitimacy artefact.
+</div>
+
+<hr>
+
+<!-- ===== 3. COGNITIVE PILLAR ===== -->
+<h2>3. Cognitive Pillar</h2>
+<p><em>Shared beliefs, schemas, taken-for-granted assumptions; conformity yields meaning</em></p>
+
+<h3>3.1 EIC Pathfinder</h3>
+
+<table>
+  <thead>
+    <tr><th>Evidence (verbatim)</th><th>Analysis</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>"deep tech" (repeated throughout)</td>
+      <td>A taken-for-granted cognitive category in the European innovation field; the EIC treats "deep tech" as self-evident but never formally defines it in this section — it functions as a <strong>cognitive shorthand</strong> that signals shared assumptions among insiders</td>
+    </tr>
+    <tr>
+      <td>"breakthrough technologies"</td>
+      <td>Schumpeterian creative destruction schema imported as a cognitive baseline; positions incremental innovation as institutionally less legitimate</td>
+    </tr>
+    <tr>
+      <td>"disrupt a field and a market or create new opportunities"</td>
+      <td>Disruption as cognitive norm; the language of disruption (derived from Christensen's innovation theory) is naturalised as the expected outcome of Pathfinder research</td>
+    </tr>
+    <tr>
+      <td>"scientific basis to underpin breakthrough technologies"</td>
+      <td>Cognitive sequencing assumption: science precedes technology precedes market. This linear model of innovation (science → technology → application) is taken for granted, despite decades of evidence for non-linear innovation pathways</td>
+    </tr>
+    <tr>
+      <td>TRL 1–4 as the Pathfinder domain</td>
+      <td>Cognitive schema that maps innovation onto a linear developmental trajectory; the TRL system is treated as natural and objective but is in fact a socially constructed classification system with institutional origins in US defence procurement</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="key-observation">
+  <strong>Key Observation:</strong> Pathfinder's cognitive pillar rests on a <strong>linear innovation model</strong> that is treated as self-evident. The TRL schema, the disruption discourse, and the science-first sequencing all reflect taken-for-granted assumptions that shape what kinds of projects can even <em>be imagined</em> as Pathfinder-eligible. This cognitive infrastructure <em>silently</em> excludes innovation models that do not fit (e.g., user-led, practice-based, or incremental innovation).
+</div>
+
+<h3>3.2 EIC STEP Scale Up</h3>
+
+<table>
+  <thead>
+    <tr><th>Evidence (verbatim)</th><th>Analysis</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>"strategic dependencies of the Union"</td>
+      <td>Geopolitical vulnerability as a cognitive frame; takes for granted that Europe is dependent and exposed — a shared threat perception that motivates programme design</td>
+    </tr>
+    <tr>
+      <td>"market gap in financing deep tech scale up companies in Europe"</td>
+      <td>Market failure as cognitive baseline; the assumption that private markets fail to fund European deep tech at scale is presented as an objective fact rather than a contested claim</td>
+    </tr>
+    <tr>
+      <td>"to match and ultimately surpass the performance of the USA and Asia" (from Strategic Goals)</td>
+      <td>Competitive cognitive schema: the US and Asia are constructed as the reference group (mimetic target) against which European performance is measured; the gap is naturalised as a problem requiring institutional response</td>
+    </tr>
+    <tr>
+      <td>"semiconductor technologies and quantum technologies" (named as 2026 priorities)</td>
+      <td>Cognitive crystallisation of technology categories as strategic; the naming of specific technologies signals that the EIC Board's cognitive map of what matters has become institutionalised</td>
+    </tr>
+    <tr>
+      <td>"Sovereignty (STEP) Seal"</td>
+      <td>Sovereign independence as a cognitive ideal; the Seal makes the concept of "sovereignty" tangible and tradeable — it converts an abstract geopolitical aspiration into a certifiable institutional category</td>
+    </tr>
+    <tr>
+      <td>Equity-only (no grant) for STEP</td>
+      <td>Cognitive assumption that market mechanisms (equity investment) are more appropriate for scale-up than grants; reflects financialisation as a taken-for-granted organising logic for later-stage innovation support</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="key-observation">
+  <strong>Key Observation:</strong> STEP's cognitive architecture is dominated by a <strong>geopolitical threat schema</strong> — strategic dependency, sovereignty, and competitive catch-up with the US/Asia. This schema is so embedded that it functions as a cognitive pre-condition for the programme's existence: without the shared belief that Europe is vulnerable and falling behind, STEP would lose its cognitive legitimacy.
+</div>
+
+<hr>
+
+<!-- ===== 4. INSTITUTIONAL LOGICS ===== -->
+<h2>4. Institutional Logics</h2>
+<p><em>Competing and co-existing logics operating within and across the programmes</em></p>
+
+<table>
+  <thead>
+    <tr><th>Logic</th><th>Manifestation in Pathfinder</th><th>Manifestation in STEP</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Science Logic</strong></td>
+      <td>Primary logic: TRL 1-4, peer review, proof-of-principle, interdisciplinary research</td>
+      <td>Residual: "deep tech in nature stemming from cutting-edge scientific or technological advances" (excellence criterion)</td>
+    </tr>
+    <tr>
+      <td><strong>Market Logic</strong></td>
+      <td>Secondary: "create new markets", commercialisation pathway, impact criteria</td>
+      <td>Primary: equity investment, funding rounds, market opportunity assessment, "first come, first served"</td>
+    </tr>
+    <tr>
+      <td><strong>State/Political Logic</strong></td>
+      <td>Tertiary: Challenges are state-directed themes; eligibility rules; IP provisions</td>
+      <td>Primary: STEP Regulation origin, strategic dependency framing, sovereignty seal, IP retention in EU</td>
+    </tr>
+    <tr>
+      <td><strong>Professional Logic</strong></td>
+      <td>Evaluation by experts (peer review model); EIC Jury</td>
+      <td>Jury of "leading experts"; investment adviser; Technology Due Diligence by external expert</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Logic Tensions and Negotiations</h4>
+
+<ol>
+  <li><strong>Science vs. Market (Pathfinder):</strong> The Pathfinder Open call accommodates science logic (researcher-defined questions, TRL 1-4 scope), while Challenges subordinates science logic to state/market priorities (predefined themes, specific objectives). This creates an <strong>intra-programme logic tension</strong> that the Work Programme resolves through institutional segmentation (Open vs. Challenges).</li>
+  <li><strong>Market vs. State (STEP):</strong> STEP explicitly invokes market failure to justify state intervention, but the programme's design is more regulatory than market-mimicking. The equity-only instrument borrows market logic <em>form</em> while pursuing state logic <em>goals</em>. This is a case of <strong>logic borrowing</strong> — using market instruments to achieve geopolitical objectives.</li>
+  <li><strong>Science vs. State (across programmes):</strong> Pathfinder is science-logic dominant; STEP is state-logic dominant. The EIC portfolio as a whole reflects a <strong>logic succession model</strong> — as innovation moves from early-stage research to commercial scale-up, science logic gives way to market logic, which at the strategic scale-up level gives way to state logic. This is institutionally significant: it suggests that for the EIC, <em>strategic importance</em> ultimately trumps <em>scientific merit</em>.</li>
+</ol>
+
+<hr>
+
+<!-- ===== 5. ISOMORPHIC MECHANISMS ===== -->
+<h2>5. Isomorphic Mechanisms</h2>
+<p><em>How the programmes produce and enforce conformity within the European innovation field</em></p>
+
+<h3>5.1 Coercive Isomorphism</h3>
+<ul>
+  <li><strong>STEP Regulation (EU) 2024/795</strong> mandates the STEP Scale Up call's existence and scope; participating companies must conform to its technology classification or are excluded</li>
+  <li><strong>IP retention clause</strong>: companies cannot relocate IP outside EU post-award without triggering safeguards — a coercive constraint on organisational behaviour</li>
+  <li><strong>Three-strike exclusion rule</strong> (STEP): permanent exclusion from the programme after three failed attempts is an unusually strong coercive pressure</li>
+  <li><strong>KYC/AML requirements</strong> apply financial sector regulation coercively to innovation companies and their investors</li>
+  <li><strong>Chips Act alignment</strong> (STEP 2026 priorities for semiconductors and quantum): the Work Programme operationalises legislative priorities from the European Chips Act, demonstrating how one EU regulation coercively shapes another institution's priorities</li>
+</ul>
+
+<h3>5.2 Mimetic Isomorphism</h3>
+<ul>
+  <li><strong>"To match and ultimately surpass the performance of the USA and Asia"</strong> (Strategic Goal 4): the EIC explicitly models itself against US and Asian innovation systems; mimetic pressure from DARPA (US), ARPA-E, and Temasek (Singapore) is visible in the programme design</li>
+  <li><strong>Unicorn target</strong>: the unicorn concept is a US venture capital metric imported into EU policy — a mimetic artefact</li>
+  <li><strong>"Smart money"</strong> and Business Acceleration Services: mimics the value-add model of top-tier VC firms (Sequoia, a16z), which provide operational support alongside capital</li>
+  <li><strong>Equity-only STEP instrument</strong>: mimics private venture/growth equity investment structures rather than traditional EU grant mechanisms</li>
+</ul>
+
+<h3>5.3 Normative Isomorphism</h3>
+<ul>
+  <li><strong>Jury evaluation model</strong>: importing professional norms from venture capital (pitch + expert jury = investment decision) into public funding</li>
+  <li><strong>Gender balance requirement</strong>: diffusion of DEI professional norms across the organisational field through mandatory evaluation criterion</li>
+  <li><strong>Business plan + pitch deck requirements</strong> (STEP): standardises the language and format of innovation presentations according to VC industry norms — organisations that cannot speak this language are excluded</li>
+  <li><strong>"Freedom to Operate" (FTO) analysis</strong> requirement: IP profession's standard tool becomes a mandatory submission element, spreading IP professional norms across the applicant population</li>
+</ul>
+
+<hr>
+
+<!-- ===== 6. LEGITIMACY STRATEGIES ===== -->
+<h2>6. Legitimacy Strategies</h2>
+<p><em>How each programme constructs and signals legitimacy</em></p>
+
+<table>
+  <thead>
+    <tr><th>Legitimacy Type</th><th>EIC Pathfinder</th><th>EIC STEP</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Pragmatic</strong> (utility to stakeholders)</td>
+      <td>"Make a real difference to our lives"; "create new markets"; impact pathway requirements</td>
+      <td>EUR 10-30M investment; EUR 50-150M funding round catalyst; Business Acceleration Services</td>
+    </tr>
+    <tr>
+      <td><strong>Moral</strong> (normative appropriateness)</td>
+      <td>"Respond to societal needs"; "solutions for global challenges"; gender equity norms</td>
+      <td>"Reduce strategic dependencies"; "protect European interests"; sovereignty framing</td>
+    </tr>
+    <tr>
+      <td><strong>Cognitive</strong> (taken-for-grantedness)</td>
+      <td>TRL framework as objective standard; disruption as self-evident goal</td>
+      <td>Market gap as objective fact; strategic technology categories as natural; Sovereignty Seal as institutionalised concept</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>The Sovereignty Seal as a Legitimacy Innovation</h4>
+
+<p>The STEP Sovereignty Seal merits dedicated analysis as an institutional design innovation. It:</p>
+<ol>
+  <li><strong>Decouples legitimacy from resource allocation</strong> — companies receive the Seal even when rejected for funding, enabling them to access other institutional fields</li>
+  <li><strong>Creates a new institutional category</strong> — "sovereignty-aligned company" is a novel identity that did not exist before STEP</li>
+  <li><strong>Functions as a meta-institutional bridge</strong> — carries EIC's moral legitimacy into InvestEU, national programmes, and private investor relationships</li>
+  <li><strong>Quantifies strategic alignment</strong> — converts a qualitative assessment (contribution to European strategic interests) into a binary, portable credential</li>
+</ol>
+
+<p>This represents a sophisticated understanding of how <strong>legitimacy operates as a resource</strong> in institutional fields (cf. Suchman 1995) — and it is arguably more institutionally durable than any single funding award.</p>
+
+<hr>
+
+<!-- ===== 7. COMPARATIVE SYNTHESIS ===== -->
+<h2>7. Comparative Synthesis</h2>
+
+<h3>Programme Identity and Institutional Position</h3>
+
+<table>
+  <thead>
+    <tr><th>Dimension</th><th>EIC Pathfinder</th><th>EIC STEP Scale Up</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Dominant Logic</strong></td>
+      <td>Science (Open) / State (Challenges)</td>
+      <td>State/Geopolitical</td>
+    </tr>
+    <tr>
+      <td><strong>Secondary Logic</strong></td>
+      <td>Market</td>
+      <td>Market</td>
+    </tr>
+    <tr>
+      <td><strong>Primary Pillar</strong></td>
+      <td>Cognitive (TRL schemas, disruption discourse)</td>
+      <td>Regulative (STEP Regulation, KYC, IP retention)</td>
+    </tr>
+    <tr>
+      <td><strong>Isomorphism Type</strong></td>
+      <td>Normative (peer review, interdisciplinarity)</td>
+      <td>Coercive (Regulation) + Mimetic (VC norms)</td>
+    </tr>
+    <tr>
+      <td><strong>Legitimacy Strategy</strong></td>
+      <td>Moral (societal impact) + Cognitive (scientific rigour)</td>
+      <td>Pragmatic (scale capital) + Moral (sovereignty)</td>
+    </tr>
+    <tr>
+      <td><strong>Applicant Identity Constructed</strong></td>
+      <td>Visionary scientist-entrepreneur</td>
+      <td>Strategic scale-up company with market validation</td>
+    </tr>
+    <tr>
+      <td><strong>Institutional Role of State</strong></td>
+      <td>Patron of science / director of challenge themes</td>
+      <td>Market corrector / geopolitical actor</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Key Theoretical Contribution Points</h3>
+
+<ol>
+  <li><strong>Logic succession across the innovation pipeline:</strong> The EIC programmes collectively demonstrate that as innovation moves from concept (Pathfinder TRL 1-4) to commercial scale (STEP EUR 50-150M rounds), the dominant institutional logic shifts from Science → Market → State. This is theoretically significant because it inverts the conventional assumption that state logic precedes market logic — here, the state re-enters at the <em>highest</em> stage of commercial development specifically to address geopolitical concerns.</li>
+  <li><strong>Institutional bricolage in programme design:</strong> Both programmes combine elements from multiple institutional logics and fields (academic peer review, VC investment, financial regulation, geopolitical policy). This bricolage is not incoherent — it is a deliberate strategy for constructing programmes that can claim legitimacy across multiple audiences simultaneously (researchers, investors, regulators, geopolitical stakeholders).</li>
+  <li><strong>The Sovereignty Seal as institutional innovation:</strong> STEP's introduction of a portable legitimacy credential that survives funding rejection is a novel institutional design. It extends the EIC's institutional field boundary beyond the boundaries of its own budget, constituting a form of <strong>institutional imperialism</strong> — the EIC shapes behaviour in other institutional fields (national programmes, private markets) through a legitimacy artefact.</li>
+  <li><strong>Cognitive infrastructure and exclusion:</strong> Both programmes rely on taken-for-granted schemas (TRL, disruption, strategic dependency, market gap) that simultaneously constitute the programme's internal coherence and exclude alternative innovation models. A Gramscian or critical institutionalist reading would flag this as <strong>hegemonic cognitive infrastructure</strong> — the rules of what counts as legitimate innovation are established by those who also control the funding.</li>
+</ol>
+
+<hr>
+
+<!-- ===== 8. SUGGESTED CODES ===== -->
+<h2>8. Suggested Codes for Further Analysis</h2>
+
+<p>If extending this analysis to other EIC documents or interviews:</p>
+
+<h4>Regulative Codes</h4>
+<ul>
+  <li><code>REG_TRL</code> — TRL as regulatory boundary</li>
+  <li><code>REG_ELIGIBILITY</code> — formal eligibility rules</li>
+  <li><code>REG_IP_CONTROL</code> — IP ownership and retention mechanisms</li>
+  <li><code>REG_SANCTIONS</code> — exclusion, non-compliance mechanisms</li>
+  <li><code>REG_LEGISLATIVE_ORIGIN</code> — explicit reference to EU regulations/directives</li>
+</ul>
+
+<h4>Normative Codes</h4>
+<ul>
+  <li><code>NORM_ROLE_IDENTITY</code> — construction of ideal applicant identity</li>
+  <li><code>NORM_SOCIETAL_OBLIGATION</code> — civic/societal duty framing</li>
+  <li><code>NORM_MARKET_HERO</code> — entrepreneurial hero / disruptor norms</li>
+  <li><code>NORM_DEI</code> — gender, diversity, inclusion norms</li>
+  <li><code>NORM_COLLABORATION</code> — team and interdisciplinary norms</li>
+</ul>
+
+<h4>Cognitive Codes</h4>
+<ul>
+  <li><code>COG_DEEP_TECH</code> — deep tech as taken-for-granted category</li>
+  <li><code>COG_LINEAR_INNOVATION</code> — science→technology→market schema</li>
+  <li><code>COG_DISRUPTION</code> — disruption as naturalised outcome</li>
+  <li><code>COG_STRATEGIC_THREAT</code> — European vulnerability/dependency schema</li>
+  <li><code>COG_MARKET_FAILURE</code> — private market failure as self-evident</li>
+</ul>
+
+<h4>Logic Codes</h4>
+<ul>
+  <li><code>LOGIC_SCIENCE</code></li>
+  <li><code>LOGIC_MARKET</code></li>
+  <li><code>LOGIC_STATE</code></li>
+  <li><code>LOGIC_PROFESSION</code></li>
+  <li><code>LOGIC_TENSION</code> — points where logics conflict</li>
+</ul>
+
+<hr>
+
+<div class="source-note">
+  <p>Analysis based on: European Commission Decision C(2025)7410 of 5 November 2025 — EIC Work Programme 2026</p>
+  <p>Sections analysed: I. Introduction (pp. 7–25); II. EIC Pathfinder (pp. 26–47); VI. EIC STEP Scale Up (pp. 102–111)</p>
+  <p>Theoretical references: Scott (1995/2014); DiMaggio &amp; Powell (1983); Thornton, Ocasio &amp; Lounsbury (2012); Suchman (1995); Friedland &amp; Alford (1991)</p>
+</div>
+
+</body>
+</html>

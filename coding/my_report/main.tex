@@ -1,0 +1,83 @@
+%==============================================================================
+%   Master's Thesis
+%   Title:   Investment Logics in the EIC Instruments Pathfinder and STEP
+%            through the Lens of Institutional Theory
+%   Author:  Kristian
+%   Program: M.Sc. — Faculty of Entrepreneurship
+%   Institution: Technical University of Denmark (DTU)
+%
+%   File:    main.tex   (master document — compile this one)
+%   Build:   pdflatex main  ->  biber main  ->  pdflatex main  ->  pdflatex main
+%            (or simply:  latexmk -pdf main.tex)
+%==============================================================================
+
+\documentclass[11pt,a4paper,twoside,openright]{report}
+
+%--- All package loading and formatting lives in preamble.tex ----------------
+\input{preamble}
+
+%--- Bibliography database ---------------------------------------------------
+\addbibresource{references.bib}
+
+%--- Convenience macros for the project --------------------------------------
+\newcommand{\thesistitle}{Investment Logics in the EIC Instruments Pathfinder and STEP through the Lens of Institutional Theory}
+\newcommand{\thesissubtitle}{A comparative study of European innovation funding}
+\newcommand{\thesisrunningtitle}{Investment Logics in EIC Pathfinder and STEP}  % short title for footer
+\newcommand{\thesisauthor}{Kristian \textsc{[Surname]}}
+\newcommand{\thesissupervisor}{[Supervisor Name]}
+\newcommand{\thesiscosupervisor}{[Co-supervisor Name, if any]}
+\newcommand{\thesisdepartment}{DTU Entrepreneurship}
+\newcommand{\thesisuniversity}{Technical University of Denmark}
+\newcommand{\thesisdate}{\today}
+\newcommand{\thesisects}{30 ECTS}
+
+%==============================================================================
+\begin{document}
+
+%================================ FRONT MATTER ================================
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+\input{sections/00_titlepage}
+\cleardoublepage
+
+\input{sections/00_colophon}
+\cleardoublepage
+
+\input{sections/00_declaration}
+\cleardoublepage
+
+\input{sections/00_abstract}
+\cleardoublepage
+
+\input{sections/00_acknowledgements}
+\cleardoublepage
+
+\pdfbookmark[0]{Contents}{toc}
+\tableofcontents
+\cleardoublepage
+
+\input{sections/00_abbreviations}
+\cleardoublepage
+
+%================================ MAIN MATTER =================================
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\input{sections/01_intro}
+\input{sections/02_background}
+\input{sections/03_methodology}
+\input{sections/04_results}
+\input{sections/05_discussion}
+\input{sections/06_conclusion}
+
+%================================ BACK MATTER =================================
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{References}
+\printbibliography[title={References}]
+
+\appendix
+\input{sections/07_appendix}
+
+\end{document}

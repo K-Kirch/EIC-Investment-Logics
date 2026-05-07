@@ -1,0 +1,286 @@
+/**
+ * Fonteva Logout Handler.
+ *
+ * Handles the logout process for Fonteva authentication, including
+ * calling the Fonteva JSP logout page and cleaning up local state.
+ *
+ * @package academy-of-management/aom-fonteva-wp-authentication
+ */
+
+class FontevaLogoutHandler {
+	/**
+	 * Initialize the logout handler.
+	 *
+	 * @param {object} options Configuration options.
+	 */
+	constructor(options = {}) {
+		const l10n =
+			typeof window !== 'undefined' && window.aomFontevaLogout ? window.aomFontevaLogout : {};
+		this.options = {
+			ajaxUrl: l10n.ajaxUrl,
+			nonce: l10n.nonce,
+			fontevaLogoutUrl: l10n.logoutUrl,
+			redirectUrl: typeof window !== 'undefined' ? window.location.href : '/', // Default to current page
+			...options,
+		};
+
+		this._pendingRedirectUrl = null; // Used to store the redirect URL for the current logout.
+
+		this.init();
+	}
+
+	/**
+	 * Initialize event listeners and setup.
+	 */
+	init() {
+		// Find logout links and attach event listeners.
+		this.attachLogoutListeners();
+	}
+
+	/**
+	 * Attach logout event listeners to logout elements.
+	 */
+	attachLogoutListeners() {
+		// Find logout links by common selectors.
+		const logoutSelectors = [
+			'[data-fonteva-logout]',
+			'.fonteva-logout',
+			'a[href*="logout"]',
+			'button[data-action="logout"]',
+		];
+
+		logoutSelectors.forEach((selector) => {
+			const elements = document.querySelectorAll(selector);
+			elements.forEach((element) => {
+				element.addEventListener('click', (e) => {
+					e.preventDefault();
+					// Set redirect URL to the element's href if valid.
+					const href = element.getAttribute('href');
+					if (href && typeof href === 'string' && href.trim() && href !== '#') {
+						this._pendingRedirectUrl = href;
+					} else {
+						this._pendingRedirectUrl = null;
+					}
+					this.handleLogout(e);
+				});
+			});
+		});
+
+		// Also listen for custom logout events.
+		document.addEventListener('fonteva:logout', () => {
+			this._pendingRedirectUrl = null;
+			this.handleLogout();
+		});
+	}
+
+	/**
+	 * Handle the logout process.
+	 *
+	 * @param {Event} event The click event (optional).
+	 */
+	async handleLogout(event) {
+		if (event) {
+			event.preventDefault();
+		}
+
+		try {
+			// Show loading state if element exists.
+			this.setLoadingState(event?.target, true);
+
+			// Step 1: Call Fonteva JSP logout page (discreetly).
+			await this.callFontevaLogout();
+
+			// Step 2: Perform local WordPress logout via AJAX.
+			await this.performWordPressLogout();
+
+			// Step 3: Redirect to the element's href if valid, else current page.
+			this.redirectToCurrentPage();
+		} catch (error) {
+			this.handleLogoutError(error);
+		} finally {
+			// Reset loading state.
+			this.setLoadingState(event?.target, false);
+			// Clear pending redirect URL after logout attempt.
+			this._pendingRedirectUrl = null;
+		}
+	}
+
+	/**
+	 * Call the Fonteva JSP logout page discreetly.
+	 *
+	 * @returns {Promise} Promise that resolves when logout is complete.
+	 */
+	async callFontevaLogout() {
+		return new Promise((resolve) => {
+			// Create a hidden iframe to call the Fonteva logout page.
+			const iframe = document.createElement('iframe');
+			iframe.style.display = 'none';
+			iframe.style.width = '0';
+			iframe.style.height = '0';
+			iframe.style.border = '0';
+			iframe.style.position = 'absolute';
+			iframe.style.left = '-9999px';
+
+			// Set the source to the Fonteva logout URL.
+			iframe.src = this.options.fontevaLogoutUrl;
+
+			// Handle iframe load event.
+			iframe.onload = () => {
+				// Remove the iframe after a short delay to ensure logout completes.
+				setTimeout(() => {
+					document.body.removeChild(iframe);
+					resolve();
+				}, 1000);
+			};
+
+			// Handle iframe error.
+			iframe.onerror = () => {
+				document.body.removeChild(iframe);
+				// Don't reject here - Fonteva logout might still work.
+				resolve();
+			};
+
+			// Add iframe to DOM and trigger load.
+			document.body.appendChild(iframe);
+		});
+	}
+
+	/**
+	 * Perform WordPress logout via AJAX.
+	 *
+	 * @returns {Promise} Promise that resolves with logout result.
+	 */
+	async performWordPressLogout() {
+		const redirectUrl =
+			this._pendingRedirectUrl && typeof this._pendingRedirectUrl === 'string'
+				? this._pendingRedirectUrl
+				: window.location.href;
+
+		const formData = new FormData();
+		formData.append('action', 'aom_fonteva_logout');
+		formData.append('nonce', this.options.nonce);
+		formData.append('redirect_url', redirectUrl);
+
+		try {
+			const response = await fetch(this.options.ajaxUrl, {
+				method: 'POST',
+				body: formData,
+				credentials: 'same-origin',
+			});
+
+			if (!response.ok) {
+				if (response.status === 403) {
+					throw new Error(
+						'Security check failed. Please refresh the page and try again.',
+					);
+				} else if (response.status === 400) {
+					throw new Error('User is not logged in.');
+				} else {
+					throw new Error(`HTTP error! status: ${response.status}`);
+				}
+			}
+
+			const result = await response.json();
+
+			if (!result.success) {
+				throw new Error(result.data?.message || 'Logout failed');
+			}
+
+			return result;
+		} catch (error) {
+			console.error('AJAX request failed:', error);
+			throw error;
+		}
+	}
+
+	/**
+	 * Redirect to the element's href if valid, else current page.
+	 */
+	redirectToCurrentPage() {
+		// Use the pending redirect URL if set and valid, else fallback to current page.
+		let redirectUrl = this._pendingRedirectUrl;
+		if (
+			!redirectUrl ||
+			typeof redirectUrl !== 'string' ||
+			!redirectUrl.trim() ||
+			redirectUrl === '#'
+		) {
+			redirectUrl = window.location.href;
+		}
+
+		// Small delay to ensure all cleanup is complete.
+		setTimeout(() => {
+			window.location.href = redirectUrl;
+		}, 500);
+	}
+
+	/**
+	 * Handle logout errors gracefully.
+	 *
+	 * @param {Error} error The error that occurred.
+	 */
+	handleLogoutError(error) {
+		// Optionally, still redirect to current page even if there was an error.
+		setTimeout(() => {
+			window.location.reload();
+		}, 2000);
+	}
+
+	/**
+	 * Set loading state for logout elements.
+	 *
+	 * @param {Element} element The element to update.
+	 * @param {boolean} isLoading Whether to show loading state.
+	 */
+	setLoadingState(element, isLoading) {
+		if (!element) return;
+
+		if (isLoading) {
+			element.disabled = true;
+			element.setAttribute('aria-busy', 'true');
+			element.classList.add('is-loading');
+
+			// Store original text if it's a button/link.
+			if (element.textContent) {
+				element.setAttribute('data-original-text', element.textContent);
+				element.textContent = 'Logging out...';
+			}
+		} else {
+			element.disabled = false;
+			element.removeAttribute('aria-busy');
+			element.classList.remove('is-loading');
+
+			// Restore original text.
+			if (element.hasAttribute('data-original-text')) {
+				element.textContent = element.getAttribute('data-original-text');
+				element.removeAttribute('data-original-text');
+			}
+		}
+	}
+
+	/**
+	 * Trigger logout programmatically.
+	 *
+	 * @param {object} options Additional options.
+	 */
+	static logout(options = {}) {
+		const handler = new FontevaLogoutHandler(options);
+		handler.handleLogout();
+	}
+}
+
+// Auto-initialize if DOM is ready.
+if (document.readyState === 'loading') {
+	document.addEventListener('DOMContentLoaded', () => {
+		new FontevaLogoutHandler(); // eslint-disable-line no-new
+	});
+} else {
+	new FontevaLogoutHandler(); // eslint-disable-line no-new
+}
+
+// Export for use in other modules.
+if (typeof module !== 'undefined' && module.exports) {
+	module.exports = FontevaLogoutHandler;
+} else if (typeof window !== 'undefined') {
+	window.FontevaLogoutHandler = FontevaLogoutHandler;
+}
