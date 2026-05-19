@@ -68,3 +68,17 @@ No existing files were moved, renamed, or deleted in this batch.
 | move (git mv) | `coding/WP2026_extracted.txt` | `03_corpus/output/WP2026_extracted.txt` | yes | Plain-text extraction derived from the corpus PDF — a derived artefact, hence `output/` not `references/`. |
 
 ---
+
+## Batch 03 — Theory framework summaries to 02_theory/ and codebooks to 04_codebook/
+
+**Date:** 2026-05-19
+
+| Action | Source | Destination | Basename preserved? | Reason |
+|---|---|---|---|---|
+| move (git mv) | `coding/Scott_ThreePillars_DiMaggio_Isomorphism.md` | `02_theory/output/Scott_ThreePillars_DiMaggio_Isomorphism.md` | yes | Framework summary (Scott 1995/2014 + DiMaggio & Powell 1983). Used as a reference for writing Ch 2, not as a coding instrument — hence `02_theory/`, not `04_codebook/`. |
+| move (git mv) | `coding/Matrix_Logics_QuickReference.md` | `02_theory/output/Matrix_Logics_QuickReference.md` | yes | Four-logic quick-reference matrix (Friedland & Alford 1991; Thornton et al. 2012). Theory reference for Ch 2 and Ch 5. |
+| move (git mv) | `coding/Matrix_Logics_QuickReference.html` | `02_theory/output/Matrix_Logics_QuickReference.html` | yes | Rendered HTML derivative of the matrix .md file. Kept alongside source per no-deletion rule. |
+| move (git mv) | `coding/Codebook_v1_Deductive.md` | `04_codebook/output/Codebook_v1_Deductive.md` | yes | Operational deductive codebook (Scott pillars + DiMaggio/Powell isomorphism). Current canonical coding instrument. |
+| move (git mv) | `coding/Codebook_Logics_v1_Deductive.md` | `04_codebook/output/Codebook_Logics_v1_Deductive.md` | yes | Operational deductive codebook (institutional logics). Current canonical coding instrument. |
+
+---
