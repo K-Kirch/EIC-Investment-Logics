@@ -208,3 +208,35 @@ Total: 64 files. All basenames preserved. Note: one PDF in the source was an app
 | move (git mv) | `Project_Plan__Thesis.pdf` | `00_admin/Project_Plan__Thesis.pdf` | yes | The newer (Dec 2025) of two `Project_Plan` PDFs. Note: its contents still reflect v0 scope (3-tier interviews, market-distortion theory). **Open decision**: produce a v1 plan that reflects the current EIC-only documentary scope. Not actioned here. |
 
 ---
+
+## Batch 09 — Archive of v0-era superseded material
+
+**Date:** 2026-05-19
+
+Per user decisions made earlier in conversation:
+- Q1 `Misc notes.docx` → archive (whole file, no splitting)
+- Q2 `QDA/QDA_EIC_Pathfinder_STEP_Institutional_Theory.md` (+ `.html`) → archive (superseded by `Readthrough_Notes_v1.md`)
+- Q3 `The Sovereignty Paradox.docx` → archive (no distillation)
+- Q4 `Global Benchmarking.docx` → archive source; distillation of DARPA content into `02_theory/_scratch/` is a separate, content-creating step pending explicit per-action approval (NOT actioned here)
+- Q5 `EIC Work Programme 2025.pdf` → archive (out of scope, pure background)
+
+Plus from my own evaluation:
+- `Tentative Report Structure.docx` → archive (proposes a v0 7-chapter comparative structure already superseded by the 6-chapter structure in `06_report/sections/`)
+- `Project_Plan___Thesis.pdf` (3-underscore, older) → archive (earlier version of the v0 plan)
+- `Draft.pdf` → archive (intro framing for the v0 comparative project)
+- `Thesis_Prep.docx` → archive (likely v0-era prep notes; full extraction failed due to encoding issue, classification by name + provenance with files from same period)
+
+| Action | Source | Destination | Basename preserved? | Reason |
+|---|---|---|---|---|
+| move (git mv) | `Misc notes.docx` | `_archive/Misc notes.docx` | yes | Mixed-topic dump; v0 thesis statement + supervisor feedback notes. User decision Q1. |
+| move (git mv) | `The Sovereignty Paradox.docx` | `_archive/The Sovereignty Paradox.docx` | yes | v0 RQ draft (comparative US/China/EU + Schumpeter/Mazzucato). User decision Q3. |
+| move (git mv) | `Tentative Report Structure.docx` | `_archive/Tentative Report Structure.docx` | yes | v0 7-chapter outline, replaced by `06_report/sections/` structure. |
+| move (git mv) | `Global Benchmarking.docx` | `_archive/Global Benchmarking.docx` | yes | DARPA / SBIR / China benchmarking notes; was v0 Ch 3. User decision Q4: archive source; distillation pending. |
+| move (git mv) | `Project_Plan___Thesis.pdf` | `_archive/Project_Plan___Thesis.pdf` | yes | Older (3-underscore) version of the project plan. |
+| move (git mv) | `Draft.pdf` | `_archive/Draft.pdf` | yes | Earlier draft intro framing the v0 comparative project. |
+| move (git mv) | `QDA/QDA_EIC_Pathfinder_STEP_Institutional_Theory.md` | `_archive/QDA_EIC_Pathfinder_STEP_Institutional_Theory.md` | yes | Earlier analytical synthesis; superseded by numbered-entry approach in `Readthrough_Notes_v1.md`. User decision Q2. |
+| move (git mv) | `QDA/QDA_EIC_Pathfinder_STEP_Institutional_Theory.html` | `_archive/QDA_EIC_Pathfinder_STEP_Institutional_Theory.html` | yes | Rendered HTML companion of the above. Same provenance, archived together. |
+| move (git mv) | `QDA/EIC Work Programme 2025.pdf` | `_archive/EIC Work Programme 2025.pdf` | yes | 2025 Work Programme — context only, not in analytical scope. User decision Q5. |
+| move (git mv) | `Thesis_Prep.docx` | `_archive/Thesis_Prep.docx` | yes | v0-era prep notes (assessed by name and timing alongside other v0 files). If still relevant, can be promoted out of `_archive/` later. |
+
+---
