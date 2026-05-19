@@ -2,9 +2,11 @@
 # Git ignores for a LaTeX thesis project
 # =============================================================================
 
-# Compiled output
+# Compiled output. Track figure PDFs, ignore everything else.
+# (gitignore does not support inline `#` comments — keep them on their own lines.)
 *.pdf
-!figures/**/*.pdf            # but DO track figure PDFs
+!figures/*.pdf
+!figures/**/*.pdf
 
 # Auxiliary files
 *.aux

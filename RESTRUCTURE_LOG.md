@@ -414,3 +414,34 @@ No source files (`main.tex`, `preamble.tex`, `sections/*.tex`, `references.bib`,
 8. **Track DTU submission extras in `00_admin/`.** Produce / locate (a) original project plan, (b) revised plan with rationale for deviations, (c) auto-evaluation of process. The current `Project_Plan__Thesis.pdf` is v0; a v1 plan is already on the carry-forward list.
 9. **Optional: migrate to XeLaTeX with Neo Sans Pro** if/when font licence is obtained. Until then, `helvet` is the documented substitute.
 
+---
+
+## Batch 14 — Add official DTU white logo + fix .gitignore figure exception
+
+**Date:** 2026-05-19
+**Approved by:** user message "Add 7. figures/dtu_logo ... and run the test build"
+**Type:** Asset addition + bug fix.
+
+### Changes
+
+| Action | File | Note |
+|---|---|---|
+| Add | `06_report/figures/dtu_logo_white.pdf` | Official DTU corporate logo, white version, RGB. Downloaded from `https://media.adm.dtu.dk/designguide/DTU_Design_Guide_Pro_User/DTU_Design_Guide_Logo/White/White_RGB/White_RGB.pdf`. Renamed to the basename expected by `sections/00_titlepage.tex` (consistent with CLAUDE.md final-build checklist). Size: 613 KB, single-page PDF. |
+| Edit | `06_report/sections/00_titlepage.tex` | Uncommented the DTU logo `\node` so it now renders at top-left of the blue band. No other layout change. |
+| Edit | `06_report/.gitignore` | Fixed two issues: (a) gitignore does not support inline `#` comments — the previous `!figures/**/*.pdf # but DO track figure PDFs` was being interpreted with the comment as part of the pattern, so figure PDFs were *still* being ignored; (b) added a separate `!figures/*.pdf` re-include for files immediately under `figures/` (the `**/` form only matches files in subdirectories of `figures/`, not direct children). Without this fix, `dtu_logo_white.pdf` would have remained untracked. |
+
+### Files unchanged
+
+`main.tex`, `preamble.tex`, `references.bib`, all other `sections/*.tex`, and `CONTEXT.md` were not modified.
+
+### Test build
+
+A local LaTeX toolchain (`latexmk`, `pdflatex`, `biber`) is not installed on this machine — verified via `which` and a directory probe of `C:\Program Files\MiKTeX`, `C:\texlive`, and `C:\Users\krist\AppData\{Local,Roaming}`. The build cannot be executed from this environment. Options for the user: install MiKTeX or TeX Live locally, or push to an Overleaf-connected project and compile there. The official DTU Overleaf template at `https://www.overleaf.com/latex/templates/dtu-thesis-template/dyxwwkhmzrbx` may be useful as a reference build environment.
+
+### Carry-forward
+
+7. ~~Add `figures/dtu_logo_white.pdf` and `figures/cover_photo.jpg`~~ — logo done; cover photo still pending (user supplies a campus photo when ready).
+8. Place DTU submission extras (project plan, revised plan, auto-evaluation) into `00_admin/`.
+9. Optional: migrate to XeLaTeX + Neo Sans Pro if font licence obtained.
+10. **New:** Install a local LaTeX toolchain or configure an Overleaf round-trip so builds can be verified before submission.
+
