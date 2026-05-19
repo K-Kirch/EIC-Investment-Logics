@@ -517,3 +517,75 @@ All other template files, all hand-rolled report files (`06_report/main.tex`, `p
 - **Address / website** for DTU Entrepreneurship are best-effort. Verify against the official contact page.
 - **Bibliography duplication.** `06_report/references.bib` and `06_report/dtu-template/bibliography.bib` now hold the same content. The former is retired (archived) in Batch 18 once the build verifies.
 
+---
+
+## Batch 17 — Migrate chapter / front-matter / appendix content into the template
+
+**Date:** 2026-05-19
+**Approved by:** same as Batches 15/16 — user authorised Phases 1–3 in sequence.
+**Type:** Content migration + scaffold archive. No prose rewriting — every `\todoinline{...}` slot is preserved; only references to interview-based design were adjusted to documentary scope (per the v1 pivot already documented in `CONTEXT.md` §8).
+
+### Frontmatter (overwrites + 1 new file)
+
+| Action | File | Note |
+|---|---|---|
+| Overwrite | `06_report/dtu-template/Setup/Preamble.tex` | Added a small project-additions block at the end: `enumitem` (for SQ1/SQ2 enumerate labels in Ch 1), `longtable` (for the document-corpus appendix), and `todonotes` with a `\todoinline` shortcut macro (matching the convention used across all migrated chapters). Template's existing packages untouched. |
+| Overwrite | `06_report/dtu-template/Setup/Statics.tex` | Added two slots the template did not provide: `\thesissupervisor` and `\thesiscosupervisor` (placeholders). Used by future supervisor pages if added; otherwise inert. |
+| Overwrite | `06_report/dtu-template/Frontmatter/Abstract.tex` | Migrated abstract content from `06_report/sections/00_abstract.tex`. Adapted to use `\section*{Abstract}` + `\addcontentsline{toc}{section}{Abstract}` (consistent with the template's other front-matter sections). Methods paragraph rewritten to reflect v1 documentary scope (was interview-based). |
+| Overwrite | `06_report/dtu-template/Frontmatter/Acknowledgements.tex` | Migrated from `06_report/sections/00_acknowledgements.tex`. Same `\section*` adaptation. Uses the template's `\department` macro instead of the hand-rolled `\thesisdepartment`. |
+| Overwrite | `06_report/dtu-template/Frontmatter/Approval.tex` | Migrated from `06_report/sections/00_declaration.tex`. Uses the template's `\namesigdate` macro (signature + date lines) and project values via `\thesisauthor` + `\studentnumber`. TOC entry corrected from template's previous "Preface" to "Approval". |
+| Add | `06_report/dtu-template/Frontmatter/Abbreviations.tex` | New slot — the template does not ship with one. Migrated the 22 abbreviation entries from `06_report/sections/00_abbreviations.tex` verbatim (CEO, DG R&I, DTU, EC, EIB, EIC, EISMEA, ERA, EU, FET, HE, IP, IPO, KPI, NGEU, PM, R&I, SME, STEP, TRL, VC, WP). |
+
+### Chapters (overwrites of template examples + new files)
+
+| Action | File | Note |
+|---|---|---|
+| Add | `06_report/dtu-template/Chapters/01_intro.tex` | Migrated from `06_report/sections/01_intro.tex`. Method-description paragraph adjusted from "comparative case study with interviews" to the v1 documentary scope. Other content (background, problem statement, RQ + SQ1–SQ4, scope, contributions, structure outline) preserved verbatim. |
+| Add | `06_report/dtu-template/Chapters/02_background.tex` | Migrated verbatim from `06_report/sections/02_background.tex` (Part A empirical context — EIC / Pathfinder / STEP — and Part B institutional theory + analytical framework). |
+| Add | `06_report/dtu-template/Chapters/03_methodology.tex` | Migrated from `06_report/sections/03_methodology.tex` and adapted: "Comparative qualitative case study" → "Documentary qualitative case study"; removed the "Semi-structured interviews" subsection and the informant table; replaced with a documentary-corpus section pointing to the EIC Work Programme 2026 (primary) + STEP Regulation, EIC Board reports, ECA reports (supplementary). Coding section now references the deductive codebook + Pass 1 / Pass 2 audit trail. Trustworthiness, ethics, reflexivity, limitations sections preserved. |
+| Add | `06_report/dtu-template/Chapters/04_results.tex` | Migrated from `06_report/sections/04_results.tex`. Only change: "interviewees" → "the text" in the tensions-and-contestation cue; "Illustrative quote / source" → "Illustrative passage / source" in the data-display tables. Pathfinder / STEP / cross-case structure preserved. |
+| Add | `06_report/dtu-template/Chapters/05_discussion.tex` | Migrated verbatim from `06_report/sections/05_discussion.tex`. |
+| Add | `06_report/dtu-template/Chapters/06_conclusion.tex` | Migrated verbatim from `06_report/sections/06_conclusion.tex`. |
+
+### Backmatter (overwrite of template's empty Appendix + new file)
+
+| Action | File | Note |
+|---|---|---|
+| Add | `06_report/dtu-template/Backmatter/07_appendix.tex` | Adapted from `06_report/sections/07_appendix.tex`. Interview-design appendices (interview guide, consent form) **removed** — not applicable under the v1 documentary scope. Replaced with appendices appropriate to the documentary design: Document corpus, Deductive codebook, Inductive codes and pattern-level observations, Readthrough audit-trail excerpt, Supplementary tables and figures. |
+
+### main.tex (overwrite — input list rewired)
+
+| Action | File | Note |
+|---|---|---|
+| Overwrite | `06_report/dtu-template/main.tex` | Replaced template's example-chapter `\input{}` calls (`01_Introduction.tex`, `02_Colours.tex`, `03_Examples.tex`) with the project chapter inputs (`01_intro.tex` … `06_conclusion.tex`). Added `\input{Frontmatter/Abbreviations.tex}` after the ToC. Changed appendix input from `Backmatter/Appendix.tex` to `Backmatter/07_appendix.tex`. All other structural elements (cover, copyright, approval, abstract, acknowledgements, ToC, bibliography, back page) unchanged. |
+
+### Template example chapters — archived (not deleted)
+
+| Action | Source | Destination | Basename preserved? |
+|---|---|---|---|
+| move (git mv) | `06_report/dtu-template/Chapters/01_Introduction.tex` | `_archive/dtu_template_examples/Chapters/01_Introduction.tex` | yes |
+| move (git mv) | `06_report/dtu-template/Chapters/02_Colours.tex` | `_archive/dtu_template_examples/Chapters/02_Colours.tex` | yes |
+| move (git mv) | `06_report/dtu-template/Chapters/03_Examples.tex` | `_archive/dtu_template_examples/Chapters/03_Examples.tex` | yes |
+| move (git mv) | `06_report/dtu-template/Backmatter/Appendix.tex` | `_archive/dtu_template_examples/Backmatter/Appendix.tex` | yes |
+
+These example files demonstrate template features (colour palette, code listings, tables, figures). Archived as a reference for future template-feature use, per the project's no-deletion rule.
+
+### Files unchanged in this batch
+
+`06_report/dtu-template/Setup/Settings.tex`, `06_report/dtu-template/Frontmatter/Frontpage.tex`, `06_report/dtu-template/Frontmatter/Copyright.tex`, `06_report/dtu-template/Backmatter/Backpage.tex`, `06_report/dtu-template/Pictures/**`, `06_report/dtu-template/bibliography.bib`, `06_report/dtu-template/readme.md` — all untouched. The entire hand-rolled tree (`06_report/main.tex`, `preamble.tex`, `references.bib`, `sections/*`, `figures/dtu_logo_white.pdf`) is also untouched in this batch — it is archived in the next batch (Phase 5 / Batch 18) once the user verifies the template build on Overleaf.
+
+### Build verification
+
+Cannot be run from this environment (no local LaTeX toolchain). User to verify on Overleaf with the compiler set to **XeLaTeX** or **LuaLaTeX** (template requires `fontspec`). On a successful build, proceed to Batch 18.
+
+### Carry-forward (post-Batch-16, unchanged unless noted)
+
+7. ~~`figures/dtu_logo_white.pdf` (done in Batch 14)~~; cover photo no longer needed — template ships `Pictures/DTU_stock_photo.jpg`.
+8. DTU submission extras (project plan, revised plan, auto-evaluation) into `00_admin/`.
+9. Optional: XeLaTeX + Neo Sans Pro if licence obtained — **note:** template already uses XeLaTeX with Arial, this carry-forward is effectively resolved by adopting the template.
+10. Install local LaTeX toolchain or use Overleaf for builds.
+11. Student number `sXXXXXX` must be filled in (Batch 16).
+12. DTU Entrepreneurship address and website should be verified against the official contact page (Batch 16).
+13. Editorial review of the v1 subtitle "A documentary study of European deep-tech investment under the EIC Work Programme 2026" (Batch 16).
+14. **New:** Phase 5 / Batch 18 — archive `06_report/main.tex`, `preamble.tex`, `references.bib`, `sections/`, and `figures/dtu_logo_white.pdf` to `_archive/06_report_v1_hand_rolled/` once the template build verifies. Phase 6 / Batch 19 — promote `dtu-template/*` to `06_report/*` root and update `CLAUDE.md` / `CONTEXT.md` paths.
+

@@ -24,5 +24,13 @@
 \usepackage{tabularx}       % for ability to adjust column spacing in tabular better
 \usepackage{booktabs}       % for better tables
 \usepackage{float}          % floating figures in correct places
-\usepackage{calc}           % Adds ability for latex to calculate (3pt+2pt) 
+\usepackage{calc}           % Adds ability for latex to calculate (3pt+2pt)
 \usepackage{blindtext}
+
+% --- Project additions (utility packages required by this thesis's content) --
+\usepackage{enumitem}                                   % custom enumerate labels (SQ1, SQ2, ...)
+\usepackage{longtable}                                  % multi-page appendix tables
+\usepackage[colorinlistoftodos,textsize=small]{todonotes} % drafting markers
+\newcommand{\todoinline}[1]{\todo[inline,color=yellow!40]{#1}}
+% Switch the todonotes line to [disable] before final submission to suppress
+% all \todoinline markers from the typeset output.
