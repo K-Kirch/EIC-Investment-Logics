@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p 00_admin 01_literature/references/academic 01_literature/references/policy_grey 01_literature/references/risk_uncertainty 01_literature/references/reference_works 01_literature/references/methodology_genai 02_theory/output 02_theory/_scratch 03_corpus/references 03_corpus/output 04_codebook/output 05_analysis/output 05_analysis/_scratch 06_report _archive _config shared skills)",
+      "Bash(ls -d */ _*)"
+    ]
+  }
+}
