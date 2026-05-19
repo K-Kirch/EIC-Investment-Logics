@@ -1,13 +1,14 @@
 # CLAUDE.md — project notes for AI assistance
 
 ## Project
+
 Master's thesis in LaTeX.
 
-- **Title (working):** *Investment Logics in the EIC Instruments Pathfinder
-  and STEP through the Lens of Institutional Theory*
+- **Title (working):** _Investment Logics in the EIC Instruments Pathfinder
+  and STEP through the Lens of Institutional Theory_
 - **Institution:** Technical University of Denmark (DTU) — Faculty of
   Entrepreneurship.
-- **Author:** Kristian.
+- **Author:** Kristian Bonde Kirch.
 
 ## How to build
 
@@ -31,25 +32,25 @@ latexmk -pdf -pvc main.tex
 
 ## File map
 
-| File                                | Purpose                                                |
-|-------------------------------------|--------------------------------------------------------|
-| `main.tex`                          | Master document — compile this one.                    |
-| `preamble.tex`                      | All package loading and global formatting.             |
-| `references.bib`                    | BibLaTeX bibliography database.                        |
-| `sections/00_titlepage.tex`         | DTU cover page (blue TikZ background, photo placeholder). |
-| `sections/00_colophon.tex`          | Copyright / colophon page (verso of cover).            |
-| `sections/00_declaration.tex`       | Approval page (DTU style — signature and date lines).  |
-| `sections/00_abstract.tex`          | Abstract.                                              |
-| `sections/00_acknowledgements.tex`  | Acknowledgements (DTU format).                         |
-| `sections/00_abbreviations.tex`     | List of abbreviations.                                 |
-| `sections/01_intro.tex`             | Chapter 1 — Introduction.                              |
-| `sections/02_background.tex`        | Chapter 2 — Background and theoretical framework.      |
-| `sections/03_methodology.tex`       | Chapter 3 — Methodology.                               |
-| `sections/04_results.tex`           | Chapter 4 — Findings.                                  |
-| `sections/05_discussion.tex`        | Chapter 5 — Discussion.                                |
-| `sections/06_conclusion.tex`        | Chapter 6 — Discussion.                                |
-| `sections/07_appendix.tex`          | Appendices.                                            |
-| `figures/`                          | Drop figures here (PDF / PNG / SVG-converted).         |
+| File                               | Purpose                                                   |
+| ---------------------------------- | --------------------------------------------------------- |
+| `main.tex`                         | Master document — compile this one.                       |
+| `preamble.tex`                     | All package loading and global formatting.                |
+| `references.bib`                   | BibLaTeX bibliography database.                           |
+| `sections/00_titlepage.tex`        | DTU cover page (blue TikZ background, photo placeholder). |
+| `sections/00_colophon.tex`         | Copyright / colophon page (verso of cover).               |
+| `sections/00_declaration.tex`      | Approval page (DTU style — signature and date lines).     |
+| `sections/00_abstract.tex`         | Abstract.                                                 |
+| `sections/00_acknowledgements.tex` | Acknowledgements (DTU format).                            |
+| `sections/00_abbreviations.tex`    | List of abbreviations.                                    |
+| `sections/01_intro.tex`            | Chapter 1 — Introduction.                                 |
+| `sections/02_background.tex`       | Chapter 2 — Background and theoretical framework.         |
+| `sections/03_methodology.tex`      | Chapter 3 — Methodology.                                  |
+| `sections/04_results.tex`          | Chapter 4 — Findings.                                     |
+| `sections/05_discussion.tex`       | Chapter 5 — Discussion.                                   |
+| `sections/06_conclusion.tex`       | Chapter 6 — Discussion.                                   |
+| `sections/07_appendix.tex`         | Appendices.                                               |
+| `figures/`                         | Drop figures here (PDF / PNG / SVG-converted).            |
 
 ## Conventions
 
