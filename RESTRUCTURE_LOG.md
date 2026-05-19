@@ -491,3 +491,29 @@ The user dropped the official DTU thesis template into `06_report/dtu-template/`
 - The template uses `biblatex` with `style=numeric, sorting=none` (numbered citations). The existing tree uses `style=authoryear, sorting=nyt`. Per user instruction "keep template formatting", the numeric style is retained — but this is a noticeable change in citation appearance for the final document. Flagged for user review post-build.
 - The template's `dtu_logo_white.pdf` equivalent is `Pictures/Logos/white_cmyk.pdf` (CMYK is the template's default colour model; see `\targetcolourmodel` in `Setup/Settings.tex`). Our Batch 14 download `figures/dtu_logo_white.pdf` will become redundant once migration is complete; it stays for now until the old tree is archived (Phase 5 / Batch 18).
 
+---
+
+## Batch 16 — Populate template config (Statics + bibliography)
+
+**Date:** 2026-05-19
+**Approved by:** same as Batch 15 — user explicitly authorised Phases 1–3 in sequence.
+**Type:** Content edit (filling parameterised slots only, no structural change).
+
+### Changes
+
+| Action | File | Note |
+|---|---|---|
+| Overwrite | `06_report/dtu-template/Setup/Statics.tex` | Replaced template's placeholder values with project values: `\thesistitle` = "Investment Logics in the EIC Instruments Pathfinder and STEP through the Lens of Institutional Theory"; `\thesissubtitle` = "A documentary study of European deep-tech investment under the EIC Work Programme 2026" (v1 subtitle, replacing the v0 "comparative study" framing); `\thesisauthor` = "Kristian Bonde Kirch"; `\studentnumber` = "sXXXXXX" (placeholder — user fills in before submission); `\thedate` = "May 2026"; `\department` = "DTU Entrepreneurship"; `\departmentdescriber` = "Faculty of Entrepreneurship"; `\addressI` = "Diplomvej, Building 372A"; `\addressII` = "2800 Kgs. Lyngby"; `\departmentwebsite` = "entrepreneurship.dtu.dk". Address and website are best-effort and should be verified against the official DTU Entrepreneurship contact page before submission. |
+| Overwrite | `06_report/dtu-template/bibliography.bib` | Replaced template's single `biblatex` stub with the 12 entries from `06_report/references.bib` verbatim (foundational institutional theory, institutional logics, institutional work, innovation policy, methodology, primary policy documents). Header comment adapted to note the template's numeric / sorting=none style. |
+
+### Files unchanged
+
+All other template files, all hand-rolled report files (`06_report/main.tex`, `preamble.tex`, `sections/*`, `references.bib`, `figures/`), `CLAUDE.md`, `CONTEXT.md` — unchanged in this batch. The old `references.bib` remains as canonical until Phase 5 archives the v1 hand-rolled tree.
+
+### Carry-forward / verification items
+
+- **Subtitle is editorial.** "A documentary study of European deep-tech investment under the EIC Work Programme 2026" reflects the v1 scope but is a working title — flag for user review.
+- **Student number `sXXXXXX`** must be filled in.
+- **Address / website** for DTU Entrepreneurship are best-effort. Verify against the official contact page.
+- **Bibliography duplication.** `06_report/references.bib` and `06_report/dtu-template/bibliography.bib` now hold the same content. The former is retired (archived) in Batch 18 once the build verifies.
+
