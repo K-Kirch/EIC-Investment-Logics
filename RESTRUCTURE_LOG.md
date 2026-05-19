@@ -269,3 +269,63 @@ Three git-tracked files in `coding/` that were not visible in the initial direct
 **Note:** `coding/synthesis.md` is the most consequential miss in the migration. The earlier evaluation correctly identified `Readthrough_Notes_v1.md` as the working document but did not see this companion synthesis. Both belong in `05_analysis/output/`. The user may wish to update `CLAUDE.md`'s routing tables (currently stale w.r.t. paths and missing `synthesis.md`) in a separately-approved content edit.
 
 ---
+
+## Migration complete — final state summary
+
+**Verified by** `git ls-files` audit after Batch 11: zero git-tracked files remain outside the new structure.
+
+### Tracked-file counts per stage
+
+| Stage | Path | Tracked files (excl. .gitkeep / CONTEXT.md placeholders) |
+|---|---|---|
+| 00 Admin | `00_admin/` | 2 |
+| 01 Literature | `01_literature/references/{academic, policy_grey, risk_uncertainty, reference_works, methodology_genai}/` | 90 (10 academic + 13 policy_grey + 2 risk + 1 ref + 64 methodology_genai) |
+| 02 Theory | `02_theory/output/` | 3 |
+| 03 Corpus | `03_corpus/{references, output}/` | 4 |
+| 04 Codebook | `04_codebook/output/` | 2 |
+| 05 Analysis | `05_analysis/output/` | 3 (Readthrough_Notes_v1.md, synthesis.md, New project.mqda) |
+| 06 Report | `06_report/`, `06_report/sections/` | 18 (.gitignore + CLAUDE.md + main.tex + preamble.tex + references.bib + 13 .tex section files) |
+| Archive | `_archive/` | 10 v0-era files + 2 stranded session artefacts under `_archive/coding/` + README.md |
+| Shared | `shared/` | 4 (2 root + 2 under Rise Europe/) |
+
+### Empty filesystem leftovers (not git-tracked, not deleted)
+
+These directories remain on disk because the no-deletion rule prevents `rmdir` of source folders:
+
+- `coding/` (and its empty subfolders `coding/.claude/`, `coding/Literature_use-of-GenAI-in-Research/AOM Artificial Intelligence (AI) Policy_files/`, `coding/my_report/figures/`, `coding/my_report/sections/`)
+- `Literature/` (and `Literature/Academic/`, `Literature/Academic/Relevant sources from Neo-developmental state-craft/`, `Literature/Risk and Uncertainty/`)
+- `QDA/`
+- `Rise Europe/`
+
+These can be removed manually by the user (`rmdir` on Windows or Explorer delete) without git consequences, since git tracks no content inside them. The empty `Literature/Academic/Relevant sources from Neo-developmental state-craft/` folder is noted as a discovery: it never contained tracked files, so its prior intent is unknown.
+
+### Open follow-up items requiring separate explicit approval
+
+1. **Update internal paths** inside `CLAUDE.md` (Layer 0) — it currently references stale paths like `coding/Readthrough_Notes_v1.md`. Pending content edit.
+2. **Add `synthesis.md`** to the routing tables in `CLAUDE.md`. Pending content edit.
+3. **Distill DARPA content** from `_archive/Global Benchmarking.docx` into `02_theory/_scratch/` (user decision Q4). Source-text slice + destination filename pending approval.
+4. **Produce a v1 `Project_Plan`** reflecting the EIC-only documentary scope. The current `00_admin/Project_Plan__Thesis.pdf` still describes v0 (interviews, market-distortion theory). Pending decision.
+5. **Decide on duplicate** `nguyen-welch-2025-...genai (1).pdf` vs. the non-`(1)` copy in `01_literature/references/methodology_genai/`. Both retained per no-deletion rule.
+6. **Triage Rise Europe** material (currently in `shared/`) — `_archive/` may be more appropriate.
+
+### Git history
+
+12 commits during restructure (Batch 00 → Batch 11). Every file move was performed with `git mv` and reported by git as a rename at 100% similarity — full history preserved per-file.
+
+```
+a80ed69 Batch 11: Pick up files missed in initial inventory
+b92dfcb Batch 10: Move shared/peripheral assets to shared/
+810cc13 Batch 09: Archive v0-era superseded material
+6b039df Batch 08: Move admin files to 00_admin/
+d05e6a6 Batch 07: Move GenAI methodology literature subtree
+951f078 Batch 06: Move literature to 01_literature/references/
+4da717a Batch 05: Move LaTeX report tree to 06_report/
+7d08d94 Batch 04: Move analysis artefacts to 05_analysis/
+74134e5 Batch 03: Move theory references to 02_theory/ and codebooks to 04_codebook/
+4cc9faf Batch 02: Move corpus documents to 03_corpus/
+ea1f1be Batch 01: Promote CLAUDE.md to project root (Layer 0)
+5c2eb30 Batch 00: Scaffold ICM-style stage directories and audit-trail log
+```
+
+Any batch can be reverted independently with `git revert <hash>`.
+
