@@ -197,3 +197,14 @@ The subtree includes 10 PDFs (peer-reviewed papers + policy documents like the A
 Total: 64 files. All basenames preserved. Note: one PDF in the source was an apparent duplicate — `nguyen-welch-2025-...genai.pdf` and `nguyen-welch-2025-...genai (1).pdf`. Both moved as-is per no-deletion rule. **Decision deferred**: user may later wish to delete the `(1)` duplicate (separate explicit approval required).
 
 ---
+
+## Batch 08 — Admin to 00_admin/
+
+**Date:** 2026-05-19
+
+| Action | Source | Destination | Basename preserved? | Reason |
+|---|---|---|---|---|
+| move (git mv) | `Learning objectives.docx` | `00_admin/Learning objectives.docx` | yes | DTU formal learning-objective requirements; must be cited in the thesis. Canonical admin artefact. |
+| move (git mv) | `Project_Plan__Thesis.pdf` | `00_admin/Project_Plan__Thesis.pdf` | yes | The newer (Dec 2025) of two `Project_Plan` PDFs. Note: its contents still reflect v0 scope (3-tier interviews, market-distortion theory). **Open decision**: produce a v1 plan that reflects the current EIC-only documentary scope. Not actioned here. |
+
+---
