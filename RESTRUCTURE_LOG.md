@@ -179,3 +179,21 @@ All academic, policy/grey, risk-and-uncertainty, and reference-work literature m
 | move (git mv) | `Literature/Palgrave Encyclopedia of Strategic Management.pdf` | `01_literature/references/reference_works/<same>` | yes |
 
 ---
+
+## Batch 07 — GenAI-in-research methodology literature
+
+**Date:** 2026-05-19
+
+Entire subtree `coding/Literature_use-of-GenAI-in-Research/` moved to `01_literature/references/methodology_genai/`. This literature is about *how* GenAI is used in research (cited in Ch 3 / Methodology), not substantive content about the EIC.
+
+The subtree includes 10 PDFs (peer-reviewed papers + policy documents like the AOM and ASQ guidance), one HTML save of the AOM AI policy page, and that HTML's companion `_files/` directory (54 browser-saved CSS / JS / image fragments). Per the no-deletion rule the companion files are moved as-is even though they are not substantive — they can be triaged separately later if desired.
+
+| Count | Type | Source pattern | Destination |
+|---|---|---|---|
+| 10 | PDFs (substantive literature) | `coding/Literature_use-of-GenAI-in-Research/*.pdf` | `01_literature/references/methodology_genai/<same>` |
+| 1 | HTML (AOM AI policy page) | `coding/Literature_use-of-GenAI-in-Research/AOM Artificial Intelligence (AI) Policy.html` | `01_literature/references/methodology_genai/<same>` |
+| 53 | Browser-saved companions | `coding/Literature_use-of-GenAI-in-Research/AOM Artificial Intelligence (AI) Policy_files/*` | `01_literature/references/methodology_genai/AOM Artificial Intelligence (AI) Policy_files/<same>` |
+
+Total: 64 files. All basenames preserved. Note: one PDF in the source was an apparent duplicate — `nguyen-welch-2025-...genai.pdf` and `nguyen-welch-2025-...genai (1).pdf`. Both moved as-is per no-deletion rule. **Decision deferred**: user may later wish to delete the `(1)` duplicate (separate explicit approval required).
+
+---
