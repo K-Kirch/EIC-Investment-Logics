@@ -329,3 +329,45 @@ ea1f1be Batch 01: Promote CLAUDE.md to project root (Layer 0)
 
 Any batch can be reverted independently with `git revert <hash>`.
 
+---
+
+## Batch 12 — Post-restructure content edit: `06_report/CONTEXT.md`
+
+**Date:** 2026-05-19
+**Approved by:** user message "Please research the report requirements and update the /06_report/CONTEXT.md with the structure, best practice, and rules of conduct"
+**Type:** Content edit (first post-restructure content change).
+
+### Change
+
+| Action | File | Note |
+|---|---|---|
+| Rewrite | `06_report/CONTEXT.md` | Replaced 8-line placeholder with a full Layer 2 stage contract: scope, source-of-truth table per chapter, directory structure, build commands, authoring conventions, rules of conduct (audit trail, no-bypass of 3-pass workflow, no content from `_archive/`, GenAI disclosure), final-build checklist, status. |
+
+### Rationale
+
+`CONTEXT.md` was a placeholder created in Batch 00. The report tree (`main.tex`, `preamble.tex`, `sections/*.tex`) arrived in Batch 05, and `06_report/CLAUDE.md` already documents LaTeX-specific conventions. The Layer 2 file now states the stage contract so any future agent or future-self can route work into stage 06 without re-reading the entire tree.
+
+### Sources synthesised
+
+- `06_report/CLAUDE.md` (file map, build, conventions, final-build checklist) — quoted/summarised, not modified.
+- `06_report/main.tex` (front/main/back matter, chapter inputs) — read, not modified.
+- `06_report/preamble.tex` (biblatex authoryear, babel british, todonotes, cleveref, csquotes) — read, not modified.
+- `CLAUDE.md` (Layer 0) — 3-pass workflow rule referenced.
+- `00_admin/Learning objectives.docx` — DTU MSc learning objectives referenced.
+- `RESTRUCTURE_LOG.md` — audit-trail and `_archive/` rules referenced.
+
+### Files unchanged
+
+No source files (`main.tex`, `preamble.tex`, `sections/*.tex`, `references.bib`, `figures/.gitkeep`, `06_report/CLAUDE.md`) were modified in this batch.
+
+### Open follow-up items requiring separate explicit approval
+
+(unchanged from Batch 11; carried forward)
+
+1. Update internal paths inside `CLAUDE.md` (Layer 0).
+2. Add `synthesis.md` to the routing tables in `CLAUDE.md`.
+3. Distill DARPA content from `_archive/Global Benchmarking.docx`.
+4. Produce a v1 `Project_Plan` reflecting EIC-only documentary scope.
+5. Decide on duplicate `nguyen-welch-2025-...genai (1).pdf`.
+6. Triage Rise Europe material currently in `shared/`.
+
