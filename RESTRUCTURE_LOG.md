@@ -93,3 +93,35 @@ No existing files were moved, renamed, or deleted in this batch.
 | move (git mv) | `QDA/New project.mqda` | `05_analysis/output/New project.mqda` | yes | MAXQDA project file (binary). Canonical analysis artefact. Basename intentionally preserved despite being non-descriptive — rename requires separate explicit approval. |
 
 ---
+
+## Batch 05 — LaTeX report contents to 06_report/
+
+**Date:** 2026-05-19
+
+Source folder `coding/my_report/` flattened by one level into `06_report/`. Every file moved individually with `git mv` so renames are recognised by git and history is preserved. Directory `figures/` was empty in source (no git-tracked content) and was recreated as `06_report/figures/` with a `.gitkeep`.
+
+| Action | Source | Destination | Basename preserved? | Reason |
+|---|---|---|---|---|
+| move (git mv) | `coding/my_report/.gitignore` | `06_report/.gitignore` | yes | LaTeX build-artefact gitignore. |
+| move (git mv) | `coding/my_report/CLAUDE.md` | `06_report/CLAUDE.md` | yes | LaTeX-specific agent conventions (Layer 2). Coexists with the now-promoted root `CLAUDE.md` (Layer 0). |
+| move (git mv) | `coding/my_report/main.tex` | `06_report/main.tex` | yes | LaTeX master document. |
+| move (git mv) | `coding/my_report/preamble.tex` | `06_report/preamble.tex` | yes | LaTeX preamble. |
+| move (git mv) | `coding/my_report/references.bib` | `06_report/references.bib` | yes | BibTeX bibliography. |
+| move (git mv) | `coding/my_report/sections/00_abbreviations.tex` | `06_report/sections/00_abbreviations.tex` | yes | Section file. |
+| move (git mv) | `coding/my_report/sections/00_abstract.tex` | `06_report/sections/00_abstract.tex` | yes | Section file. |
+| move (git mv) | `coding/my_report/sections/00_acknowledgements.tex` | `06_report/sections/00_acknowledgements.tex` | yes | Section file. |
+| move (git mv) | `coding/my_report/sections/00_colophon.tex` | `06_report/sections/00_colophon.tex` | yes | Section file. |
+| move (git mv) | `coding/my_report/sections/00_declaration.tex` | `06_report/sections/00_declaration.tex` | yes | Section file. |
+| move (git mv) | `coding/my_report/sections/00_titlepage.tex` | `06_report/sections/00_titlepage.tex` | yes | Section file. |
+| move (git mv) | `coding/my_report/sections/01_intro.tex` | `06_report/sections/01_intro.tex` | yes | Ch 1 source. |
+| move (git mv) | `coding/my_report/sections/02_background.tex` | `06_report/sections/02_background.tex` | yes | Ch 2 source. |
+| move (git mv) | `coding/my_report/sections/03_methodology.tex` | `06_report/sections/03_methodology.tex` | yes | Ch 3 source. |
+| move (git mv) | `coding/my_report/sections/04_results.tex` | `06_report/sections/04_results.tex` | yes | Ch 4 source. |
+| move (git mv) | `coding/my_report/sections/05_discussion.tex` | `06_report/sections/05_discussion.tex` | yes | Ch 5 source. |
+| move (git mv) | `coding/my_report/sections/06_conclusion.tex` | `06_report/sections/06_conclusion.tex` | yes | Ch 6 source. |
+| move (git mv) | `coding/my_report/sections/07_appendix.tex` | `06_report/sections/07_appendix.tex` | yes | Appendix source. |
+| create | — | `06_report/figures/.gitkeep` | n/a | Recreate `figures/` directory (empty in source, not git-tracked). |
+
+**Note on duplicate CONTEXT.md vs CLAUDE.md:** `06_report/` now contains both a `CONTEXT.md` (placeholder created in Batch 00) and a `CLAUDE.md` (moved from `coding/my_report/`). They serve different roles: CONTEXT.md is the ICM stage contract; CLAUDE.md is the LaTeX-specific agent guidance. No merger or edit performed.
+
+---
