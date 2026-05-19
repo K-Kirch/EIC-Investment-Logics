@@ -150,7 +150,57 @@ Before generating the submission PDF (also documented in `CLAUDE.md`):
 
 ---
 
-## 8. Status
+## 8. DTU compliance
+
+The report follows the rules in `student.dtu.dk` for the MSc thesis (kandidatspeciale) and the visual rules in `designguide.dtu.dk`.
+
+### Formal rules (from DTU regulations)
+
+- **Language:** English. Danish is permitted only with prior approval from supervisor *and* Head of Studies.
+- **Scope:** 30 ECTS (the default; 32½ or 35 ECTS variants exist). Set in `main.tex` via `\thesisects`.
+- **Required content:** abstract, literature studies and criticism, and a substantive engineering / research contribution (experimental, theoretical, synthesis, modelling, or analysis — combinations allowed).
+- **Group work:** up to four students per thesis. This thesis is single-author.
+- **Title page:** must identify university, department, programme, author, supervisor, date.
+- **Declaration / Approval:** signed and dated by the author, including the DTU student number (`sXXXXXX`).
+
+### Submission-extras (separate documents, not part of the LaTeX build)
+
+DTU requires the following alongside the thesis PDF — track them in `00_admin/`, not here:
+
+1. **Original project plan** (the proposal agreed with the supervisor at project start).
+2. **Revised project plan** where the project deviated from the original.
+3. **Brief auto-evaluation of the project process** — a reflexive note on what worked, what didn't, and what was learned (process, not content).
+
+The methodology chapter (`sections/03_methodology.tex`) may reference these but does not replace them.
+
+### Visual identity (from `designguide.dtu.dk`)
+
+The preamble defines the official DTU palette:
+
+| Colour | Hex | RGB | Use |
+|---|---|---|---|
+| DTU Corporate Red | `#990000` | 153, 0, 0 | accent (sparing) |
+| DTU Blue | `#2F3EEA` | 47, 62, 234 | cover, primary visual |
+| DTU Navy Blue | `#030F4F` | 3, 15, 79 | hyperlinks, deep accents |
+| DTU Bright Green | `#1FD082` | 31, 208, 130 | data viz / call-outs |
+| DTU Grey | `#DADADA` | 218, 218, 218 | rules, neutrals |
+
+**Fonts.** The official DTU print typeface is Neo Sans Pro (commercial), with Arial as the office substitute. The official LaTeX template uses XeLaTeX with Neo Sans Pro. This project uses pdfLaTeX with `helvet` (a Helvetica/Arial-equivalent free package) as a pragmatic substitute — visually consistent with the Arial fallback that DTU itself authorises. If Neo Sans Pro is later acquired and the build is migrated to XeLaTeX / LuaLaTeX, swap `helvet` for `fontspec` + `Neo Sans Pro`.
+
+**Page layout.** A4, two-sided, 11 pt. Margins per the official template: top 2.81 cm, bottom 2.75 cm, inner 3.5 cm, outer 2.5 cm. Chapter openings on right (odd) pages (`openright`).
+
+**Cover page.** Blue (`dtublue`) top band, white DTU wordmark / logo top-left, university / department top-right, title block mid-page, campus photo bottom band. Requires `figures/dtu_logo_white.pdf` and `figures/cover_photo.jpg` to be added before final build.
+
+### Official references
+
+- DTU MSc thesis rules: `https://student.dtu.dk/en/rules/afsluttende-projekter/kandidatspeciale`
+- DTU design guide: `https://designguide.dtu.dk/` (colours, typography, logo)
+- DTU LaTeX support and templates: `https://latex.dtu.dk/`
+- Official thesis template (Overleaf): `https://www.overleaf.com/latex/templates/dtu-thesis-template/dyxwwkhmzrbx`
+
+---
+
+## 9. Status
 
 - Skeleton present (all section files, preamble, bibliography stub). Chapter prose: placeholder or empty.
 - Stage 06 is **gated by stages 04 and 05**: substantive drafting of chapters 4 and 5 begins only after the analysis passes complete.

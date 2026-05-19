@@ -371,3 +371,46 @@ No source files (`main.tex`, `preamble.tex`, `sections/*.tex`, `references.bib`,
 5. Decide on duplicate `nguyen-welch-2025-...genai (1).pdf`.
 6. Triage Rise Europe material currently in `shared/`.
 
+---
+
+## Batch 13 — DTU compliance of report preamble + CONTEXT.md extension
+
+**Date:** 2026-05-19
+**Approved by:** user message "update the report structure with to adhere to the DTU standards"
+**Type:** Content edit (DTU design-guide alignment).
+
+### Sources consulted
+
+- `student.dtu.dk/en/rules/afsluttende-projekter/kandidatspeciale` — MSc thesis rules (language, ECTS, required content, submission extras).
+- `designguide.dtu.dk/colours` — official DTU colour palette (hex / RGB / Pantone).
+- `designguide.dtu.dk/typography` — official typefaces (Neo Sans Pro / Arial fallback).
+- `latex.dtu.dk` and the official Overleaf DTU thesis template — recommended margins, document class, front-matter order.
+
+### Changes
+
+| Action | File | Change |
+|---|---|---|
+| Edit | `06_report/preamble.tex` | Geometry margins aligned with official DTU template: top 2.81 cm, bottom 2.75 cm, inner 3.5 cm, outer 2.5 cm (was 2.8 / 2.8 / 3.0 / 2.5). |
+| Edit | `06_report/preamble.tex` | `dtured` corrected from `#C4000D` (196,0,13) to official `#990000` (153,0,0); `dtublue` corrected from `#1F3DFF` (30,61,255) to official `#2F3EEA` (47,62,234). Added `dtunavy` (`#030F4F`), `dtugreen` (`#1FD082`), `dtugrey` (`#DADADA`) per the official secondary palette. `linknavy` re-aliased to `dtunavy` so hyperlinks reuse the official colour. |
+| Edit | `06_report/CONTEXT.md` | Added §8 "DTU compliance": formal rules (language, ECTS, required content, declaration), submission extras (project plan, revised plan, auto-evaluation — tracked in `00_admin/`, not in this stage), visual identity (palette table, font substitution rationale, page layout, cover page), and links to official DTU sources. Renumbered prior §8 "Status" to §9. |
+
+### Files unchanged
+
+`main.tex`, `references.bib`, all `sections/*.tex` (including titlepage / colophon / declaration), `figures/`, and `06_report/CLAUDE.md` were not modified. The cover-page colour (`dtublue`) automatically inherits the corrected RGB value via the colour macro — no source change in `sections/00_titlepage.tex` was needed.
+
+### Deliberate non-changes (and why)
+
+- **Fonts.** Did not switch from `helvet` (pdfLaTeX) to `fontspec` + Neo Sans Pro (XeLaTeX). Neo Sans Pro is a paid commercial font; DTU's own design guide authorises Arial as the substitute, and `helvet` is the closest free LaTeX equivalent. Switching the build chain to XeLaTeX without the actual font files would not improve compliance.
+- **Document class option order.** `[11pt,a4paper,twoside,openright]` and DTU template `[a4paper,twoside,11pt]` are semantically identical; not touched.
+- **Front-matter order.** Already matches DTU template order (title → colophon → approval → abstract → acknowledgements → ToC); not touched.
+- **`\thesisects`, `\thesisauthor`, `\thesissupervisor` placeholders.** Still placeholders by design — finalisation is part of the pre-submission checklist (`CLAUDE.md` §7), not this DTU-compliance pass.
+- **Section file contents.** No chapter prose, declaration text, abstract, or colophon text was modified.
+
+### Carry-forward items
+
+(In addition to those carried forward from Batch 11/12.)
+
+7. **Acquire DTU cover assets.** `figures/dtu_logo_white.pdf` and `figures/cover_photo.jpg` must be added and the corresponding TikZ nodes in `sections/00_titlepage.tex` uncommented.
+8. **Track DTU submission extras in `00_admin/`.** Produce / locate (a) original project plan, (b) revised plan with rationale for deviations, (c) auto-evaluation of process. The current `Project_Plan__Thesis.pdf` is v0; a v1 plan is already on the carry-forward list.
+9. **Optional: migrate to XeLaTeX with Neo Sans Pro** if/when font licence is obtained. Until then, `helvet` is the documented substitute.
+
