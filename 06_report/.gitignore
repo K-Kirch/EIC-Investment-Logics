@@ -7,6 +7,8 @@
 *.pdf
 !figures/*.pdf
 !figures/**/*.pdf
+# DTU template ships its own picture / logo PDFs under Pictures/. Track them.
+!dtu-template/Pictures/**/*.pdf
 
 # Auxiliary files
 *.aux

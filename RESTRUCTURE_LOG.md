@@ -445,3 +445,49 @@ A local LaTeX toolchain (`latexmk`, `pdflatex`, `biber`) is not installed on thi
 9. Optional: migrate to XeLaTeX + Neo Sans Pro if font licence obtained.
 10. **New:** Install a local LaTeX toolchain or configure an Overleaf round-trip so builds can be verified before submission.
 
+---
+
+## Batch 15 — Track official DTU LaTeX template under version control
+
+**Date:** 2026-05-19
+**Approved by:** user message "I'd prefer a complete migration to the dtu-template and when successful, we'll delete the current structure" + "1. We'll stick with the archive model, 2. We'll maintain the templates config, 3. We'll populate the template with the right information, but will keep its formatting, 4. Run in sequence"
+**Type:** Addition (no content edits to existing tracked files).
+
+### Context
+
+The user dropped the official DTU thesis template into `06_report/dtu-template/` between Batch 14 and Batch 15. The tree contains `main.tex`, `bibliography.bib`, `readme.md`, `Setup/`, `Frontmatter/`, `Chapters/`, `Backmatter/`, `Pictures/` (with all official logo variants and a stock cover photo), and a build artefact `main.pdf`. The decision (per user) is to migrate fully to this template and archive the current hand-rolled tree once a build succeeds. This batch is Phase 1 of that migration: simply tracking the template in git.
+
+### Changes
+
+| Action | File | Note |
+|---|---|---|
+| Edit | `06_report/.gitignore` | Added `!dtu-template/Pictures/**/*.pdf` to re-include the template's logo PDFs (otherwise caught by the `*.pdf` rule). `main.pdf` correctly remains ignored. |
+| Add | `06_report/dtu-template/main.tex` | Official template entrypoint. |
+| Add | `06_report/dtu-template/bibliography.bib` | Template's bib stub (one entry, `biblatex`). |
+| Add | `06_report/dtu-template/readme.md` | DTU LaTeX-support contact info. |
+| Add | `06_report/dtu-template/Setup/Statics.tex` | Personalia macros (placeholder values). |
+| Add | `06_report/dtu-template/Setup/Preamble.tex` | Packages and `\setmainfont{Arial}` via `fontspec` — requires XeLaTeX / LuaLaTeX. |
+| Add | `06_report/dtu-template/Setup/Settings.tex` | DTU palette, header/footer, listings, hypersetup, signature macro. |
+| Add | `06_report/dtu-template/Frontmatter/Frontpage.tex` | DTU cover page with parameterised colour, logo, photo. |
+| Add | `06_report/dtu-template/Frontmatter/Copyright.tex` | Colophon (ISBN/ISSN placeholders, copyright statement). |
+| Add | `06_report/dtu-template/Frontmatter/Approval.tex` | Approval page with `\namesigdate` signature macro. |
+| Add | `06_report/dtu-template/Frontmatter/Abstract.tex` | Stub (`\blindtext`). |
+| Add | `06_report/dtu-template/Frontmatter/Acknowledgements.tex` | Stub. |
+| Add | `06_report/dtu-template/Chapters/01_Introduction.tex` | Template example chapter. To be archived in Batch 17. |
+| Add | `06_report/dtu-template/Chapters/02_Colours.tex` | Template example chapter. To be archived in Batch 17. |
+| Add | `06_report/dtu-template/Chapters/03_Examples.tex` | Template example chapter (long — demonstrates layout features). To be archived in Batch 17. |
+| Add | `06_report/dtu-template/Backmatter/Appendix.tex` | Empty stub. |
+| Add | `06_report/dtu-template/Backmatter/Backpage.tex` | Back cover. |
+| Add | `06_report/dtu-template/Pictures/DTU_stock_photo.jpg` | Cover photo asset (DTU stock). |
+| Add | `06_report/dtu-template/Pictures/Logos/*.pdf` (6 files) | Official DTU logos: white / black / corporate-red, in RGB and CMYK. |
+
+### Files unchanged
+
+`main.tex`, `preamble.tex`, `references.bib`, all of `sections/*.tex`, `figures/`, `CLAUDE.md`, `CONTEXT.md` — none modified in this batch. The existing hand-rolled report tree remains the only buildable artefact until Batches 16–17 populate the template's slots.
+
+### Build-system implications (informational, no change yet)
+
+- The template requires **XeLaTeX or LuaLaTeX** (because of `fontspec` + `\setmainfont{Arial}`). The existing hand-rolled tree uses pdfLaTeX. On Overleaf, the compiler dropdown must be set to **XeLaTeX** for the new template.
+- The template uses `biblatex` with `style=numeric, sorting=none` (numbered citations). The existing tree uses `style=authoryear, sorting=nyt`. Per user instruction "keep template formatting", the numeric style is retained — but this is a noticeable change in citation appearance for the final document. Flagged for user review post-build.
+- The template's `dtu_logo_white.pdf` equivalent is `Pictures/Logos/white_cmyk.pdf` (CMYK is the template's default colour model; see `\targetcolourmodel` in `Setup/Settings.tex`). Our Batch 14 download `figures/dtu_logo_white.pdf` will become redundant once migration is complete; it stays for now until the old tree is archived (Phase 5 / Batch 18).
+
