@@ -55,3 +55,16 @@ No existing files were moved, renamed, or deleted in this batch.
 | move (git mv) | `coding/CLAUDE.md` | `CLAUDE.md` | yes | Promote agent-orientation document from sub-folder to workspace root, per ICM Layer 0. File contents unchanged; only path changes. Internal paths inside CLAUDE.md (e.g., `coding/Readthrough_Notes_v1.md`) are now stale and will need updating in a later, separately-approved content edit. |
 
 ---
+
+## Batch 02 — Corpus files to 03_corpus/
+
+**Date:** 2026-05-19
+
+| Action | Source | Destination | Basename preserved? | Reason |
+|---|---|---|---|---|
+| move (git mv) | `QDA/EIC-Work-Programme-2026.pdf` | `03_corpus/references/EIC-Work-Programme-2026.pdf` | yes | Canonical primary source document (188pp, EC Decision C(2025)7410). |
+| move (git mv) | `coding/EIC Work Programme 2026 Path + STEP.pdf` | `03_corpus/references/EIC Work Programme 2026 Path + STEP.pdf` | yes | Sliced subset of the canonical corpus (Pathfinder + STEP sections only). |
+| move (git mv) | `Establishing Horizon Europe - Regulation of the EU Parliament and Council.pdf` | `03_corpus/references/Establishing Horizon Europe - Regulation of the EU Parliament and Council.pdf` | yes | Cited legal instrument that establishes the Horizon Europe framework. Corpus-adjacent legal source, not literature. |
+| move (git mv) | `coding/WP2026_extracted.txt` | `03_corpus/output/WP2026_extracted.txt` | yes | Plain-text extraction derived from the corpus PDF — a derived artefact, hence `output/` not `references/`. |
+
+---
