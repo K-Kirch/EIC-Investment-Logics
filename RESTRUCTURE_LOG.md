@@ -82,3 +82,14 @@ No existing files were moved, renamed, or deleted in this batch.
 | move (git mv) | `coding/Codebook_Logics_v1_Deductive.md` | `04_codebook/output/Codebook_Logics_v1_Deductive.md` | yes | Operational deductive codebook (institutional logics). Current canonical coding instrument. |
 
 ---
+
+## Batch 04 — Analysis artefacts to 05_analysis/
+
+**Date:** 2026-05-19
+
+| Action | Source | Destination | Basename preserved? | Reason |
+|---|---|---|---|---|
+| move (git mv) | `coding/Readthrough_Notes_v1.md` | `05_analysis/output/Readthrough_Notes_v1.md` | yes | Main working document of the deductive readthrough (per the legacy `coding/CLAUDE.md` routing). The canonical current-state record of Pass 1 + ongoing Pass 2. |
+| move (git mv) | `QDA/New project.mqda` | `05_analysis/output/New project.mqda` | yes | MAXQDA project file (binary). Canonical analysis artefact. Basename intentionally preserved despite being non-descriptive — rename requires separate explicit approval. |
+
+---
