@@ -45,3 +45,13 @@ skills/
 No existing files were moved, renamed, or deleted in this batch.
 
 ---
+
+## Batch 01 — Promote CLAUDE.md to project root (Layer 0)
+
+**Date:** 2026-05-19
+
+| Action | Source | Destination | Basename preserved? | Reason |
+|---|---|---|---|---|
+| move (git mv) | `coding/CLAUDE.md` | `CLAUDE.md` | yes | Promote agent-orientation document from sub-folder to workspace root, per ICM Layer 0. File contents unchanged; only path changes. Internal paths inside CLAUDE.md (e.g., `coding/Readthrough_Notes_v1.md`) are now stale and will need updating in a later, separately-approved content edit. |
+
+---
