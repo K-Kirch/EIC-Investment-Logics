@@ -253,3 +253,19 @@ Plus from my own evaluation:
 | move (git mv) | `Rise Europe/Order.png` | `shared/Rise Europe/Order.png` | yes | Same provenance as above. |
 
 ---
+
+## Batch 11 — Missed files discovered post-migration
+
+**Date:** 2026-05-19
+
+Three git-tracked files in `coding/` that were not visible in the initial directory listing (likely due to Glob result truncation) were identified by a `git ls-files` audit after Batch 10:
+
+| Action | Source | Destination | Basename preserved? | Reason |
+|---|---|---|---|---|
+| move (git mv) | `coding/synthesis.md` | `05_analysis/output/synthesis.md` | yes | **Canonical analytical artefact**, missed in earlier inspection. 186-line synthesis of the full deductive readthrough (entries [001]–[180]) covering logic profile by section, key findings, and named patterns (Tension-Dissolution, Programme Manager Soft Coercive Authority, TRL as Institutional Disguise, etc.). Should be considered alongside `Readthrough_Notes_v1.md` as core Pass 1 output. |
+| move (git mv) | `coding/claude-conversation.txt` | `_archive/coding/claude-conversation.txt` | yes | Claude Code conversation log (6205 lines). Provenance artefact, not substantive thesis content. Archived under `_archive/coding/` to preserve its original sub-path. |
+| move (git mv) | `coding/.claude/settings.local.json` | `_archive/coding/.claude/settings.local.json` | yes | Stale Claude Code permissions config local to the old `coding/` workspace. Basename preserved by moving the entire `.claude/` subpath under `_archive/coding/`. The active settings file lives at the project-root `.claude/settings.local.json`. |
+
+**Note:** `coding/synthesis.md` is the most consequential miss in the migration. The earlier evaluation correctly identified `Readthrough_Notes_v1.md` as the working document but did not see this companion synthesis. Both belong in `05_analysis/output/`. The user may wish to update `CLAUDE.md`'s routing tables (currently stale w.r.t. paths and missing `synthesis.md`) in a separately-approved content edit.
+
+---
