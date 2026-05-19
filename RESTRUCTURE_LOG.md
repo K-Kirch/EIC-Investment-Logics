@@ -240,3 +240,16 @@ Plus from my own evaluation:
 | move (git mv) | `Thesis_Prep.docx` | `_archive/Thesis_Prep.docx` | yes | v0-era prep notes (assessed by name and timing alongside other v0 files). If still relevant, can be promoted out of `_archive/` later. |
 
 ---
+
+## Batch 10 — Shared / peripheral assets
+
+**Date:** 2026-05-19
+
+| Action | Source | Destination | Basename preserved? | Reason |
+|---|---|---|---|---|
+| move (git mv) | `DTU sites to know.png` | `shared/DTU sites to know.png` | yes | Admin-reference screenshot of DTU sites. Cross-cuts no single stage. |
+| move (git mv) | `Example of Working with Claude Code - Screenshot 2026-05-04 171527.png` | `shared/Example of Working with Claude Code - Screenshot 2026-05-04 171527.png` | yes | Meta-screenshot, not project content. |
+| move (git mv) | `Rise Europe/SCALEUP-DAY-3TPW7-1-pdf.pdf` | `shared/Rise Europe/SCALEUP-DAY-3TPW7-1-pdf.pdf` | yes | Event material from Rise Europe. Conservatively placed in `shared/` rather than `_archive/`: not clearly superseded; user did not explicitly classify. Can be moved later. |
+| move (git mv) | `Rise Europe/Order.png` | `shared/Rise Europe/Order.png` | yes | Same provenance as above. |
+
+---
