@@ -589,3 +589,69 @@ Cannot be run from this environment (no local LaTeX toolchain). User to verify o
 13. Editorial review of the v1 subtitle "A documentary study of European deep-tech investment under the EIC Work Programme 2026" (Batch 16).
 14. **New:** Phase 5 / Batch 18 — archive `06_report/main.tex`, `preamble.tex`, `references.bib`, `sections/`, and `figures/dtu_logo_white.pdf` to `_archive/06_report_v1_hand_rolled/` once the template build verifies. Phase 6 / Batch 19 — promote `dtu-template/*` to `06_report/*` root and update `CLAUDE.md` / `CONTEXT.md` paths.
 
+---
+
+## Batch 18 — Archive the hand-rolled v1 report tree
+
+**Date:** 2026-05-20
+**Approved by:** user confirmation "that fixed it, proceed with batch 18" after the official template build verified successfully on Overleaf (XeLaTeX compiler, main document set to `06_report/dtu-template/main.tex`).
+**Type:** Archive move (per the no-deletion rule). No content edits.
+
+### Context
+
+With the template confirmed to build, the hand-rolled v1 tree at `06_report/{main.tex, preamble.tex, references.bib, sections/, figures/dtu_logo_white.pdf}` is now superseded. Per project policy (no deletion), all of it is moved to `_archive/06_report_v1_hand_rolled/` preserving sub-path structure. Files were also the source from which Batch 17 migrated content into the template, so they retain provenance value.
+
+### Moves (18 files, all via `git mv`, basenames preserved)
+
+| Action | Source | Destination |
+|---|---|---|
+| move (git mv) | `06_report/main.tex` | `_archive/06_report_v1_hand_rolled/main.tex` |
+| move (git mv) | `06_report/preamble.tex` | `_archive/06_report_v1_hand_rolled/preamble.tex` |
+| move (git mv) | `06_report/references.bib` | `_archive/06_report_v1_hand_rolled/references.bib` |
+| move (git mv) | `06_report/figures/dtu_logo_white.pdf` | `_archive/06_report_v1_hand_rolled/figures/dtu_logo_white.pdf` |
+| move (git mv) | `06_report/figures/.gitkeep` | `_archive/06_report_v1_hand_rolled/figures/.gitkeep` |
+| move (git mv) | `06_report/sections/00_abbreviations.tex` | `_archive/06_report_v1_hand_rolled/sections/00_abbreviations.tex` |
+| move (git mv) | `06_report/sections/00_abstract.tex` | `_archive/06_report_v1_hand_rolled/sections/00_abstract.tex` |
+| move (git mv) | `06_report/sections/00_acknowledgements.tex` | `_archive/06_report_v1_hand_rolled/sections/00_acknowledgements.tex` |
+| move (git mv) | `06_report/sections/00_colophon.tex` | `_archive/06_report_v1_hand_rolled/sections/00_colophon.tex` |
+| move (git mv) | `06_report/sections/00_declaration.tex` | `_archive/06_report_v1_hand_rolled/sections/00_declaration.tex` |
+| move (git mv) | `06_report/sections/00_titlepage.tex` | `_archive/06_report_v1_hand_rolled/sections/00_titlepage.tex` |
+| move (git mv) | `06_report/sections/01_intro.tex` | `_archive/06_report_v1_hand_rolled/sections/01_intro.tex` |
+| move (git mv) | `06_report/sections/02_background.tex` | `_archive/06_report_v1_hand_rolled/sections/02_background.tex` |
+| move (git mv) | `06_report/sections/03_methodology.tex` | `_archive/06_report_v1_hand_rolled/sections/03_methodology.tex` |
+| move (git mv) | `06_report/sections/04_results.tex` | `_archive/06_report_v1_hand_rolled/sections/04_results.tex` |
+| move (git mv) | `06_report/sections/05_discussion.tex` | `_archive/06_report_v1_hand_rolled/sections/05_discussion.tex` |
+| move (git mv) | `06_report/sections/06_conclusion.tex` | `_archive/06_report_v1_hand_rolled/sections/06_conclusion.tex` |
+| move (git mv) | `06_report/sections/07_appendix.tex` | `_archive/06_report_v1_hand_rolled/sections/07_appendix.tex` |
+
+All 18 moves were reported by git as renames at 100% similarity — full history preserved per-file.
+
+### Files unchanged / intentionally kept in `06_report/`
+
+| File | Reason kept |
+|---|---|
+| `06_report/.gitignore` | Applies to the entire stage (template tree too). Will be reviewed in Batch 19 once paths consolidate. |
+| `06_report/CLAUDE.md` | LaTeX agent guidance. Still references the hand-rolled paths; rewrite scheduled for Batch 19. |
+| `06_report/CONTEXT.md` | Layer 2 stage contract. Still references the hand-rolled tree; rewrite scheduled for Batch 19. |
+| `06_report/dtu-template/**` | The active build target. Promoted to `06_report/*` root in Batch 19. |
+
+### Build verification before this batch
+
+User compiled `06_report/dtu-template/main.tex` on Overleaf with XeLaTeX. Frontpage rendered correctly with the official DTU layout (white CMYK logo top-left, campus photo bottom). Root cause of the prior issue: Overleaf's "Main document" setting was still pointing at the hand-rolled `06_report/main.tex`, which loads the placeholder titlepage. Resolved by setting Main document → `06_report/dtu-template/main.tex` and Compiler → XeLaTeX.
+
+### Out-of-scope discovery
+
+`05_analysis/output/colour-coded-eic-doc.pdf` appeared as a new untracked file in `git status` during this batch. Not part of Batch 18 — left untracked. User can decide whether to commit it under a separate batch (or simply add it to `05_analysis/output/` since that stage already tracks similar artefacts).
+
+### Carry-forward updated
+
+7. Resolved (logo no longer needed at `06_report/figures/`; template ships its own).
+8. DTU submission extras into `00_admin/` — still pending.
+9. Resolved (template uses XeLaTeX + Arial).
+10. Resolved (Overleaf is the build environment).
+11. Student number `sXXXXXX` still pending (in `dtu-template/Setup/Statics.tex`).
+12. DTU Entrepreneurship address / website verification still pending.
+13. v1 subtitle editorial review still pending.
+14. **Active:** Phase 6 / Batch 19 — promote `dtu-template/*` to `06_report/*` root and rewrite `CLAUDE.md` / `CONTEXT.md`.
+15. **New (post-Batch-18):** Decide whether to track `05_analysis/output/colour-coded-eic-doc.pdf`.
+
