@@ -764,3 +764,35 @@ Phases 1–6 of the DTU template migration are now done:
 
 Other items (3–11) carry forward unchanged.
 
+---
+
+## Batch 21 — Cross-reference manual colour-coded PDF against digital readthrough
+
+**Date:** 2026-05-20
+**Approved by:** user message "I'd like to cross reference this with the @05_analysis/output/Readthrough_Notes_v1.md and create a new document for all the observations this will bring" + three AskUserQuestion confirmations (file location, format, PDF tracking).
+**Type:** New artefacts (corpus PDF + derived cross-reference) + audit trail.
+
+### Files added
+
+| Action | File | Type | Note |
+|---|---|---|---|
+| add | `05_analysis/output/colour-coded-eic-doc.pdf` | corpus artefact (12 MB, 28 pp) | Scan of the analyst's physical, hand-coded copy of the EIC Work Programme 2026 (Pathfinder + STEP sections). Yellow highlights, pink/red underlines, margin labels (`Science`, `Market`, `State`, `Profession`, `Tension`, `Procedural`, `Handover Science→Market`, `State with Market in design`, `No Tension`, `?`, `Flagged for later review`, etc.). Committed as a primary corpus artefact alongside `Readthrough_Notes_v1.md`. Size 12 MB — within plain-git limits; no LFS needed. |
+| add | `05_analysis/output/colour-codes-cross-reference.md` | derived analytical artefact | Per-passage cross-reference table mapping each marked PDF passage to the corresponding readthrough entry [NNN], with agree / partial / diverge / unique columns; followed by narrative observations on convergence, manual-coder coarseness vs. digital fine-grain, the three spontaneous tension-dissolution annotations, shared `[?]` flags, manual margin critique outside the coding scheme, missed Pattern B, procedural-threshold convergence, and Sovereignty Seal portability. Closes with implications for Pass 2. |
+
+### Rationale
+
+The PDF appeared as untracked during Batch 18 (open follow-up item 10 in the Batch 19 consolidated list). User decided to (a) track it as a corpus artefact and (b) cross-reference it against the digital readthrough before Pass 2. The cross-reference is part of the audit trail — it does not modify either source, only records the comparison.
+
+### Convergence summary (from the cross-reference)
+
+- Dominant logic agreement is high across both Pathfinder and STEP sections.
+- Divergence pattern: manual = single dominant logic; digital = multi-logic — consistent with margin-label economy vs. entry-template exhaustiveness.
+- Manual coding spontaneously named the tension-dissolution pattern (Pattern A) in three places without prompt from the codebook.
+- Pattern B (Programme-Manager directive authority) is visible at digital aggregation level but not at single-passage manual level — useful methodological observation.
+
+### Carry-forward updated
+
+10. **Resolved.** PDF tracked; cross-reference written.
+
+Other items (3–9, 11) carry forward unchanged.
+
