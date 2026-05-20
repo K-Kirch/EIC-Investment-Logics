@@ -2,13 +2,11 @@
 # Git ignores for a LaTeX thesis project
 # =============================================================================
 
-# Compiled output. Track figure PDFs, ignore everything else.
+# Compiled output. Track picture/logo PDFs shipped with the template, ignore the rest.
 # (gitignore does not support inline `#` comments — keep them on their own lines.)
 *.pdf
-!figures/*.pdf
-!figures/**/*.pdf
-# DTU template ships its own picture / logo PDFs under Pictures/. Track them.
-!dtu-template/Pictures/**/*.pdf
+# DTU corporate logo PDFs under Pictures/Logos/ must remain tracked.
+!Pictures/**/*.pdf
 
 # Auxiliary files
 *.aux

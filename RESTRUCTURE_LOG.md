@@ -655,3 +655,73 @@ User compiled `06_report/dtu-template/main.tex` on Overleaf with XeLaTeX. Frontp
 14. **Active:** Phase 6 / Batch 19 — promote `dtu-template/*` to `06_report/*` root and rewrite `CLAUDE.md` / `CONTEXT.md`.
 15. **New (post-Batch-18):** Decide whether to track `05_analysis/output/colour-coded-eic-doc.pdf`.
 
+---
+
+## Batch 19 — Promote template to `06_report/` root + rewrite stage docs
+
+**Date:** 2026-05-20
+**Approved by:** user message "proceed with batch 19" after Batch 18 confirmation.
+**Type:** Structural move + content rewrite (final phase of the template migration).
+
+### Phase 6 goal
+
+Eliminate the nested `06_report/dtu-template/` directory so the active build target sits at `06_report/main.tex`. `CLAUDE.md` and `CONTEXT.md` rewritten to describe the new (template-based) layout.
+
+### Moves (27 files, all via `git mv`, basenames preserved)
+
+| Action | Source | Destination |
+|---|---|---|
+| move (git mv) | `06_report/dtu-template/Setup/` | `06_report/Setup/` (3 files: Statics, Preamble, Settings) |
+| move (git mv) | `06_report/dtu-template/Frontmatter/` | `06_report/Frontmatter/` (6 files: Frontpage, Copyright, Approval, Abstract, Acknowledgements, Abbreviations) |
+| move (git mv) | `06_report/dtu-template/Chapters/` | `06_report/Chapters/` (6 files: 01_intro … 06_conclusion) |
+| move (git mv) | `06_report/dtu-template/Backmatter/` | `06_report/Backmatter/` (2 files: 07_appendix, Backpage) |
+| move (git mv) | `06_report/dtu-template/Pictures/` | `06_report/Pictures/` (1 JPG + 6 logo PDFs) |
+| move (git mv) | `06_report/dtu-template/main.tex` | `06_report/main.tex` |
+| move (git mv) | `06_report/dtu-template/bibliography.bib` | `06_report/bibliography.bib` |
+| move (git mv) | `06_report/dtu-template/readme.md` | `06_report/readme.md` |
+
+All 27 moves were reported by git as renames at 100% similarity — full history preserved per-file. The empty `06_report/dtu-template/` directory is left on disk (no git effect) and can be removed manually.
+
+**`main.tex` paths are unchanged.** It loads its inputs with paths like `Setup/Statics.tex`, `Frontmatter/Frontpage.tex`, `Chapters/01_intro.tex`, etc. — these are now relative to `06_report/`, which is exactly where `main.tex` itself lives, so no path rewrite was needed inside any tex file.
+
+### Content edits (3 files)
+
+| Action | File | Note |
+|---|---|---|
+| Edit | `06_report/.gitignore` | Removed obsolete `!figures/*.pdf` and `!figures/**/*.pdf` re-includes (the `figures/` directory was archived in Batch 18). Removed `!dtu-template/Pictures/**/*.pdf` and replaced with `!Pictures/**/*.pdf` to keep the DTU corporate logo PDFs tracked under the new path. All other gitignore rules (aux files, OS junk, todonotes) unchanged. |
+| Rewrite | `06_report/CLAUDE.md` | Full rewrite to describe the template-based layout: XeLaTeX build (was pdfLaTeX); `Setup/`, `Frontmatter/`, `Chapters/`, `Backmatter/`, `Pictures/` subtrees; `bibliography.bib` (numeric style) instead of `references.bib` (authoryear); colour-model switch documented; final-build checklist updated for the template's macros. Section file map redone end-to-end. |
+| Rewrite | `06_report/CONTEXT.md` | Layer 2 stage contract updated. §2 source-of-truth table now points at `Chapters/0X_*.tex` and `Backmatter/07_appendix.tex` (was `sections/`). §3 structure tree rewritten. §4 build instructions switched to `xelatex` / `latexmk -xelatex`. §5 conventions updated (numeric citations, `Pictures/` for figures). §6 rule 9 added: template files stay close to upstream. §8 DTU compliance simplified — most visual identity is now inherited from the template. §9 status updated to reflect the verified Overleaf build. |
+
+### Files unchanged in this batch
+
+The 27 moved files themselves were not edited — only relocated. `main.tex` inputs still resolve because the directory containing `main.tex` *is* the relative root for the input paths it uses. The root project `CLAUDE.md` (Layer 0) still references some v0 paths (e.g. `coding/Readthrough_Notes_v1.md`) and is not touched in this batch — see carry-forward item 1.
+
+### Build verification
+
+User to re-verify on Overleaf by changing _Menu → Settings → Main document_ from `06_report/dtu-template/main.tex` to `06_report/main.tex`. Compiler stays at XeLaTeX. No source changes inside the rendered files, so the produced PDF should be byte-identical (modulo timestamps) to the last good build.
+
+### Migration complete
+
+Phases 1–6 of the DTU template migration are now done:
+
+- Phase 1 (Batch 15): track the official template.
+- Phase 2 (Batch 16): populate Statics + bibliography.
+- Phase 3 (Batch 17): migrate chapter / front-matter / appendix content into the template.
+- Phase 4 (out-of-band): user-verified build on Overleaf.
+- Phase 5 (Batch 18): archive the hand-rolled v1 tree to `_archive/06_report_v1_hand_rolled/`.
+- Phase 6 (Batch 19): promote `dtu-template/*` to `06_report/*` root; rewrite stage docs.
+
+### Open follow-up items (consolidated)
+
+1. **Update internal paths in root `CLAUDE.md` (Layer 0).** Still references `coding/Readthrough_Notes_v1.md`, `my_report/`, etc. — long-standing carry-forward (item 1 since Batch 11).
+2. **Add `synthesis.md` to root CLAUDE.md routing tables** (since Batch 11).
+3. **Distill DARPA content** from `_archive/Global Benchmarking.docx` into `02_theory/_scratch/`.
+4. **Produce a v1 `Project_Plan`** reflecting EIC-only documentary scope.
+5. **Decide on duplicate** `nguyen-welch-2025-...genai (1).pdf`.
+6. **Triage Rise Europe** material currently in `shared/`.
+7. **Fill in personalia** in `06_report/Setup/Statics.tex` — student number `sXXXXXX`, supervisor names; verify DTU Entrepreneurship address / website.
+8. **Editorial review of v1 subtitle** in `06_report/Setup/Statics.tex`.
+9. **DTU submission extras** (project plan, revised plan, auto-evaluation) into `00_admin/`.
+10. **Decide whether to track** `05_analysis/output/colour-coded-eic-doc.pdf`.
+11. **Manually remove** the now-empty `06_report/dtu-template/` directory (Explorer / `rmdir`); no git consequence.
+
