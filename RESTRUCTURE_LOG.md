@@ -725,3 +725,42 @@ Phases 1–6 of the DTU template migration are now done:
 10. **Decide whether to track** `05_analysis/output/colour-coded-eic-doc.pdf`.
 11. **Manually remove** the now-empty `06_report/dtu-template/` directory (Explorer / `rmdir`); no git consequence.
 
+---
+
+## Batch 20 — Refresh root `CLAUDE.md` paths
+
+**Date:** 2026-05-20
+**Approved by:** user message "update root CLAUDE.md paths".
+**Type:** Content edit (single file).
+
+### Change
+
+| Action | File | Note |
+|---|---|---|
+| Rewrite | `CLAUDE.md` (project root, Layer 0) | All routing tables, the folder map, the What-to-Load matrix, and the Stage Handoffs diagram updated to current paths. Resolves carry-forward items 1 and 2 (open since Batch 11). |
+
+### What changed
+
+- Folder map now reflects the actual ICM stage layout (`00_admin/`, `01_literature/references/{academic, policy_grey, …}/`, `02_theory/output/`, `03_corpus/{references, output}/`, `04_codebook/output/`, `05_analysis/output/`, `06_report/`). Old `coding/` / `coding/my_report/` paths removed.
+- Routing table entries:
+  - `Readthrough_Notes_v1.md` → `05_analysis/output/Readthrough_Notes_v1.md`
+  - Both codebooks → `04_codebook/output/`
+  - `Matrix_Logics_QuickReference.md`, `Scott_ThreePillars_DiMaggio_Isomorphism.md` → `02_theory/output/`
+  - LaTeX chapter files → `06_report/Chapters/0X_*.tex` (was `coding/my_report/sections/`)
+  - LaTeX agent guidance → `06_report/CLAUDE.md`
+- New row added for `synthesis.md` (was missing from earlier routing — carry-forward item 2 since Batch 11).
+- What-to-Load table updated end-to-end. `WP2026_extracted.txt` → `03_corpus/output/WP2026_extracted.txt`. `references.bib` (old, hand-rolled) → `06_report/bibliography.bib` (template). `my_report/` references replaced with `06_report/Chapters/`.
+- Stage Handoffs diagram now points Pass 3 output at `06_report/Chapters/ + 06_report/Backmatter/07_appendix.tex` (was `my_report/sections/`).
+- Build command updated to `latexmk -xelatex main.tex` (was `latexmk -pdf main.tex`) to reflect the template's XeLaTeX requirement.
+
+### Files unchanged
+
+`06_report/CLAUDE.md`, `06_report/CONTEXT.md` — already rewritten in Batch 19. All other stage CONTEXT.md files unchanged.
+
+### Carry-forward updated
+
+1. **Resolved.** Root `CLAUDE.md` paths now current.
+2. **Resolved.** `synthesis.md` added to routing.
+
+Other items (3–11) carry forward unchanged.
+
