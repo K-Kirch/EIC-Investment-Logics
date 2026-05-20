@@ -796,3 +796,19 @@ The PDF appeared as untracked during Batch 18 (open follow-up item 10 in the Bat
 
 Other items (3–9, 11) carry forward unchanged.
 
+---
+
+## Batch 22 — Track project README
+
+**Date:** 2026-05-20
+**Approved by:** user message "Great, push all untracked changes, incl. the @README.md".
+**Type:** New file.
+
+### Files added
+
+| Action | File | Note |
+|---|---|---|
+| add | `README.md` | Top-level project README — title, RQ, theoretical framework, analytical pipeline (3-pass), repository layout, build instructions, Pass 1 findings summary, status, licence note. Public face of the repository on the Git host. |
+
+No content changes elsewhere.
+
