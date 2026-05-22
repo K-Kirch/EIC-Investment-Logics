@@ -13,13 +13,19 @@
 
 | Mark | Meaning |
 |---|---|
-| Yellow highlight | Passage of analytical interest |
-| Pink/red underline | Key term within a highlighted passage |
+| Yellow highlight | Word-level signal of `LOGIC_STATE` |
+| Blue highlight | Word-level signal of `LOGIC_MARKET` |
+| Purple highlight | Word-level signal of `LOGIC_SCIENCE` |
+| Orange highlight | Word-level signal of `LOGIC_PROFESSION` |
+| Mixed highlight | Co-presence of logics at word level (e.g., yellow + blue = State + Market) |
+| Pink/red underline | "Remember for second readthrough" — not a coding; flags potential pattern-evidence to revisit in Pass 2 |
 | Margin bracket | Boundary of the coded passage |
-| Margin label | Logic or status: `Science`, `Market`, `State`, `Profession`, `Tension`, `Procedural`, `Informative/Procedural`, `Note` |
+| Margin label | Explicit passage-level coding decision: `Science`, `Market`, `State`, `Profession`, `Tension`, `Procedural`, `Informative/Procedural`, `Note` |
 | Compound label | `Handover Science→Market`, `State with Market in design`, `No Tension`, `Primarily Procedural — Science` |
 | Status flag | `?`, `Flagged for later review`, `what does this mean?`, `Maybe State` (parenthetical hedge) |
 | Margin commentary | Substantive notes outside the coding scheme (e.g., `Very out of touch with current capabilities…`) |
+
+**How to read highlight + margin together.** A passage's highlight colour(s) and its margin label are complementary, not redundant: the highlight identifies the specific words that gave rise to the coding; the margin label is the analyst's passage-level coding decision after weighing those signals against the threshold (Rule 7 of the codebook — logic must organise the passage). A passage may carry highlight colour without a margin label; that means the analyst registered the word-level signal but judged it sub-threshold for explicit coding. Pink/red underlines stand outside this coding/threshold structure: they are "remember" marks the analyst placed on words or phrases worth revisiting in the inductive pass, irrespective of whether the surrounding passage was coded.
 
 ---
 
@@ -68,7 +74,7 @@ PDF Page = scanned page number; WP Page = Work Programme page; Entry = correspon
 | 13 | 26 | II.1 Pathfinder Open opening | [040] | Science | LOGIC_SCIENCE | ✓ | Full agreement |
 | 13 | 26 | Three "Do you have / Do you see / Can you imagine" bullets | [041] | Procedural | None — applicant-facing pitch | ✓ | Both treat as below threshold |
 | 13 | 26 | "Why should you apply?" paragraph | [042] | (no label) | LOGIC_SCIENCE | ⊖ | Digital codes; manual unlabelled |
-| 14 | 28 | "empower female researchers, gender balance" | [042] cont. | underlined | LOGIC_STATE (folded into [042]) | ⊖ | Manual marks the lexical signal; digital folds into surrounding entry |
+| 14 | 28 | "empower female researchers, gender balance" | [042] cont. | pink/red underline (no margin label) | LOGIC_STATE (folded into [042]) | ⊖ | Manual flags the phrase for Pass 2 revisit rather than coding it; digital folds it into the surrounding entry. Convergence on relevance but via different mechanisms |
 | 14 | 28 | Consortium eligibility (three legal entities) | [048] | Procedural | None — procedural | ✓ | Full agreement |
 | 14 | 28 | Euratom + communication networks restriction | [049] | Procedural | None — primarily procedural | ✓ | Full agreement |
 | 14 | 28 | Budget and lump sum mechanics | [050] | Procedural | None — primarily procedural | ✓ | Full agreement |
@@ -169,7 +175,7 @@ PDF p. 22, on the DeepRAP "Background and Scope" paragraph, the margin reads: _"
 
 ### 6. Manual coding misses Pattern B (Programme-Manager directive authority)
 
-PDF p. 7 (WP p. 14, proactive-management bullets) is highlighted but un-labelled in the margin. The digital readthrough identifies this as Pattern B — Programme Manager soft-coercive authority over portfolios, roadmaps, and project continuation — across entries [024]–[027]. The pattern was not legible to the manual coder at the level of a single passage; it emerged from accumulating multiple passages in the digital pass. This is a useful asymmetry to note in the methodology chapter: aggregated coding surfaces patterns that single-passage reading does not.
+PDF p. 7 (WP p. 14, proactive-management bullets) carries highlighting but no margin label across entries [024]–[027]. Under the corrected legend the highlight colour itself is a word-level logic signal, so the analyst did register *something* on each of these passages — but the signals never accumulated into a margin-labelled coding decision. The digital readthrough identifies the same passages as Pattern B — Programme Manager soft-coercive authority over portfolios, roadmaps, and project continuation. The pattern was thus legible at the lexical level but sub-threshold for explicit margin coding; it only crystallised once multiple passages were juxtaposed in the digital pass. This is a useful asymmetry to note in the methodology chapter: aggregated coding promotes word-level signals into named patterns that single-passage margin labelling does not. (The specific highlight colours on these bullets should be re-verified during Pass 2 to confirm which logic combination — likely orange + yellow — the analyst saw at word level.)
 
 ### 7. "Procedural" is reliably recognised in both modalities
 
@@ -183,13 +189,19 @@ PDF pp. 26–27 (entries [148], [161]) carry "State" margin labels on every pass
 
 ## Implications for the inductive pass (Pass 2)
 
-1. **Treat manual single-logic labels where digital codes two as a sub-threshold prompt.** When the manual label is X and the digital reading is X + Y, ask whether Y survives a stricter reading of Rule 7 (logic must organise the passage).
-2. **Add the three manual tension-dissolution annotations** ("Handover Science→Market", "State with Market in design", "No Tension") **to the Pattern A evidence set in `Readthrough_Notes_v1.md`** under Emerging Analytical Patterns.
-3. **Carry the substantive margin notes** (DeepRAP critique; "what does this mean?"; "Maybe State") **into the Findings draft as analyst voice** — they are not coding decisions but interpretive registers worth preserving.
-4. **No revisions to existing codings are forced by this cross-reference.** The exercise is corroborative.
+1. **Treat manual single-logic labels where digital codes two as a sub-threshold prompt.** When the manual label is X and the digital reading is X + Y, ask whether Y survives a stricter reading of Rule 7 (logic must organise the passage). Under the corrected legend, this check is sharper: a passage manually labelled "State" but additionally highlighted in blue at word level is itself evidence that the analyst registered a market signal and judged it sub-threshold — the digital "State + Market" reading is then either a recovery of that sub-threshold signal (legitimate) or an over-reading (to be revised).
+2. **Inventory pink/red underlines as a Pass 2 evidence stream.** The corrected legend makes underlines a first-class artefact: they are the analyst's deliberate "revisit in Pass 2" marks. Every underlined phrase in the PDF should be catalogued and checked against the emerging analytical patterns — particularly Pattern A (tension-dissolution), Pattern B (Programme-Manager directive authority), the TRL-as-disguise reading, and Sovereignty-Seal portability — to see which patterns the underlines independently corroborate.
+3. **Re-verify highlight colours on rows currently marked "(boxed, no label)" or "(no label)".** These are passages the analyst registered at word level but did not promote to a coded margin label. Recording the colour(s) on each such row would convert the current ⊖ asymmetry (digital codes; manual unlabelled) into a finer reading: digital codes X; manual saw X at word level but kept it sub-threshold. This is methodologically valuable for the inductive pass.
+4. **Add the three manual tension-dissolution annotations** ("Handover Science→Market", "State with Market in design", "No Tension") **to the Pattern A evidence set in `Readthrough_Notes_v1.md`** under Emerging Analytical Patterns.
+5. **Carry the substantive margin notes** (DeepRAP critique; "what does this mean?"; "Maybe State") **into the Findings draft as analyst voice** — they are not coding decisions but interpretive registers worth preserving.
+6. **No revisions to existing codings are forced by this cross-reference.** The exercise is corroborative.
 
 ---
 
 ## Audit-trail note
 
 This document is part of the audit trail; it is appended, not edited in place. The PDF (`colour-coded-eic-doc.pdf`) is committed alongside the digital `Readthrough_Notes_v1.md` as a primary corpus artefact. Both are immutable from this point forward; any revisions appear as new addenda below.
+
+### Addendum — legend correction
+
+An earlier version of this cross-reference misread the PDF's highlight legend, treating yellow as a generic "passage of interest" mark and pink/red underlines as "key terms within highlighted passages." The correct legend, supplied by the analyst, is colour-coded by logic: **yellow = LOGIC_STATE, blue = LOGIC_MARKET, purple = LOGIC_SCIENCE, orange = LOGIC_PROFESSION**, with mixed highlights signalling logic co-presence at word level. Pink/red underlines are not codings at all but "remember for second readthrough" marks. The legend block, the framing paragraph on highlight + margin semantics, the one row referencing an underlined phrase, Narrative observation 6, and the Implications for Pass 2 have been updated to reflect this. Margin labels remain the authoritative manual codings; the per-passage table and match verdicts are otherwise unchanged because they were built from margin labels rather than highlight colours. The substantive correction is to the *meaning* of the colour signals, which now carry their own information about word-level logic presence — particularly relevant for rows previously marked ⊖ (highlighted but un-labelled), which should be re-verified for highlight colour during Pass 2.
