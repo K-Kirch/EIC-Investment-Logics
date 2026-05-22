@@ -78,6 +78,186 @@ for each instrument; (ii) structured comparison along the dimensions of the
 framework.}
 
 %==============================================================================
+\section{Use of generative AI in the research process}
+\label{sec:meth-genai}
+
+The thesis was produced with the systematic support of a generative-AI
+(GenAI) assistant.\footnote{Anthropic's \emph{Claude} family of large
+language models, accessed via the \emph{Claude Code} command-line interface.
+\todoinline{Insert the specific model versions used (e.g.\ Claude Sonnet 4.5
+and Opus 4.6) and the period of use.}} Because the field is moving quickly
+and the methodological literature is unsettled, this section states the
+position taken, describes exactly how the tool was used, and explains how
+the analytical work was kept anchored to the researcher's interpretive
+judgement.
+
+\subsection{Position taken in an unsettled debate}
+\label{sec:meth-genai-position}
+
+The qualitative-methods literature on GenAI ranges from cautious
+enthusiasm to principled refusal. \textcite{zhang2024redefining} and
+similar contributions in the human--computer-interaction tradition show
+that a well-designed prompt framework can extend the productivity of
+thematic analysis and surface themes that human coders initially
+overlooked. \textcite{chatzichristos2025qualitative} warns that the same
+move risks a tacit return to positivism: by treating coding as a
+repeatable, data-driven operation, the researcher cedes the reflexive,
+interpretive work that defines the constructivist tradition.
+\textcite{nguyen2025engaged}, writing from a responsible-research
+perspective, go further and argue against any interposition of a GenAI
+model between the researcher and the empirical material, on the grounds
+that meaning is constituted in the slow, embodied work of reading and
+re-reading.
+
+I take an intermediate position. GenAI is treated here as an
+\emph{instrument of the researcher} --- comparable in spirit to qualitative
+data-analysis software (e.g.\ MAXQDA, NVivo) but with a different operating
+logic --- and not as a co-analyst. The interpretive moves that anchor the
+study (the institutional-theory readings of Pathfinder and STEP, the
+identification of patterns such as logic succession and
+tension-dissolution, and the framing of TRL as institutional disguise)
+were made by the researcher. The tool was used to accelerate the
+mechanical surroundings of those moves: locating passages, maintaining a
+consistent codebook, re-formatting notes into a uniform entry schema,
+drafting candidate prose for review, and surfacing comparisons across
+entries. Where Nguyen and Welch's warning applies most directly --- the
+delegation of pattern identification to the model --- the workflow was
+deliberately built so that the model proposes and the researcher
+disposes.
+
+\subsection{Tools and tasks}
+\label{sec:meth-genai-tasks}
+
+The assistant was used for five categories of task across the project,
+each of which is documented in the audit trail
+(\cref{sec:meth-genai-audit}):
+
+\begin{enumerate}[leftmargin=*]
+  \item \textbf{Codebook construction.} The deductive codebooks in
+        \texttt{04\_codebook/output/} (Scott's three pillars + DiMaggio
+        \& Powell's isomorphism types; the four institutional logics
+        following Thornton et al.) were drafted by the assistant from
+        researcher-supplied definitions, then revised by the researcher
+        against the primary literature before being applied.
+  \item \textbf{Corpus preparation.} The 188-page EIC Work Programme
+        2026 PDF was converted to a plain-text working copy
+        (\texttt{03\_corpus/output/WP2026\_extracted.txt}) to support
+        verbatim quotation and search. No interpretive transformation
+        was performed at this step.
+  \item \textbf{Deductive readthrough (Pass 1).} For each numbered entry
+        in \texttt{Readthrough\_Notes\_v1.md}, the assistant produced
+        a candidate coding against the institutional-theory framework,
+        flagged ambiguous passages with \texttt{[?]} markers, and
+        recorded emerging patterns. Every entry was reviewed, edited
+        or rejected by the researcher before it was retained.
+  \item \textbf{Synthesis across entries.} Once Pass 1 covered a
+        sufficient stretch of the corpus, the assistant was asked to
+        identify recurring patterns across entries
+        (\texttt{05\_analysis/output/synthesis.md}). These were treated
+        as candidate observations, to be confirmed, refined or
+        discarded against the underlying entries.
+  \item \textbf{Drafting and editing.} Chapter prose, LaTeX scaffolding
+        and bibliography management were drafted with assistance and
+        then revised by the researcher. No claim, citation or finding
+        appears in the final text without independent verification
+        by the researcher.
+\end{enumerate}
+
+The assistant was explicitly \emph{not} used to: generate or simulate
+empirical material; produce coded entries that were retained without
+human review; or formulate the central theoretical argument of the
+thesis.
+
+\subsection{Division of cognitive labour}
+\label{sec:meth-genai-labour}
+
+The workflow was structured around a deliberate division of labour
+between researcher and tool. \cref{tab:meth-ai-division} summarises the
+allocation.
+
+\begin{table}[ht]
+  \centering
+  \caption{Division of cognitive labour between researcher and GenAI
+  assistant.}
+  \label{tab:meth-ai-division}
+  \begin{tabular}{p{0.45\linewidth} p{0.45\linewidth}}
+    \toprule
+    \textbf{Researcher} & \textbf{GenAI assistant} \\
+    \midrule
+    Research question and theoretical framing & Locating relevant passages in the corpus \\
+    Selection of theoretical sources           & Drafting candidate codings against the codebook \\
+    Final coding decisions                     & Maintaining schema and formatting consistency \\
+    Identification and naming of patterns      & Cross-entry comparison and tabulation \\
+    Interpretive argument                      & Drafting prose for researcher review \\
+    Citation accuracy and source fidelity      & Bibliography formatting \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+This division reflects the position stated above: the model accelerates
+work that is structured, repetitive or generative-of-candidates; the
+researcher retains every act of judgement on which the validity of the
+analysis depends.
+
+\subsection{Verification, audit trail and reproducibility}
+\label{sec:meth-genai-audit}
+
+Three practices were used to keep the AI-assisted workflow auditable.
+
+First, all artefacts produced with assistance are version-controlled in
+a Git repository covering the full project tree, with an append-only
+audit log (\texttt{RESTRUCTURE\_LOG.md}) that records substantive
+reorganisations. The numbered readthrough entries
+(\texttt{Readthrough\_Notes\_v1.md}) form a chronological record of
+every coded passage; their stable numbering means any finding in
+\cref{ch:results} can be traced back to the entry from which it
+derives, and from there to the verbatim passage in the primary source.
+
+Second, candidate codings produced by the assistant were treated as
+proposals and reviewed against the codebook. Where the model's
+suggestion was ambiguous or did not fit cleanly, the entry was flagged
+with a \texttt{[?]} marker and resolved during the inductive Pass 2.
+The set of resolved flags is itself documented and is included as an
+appendix excerpt (\cref{app:audit}).
+
+Third, no quotation, citation or factual claim in this thesis appears
+without direct verification by the researcher against the primary
+source. The full text of the EIC Work Programme 2026 is held locally
+and was the canonical reference at every step; secondary literature was
+read in the original rather than via summarisation by the assistant.
+This addresses the well-documented risk of fabricated citations and
+factual drift in large-language-model outputs
+\parencite{nguyen2025engaged}.
+
+\subsection{Limitations and risks of AI assistance}
+\label{sec:meth-genai-limits}
+
+Three limitations are acknowledged. (i)~\emph{Latent positivist drift.}
+\textcite{chatzichristos2025qualitative} argues that AI-assisted coding
+can quietly re-import the assumption that meaning resides in the text
+and is recoverable by repeatable procedure. This is mitigated, but not
+eliminated, by the design of the workflow: the researcher retains all
+interpretive moves, and the institutional-logics framework is itself
+explicitly constructivist about the social fabrication of categories.
+(ii)~\emph{Anchoring on first-pass codings.} Even where the researcher
+revises a model-generated coding, the initial suggestion may bias the
+direction of attention. The inductive Pass 2 was introduced partly to
+counter this anchoring by re-reading entries against unresolved
+questions rather than against the original coding. (iii)~\emph{Opacity
+of the model.} The model's reasoning is not directly inspectable, and
+the conditions of its training are only partially known. For this
+reason the assistant is treated as a fallible drafting collaborator
+whose outputs require verification, not as an independent source of
+evidence.
+
+This section is intended to satisfy the responsible-use expectations
+that are emerging across the qualitative-research community --- including
+the editorial guidance of the Academy of Management and similar bodies
+--- which call for transparent disclosure of GenAI use, a clear statement
+of researcher responsibility for the final text, and an account of how
+risks to integrity and interpretation were managed.
+
+%==============================================================================
 \section{Trustworthiness and quality criteria}
 \label{sec:meth-quality}
 \todoinline{Address Lincoln \& Guba's four criteria: credibility
