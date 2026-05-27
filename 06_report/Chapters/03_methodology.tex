@@ -1,81 +1,99 @@
 %==============================================================================
 %  Chapter 3 — Methodology
 %
-%  Structure follows the standard qualitative-research reporting template:
-%   1. Research philosophy / paradigm
-%   2. Research design (documentary qualitative case study)
-%   3. Case selection and units of analysis
-%   4. Data sources (Work Programme corpus)
-%   5. Data analysis (deductive + inductive coding, framework application)
-%   6. Trustworthiness (credibility, transferability, dependability,
-%      confirmability)
-%   7. Ethical considerations
-%   8. Reflexivity and limitations
+%  Structure:
+%   1. Research philosophy
+%   2. Research design (documentary qualitative case analysis)
+%   3. Document corpus
+%   4. Analytical procedure (three-pass deductive → inductive → synthesis)
+%   5. Use of generative AI in the research process
+%   6. Trustworthiness and quality criteria
+%   7. Reflexivity, ethics and methodological limitations
 %==============================================================================
 \chapter{Methodology}
 \label{ch:methodology}
 
 \section*{Chapter overview}
 \todoinline{One paragraph: the chapter justifies a documentary qualitative
-case study and details the data and analytical procedures.}
+case analysis and details the corpus, the three-pass analytical procedure,
+and the use of generative AI in the workflow.}
 
 %==============================================================================
 \section{Research philosophy}
 \label{sec:meth-philosophy}
 \todoinline{State your ontological and epistemological position
 (interpretivist / constructionist is the typical pairing for an
-institutional-logics study). Justify in 1--2 paragraphs.}
+institutional-logics study). Justify in 1--2 paragraphs and connect to
+the framework in Chapter~\ref{ch:background}.}
 
 %==============================================================================
-\section{Research design}
+\section{Research design: documentary qualitative case analysis}
 \label{sec:meth-design}
-
-\subsection{Documentary qualitative case study}
-\label{sec:meth-design-documentary}
-\todoinline{Explain why a documentary case design is appropriate
-(\textcite{eisenhardt1989building}; \textcite{yin2018case}). Distinguish your
-\emph{cases} (Pathfinder, STEP) from your \emph{units of analysis}
-(text passages within the EIC Work Programme 2026).}
-
-\subsection{Case selection rationale}
-\label{sec:meth-cases}
-\todoinline{Use a polar / contrast logic if possible: same institutional
-home, contrasting investment logics. Justify the comparability of the two
-cases (timing, governance, instrument type).}
+\todoinline{Justify a documentary case design
+(\textcite{eisenhardt1989building}; \textcite{yin2018case}). Distinguish
+the \emph{cases} (Pathfinder, STEP) from the \emph{units of analysis}
+(text passages in the EIC Work Programme 2026). State the contrast
+logic — same institutional home, different positions in the innovation
+pipeline (TRL~1--4 vs.\ commercialisation-ready) — and note that the
+documentary design constrains the questions the study can answer
+(what is \emph{inscribed} in the text, not what is enacted in practice).}
 
 %==============================================================================
-\section{Data sources}
-\label{sec:meth-data}
-
-\subsection{Document corpus}
-\label{sec:meth-docs}
-\todoinline{Primary source: EIC Work Programme 2026 (Pathfinder and STEP Scale
-Up sections). Supplementary: STEP Regulation (EU) 2024/795, EIC Board reports,
-EU Court of Auditors reports where relevant. Document how the corpus was
-compiled and version-controlled.}
-
-\subsection{Secondary data}
-\label{sec:meth-secondary}
-\todoinline{Funded-project databases (CORDIS, EIC dashboard) used for
-triangulation only, not coding.}
+\section{Document corpus}
+\label{sec:meth-corpus}
+\todoinline{Primary source: EIC Work Programme 2026 (Pathfinder and
+STEP Scale Up sections). Cited legal instruments: STEP Regulation
+(EU) 2024/795; Establishing Horizon Europe Regulation. Document how
+the corpus was compiled, version-controlled (git repository with
+append-only audit log), and how the PDF was converted to plain text
+for search and quoting. The full corpus is tabulated in
+Appendix~\ref{app:doc-corpus}.}
 
 %==============================================================================
-\section{Data analysis}
+\section{Analytical procedure}
 \label{sec:meth-analysis}
 
-\subsection{Coding strategy}
-\label{sec:meth-coding}
-\todoinline{Hybrid deductive--inductive coding. Pass 1 deductive against
-the institutional-theory codebook (Scott's three pillars, DiMaggio \& Powell
-isomorphism types, Thornton et al.'s institutional logics). Pass 2 inductive
-to resolve \texttt{[?]} flags and develop pattern-level observations
-(Gioia-style — \textcite{gioia2013seeking}).}
+\todoinline{Introductory paragraph: the analysis runs in three sequential
+passes. Each pass feeds the next; the procedure is recorded in an
+append-only audit trail so any finding in Chapter~\ref{ch:results} can
+be traced back to the entry it derives from and from there to the
+verbatim passage in the primary source.}
 
-\subsection{Within-case and cross-case analysis}
-\label{sec:meth-cross-case}
-\todoinline{Describe the two analytical passes: (i) within-case narrative
-for each instrument; (ii) structured comparison along the dimensions of the
-framework.}
+\subsection{Pass 1 --- Deductive readthrough}
+\label{sec:meth-pass1}
+\todoinline{Pass~1 applied the deductive codebooks
+(Appendix~\ref{app:codebook-deductive}) to the corpus: Scott's three
+pillars and DiMaggio \& Powell's isomorphism types
+(\texttt{Codebook\_v1\_Deductive.md}), and Thornton et al.'s four
+institutional logics (\texttt{Codebook\_Logics\_v1\_Deductive.md}).
+Each numbered entry in \texttt{Readthrough\_Notes\_v1.md} pairs a
+verbatim passage with its codings; ambiguous passages were flagged
+with \texttt{[?]} markers for resolution in Pass~2. The first pass
+followed a conservative standard: a logic was coded only where it
+clearly \emph{organised} the passage, not merely where its vocabulary
+was present.}
+
+\subsection{Pass 2 --- Inductive update}
+\label{sec:meth-pass2}
+\todoinline{Pass~2 resolved the \texttt{[?]} flags from Pass~1 against
+the codebooks and developed pattern-level observations (Gioia-style
+data structure --- \textcite{gioia2013seeking}). Inductive codes that
+emerged in Pass~2 are documented in
+Appendix~\ref{app:codebook-inductive}. The resolved set of flags and
+the developed patterns are recorded in
+\texttt{Readthrough\_Notes\_v1.md}.}
+
+\subsection{Pass 3 --- Synthesis and writing}
+\label{sec:meth-pass3}
+\todoinline{Pass~3 produced the cross-entry synthesis
+(\texttt{synthesis.md}) on which Chapter~\ref{ch:results} draws
+directly. The synthesis tabulates the logic profile by section and
+organises the findings into named patterns (Pattern A
+tension-dissolution; Pattern B coercive governance cluster; Pattern C
+state social-equity template; Pattern D Challenge-chapter logic
+succession template) plus STEP-specific dynamics. The chapter-level
+discussion in Chapter~\ref{ch:discussion} draws on the synthesis
+rather than re-reading the corpus.}
 
 %==============================================================================
 \section{Use of generative AI in the research process}
@@ -218,7 +236,7 @@ proposals and reviewed against the codebook. Where the model's
 suggestion was ambiguous or did not fit cleanly, the entry was flagged
 with a \texttt{[?]} marker and resolved during the inductive Pass 2.
 The set of resolved flags is itself documented and is included as an
-appendix excerpt (\cref{app:audit}).
+appendix excerpt (\cref{app:audit-trail}).
 
 Third, no quotation, citation or factual claim in this thesis appears
 without direct verification by the researcher against the primary
@@ -261,27 +279,26 @@ risks to integrity and interpretation were managed.
 \section{Trustworthiness and quality criteria}
 \label{sec:meth-quality}
 \todoinline{Address Lincoln \& Guba's four criteria: credibility
-(triangulation across document classes), transferability (thick description),
-dependability (the codebook + readthrough audit trail), confirmability
-(reflexive memos).}
+(triangulation against the analyst's hand-coded manual cross-reference,
+\texttt{colour-codes-cross-reference.md}); transferability (thick
+description and verbatim quotation throughout); dependability (the
+codebook plus the append-only readthrough audit trail); confirmability
+(reflexive memos in entries and the explicit researcher--AI division
+of labour stated in \cref{sec:meth-genai-labour}).}
 
 %==============================================================================
-\section{Ethical considerations}
-\label{sec:meth-ethics}
-\todoinline{Documentary-only design avoids the human-subjects ethics concerns
-of interview research. Briefly note responsible-use considerations around
-publicly available EU documents.}
-
-%==============================================================================
-\section{Reflexivity}
+\section{Reflexivity, ethics and methodological limitations}
 \label{sec:meth-reflexivity}
-\todoinline{Reflect on your own positionality — DTU affiliation, prior
-exposure to EIC processes, etc. — and how it shaped interpretation.}
-
-%==============================================================================
-\section{Methodological limitations}
-\label{sec:meth-limitations}
-\todoinline{Anticipate the limitations the reader will raise — single-source
-documentary design, contemporaneous data on a moving target (STEP only just
-operational), language coverage. Distinguish from substantive limitations
-(kept for the conclusion chapter).}
+\todoinline{(i)~\textbf{Reflexivity.} Positionality --- DTU affiliation,
+prior exposure to EIC processes, the analyst's prior orientation toward
+developmental-state readings of industrial policy --- and how it shaped
+interpretation. (ii)~\textbf{Ethics.} A documentary-only design on
+publicly available EU documents avoids the human-subjects ethics
+concerns of interview research; the responsible-use questions that
+remain concern the use of generative AI, addressed in
+\cref{sec:meth-genai}. (iii)~\textbf{Methodological limitations.}
+Single-source documentary scope; contemporaneous data on a moving
+target (STEP only recently operational); English-language coverage
+only; the conservative single-coder design (compensated for by the
+manual cross-reference). Substantive limitations of the findings are
+distinguished from these and kept for Chapter~\ref{ch:conclusion}.}

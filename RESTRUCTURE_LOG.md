@@ -886,3 +886,31 @@ Routing, Triggers, What-to-Load, Build command — all already current as of Bat
 
 `coding/`, `Literature/`, `QDA/`, `Rise Europe/` remain at the repo root as near-empty husks (contents moved out in Batches 01–06; the empty parent directories were never removed because git does not track empty directories). Cleanup left for a separate decision.
 
+---
+
+## Batch 27 — Restructure Chapters 1–6 against Pass 1 findings and DTU LOs
+
+**Date:** 2026-05-27
+**Approved by:** user message "Please update the Ch 1-6 restructure and push to Github" following review of the DTU MSc thesis guidelines and an earlier content-structure review.
+**Type:** Content edit (six files; one full rewrite, several targeted edits, one appendix update).
+
+### Rationale
+
+The pre-existing chapter scaffolding predated Pass 1 and so did not reflect (a) the four named patterns (A–D), (b) the STEP-specific findings (circular market validation, Sovereignty Seal, mimetic isomorphism), (c) the developmental-state reading, or (d) the documentary scope of the sub-questions. DTU does not prescribe a chapter structure beyond the six MSc Technology Entrepreneurship Learning Outcomes; the binding constraint is internal coherence with the empirical findings and explicit coverage of LO3 (sustainability). This batch realigns the chapters with the synthesis and the LOs while preserving the verbatim methodology section on generative AI use drafted in Batch 23.
+
+### Changes by file
+
+| File | Action | Note |
+|---|---|---|
+| `06_report/Chapters/01_intro.tex` | Edit (merged with Overleaf RQ revision `19f2e2a`) | §1.1 Background and motivation: absorbs the Overleaf framing on the EU productivity gap and the reformist-turn paradox (US/China/EU context) as motivational prose. §1.3 Research question and sub-questions: retains the documentary-scope main RQ (Pathfinder $\leftrightarrow$ STEP within the EIC, lens of institutional theory) and the four documentary sub-questions (inscribed logics; legitimacy construction; STEP reconfiguring state/market; model of public investment). Hybrid resolution chosen by the user after surfacing the conflict between the Overleaf comparative framing and the documentary scope of the empirical material. |
+| `06_report/Chapters/02_background.tex` | Write (full rewrite) | New 2.1–2.10 structure: condensed EIC orientation, instrument-specific sections for Pathfinder and STEP/Sovereignty Seal, institutional logics as primary lens, isomorphism, legitimacy, Scott pillars as subsidiary, mission-oriented investment/developmental state, analytical framework synthesis. Removed Institutional Work section (no longer used in the analysis). |
+| `06_report/Chapters/03_methodology.tex` | Edit (×3) | (i) Sections 3.1–3.4 replaced with three-pass structure (Pass 1 deductive / Pass 2 inductive / Pass 3 synthesis) and removal of Secondary-data subsection; (ii) cross-reference `\cref{app:audit}` corrected to `\cref{app:audit-trail}`; (iii) Ethics + Reflexivity + Limitations merged into single closing section. §3.5 (Use of generative AI, drafted Batch 23) preserved verbatim. |
+| `06_report/Chapters/04_results.tex` | Write (full rewrite) | New 4.1–4.9 structure mirroring `05_analysis/output/synthesis.md`: logic profile table; Patterns A–D each in their own section; STEP-specific dynamics (vocabulary, circular validation, Sovereignty Seal, mimetic isomorphism); TRL as institutional disguise; sustainability entry mechanisms (addresses LO3). |
+| `06_report/Chapters/05_discussion.tex` | Write (full rewrite) | New 5.1–5.9 structure interpreting each finding cluster through one framework construct: logic succession as institutional design; tension-dissolution as cognitive-legitimacy work; coercive governance through Scott regulative pillar; TRL as cognitive-pillar disguise; STEP as developmental-state instrument (three subsections); rival explanations (VoC / realpolitik / path-dependence); theoretical contributions; practical implications; boundary conditions. |
+| `06_report/Chapters/06_conclusion.tex` | Unchanged | Existing skeleton already aligned with reframed RQ and contributions. |
+| `06_report/Backmatter/07_appendix.tex` | Edit (×2) | (i) D03 in corpus table populated: "Establishing Horizon Europe — Regulation (EU) 2021/695"; (ii) "Supplementary tables and figures" appendix removed (no scoped content; appendices A–D suffice). |
+
+### Files unchanged
+
+`Frontmatter/*`, `Setup/*`, `Backmatter/Backpage.tex`, `bibliography.bib`, `main.tex`. Bibliography cleanup (e.g.\ removal of `lawrence2006institutions`, cited only by the removed Institutional Work section) deferred to a separate batch.
+
