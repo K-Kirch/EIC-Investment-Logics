@@ -839,3 +839,50 @@ No content changes elsewhere.
 
 Git commits `ff755cd` (Batch 23 — Draft methodology section on use of generative AI) and `ac5c584` (Batch 24 — Correct colour-codes cross-reference legend) are not represented in this log. Surfacing for the user; retroactive entries would need explicit approval.
 
+---
+
+## Batch 26 — Refresh root `CLAUDE.md` (Layer 0)
+
+**Date:** 2026-05-27
+**Approved by:** user message "Great, please implement the plan" (same three-commit sync plan as Batch 25).
+**Type:** Content edit (single file).
+
+### Change
+
+| Action | File | Note |
+|---|---|---|
+| Edit | `CLAUDE.md` (project root, Layer 0) | Folder Map, Stage Handoffs, and Project Context updated to match current repo state. Targeted edits, not a full rewrite. |
+
+### What changed
+
+**Folder Map** — added previously omitted top-level and stage-level entries:
+
+- `README.md` (added in Batch 22 but not reflected in Folder Map).
+- Stage-level `CONTEXT.md` stubs under `00_admin/`, `01_literature/`, `02_theory/`, `05_analysis/`, `06_report/` (created in Batch 00; never surfaced in the map).
+- `_scratch/` subfolders under `02_theory/` and `05_analysis/`.
+- `_archive/`, `_config/`, `shared/`, `skills/` top-level folders (created Batch 00; mentioned in `CONTEXT.md` since Batch 25 but absent from the map).
+- `02_theory/output/Matrix_Logics_QuickReference.html` (rendered derivative kept per no-delete rule).
+- `03_corpus/references/EIC-Work-Programme-2026.pdf` (full 188-pp source) and `Establishing Horizon Europe — Regulation...pdf` (cited legal instrument) — both moved in Batch 02 but not listed in the map.
+- `05_analysis/output/colour-coded-eic-doc.pdf` and `colour-codes-cross-reference.md` (added in Batch 21).
+- `CONTEXT.md` description corrected from "Layer 1 routing stub" → "Layer 1, workspace context + stage map" (no longer a stub after Batch 25).
+
+**Stage Handoffs** — pass-status markers updated:
+
+- Pass 1: "← finishing" → "← finished (180 entries + synthesis)".
+- Pass 2: "← next" → "← current".
+- Pass 3: "← not started" → "← Ch 3 methodology drafted; Chs 1, 2, 4–6 pending Pass 2" (reflects Batch 23 draft).
+
+**Project Context — Key working findings** — extended:
+
+- Pattern labels (A/B/C) now made explicit (Tension-Dissolution, Coercive Governance, Social Equity Template).
+- Added Pattern D (Challenge Chapter Logic Succession Template) flagged for formalisation in Pass 2.
+- Added the STEP circular-market-validation finding (synthesis §2.7).
+
+### Files unchanged
+
+Routing, Triggers, What-to-Load, Build command — all already current as of Batch 20.
+
+### Legacy folders still on disk (not addressed here)
+
+`coding/`, `Literature/`, `QDA/`, `Rise Europe/` remain at the repo root as near-empty husks (contents moved out in Batches 01–06; the empty parent directories were never removed because git does not track empty directories). Cleanup left for a separate decision.
+
