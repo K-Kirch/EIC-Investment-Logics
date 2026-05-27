@@ -812,3 +812,30 @@ Other items (3–9, 11) carry forward unchanged.
 
 No content changes elsewhere.
 
+---
+
+## Batch 25 — Refresh root `CONTEXT.md` (Layer 1)
+
+**Date:** 2026-05-27
+**Approved by:** user message "Great, please implement the plan" (responding to a three-commit sync plan covering CONTEXT.md, CLAUDE.md, and the agent memory file).
+**Type:** Content edit (single file).
+
+### Change
+
+| Action | File | Note |
+|---|---|---|
+| Rewrite | `CONTEXT.md` (project root, Layer 1) | Replaced the original placeholder stub (created in Batch 00) with current workspace context. |
+
+### What changed
+
+- Removed the "placeholder — to be drafted with user approval" disclaimer and the obsolete note that `CLAUDE.md` was still pending promotion from `coding/` (the move happened in Batch 01).
+- Added the **research question** verbatim from `CLAUDE.md`.
+- Added **current stage** marker: Pass 1 finished, Pass 2 next.
+- **Stage map** statuses filled in to reflect actual state on disk (corpus extracted; both codebooks v1 complete; theory framework summaries complete; readthrough notes + synthesis complete; DTU LaTeX template populated; `_archive/` holds superseded v0 material; `_config/` and `skills/` scaffolded but empty).
+- New **Layer architecture** table making Layers 0–2 explicit (root `CLAUDE.md`, root `CONTEXT.md`, per-stage `CONTEXT.md` stubs, plus the stage-specific `06_report/CLAUDE.md`).
+- Audit-trail pointer to `RESTRUCTURE_LOG.md` retained.
+
+### Audit-trail gap noted (not addressed here)
+
+Git commits `ff755cd` (Batch 23 — Draft methodology section on use of generative AI) and `ac5c584` (Batch 24 — Correct colour-codes cross-reference legend) are not represented in this log. Surfacing for the user; retroactive entries would need explicit approval.
+
