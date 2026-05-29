@@ -11,9 +11,12 @@
 \label{ch:methodology}
 
 \section*{Chapter overview}
-\todoinline{One paragraph: the chapter justifies a documentary qualitative
-case analysis and details the corpus, the three-pass analytical procedure,
-and the use of generative AI in the workflow.}
+
+This chapter sets out how the thesis was done. It explains the research
+design and the document corpus, the three-pass analytical procedure used
+to read that corpus, the way a generative-AI assistant was used in the
+workflow, and the quality criteria and limitations that frame what the
+study can and cannot claim.
 
 %==============================================================================
 \section{Research design \& Document corpus}
@@ -30,163 +33,219 @@ Chapter~\ref{ch:background}, which treats categories such as
 \enquote{innovation}, \enquote{market} and \enquote{state} as socially
 constructed rather than given.
 
-The primary subject of analysis during this thesis have been the EIC Work Programme 2026, which functions to lay out the priorities and direction for the different instruments managed by the EIC. The specific instruments, subject of analysis, are scoped to the Pathfinder and STEP. \\
+The primary subject of analysis during this thesis have been the EIC
+Work Programme 2026, which functions to lay out the priorities and
+direction for the different instruments managed by the EIC. The specific
+instruments, subject of analysis, are scoped to the Pathfinder and STEP.
+\\
 
-The specific instruments, Pathfinder and STEP, were chosen to cover two crucial inflection points;
+The specific instruments, Pathfinder and STEP, were chosen to cover two
+crucial inflection points;
 
 \begin{enumerate}[leftmargin=*]
     \item The seed capital (Pathfinder)
-    \item The scale-up pre-commercialization
+    \item The scale-up pre-commercialisation (STEP)
 \end{enumerate}
 
-\todoinline{Primary source: EIC Work Programme 2026 (Pathfinder and
-STEP Scale Up sections). Cited legal instruments: STEP Regulation
-(EU) 2024/795; Establishing Horizon Europe Regulation. Document how
-the corpus was compiled, version-controlled (git repository with
-append-only audit log), and how the PDF was converted to plain text
-for search and quoting. The full corpus is tabulated in
-Appendix~\ref{app:doc-corpus}.}
+The two instruments sit at opposite ends of the EIC pipeline. Pathfinder
+funds early-stage research where the technology is not yet proven; STEP
+Scale Up funds companies that already have a working product and need
+capital to scale. They share a common institutional home --- the same
+agency, the same Work Programme, the same governance structure --- but
+they ask for different things from their applicants and reward different
+kinds of evidence. That contrast is what makes the comparison useful:
+it isolates what changes when the same agency moves from supporting
+science to supporting commercialisation. EIC Accelerator and Transition
+are deliberately left out of the corpus both to limit the scope and 
+because they sit in the middle of the pipeline and would weaken the 
+contrast rather than sharpen it.
 
+The corpus consists of a single document: the EIC Work Programme 2026.
+The Work Programme implements two legal instruments --- the STEP
+Regulation (EU)~2024/795 and the Establishing Horizon Europe
+Regulation (EU)~2021/695 --- and cites them as the binding basis for
+the rules it sets out. These instruments are not themselves part of
+the analysed material; they appear in the thesis only where the Work
+Programme cites them, and the citation in those cases is to the Work
+Programme. Secondary material such as think-tank commentary, press
+coverage and EIC promotional material was also left out. The thesis
+asks what the official text inscribes, not how it is received in the
+wider field, and that scope follows from the question. The corpus and
+the referenced legal instruments are listed in
+Appendix~\ref{app:doc-corpus}.
 
+The Work Programme was retrieved as the Commission's officially
+published PDF (C(2025)\,7410) and kept locaclly as the canonical
+reference. A plain-text working copy was generated to make search and
+quoting easier; this is a mechanical step with no interpretive content,
+but every passage quoted in Chapter~\ref{ch:results} was checked back
+against the original PDF before being used.
+
+The full project tree --- corpus, codebooks, readthrough notes,
+synthesis and the LaTeX report --- is held in a Git repository.
+Substantive reorganisations are recorded in an append-only audit log
+(\texttt{RESTRUCTURE\_LOG.md}). The numbered readthrough entries in
+\texttt{Readthrough\_Notes\_v1.md} have stable identifiers, so any
+finding reported in Chapter~\ref{ch:results} can be traced back to the
+entry it comes from, and from there to the passage in the source PDF.
+The chain of custody --- PDF $\rightarrow$ extracted text $\rightarrow$
+numbered entry $\rightarrow$ reported finding --- is intentional and
+gives the trustworthiness criteria discussed in
+Section~\ref{sec:meth-quality} something concrete to point at.
 
 %==============================================================================
 \section{Analytical procedure}
 \label{sec:meth-analysis}
 
-\todoinline{Introductory paragraph: the analysis runs in three sequential
-passes. Each pass feeds the next; the procedure is recorded in an
-append-only audit trail so any finding in Chapter~\ref{ch:results} can
-be traced back to the entry it derives from and from there to the
-verbatim passage in the primary source.}
+The analysis ran in three sequential passes. The first applied a set of
+framework codebooks deductively to the corpus and produced a numbered
+set of coded entries. The second revisited the entries that had been
+flagged as ambiguous, resolved them, and developed pattern-level
+observations across the corpus. The third synthesised those patterns
+into the named findings that Chapter~\ref{ch:results} presents and
+Chapter~\ref{ch:discussion} interprets. Each pass fed the next, and the
+whole procedure is recorded so any finding can be traced back to the
+underlying passages.
 
 \subsection{Pass 1 --- Deductive readthrough}
 \label{sec:meth-pass1}
-\todoinline{Pass~1 applied the deductive codebooks
-(Appendix~\ref{app:codebook-deductive}) to the corpus: Scott's three
-pillars and DiMaggio \& Powell's isomorphism types
-(\texttt{Codebook\_v1\_Deductive.md}), and Thornton et al.'s four
-institutional logics (\texttt{Codebook\_Logics\_v1\_Deductive.md}).
-Each numbered entry in \texttt{Readthrough\_Notes\_v1.md} pairs a
-verbatim passage with its codings; ambiguous passages were flagged
-with \texttt{[?]} markers for resolution in Pass~2. The first pass
-followed a conservative standard: a logic was coded only where it
-clearly \emph{organised} the passage, not merely where its vocabulary
-was present.}
+
+Pass~1 applied two codebooks to the corpus. The first covers Scott's
+three pillars and DiMaggio and Powell's three types of isomorphism; the
+second covers Thornton, Ocasio and Lounsbury's four institutional logics
+(market, state, profession, science). Both codebooks are reproduced in
+Appendix~\ref{app:codebook-deductive}.
+
+The output of Pass~1 is a single working document,
+\texttt{Readthrough\_Notes\_v1.md}, made up of numbered entries. Each
+entry pairs a verbatim passage from the Work Programme with its codings
+and a short note explaining the coding. The pass followed a conservative
+standard: a logic was coded only where it clearly \emph{organised} the
+passage, not merely where its vocabulary was present. This distinction
+matters most in the STEP section, where the text uses market vocabulary
+heavily but the logic underneath is often state. Passages that did not
+fit cleanly were flagged with \texttt{[?]} markers and left for Pass~2
+to resolve.
 
 \subsection{Pass 2 --- Inductive update}
 \label{sec:meth-pass2}
-\todoinline{Pass~2 resolved the \texttt{[?]} flags from Pass~1 against
-the codebooks and developed pattern-level observations (Gioia-style
-data structure --- \textcite{gioia2013seeking}). Inductive codes that
-emerged in Pass~2 are documented in
-Appendix~\ref{app:codebook-inductive}. The resolved set of flags and
-the developed patterns are recorded in
-\texttt{Readthrough\_Notes\_v1.md}.}
+
+Pass~2 had two jobs. The first was to work through the \texttt{[?]}
+flags from Pass~1 --- re-reading each ambiguous entry against both
+codebooks and either resolving it to a coding or, where the ambiguity
+was real, recording it as a productive analytical observation. The
+second was to look across the resolved entries and develop
+pattern-level observations: recurring textual moves that the
+entry-by-entry coding could not see on its own
+(\textcite{gioia2013seeking} provides the broad data-structure logic).
+
+Inductive codes that emerged in Pass~2 --- categories the deductive
+codebooks did not anticipate --- are documented in
+Appendix~\ref{app:codebook-inductive}. The resolved flags and the
+developed patterns are recorded in the same
+\texttt{Readthrough\_Notes\_v1.md} file as Pass~1, so the deductive and
+inductive layers sit alongside each other entry by entry.
 
 \subsection{Pass 3 --- Synthesis and writing}
 \label{sec:meth-pass3}
-\todoinline{Pass~3 produced the cross-entry synthesis
-(\texttt{synthesis.md}) on which Chapter~\ref{ch:results} draws
-directly. The synthesis tabulates the logic profile by section and
-organises the findings into named patterns (Pattern A
-tension-dissolution; Pattern B coercive governance cluster; Pattern C
-state social-equity template; Pattern D Challenge-chapter logic
-succession template) plus STEP-specific dynamics. The chapter-level
-discussion in Chapter~\ref{ch:discussion} draws on the synthesis
-rather than re-reading the corpus.}
+
+Pass~3 produced the cross-entry synthesis (\texttt{synthesis.md}) on
+which Chapter~\ref{ch:results} draws. The synthesis tabulates the
+logic profile by section of the corpus and organises the findings into
+four named patterns: tension-dissolution (Pattern~A), the coercive
+governance cluster (Pattern~B), the state social-equity template
+(Pattern~C), and the Challenge-chapter logic succession template
+(Pattern~D). It also collects a set of STEP-specific dynamics ---
+circular market validation, the Sovereignty Seal as a portable
+legitimacy device, and mimetic isomorphism against DARPA, Temasek and
+Chinese Government Guidance Funds.
+
+Chapter~\ref{ch:discussion} draws on the synthesis rather than
+re-reading the corpus, so the entry-level work feeds the chapter-level
+interpretation through one mediating document.
 
 %==============================================================================
 \section{Use of generative AI in the research process}
 \label{sec:meth-genai}
 
-The thesis was produced with the systematic support of a generative-AI
+The thesis was written with the systematic support of a generative-AI
 (GenAI) assistant.\footnote{Anthropic's \emph{Claude} family of large
-language models, accessed via the \emph{Claude Code} command-line interface.
-\todoinline{Insert the specific model versions used (e.g.\ Claude Sonnet 4.5
-and Opus 4.6) and the period of use.}} Because the field is moving quickly
-and the methodological literature is unsettled, this section states the
-position taken, describes exactly how the tool was used, and explains how
-the analytical work was kept anchored to the researcher's interpretive
-judgement.
+language models --- specifically Claude Opus 4.6 and Claude Opus 4.7
+--- accessed via the \emph{Claude Code} command-line interface. The
+choice between the two versions was determined by the context-window
+requirements of the specific task. \todoinline{Insert the period of
+use (start--end month/year).}} The
+methodological literature on GenAI in qualitative research is still
+unsettled, and supervisors and examiners reasonably want to know
+exactly how the tool was used. This section sets out the position
+taken, the tasks the tool was used for, how the analytical work was
+kept anchored to the researcher's own judgement, and the limitations
+that follow.
 
-\subsection{Position taken in an unsettled debate}
+\subsection{Position}
 \label{sec:meth-genai-position}
 
-The qualitative-methods literature on GenAI ranges from cautious
-enthusiasm to principled refusal. \textcite{zhang2024redefining} and
-similar contributions in the human--computer-interaction tradition show
-that a well-designed prompt framework can extend the productivity of
-thematic analysis and surface themes that human coders initially
-overlooked. \textcite{chatzichristos2025qualitative} warns that the same
-move risks a tacit return to positivism: by treating coding as a
-repeatable, data-driven operation, the researcher cedes the reflexive,
-interpretive work that defines the constructivist tradition.
-\textcite{nguyen2025engaged}, writing from a responsible-research
-perspective, go further and argue against any interposition of a GenAI
-model between the researcher and the empirical material, on the grounds
-that meaning is constituted in the slow, embodied work of reading and
-re-reading.
+The published literature splits in roughly three directions.
+\textcite{zhang2024redefining} and similar work see GenAI as a
+productivity extension that, used carefully, can surface themes a
+human coder might miss. \textcite{chatzichristos2025qualitative}
+warns that the same move risks a quiet return to positivism: treating
+coding as a repeatable mechanical operation hands back the reflexive,
+interpretive work that defines qualitative analysis.
+\textcite{nguyen2025engaged} go further and argue against putting any
+AI between the researcher and the empirical material, on the grounds
+that meaning is made in the slow work of reading and re-reading.
 
-I take an intermediate position. GenAI is treated here as an
-\emph{instrument of the researcher} --- comparable in spirit to qualitative
-data-analysis software (e.g.\ MAXQDA, NVivo) but with a different operating
-logic --- and not as a co-analyst. The interpretive moves that anchor the
-study (the institutional-theory readings of Pathfinder and STEP, the
-identification of patterns such as logic succession and
-tension-dissolution, and the framing of TRL as institutional disguise)
-were made by the researcher. The tool was used to accelerate the
-mechanical surroundings of those moves: locating passages, maintaining a
-consistent codebook, re-formatting notes into a uniform entry schema,
-drafting candidate prose for review, and surfacing comparisons across
-entries. Where Nguyen and Welch's warning applies most directly --- the
-delegation of pattern identification to the model --- the workflow was
-deliberately built so that the model proposes and the researcher
-disposes.
+The position taken here is intermediate. The assistant is treated as
+a tool of the researcher --- closer in spirit to qualitative-analysis
+software like MAXQDA or NVivo than to a co-analyst --- and not as a
+source of analytical judgement. The decisions that anchor the thesis
+were made by the researcher: the institutional-theory readings of
+Pathfinder and STEP, the identification of patterns such as logic
+succession and tension-dissolution, and the framing of TRL as
+institutional disguise. The tool was used for the work \emph{around}
+those decisions: locating passages, keeping the codebook consistent,
+formatting notes, drafting candidate prose for review, and comparing
+across entries. Where Nguyen and Welch's warning is sharpest --- handing
+pattern identification over to the model --- the workflow was set up so
+that the model proposes and the researcher disposes.
 
-\subsection{Tools and tasks}
+\subsection{Tasks the tool was used for}
 \label{sec:meth-genai-tasks}
 
-The assistant was used for five categories of task across the project,
-each of which is documented in the audit trail
-(\cref{sec:meth-genai-audit}):
+The assistant was used for five categories of task:
 
 \begin{enumerate}[leftmargin=*]
   \item \textbf{Codebook construction.} The deductive codebooks in
-        \texttt{04\_codebook/output/} (Scott's three pillars + DiMaggio
-        \& Powell's isomorphism types; the four institutional logics
-        following Thornton et al.) were drafted by the assistant from
-        researcher-supplied definitions, then revised by the researcher
-        against the primary literature before being applied.
-  \item \textbf{Corpus preparation.} The 188-page EIC Work Programme
-        2026 PDF was converted to a plain-text working copy
+        \texttt{04\_codebook/output/} were drafted by the assistant from
+        definitions the researcher supplied, then revised against the
+        primary literature before being applied.
+  \item \textbf{Corpus preparation.} The 188-page Work Programme PDF
+        was converted to a plain-text working copy
         (\texttt{03\_corpus/output/WP2026\_extracted.txt}) to support
-        verbatim quotation and search. No interpretive transformation
-        was performed at this step.
-  \item \textbf{Deductive readthrough (Pass 1).} For each numbered entry
-        in \texttt{Readthrough\_Notes\_v1.md}, the assistant produced
-        a candidate coding against the institutional-theory framework,
-        flagged ambiguous passages with \texttt{[?]} markers, and
-        recorded emerging patterns. Every entry was reviewed, edited
-        or rejected by the researcher before it was retained.
-  \item \textbf{Synthesis across entries.} Once Pass 1 covered a
-        sufficient stretch of the corpus, the assistant was asked to
-        identify recurring patterns across entries
-        (\texttt{05\_analysis/output/synthesis.md}). These were treated
-        as candidate observations, to be confirmed, refined or
-        discarded against the underlying entries.
+        search and quoting. No interpretive transformation was
+        performed at this step.
+  \item \textbf{Pass~1 deductive readthrough.} For each entry, the
+        assistant produced a candidate coding against the framework,
+        flagged ambiguous passages, and recorded emerging patterns.
+        Every entry was reviewed, edited or rejected by the researcher
+        before being kept.
+  \item \textbf{Cross-entry synthesis.} Once Pass~1 covered enough of
+        the corpus, the assistant was asked to identify recurring
+        patterns across entries. These were treated as candidate
+        observations and tested back against the underlying entries
+        before being adopted, refined or dropped.
   \item \textbf{Drafting and editing.} Chapter prose, LaTeX scaffolding
         and bibliography management were drafted with assistance and
         then revised by the researcher. No claim, citation or finding
-        appears in the final text without independent verification
-        by the researcher.
+        appears in the final text without independent verification.
 \end{enumerate}
 
 The assistant was explicitly \emph{not} used to: generate or simulate
-empirical material; produce coded entries that were retained without
-human review; or formulate the central theoretical argument of the
-thesis.
+empirical material; keep coded entries that had not been reviewed by
+the researcher; or formulate the thesis' central theoretical argument.
 
-\subsection{Division of cognitive labour}
+\subsection{Division of labour}
 \label{sec:meth-genai-labour}
 
 The workflow was structured around a deliberate division of labour
@@ -195,8 +254,7 @@ allocation.
 
 \begin{table}[ht]
   \centering
-  \caption{Division of cognitive labour between researcher and GenAI
-  assistant.}
+  \caption{Division of labour between researcher and GenAI assistant.}
   \label{tab:meth-ai-division}
   \begin{tabular}{p{0.45\linewidth} p{0.45\linewidth}}
     \toprule
@@ -212,76 +270,151 @@ allocation.
   \end{tabular}
 \end{table}
 
-This division reflects the position stated above: the model accelerates
-work that is structured, repetitive or generative-of-candidates; the
-researcher retains every act of judgement on which the validity of the
-analysis depends.
+The split reflects the position above: the model accelerates work that
+is structured, repetitive, or generative-of-candidates; the researcher
+keeps every act of judgement on which the validity of the analysis
+depends.
 
-\subsection{Verification, audit trail and reproducibility}
+\subsection{Audit trail}
 \label{sec:meth-genai-audit}
 
-Three practices were used to keep the AI-assisted workflow auditable.
+Three practices kept the AI-assisted workflow auditable.
 
-First, all artefacts produced with assistance are version-controlled in
-a Git repository covering the full project tree, with an append-only
-audit log (\texttt{RESTRUCTURE\_LOG.md}) that records substantive
-reorganisations. The numbered readthrough entries
-(\texttt{Readthrough\_Notes\_v1.md}) form a chronological record of
-every coded passage; their stable numbering means any finding in
-\cref{ch:results} can be traced back to the entry from which it
-derives, and from there to the verbatim passage in the primary source.
+First, the whole project tree is in Git, with the append-only
+\texttt{RESTRUCTURE\_LOG.md} recording substantive reorganisations.
+The numbered readthrough entries form a chronological record of every
+coded passage; their stable numbering means any finding in
+Chapter~\ref{ch:results} can be traced back to the entry it derives
+from, and from there to the verbatim passage in the source PDF.
 
 Second, candidate codings produced by the assistant were treated as
-proposals and reviewed against the codebook. Where the model's
-suggestion was ambiguous or did not fit cleanly, the entry was flagged
-with a \texttt{[?]} marker and resolved during the inductive Pass 2.
-The set of resolved flags is itself documented and is included as an
-appendix excerpt (\cref{app:audit-trail}).
+proposals and reviewed against the codebook. Where a suggestion was
+ambiguous or did not fit cleanly, the entry was flagged with a
+\texttt{[?]} marker and resolved during Pass~2. The resolved flags are
+included as an appendix excerpt (Appendix~\ref{app:audit-trail}).
 
 Third, no quotation, citation or factual claim in this thesis appears
-without direct verification by the researcher against the primary
-source. The full text of the EIC Work Programme 2026 is held locally
-and was the canonical reference at every step; secondary literature was
-read in the original rather than via summarisation by the assistant.
-This addresses the well-documented risk of fabricated citations and
-factual drift in large-language-model outputs
-\parencite{nguyen2025engaged}.
+without direct verification against the primary source. The full text
+of the Work Programme is held locally and was the canonical reference
+at every step. Secondary literature was read in the original rather
+than via summary by the assistant. This is the standard mitigation for
+the well-documented risk of fabricated citations and factual drift in
+large-language-model outputs \parencite{nguyen2025engaged}.
 
-\subsection{Limitations and risks of AI assistance}
+\subsection{Limitations of AI assistance}
 \label{sec:meth-genai-limits}
 
-Three limitations are acknowledged. (i)~\emph{Latent positivist drift.}
-\textcite{chatzichristos2025qualitative} argues that AI-assisted coding
-can quietly re-import the assumption that meaning resides in the text
-and is recoverable by repeatable procedure. This is mitigated, but not
-eliminated, by the design of the workflow: the researcher retains all
-interpretive moves, and the institutional-logics framework is itself
-explicitly constructivist about the social fabrication of categories.
-(ii)~\emph{Anchoring on first-pass codings.} Even where the researcher
-revises a model-generated coding, the initial suggestion may bias the
-direction of attention. The inductive Pass 2 was introduced partly to
-counter this anchoring by re-reading entries against unresolved
-questions rather than against the original coding. (iii)~\emph{Opacity
-of the model.} The model's reasoning is not directly inspectable, and
-the conditions of its training are only partially known. For this
-reason the assistant is treated as a fallible drafting collaborator
-whose outputs require verification, not as an independent source of
-evidence.
+Three limitations are acknowledged.
 
-This section is intended to satisfy the responsible-use expectations
-that are emerging across the qualitative-research community --- including
-the editorial guidance of the Academy of Management and similar bodies
---- which call for transparent disclosure of GenAI use, a clear statement
-of researcher responsibility for the final text, and an account of how
-risks to integrity and interpretation were managed.
+The first is the \emph{positivist drift} warned about by
+\textcite{chatzichristos2025qualitative}. AI-assisted coding can
+quietly re-import the assumption that meaning lives in the text and
+is recoverable by repeatable procedure. The workflow tries to
+mitigate this by keeping all interpretive moves with the researcher
+and by working within an institutional-logics framework that is itself
+explicit about the social construction of categories. The risk is
+reduced, not eliminated.
+
+The second is \emph{anchoring}. Even where the researcher revises a
+model-generated coding, the initial suggestion may bias the direction
+of attention. Pass~2 was introduced in part to counter this --- by
+re-reading entries against unresolved questions rather than against
+the original codings.
+
+The third is \emph{opacity}. The model's reasoning is not directly
+inspectable and the conditions of its training are only partially
+known. For that reason the assistant is treated as a fallible
+drafting collaborator whose outputs require verification, not as an
+independent source of evidence.
+
+This account is intended to satisfy the responsible-use expectations
+that are now common across the qualitative-research community: a
+transparent disclosure of GenAI use, a clear statement of researcher
+responsibility for the final text, and an explanation of how risks
+to integrity and interpretation were managed.
 
 %==============================================================================
 \section{Quality, reflexivity and limitations}
 \label{sec:meth-quality}
-\todoinline{Address Lincoln \& Guba's four criteria: credibility
-(triangulation against the analyst's hand-coded manual cross-reference,
-\texttt{colour-codes-cross-reference.md}); transferability (thick
-description and verbatim quotation throughout); dependability (the
-codebook plus the append-only readthrough audit trail); confirmability
-(reflexive memos in entries and the explicit researcher--AI division
-of labour stated in \cref{sec:meth-genai-labour}).}
+
+\subsection{Quality criteria}
+\label{sec:meth-quality-criteria}
+
+Trustworthiness in this study is addressed through Lincoln and Guba's
+four standard criteria for qualitative research: credibility,
+transferability, dependability and confirmability.
+
+\emph{Credibility} --- that the analysis stays faithful to what the
+text actually says --- was supported in two ways. The numbered entry
+format pairs each coding with its verbatim passage, so any coding can
+always be checked against its source. As an additional check, the
+researcher also worked through the Work Programme by hand on a
+printed copy with coloured markers, and that manual coding is
+cross-referenced against the digital coding in
+\texttt{colour-codes-cross-reference.md}. Where the two passes agreed,
+the coding is more confident; where they diverged, the divergence is
+documented and explained.
+
+\emph{Transferability} --- that the reader can judge whether the
+findings travel to other settings --- is supported by thick
+description and verbatim quotation throughout Chapter~\ref{ch:results},
+and by an explicit scope statement of where the findings might and
+might not apply (Chapter~\ref{ch:discussion}, Boundary conditions).
+
+\emph{Dependability} --- that the analytical procedure is stable and
+could in principle be followed by someone else --- rests on the
+codebook (Appendix~\ref{app:codebook-deductive}), the audit trail in
+\texttt{Readthrough\_Notes\_v1.md}, and the append-only
+\texttt{RESTRUCTURE\_LOG.md}. The procedure is documented; the inputs
+and outputs of each stage are versioned.
+
+\emph{Confirmability} --- that the findings are grounded in the data
+and not in the researcher's prior commitments --- is addressed by the
+entry-level coding rationales, the manual cross-reference as an
+independent check, and the explicit division of labour with the AI
+assistant set out in \cref{sec:meth-genai-labour}.
+
+\subsection{Reflexivity}
+\label{sec:meth-reflexivity}
+
+The researcher's background shaped the study and should be stated.
+\todoinline{One paragraph: state your DTU affiliation, any prior
+exposure to the EIC or to EU innovation policy, and your prior view
+of mission-oriented or developmental-state arguments. Be honest about
+where that predisposition could have shaped what the study saw or
+missed --- and point to where in Chapter~\ref{ch:discussion} the
+findings are tested against rival readings.}
+
+\subsection{Ethics}
+\label{sec:meth-ethics}
+
+A documentary design on publicly available EU policy texts avoids the
+human-subjects ethics concerns that come with interview research. The
+only responsible-use question that remains concerns the use of
+generative AI, which is addressed in \cref{sec:meth-genai}.
+
+\subsection{Methodological limitations}
+\label{sec:meth-limits}
+
+Four methodological limitations are acknowledged here. Substantive
+limitations of the findings themselves are kept for
+Chapter~\ref{ch:conclusion}.
+
+\begin{enumerate}[leftmargin=*]
+  \item \textbf{Single-source scope.} The corpus is a single document.
+        The two regulations cited within it were treated as referenced
+        legal background, not as coded material. The study sees what
+        the Work Programme says, not how it is enacted on the ground.
+  \item \textbf{Moving target.} STEP only recently became operational.
+        Some of the textual moves analysed here may look different
+        once a few funding cycles have run and the instrument has been
+        revised.
+  \item \textbf{English-language only.} The Work Programme is published
+        in English; this study works only from the English text and
+        does not compare across language versions.
+  \item \textbf{Single-coder design.} The analysis was carried out by
+        one researcher. The manual cross-reference described under
+        \emph{credibility} is the partial compensation for the absence
+        of a second coder; it does not replace inter-rater reliability
+        in the strict sense.
+\end{enumerate}
