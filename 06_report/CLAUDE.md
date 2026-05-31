@@ -70,6 +70,7 @@ On **Overleaf**: set _Menu → Settings → Main document_ to `06_report/main.te
 - **Labels:** prefix by type — `ch:`, `sec:`, `fig:`, `tab:`, `app:`.
 - **TODO markers:** `\todoinline{...}` while drafting; switch the `todonotes` package to `[disable]` in `Setup/Preamble.tex` for the final build.
 - **Language:** British English (`babel` set to `english`; treat as British in prose).
+- **Em-dashes:** use sparingly. Only when strictly required for a parenthetical aside that a comma or pair of commas cannot carry cleanly, or for an abrupt break in syntax. Default to commas, colons, semicolons or parentheses. Never use em-dashes as a stylistic tic, and never more than once in a paragraph except in genuinely rare cases.
 
 ## Final-build checklist
 
