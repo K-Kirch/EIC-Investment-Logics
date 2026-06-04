@@ -1,8 +1,58 @@
 # Methodology chapter (Ch. 3) — revision spec
 
 Working document. Captures supervisor feedback, the spots in
-`Chapters/03_methodology.tex` it applies to, and a proposed edit for
-each. Nothing here has been applied to the .tex yet.
+`Chapters/03_methodology.tex` (and now `Chapters/01_intro.tex`)
+it applies to, and a proposed edit for each.
+
+## Implementation status (2026-06-04)
+
+All Round 1 edits and Moves A and B have been applied to the
+LaTeX. Move C is a drafting discipline (no current edit needed).
+Move D is reserved per the conservative-path decision and
+depends on Pass 2 completion plus Ch. 4–5 drafting.
+
+| Item | Status | Location |
+|---|---|---|
+| Edit 1 — Pathfinder/STEP contrast | Applied | `03_methodology.tex` §3.1 |
+| Edit 2 — Pass 1 conservative standard | Applied | `03_methodology.tex` §3.2.1 |
+| Edit 3 — Pass 3 synthesis | Applied | `03_methodology.tex` §3.2.3 |
+| Edit 4 — GenAI Position decisions | Applied | `03_methodology.tex` §3.3.1 |
+| Edit 5 — Reflexivity section rewrite | Applied | `03_methodology.tex` §3.4.2 |
+| Move A — Prior-view-and-provenance | Applied (placement diverged; see notes) | `01_intro.tex` new §1.3 |
+| Move B — §3.1 probe positioning | Applied | `03_methodology.tex` §3.1 |
+| Move C — Findings as architecture-level evidence | Deferred (drafting discipline for Chs. 4–5) | when those chapters are drafted |
+| Move D — Loop refinement | Deferred (Ch. 5 contribution) | when Pass 2 + Ch. 4–5 are settled |
+
+### Implementation notes
+
+- **Move A placement.** The spec said \"after the existing
+  problem-statement paragraph and before the research
+  question.\" §1.2 (Problem statement) was a `todoinline`
+  placeholder with no prose yet, so Move A was added as a new
+  section §1.3 \"Origin of the inquiry\" between §1.2 and the
+  research-question section. This makes the prior view
+  structurally visible rather than buried inside a not-yet-
+  drafted problem statement, and gives §3.1 (Move B) a clean
+  cross-reference target.
+- **Edit 1 cross-reference dropped.** The Interaction notes
+  proposed adding \"The rationale for pairing these two
+  specifically is set out in Chapter 1\" at the end of the
+  Edit 1 contrast paragraph. This was not added: Move B (which
+  immediately follows in §3.1) already cross-references the
+  prior view in Ch. 1, and a second cross-reference one
+  paragraph later would be redundant.
+- **Label correction.** Cross-references to the introduction
+  chapter use the existing label `ch:introduction` (not
+  `ch:intro`, which appeared in some spec draft text).
+- **Pre-existing risk carried forward.** The reflexivity passage
+  references `\\cref{sec:disc-rival}`, which depends on a label
+  in the Discussion chapter not yet drafted. The risk existed
+  before this revision pass and is not introduced by it.
+- **Voice card.** Drafting followed `06_report/voice_card.md`
+  (British spellings, em-dash budget, banned-word list,
+  paragraph-rhythm rules). Move A and the Edit 5 rewrite were
+  checked against the self-check at the foot of the card before
+  being applied.
 
 ## Supervisor feedback (2026-06-03)
 
