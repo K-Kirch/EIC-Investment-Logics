@@ -91,12 +91,12 @@ Master's thesis at DTU (Technical University of Denmark). Qualitative, document-
 | Deductive readthrough — new entry | `05_analysis/output/Readthrough_Notes_v1.md`, `04_codebook/output/Codebook_Logics_v1_Deductive.md`, `03_corpus/output/WP2026_extracted.txt` | `06_report/Chapters/`, framework reference files |
 | Inductive update — resolve `[?]` flags | `05_analysis/output/Readthrough_Notes_v1.md`, both codebooks in `04_codebook/output/` | `03_corpus/output/WP2026_extracted.txt`, `06_report/` |
 | Develop analytical patterns | `05_analysis/output/Readthrough_Notes_v1.md`, `05_analysis/output/synthesis.md`, `02_theory/output/Matrix_Logics_QuickReference.md` | `06_report/`, `03_corpus/output/WP2026_extracted.txt` |
-| Write Ch 1 — Introduction | `06_report/Chapters/01_intro.tex`, `06_report/CLAUDE.md`, `06_report/bibliography.bib` | Codebooks, readthrough notes |
-| Write Ch 2 — Background & framework | `06_report/Chapters/02_background.tex`, `02_theory/output/Scott_ThreePillars_DiMaggio_Isomorphism.md`, `02_theory/output/Matrix_Logics_QuickReference.md`, `06_report/bibliography.bib`, `06_report/CLAUDE.md` | Codebooks, `03_corpus/output/WP2026_extracted.txt` |
-| Write Ch 3 — Methodology | `06_report/Chapters/03_methodology.tex`, `06_report/CLAUDE.md`, `06_report/bibliography.bib` | Codebooks, `03_corpus/output/WP2026_extracted.txt` |
-| Write Ch 4 — Findings | `06_report/Chapters/04_results.tex`, `05_analysis/output/Readthrough_Notes_v1.md`, `05_analysis/output/synthesis.md`, `02_theory/output/Matrix_Logics_QuickReference.md`, `06_report/CLAUDE.md` | Framework reference files, `03_corpus/output/WP2026_extracted.txt` |
-| Write Ch 5 — Discussion | `06_report/Chapters/05_discussion.tex`, `05_analysis/output/Readthrough_Notes_v1.md`, `05_analysis/output/synthesis.md`, `02_theory/output/Scott_ThreePillars_DiMaggio_Isomorphism.md`, `02_theory/output/Matrix_Logics_QuickReference.md`, `06_report/bibliography.bib`, `06_report/CLAUDE.md` | Codebooks |
-| Write Ch 6 — Conclusion | `06_report/Chapters/06_conclusion.tex`, `06_report/Chapters/05_discussion.tex`, `06_report/CLAUDE.md` | Codebooks, readthrough notes |
+| Write Ch 1 — Introduction | `06_report/Chapters/01_intro.tex`, `06_report/CLAUDE.md`, `06_report/voice_card.md`, `06_report/bibliography.bib` | Codebooks, readthrough notes |
+| Write Ch 2 — Background & framework | `06_report/Chapters/02_background.tex`, `02_theory/output/Scott_ThreePillars_DiMaggio_Isomorphism.md`, `02_theory/output/Matrix_Logics_QuickReference.md`, `06_report/bibliography.bib`, `06_report/CLAUDE.md`, `06_report/voice_card.md` | Codebooks, `03_corpus/output/WP2026_extracted.txt` |
+| Write Ch 3 — Methodology | `06_report/Chapters/03_methodology.tex`, `06_report/CLAUDE.md`, `06_report/voice_card.md`, `06_report/bibliography.bib` | Codebooks, `03_corpus/output/WP2026_extracted.txt` |
+| Write Ch 4 — Findings | `06_report/Chapters/04_results.tex`, `05_analysis/output/Readthrough_Notes_v1.md`, `05_analysis/output/synthesis.md`, `02_theory/output/Matrix_Logics_QuickReference.md`, `06_report/CLAUDE.md`, `06_report/voice_card.md` | Framework reference files, `03_corpus/output/WP2026_extracted.txt` |
+| Write Ch 5 — Discussion | `06_report/Chapters/05_discussion.tex`, `05_analysis/output/Readthrough_Notes_v1.md`, `05_analysis/output/synthesis.md`, `02_theory/output/Scott_ThreePillars_DiMaggio_Isomorphism.md`, `02_theory/output/Matrix_Logics_QuickReference.md`, `06_report/bibliography.bib`, `06_report/CLAUDE.md`, `06_report/voice_card.md` | Codebooks |
+| Write Ch 6 — Conclusion | `06_report/Chapters/06_conclusion.tex`, `06_report/Chapters/05_discussion.tex`, `06_report/CLAUDE.md`, `06_report/voice_card.md` | Codebooks, readthrough notes |
 
 ## Stage Handoffs
 

@@ -8,6 +8,15 @@ Master's thesis in LaTeX, built on the official DTU thesis template.
 - **Institution:** Technical University of Denmark (DTU) — Faculty of Entrepreneurship.
 - **Author:** Kristian Bonde Kirch.
 
+## Writing voice — read before drafting
+
+Before writing or revising any prose in `Chapters/`, `Frontmatter/Abstract.tex`,
+or `Backmatter/07_appendix.tex`, read `voice_card.md` in this directory and
+follow it. The voice card is the source of truth for tone, sentence shape,
+punctuation, banned words, and the self-check. The `## Conventions` section
+below covers only the LaTeX-mechanical rules (cite-keys, labels, em-dash
+budget); the voice card covers the prose itself.
+
 ## How to build
 
 The template uses **`fontspec`** (`\setmainfont{Arial}`) so the compiler must be **XeLaTeX** or **LuaLaTeX** — pdfLaTeX will fail. Bibliography uses `biblatex` with `style=numeric, sorting=none` and the **`biber`** backend.
@@ -70,7 +79,7 @@ On **Overleaf**: set _Menu → Settings → Main document_ to `06_report/main.te
 - **Labels:** prefix by type — `ch:`, `sec:`, `fig:`, `tab:`, `app:`.
 - **TODO markers:** `\todoinline{...}` while drafting; switch the `todonotes` package to `[disable]` in `Setup/Preamble.tex` for the final build.
 - **Language:** British English (`babel` set to `english`; treat as British in prose).
-- **Em-dashes:** use sparingly. Only when strictly required for a parenthetical aside that a comma or pair of commas cannot carry cleanly, or for an abrupt break in syntax. Default to commas, colons, semicolons or parentheses. Never use em-dashes as a stylistic tic, and never more than once in a paragraph except in genuinely rare cases.
+- **Prose voice (tone, sentence shape, punctuation incl. em-dashes, banned words):** see `voice_card.md`. Do not draft prose without it loaded.
 
 ## Final-build checklist
 
