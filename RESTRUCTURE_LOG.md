@@ -914,3 +914,29 @@ The pre-existing chapter scaffolding predated Pass 1 and so did not reflect (a) 
 
 `Frontmatter/*`, `Setup/*`, `Backmatter/Backpage.tex`, `bibliography.bib`, `main.tex`. Bibliography cleanup (e.g.\ removal of `lawrence2006institutions`, cited only by the removed Institutional Work section) deferred to a separate batch.
 
+
+## Batch 35 — Draft Ch. 1 + cross-chapter alignment + critical-blended-finance reading list
+
+**Date:** 2026-06-07
+**Approved by:** user messages "We should finish a draft of Ch. 1", "apply the recommended trims", "apply 1–4 to Ch 1", and "We should add Gabor and Mertens & Thiemann to a notes file that we can later consult".
+**Type:** Content edit (one chapter file) + new working document (one notes file).
+
+### Rationale
+
+Chapter 1 was scaffolded by Batch 27 but still carried `\todoinline{}` markers in §1.1, §1.2, §1.5, §1.6, §1.7 and §1.8. This batch produces a first complete draft of all unwritten sections, then runs two coherence passes over the result: (i) an internal trim removing three redundancies surfaced by a self-interrogation (theoretical-construct list repeated across §1.2 and §1.5; Pathfinder/STEP scoping rationale repeated across §1.1, §1.2 and §1.7; documentary-scope delimitation repeated across §1.3, §1.6 and §1.7); (ii) a cross-chapter pass against Chs 2–6 that surfaced four alignment issues (missing developmental-state lens in §1.5; contribution-count mismatch between §1.8 and `sec:disc-contrib`; understated Ch 4 in the structure paragraph; unverified "first comparative qualitative reading" claim). All four were corrected. The "first" claim was reframed as a register claim ("the first comparative qualitative reading … that works in a critical institutional register rather than in the policy-advocacy register dominant in the wider literature on EU blended finance"), at the user's request, on the grounds that the literature describes these instruments extensively but in an advocacy register; the thesis takes the opposite stance. A reading list was opened in stage 01 to track the critical voices (Gabor, Mertens & Thiemann, Wigger, Karo & Kattel) that need to be read in original before Ch 2 can lock that framing.
+
+### Changes by file
+
+| File | Action | Note |
+|---|---|---|
+| `06_report/Chapters/01_intro.tex` | Edit (multiple passes) | Drafted §1.1 Background and motivation (productivity-gap framing hedged via `mazzucato2018mission`; one `\todoinline` retained for Draghi/Letta/JRC pending bib additions); §1.2 Problem statement and research gap (reframed as register claim, hedged with "to the author's knowledge"); §1.5 Theoretical positioning (logics primary; isomorphism, legitimacy, Scott pillars subsidiary; developmental-state literature added as complement); §1.6 Methodological approach (documentary scope + three-pass procedure teaser); §1.7 Scope and delimitations (reduced from four bullets to two after cutting the Pathfinder/STEP scoping bullet duplicated from §1.1 and §1.2, and merging the qualitative/textual bullets); §1.8 Contributions (logic-as-register + tension-dissolution as analytical refinements; Sovereignty Seal and circular market validation added as candidate empirical contributions to align with `sec:disc-contrib`; practical contribution tightened to FP10-relevant textual mechanisms); §1.9 Structure of the thesis (Ch 4 line extended to include TRL and sustainability sections). All `\cref` targets validated against existing labels in Chs 2/3 and appendix. One `\todoinline` remaining: line 24 (Draghi/Letta/JRC citations pending bib entries). |
+| `01_literature/output/critical_blended_finance_to_consult.md` | Write (new) | Reading list of critical voices on EU blended finance to consult before Ch 2 is finalised: Gabor (Wall Street Consensus / de-risking state) and Mertens & Thiemann (EIB as hidden developmental state) flagged as Priority 1; Wigger and Karo & Kattel as Priority 2. For each entry: why it matters; key works to consult; where it bites Chs 1, 2 and 5. Closes with a usage protocol (read in original → add to `bibliography.bib` → engage in Ch 2 §`sec:bg-mazzucato`; cite in Ch 5 §`sec:disc-step-circular` and §`sec:disc-step`) and a provenance note that none of the entries have been verified in original yet. Placed in `output/` per the stage-01 CONTEXT.md, on the grounds that the file is a stable working document rather than transient scratch. |
+
+### Files unchanged
+
+`bibliography.bib` (additions deferred until the listed sources have been read in original, per the "every cited source has been read in original" rule in `06_report/CLAUDE.md`); Chs 2–6 (cross-chapter issues surfaced during the alignment pass — broken `\cref` targets in Ch 2 to Ch 4/5 labels, and the recommended new paragraph in `sec:bg-mazzucato` engaging the critical strand — are flagged for a separate batch).
+
+### Out of scope for this batch
+
+Untracked file `04_codebook/output/Codebook_v2_Inductive.md` predates this session and is not part of the Ch 1 work; left untouched.
+
