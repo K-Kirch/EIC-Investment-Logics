@@ -1,9 +1,13 @@
 # Stage 04 — Codebook
 
-**Purpose:** Deductive codebooks derived from the theoretical framework (stage 02). Operational instruments applied to the corpus (stage 03) during the readthrough in stage 05.
+**Purpose:** Coding instruments derived from the theoretical framework (stage 02) and applied to the corpus (stage 03) during the readthrough in stage 05. The v1 codebooks are deductive; the v2 codebook records the inductive update produced in Pass 2.
 
-**Status:** placeholder — to be drafted with user approval.
+**Status:** Pass 1 (deductive) complete. Pass 2 (inductive update) in progress — revisions are recorded in `Codebook_v2_Inductive.md` with `[v2]` and `[v2-NEW]` markers.
 
 ## What lives where
 
-- `output/` — canonical codebooks. The v1 deductive versions are the working instruments until the inductive update completes.
+- `output/Codebook_v1_Deductive.md` — Scott three-pillar codebook (regulative, normative, cultural-cognitive) plus isomorphism and legitimacy sections. Full deductive instrument used in Pass 1 across all six framework sections.
+- `output/Codebook_Logics_v1_Deductive.md` — institutional logics codebook (Science, Market, State, Profession) per Thornton et al. (2012) and Friedland & Alford (1991). Fuller logic definitions than Section 4 of the main v1.
+- `output/Codebook_v2_Inductive.md` — Pass 2 working codebook. Consolidates both v1 codebooks into a single instrument, retains the richer logic definitions from `Codebook_Logics_v1_Deductive.md` in Section 4, and records inductive refinements, pattern formalisations (A–D), and resolution of `[?]` flags from `05_analysis/output/Readthrough_Notes_v1.md`.
+
+The two v1 codebooks are preserved as the deductive baseline and remain citable. v2 is the current working instrument.
