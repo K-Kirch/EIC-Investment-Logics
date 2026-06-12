@@ -36,13 +36,15 @@ Master's thesis at DTU (Technical University of Denmark). Qualitative, document-
 │   └── output/
 │       └── WP2026_extracted.txt                           (plain-text extraction for search and quoting)
 ├── 04_codebook/output/
-│   ├── Codebook_v1_Deductive.md                           (Scott pillars + isomorphism codebook)
-│   └── Codebook_Logics_v1_Deductive.md                    (institutional logics codebook)
+│   ├── Codebook_v1_Deductive.md                           (v1 — Scott pillars + isomorphism codebook; frozen)
+│   ├── Codebook_Logics_v1_Deductive.md                    (v1 — institutional logics codebook; frozen)
+│   └── Codebook_v2_Inductive.md                           (v2 — consolidated working codebook; Pass 2 outputs)
 ├── 05_analysis/
 │   ├── CONTEXT.md                                         (Layer 2 stub)
 │   ├── output/
-│   │   ├── Readthrough_Notes_v1.md                        (main working document — all coded entries)
-│   │   ├── synthesis.md                                   (Pass 1 synthesis across entries [001]–[180])
+│   │   ├── Readthrough_Notes_v1.md                        (entry-level codings + emerging patterns; frozen after Pass 1)
+│   │   ├── synthesis.md                                   (Pass 1 synthesis; frozen audit artefact)
+│   │   ├── synthesis_v2.md                                (Pass 2 synthesis; supersedes synthesis.md for Ch 4 / Ch 5)
 │   │   ├── colour-coded-eic-doc.pdf                       (scan of analyst's hand-coded physical copy)
 │   │   ├── colour-codes-cross-reference.md                (manual ↔ digital cross-reference + observations)
 │   │   └── New project.mqda                               (MAXQDA project file)
@@ -68,17 +70,18 @@ Master's thesis at DTU (Technical University of Denmark). Qualitative, document-
 
 | Keyword | Action |
 |---|---|
-| `status` | Count open `[?]` flags in `05_analysis/output/Readthrough_Notes_v1.md`, identify current pass, list unwritten chapters |
+| `status` | Confirm Pass 1 + Pass 2 closed; list which of Chs 1, 2, 4, 5, 6 are still to draft in `06_report/Chapters/`; surface any open Ch 4/5 deferrals from `synthesis_v2.md` §4 |
 | `setup` | Ask which task to begin and load the appropriate files per the What to Load table |
 
 ## Routing
 
 | You want to... | Go to |
 |---|---|
-| Continue the deductive readthrough | `05_analysis/output/Readthrough_Notes_v1.md` + `04_codebook/output/Codebook_Logics_v1_Deductive.md` |
-| Run the inductive update pass | `05_analysis/output/Readthrough_Notes_v1.md` (Unresolved Questions Index) + both codebooks in `04_codebook/output/` |
-| Review the Pass 1 synthesis | `05_analysis/output/synthesis.md` |
-| Look up a code definition | `04_codebook/output/Codebook_v1_Deductive.md` or `04_codebook/output/Codebook_Logics_v1_Deductive.md` |
+| Continue the deductive readthrough | `05_analysis/output/Readthrough_Notes_v1.md` + `04_codebook/output/Codebook_Logics_v1_Deductive.md` _(Pass 1 closed)_ |
+| Run the inductive update pass | `05_analysis/output/Readthrough_Notes_v1.md` + `04_codebook/output/Codebook_v2_Inductive.md` _(Pass 2 closed)_ |
+| Review the Pass 2 synthesis | `05_analysis/output/synthesis_v2.md` (use this for Ch 4 / Ch 5) |
+| Review the Pass 1 synthesis (frozen audit artefact) | `05_analysis/output/synthesis.md` |
+| Look up a code definition | `04_codebook/output/Codebook_v2_Inductive.md` (authoritative; v1 codebooks retained as frozen reference) |
 | Check a logic or tension | `02_theory/output/Matrix_Logics_QuickReference.md` |
 | Review the theoretical framework | `02_theory/output/Scott_ThreePillars_DiMaggio_Isomorphism.md` |
 | Write a thesis chapter | `06_report/Chapters/0X_[chapter].tex` + `06_report/CLAUDE.md` |
@@ -88,14 +91,14 @@ Master's thesis at DTU (Technical University of Denmark). Qualitative, document-
 
 | Task | Load | Do NOT Load |
 |---|---|---|
-| Deductive readthrough — new entry | `05_analysis/output/Readthrough_Notes_v1.md`, `04_codebook/output/Codebook_Logics_v1_Deductive.md`, `03_corpus/output/WP2026_extracted.txt` | `06_report/Chapters/`, framework reference files |
-| Inductive update — resolve `[?]` flags | `05_analysis/output/Readthrough_Notes_v1.md`, both codebooks in `04_codebook/output/` | `03_corpus/output/WP2026_extracted.txt`, `06_report/` |
-| Develop analytical patterns | `05_analysis/output/Readthrough_Notes_v1.md`, `05_analysis/output/synthesis.md`, `02_theory/output/Matrix_Logics_QuickReference.md` | `06_report/`, `03_corpus/output/WP2026_extracted.txt` |
+| Deductive readthrough — new entry _(Pass 1, closed)_ | `05_analysis/output/Readthrough_Notes_v1.md`, `04_codebook/output/Codebook_Logics_v1_Deductive.md`, `03_corpus/output/WP2026_extracted.txt` | `06_report/Chapters/`, framework reference files |
+| Inductive update — resolve `[?]` flags _(Pass 2, closed)_ | `05_analysis/output/Readthrough_Notes_v1.md`, `04_codebook/output/Codebook_v2_Inductive.md` | `03_corpus/output/WP2026_extracted.txt`, `06_report/` |
+| Develop analytical patterns | `05_analysis/output/Readthrough_Notes_v1.md`, `05_analysis/output/synthesis_v2.md`, `04_codebook/output/Codebook_v2_Inductive.md` (§7 patterns, §9 rules), `02_theory/output/Matrix_Logics_QuickReference.md` | `06_report/`, `03_corpus/output/WP2026_extracted.txt`, `05_analysis/output/synthesis.md` (v1 frozen) |
 | Write Ch 1 — Introduction | `06_report/Chapters/01_intro.tex`, `06_report/CLAUDE.md`, `06_report/voice_card.md`, `06_report/bibliography.bib` | Codebooks, readthrough notes |
 | Write Ch 2 — Background & framework | `06_report/Chapters/02_background.tex`, `02_theory/output/Scott_ThreePillars_DiMaggio_Isomorphism.md`, `02_theory/output/Matrix_Logics_QuickReference.md`, `06_report/bibliography.bib`, `06_report/CLAUDE.md`, `06_report/voice_card.md` | Codebooks, `03_corpus/output/WP2026_extracted.txt` |
 | Write Ch 3 — Methodology | `06_report/Chapters/03_methodology.tex`, `06_report/CLAUDE.md`, `06_report/voice_card.md`, `06_report/bibliography.bib` | Codebooks, `03_corpus/output/WP2026_extracted.txt` |
-| Write Ch 4 — Findings | `06_report/Chapters/04_results.tex`, `05_analysis/output/Readthrough_Notes_v1.md`, `05_analysis/output/synthesis.md`, `02_theory/output/Matrix_Logics_QuickReference.md`, `06_report/CLAUDE.md`, `06_report/voice_card.md` | Framework reference files, `03_corpus/output/WP2026_extracted.txt` |
-| Write Ch 5 — Discussion | `06_report/Chapters/05_discussion.tex`, `05_analysis/output/Readthrough_Notes_v1.md`, `05_analysis/output/synthesis.md`, `02_theory/output/Scott_ThreePillars_DiMaggio_Isomorphism.md`, `02_theory/output/Matrix_Logics_QuickReference.md`, `06_report/bibliography.bib`, `06_report/CLAUDE.md`, `06_report/voice_card.md` | Codebooks |
+| Write Ch 4 — Findings | `06_report/Chapters/04_results.tex`, `05_analysis/output/synthesis_v2.md`, `05_analysis/output/Readthrough_Notes_v1.md`, `04_codebook/output/Codebook_v2_Inductive.md` (§7 patterns), `02_theory/output/Matrix_Logics_QuickReference.md`, `06_report/CLAUDE.md`, `06_report/voice_card.md` | Framework reference files, `03_corpus/output/WP2026_extracted.txt`, `05_analysis/output/synthesis.md` (v1 frozen) |
+| Write Ch 5 — Discussion | `06_report/Chapters/05_discussion.tex`, `05_analysis/output/synthesis_v2.md`, `05_analysis/output/Readthrough_Notes_v1.md`, `04_codebook/output/Codebook_v2_Inductive.md` (§7 patterns, §9 rules), `02_theory/output/Scott_ThreePillars_DiMaggio_Isomorphism.md`, `02_theory/output/Matrix_Logics_QuickReference.md`, `06_report/bibliography.bib`, `06_report/CLAUDE.md`, `06_report/voice_card.md` | `05_analysis/output/synthesis.md` (v1 frozen) |
 | Write Ch 6 — Conclusion | `06_report/Chapters/06_conclusion.tex`, `06_report/Chapters/05_discussion.tex`, `06_report/CLAUDE.md`, `06_report/voice_card.md` | Codebooks, readthrough notes |
 
 ## Stage Handoffs
@@ -103,18 +106,19 @@ Master's thesis at DTU (Technical University of Denmark). Qualitative, document-
 The analysis runs in three sequential passes. Each pass feeds the next.
 
 ```
-[Pass 1 — Deductive Readthrough]  ← finished (180 entries + synthesis)
-    output → 05_analysis/output/Readthrough_Notes_v1.md   (numbered entries, codings, [?] flags, emerging patterns)
-    output → 05_analysis/output/synthesis.md              (cross-entry synthesis of named patterns)
+[Pass 1 — Deductive Readthrough]  ← closed (180 entries + Pass 1 synthesis)
+    output → 05_analysis/output/Readthrough_Notes_v1.md   (numbered entries, codings, [?] flags, emerging patterns; frozen)
+    output → 05_analysis/output/synthesis.md              (Pass 1 synthesis; frozen audit artefact)
         ↓
-[Pass 2 — Inductive Update]  ← current
-    output → resolved [?] flags + developed pattern-level observations in Readthrough_Notes_v1.md
+[Pass 2 — Inductive Update]  ← closed (29 [?] flags resolved; six patterns A–F formalised; one candidate not confirmed)
+    output → 04_codebook/output/Codebook_v2_Inductive.md  (seven coding rules in force; pattern formalisations §7; change log §9)
+    output → 05_analysis/output/synthesis_v2.md           (Pass 2 synthesis; supersedes synthesis.md for Ch 4 / Ch 5)
         ↓
-[Pass 3 — Thesis Writing]  ← Ch 3 methodology drafted; Chs 1, 2, 4–6 pending Pass 2
+[Pass 3 — Thesis Writing]  ← current; Ch 3 methodology drafted; Chs 1, 2, 4–6 to draft
     output → 06_report/Chapters/ + 06_report/Backmatter/07_appendix.tex
 ```
 
-Pass 2 begins at the Unresolved Questions Index in `05_analysis/output/Readthrough_Notes_v1.md`. Pass 3 Findings and Discussion chapters draw directly from the pattern-level observations produced in Pass 2. Do not write Ch 4 or Ch 5 before Pass 2 is complete.
+Pass 3 Findings (Ch 4) and Discussion (Ch 5) draw directly from `synthesis_v2.md` §6 (Ch 4 descriptive targets, Ch 5 interpretive targets) and from the §7 pattern formalisations in `Codebook_v2_Inductive.md`. `Readthrough_Notes_v1.md` is frozen — two known v2 consequences ([001] `LOGIC_TENSION` and [026] `ISO_COERCIVE` + `LOGIC_STATE`) are not retroactively applied to the v1 notes; both are logged in v2 §9 (v2-006, v2-011) and reflected in `synthesis_v2.md` §0.2.
 
 ---
 
@@ -126,6 +130,6 @@ Pass 2 begins at the Unresolved Questions Index in `05_analysis/output/Readthrou
 
 **Theoretical framework:** Scott (2014) three pillars · DiMaggio & Powell (1983) isomorphism · Thornton et al. (2012) institutional logics (Science, Market, State, Profession) · Suchman (1995) legitimacy
 
-**Key working findings (from Pass 1):** Logic succession Science → Market → State as TRL increases · Tension-dissolution pattern (Pattern A — logics presented as complementary, suppressing visible conflict) · TRL as institutional disguise · STEP mirrors financial market regulation · Sovereignty Seal as portable legitimacy artefact · Programme Manager soft coercive authority (Pattern B) · State Social Equity Template (Pattern C) · Challenge Chapter Logic Succession Template (Pattern D, identified in synthesis §3; to be formalised in Pass 2) · STEP circular market validation (state constructs the market signal it then requires) · Mimetic isomorphism against DARPA and Temasek
+**Key working findings (Pass 2 closed; full account in `05_analysis/output/synthesis_v2.md`):** Logic succession Science → Market → State across TRL, reproduced intra-chapter as Pattern D · **Pattern A** Tension-Dissolution (rule 1 surface-visibility for `LOGIC_TENSION`) · **Pattern B** Coercive Governance Cluster — Programme Manager authority gradient (rule 3 extends `ISO_COERCIVE` to contractual discretionary authority) · **Pattern C** State Social Equity Template (rule 4 `NORM_DEI` / `LOGIC_STATE` scope) · **Pattern D** Challenge Chapter Logic Succession Template (pure analytical observation) · **Pattern E** STEP Circular Market Validation — state constructs the market signal it then requires (rule 2 STEP catalytic co-coding) · **Pattern F** TRL as Cross-Pillar Legitimation Artefact — `REG_TRL` + `COG_LINEAR` triple-load along cognitive + regulative + mimetic axes · Sovereignty Seal as field-bridging legitimacy artefact · STEP hybrid instrument (market mechanics on state access architecture) · Mimetic isomorphism (DARPA, Temasek, GGF) · Candidate Sustainability template **not confirmed** — four entry mechanisms preserved as analytical contrast with Pattern C · Rule 7 codifies `LOGIC_MARKET` register-vs-organising distinction.
 
 **Build thesis:** `latexmk -xelatex main.tex` from `06_report/` — see `06_report/CLAUDE.md`. Template requires XeLaTeX (uses `fontspec`).
