@@ -44,9 +44,93 @@ The full pattern-level observations and entry-by-entry revisions remain in `Read
 
 > Codes carried forward from v1: `REG_TRL`, `REG_ELIGIBILITY`, `REG_SCOPE`, `REG_IP`, `REG_SANCTION`, `REG_MANDATE`, `REG_FINREG`.
 >
-> _Refinements made in Pass 2 will be noted inline with `[v2]` markers and summarised in the Section 9 change log._
+> _Pass 2 status:_ No regulative-code definitions refined in Pass 2. `REG_TRL` is cross-referenced by Pattern F (TRL as Cross-Pillar Legitimation Artefact, Section 7) — a relational observation, not a definitional change.
 
-*(Definitions and anchors as in `Codebook_v1_Deductive.md` Section 1. Reproduced in full once Pass 2 review of regulative codes is complete.)*
+---
+
+**REG_TRL — Technology Readiness Level as Regulatory Gate** _`[v2]` cross-referenced by Pattern F (Section 7)_
+
+The TRL classification system is used as a formal eligibility threshold — defining which stage of development is within or outside the programme's scope.
+
+*Include:* Explicit TRL level references functioning as eligibility criteria or scope boundaries; passages that exclude activities on the basis of development stage; maturity-based scope restrictions.
+
+*Exclude:* TRL mentioned purely as a descriptive or explanatory label with no gatekeeping function (code `COG_LINEAR` instead, where TRL reflects a linear innovation assumption).
+
+*Anchors:* "Technology Readiness Levels from 1 to 4"; "activities beyond TRL 4 are not eligible".
+
+*`[v2]` Pattern F cross-reference:* `REG_TRL` and `COG_LINEAR` frequently co-code; the co-occurrence is itself a cross-pillar legitimation mechanism (regulatory gate beneath scientific-measurement surface). See Section 7, Pattern F.
+
+---
+
+**REG_ELIGIBILITY — Formal Eligibility and Admissibility Rules**
+
+Specifications of who may apply and what formal conditions an application must satisfy to be considered valid — independent of its scientific or commercial quality.
+
+*Include:* Entity type and nationality requirements; consortium vs. single applicant rules; format and page limits; submission windows; concurrent submission prohibitions.
+
+*Exclude:* Evaluation criteria that assess quality rather than admissibility (those belong in normative or logic codes). Thematic scope restrictions (code `REG_SCOPE`).
+
+*Anchors:* "Concurrent submissions to both the EIC Accelerator and EIC STEP Scale Up calls are not permitted"; establishment and nationality requirements.
+
+---
+
+**REG_SCOPE — State-Directed Thematic Channelling**
+
+The programme restricts or directs activity toward pre-defined technology themes or societal challenges set by EU institutions, constraining applicant agenda-setting autonomy.
+
+*Include:* Named Pathfinder Challenges with fixed topics; STEP priority technology domains (semiconductors, quantum, etc.); references to the STEP Regulation as defining the eligible technology scope.
+
+*Exclude:* Open calls with no thematic restriction — these are significant precisely because this code does *not* apply. Background contextual mentions of themes without eligibility consequence.
+
+*Anchors:* Named Pathfinder Challenge topics; "semiconductor technologies and quantum technologies" as 2026 STEP priorities.
+
+---
+
+**REG_IP — Intellectual Property Control and Retention**
+
+Conditions imposed on intellectual property generated or held by funded entities, including ownership requirements, transfer restrictions, and EU-retention clauses.
+
+*Include:* IP retention in EU as a post-award condition; Annex provisions on IP; Freedom to Operate (FTO) requirements; restrictions on IP sale, licensing, or relocation.
+
+*Exclude:* Routine grant financial reporting. General references to IP as a business consideration without regulatory implication.
+
+*Anchors:* "The EIC Fund will ensure that supported companies keep most of their value, including their IP, in the EU"; Annex IP provisions.
+
+---
+
+**REG_SANCTION — Exclusion and Penalty Mechanisms**
+
+Formal consequences for non-compliance, failure, or rule violation — including exclusion from the programme, financial penalties, or punitive restrictions.
+
+*Include:* Permanent exclusion after repeated failed applications; grant termination clauses; financial clawback provisions; conditions triggering loss of award.
+
+*Exclude:* Routine rejection of a proposal that fails evaluation criteria (a standard gatekeeping outcome, not a sanction).
+
+*Anchors:* "After three unsuccessful submissions... an applicant may not apply again to the EIC STEP Scale Up call under the Horizon Europe Framework Programme."
+
+---
+
+**REG_MANDATE — Legislative and Regulatory Origin**
+
+The programme's existence, scope, or specific provisions are explicitly grounded in named EU legislative instruments, giving it coercive authority derived from law.
+
+*Include:* Direct citations of EU Regulations and Decisions (with number); Horizon Europe as legal basis; STEP Regulation (EU) 2024/795; references to Chips Act, AI Act, or other legislation as shaping programme obligations.
+
+*Exclude:* General references to "EU policy" or "European strategy" without a specific legal instrument cited.
+
+*Anchors:* "following the STEP Regulation (EU) 2024/795"; "European Commission Decision C(2025)7410."
+
+---
+
+**REG_FINREG — Financial Sector Regulation Imported into Innovation Funding**
+
+Financial market regulatory requirements — normally applicable to banks and investment funds — are applied to innovation applicants or their investors.
+
+*Include:* Know Your Customer (KYC) requirements; Anti-Money Laundering (AML) compliance; investment due diligence standards modelled on financial industry practice; EIF compliance requirements applied to companies.
+
+*Exclude:* Standard EU grant financial reporting and audit requirements, which are not imported from the financial sector.
+
+*Anchors:* "KYC by the EIC Fund or the EIF"; AML compliance requirements for applicants or co-investors.
 
 ---
 
@@ -56,9 +140,81 @@ The full pattern-level observations and entry-by-entry revisions remain in `Read
 
 > Codes carried forward from v1: `NORM_IDENTITY`, `NORM_OBLIGATION_SOCIETAL`, `NORM_OBLIGATION_STRATEGIC`, `NORM_COLLABORATION`, `NORM_DEI`, `NORM_SMARTMONEY`.
 >
-> _Pass 2 consideration:_ ~~Pattern C (State Social Equity Template) may warrant refinement of `NORM_DEI` and/or co-coding rule with `LOGIC_STATE`. See Section 7, Pattern C.~~ **Resolved (Pass 2):** `NORM_DEI` definition unchanged; co-coding rule with `LOGIC_STATE` clarified (`NORM_DEI` applies only where DEI compliance is judged against a "credible plan"-type organisational standard; broader state-mandated social-equity template routed through `LOGIC_STATE`). **`[v2]` See Section 9, rule 4** for the refined coding rule, and Section 7 (Pattern C) for the template observation.
+> _Pass 2 status:_ No normative-code definitions refined in Pass 2. `NORM_DEI` is cross-referenced by Pattern C (State Social Equity Template) and disciplined by a co-coding rule with `LOGIC_STATE` (Section 9, rule 4). See `[v2]` marker on `NORM_DEI` below.
 
-*(Definitions and anchors as in `Codebook_v1_Deductive.md` Section 2.)*
+---
+
+**NORM_IDENTITY — Construction of the Ideal Applicant Identity**
+
+The programme constructs a model of the ideal applicant — through aspirational language, second-person address, or prescriptive descriptions — specifying what kind of actor belongs here.
+
+*Include:* Direct interpellation ("Do you have...?"); descriptions of the ideal researcher or company; passages that fuse multiple identities (e.g., scientist + entrepreneur); language defining what kind of actor is at home in this programme.
+
+*Exclude:* Neutral eligibility criteria (code `REG_ELIGIBILITY`). Descriptions of expected outputs rather than expected identities.
+
+*Anchors:* "Do you have an ambitious vision for a novel future technology that could make a real difference to our lives?"; "game-changing innovative technology."
+
+---
+
+**NORM_OBLIGATION_SOCIETAL — Societal and Civic Duty**
+
+Research or innovation is framed as carrying an obligation to society beyond commercial success — positioning applicants as actors responsible for addressing public needs or global challenges.
+
+*Include:* "Societal needs", "global challenges", "public good", "benefit to citizens"; Responsible Research and Innovation framing; passages that position the researcher/company as serving humanity.
+
+*Exclude:* Strategic or geopolitical obligation framing (code `NORM_OBLIGATION_STRATEGIC`).
+
+*Anchors:* "respond to societal needs and/or to provide solutions for global challenges"; "make a real difference to our lives."
+
+---
+
+**NORM_OBLIGATION_STRATEGIC — Strategic and Sovereignty Obligation to Europe**
+
+Participation in the programme — or the innovation activity itself — is framed as serving European strategic interests, reducing geopolitical dependencies, or contributing to European competitiveness and sovereignty.
+
+*Include:* "European interests", "strategic autonomy", "reducing strategic dependencies", "propelling Europe's competitiveness"; language positioning funded companies as agents of European industrial strategy.
+
+*Exclude:* Generic societal benefit framing (code `NORM_OBLIGATION_SOCIETAL`). Background geopolitical context without prescriptive obligation (code `COG_THREAT`).
+
+*Anchors:* "propelling Europe's economic, industrial, and technological competitiveness"; "protect European interests."
+
+---
+
+**NORM_COLLABORATION — Collaboration and Interdisciplinarity as Normative Expectation**
+
+Collaboration across disciplines, institutions, or sectors is valorised as a signal of legitimacy — not merely a practical requirement but an indicator that the applicant embodies appropriate values.
+
+*Include:* Interdisciplinary team valorisation; cross-sector or cross-border collaboration as a quality indicator; passages where solo work is implicitly or explicitly discouraged.
+
+*Exclude:* Mandatory consortium requirements functioning purely as eligibility rules (code `REG_ELIGIBILITY`). Note: some passages warrant both.
+
+*Anchors:* "interdisciplinary team of researchers and innovators."
+
+---
+
+**NORM_DEI — Diversity, Equity, and Inclusion as Normative Obligation** _`[v2]` co-coding rule with `LOGIC_STATE` — see Section 9, rule 4; observation in Pattern C (Section 7)_
+
+Diversity or gender balance requirements are embedded as normative expectations — with evaluative weight, not merely aspirational language.
+
+*Include:* Gender balance requirements with a credible plan required; diversity criteria in evaluation; passages treating DEI as an indicator of organisational legitimacy.
+
+*Exclude:* Boilerplate non-discrimination clauses with no evaluative consequence.
+
+*Anchors:* "adequate gender balance, with a credible plan to fill the gaps."
+
+> **`[v2]` cross-reference:** `NORM_DEI` applies where DEI compliance is judged against a "credible plan"-type organisational standard. Where state-mandated social-equity terms function as a broader template (sustainability, gender, ethics bundled as strategic conditions), route through `LOGIC_STATE` per Section 9, rule 4. See Pattern C (Section 7) for the State Social Equity Template observation.
+
+---
+
+**NORM_SMARTMONEY — Value-Add Partnership Beyond the Grant**
+
+The EIC's relationship with funded entities is framed as a strategic, ongoing partnership — importing VC-style value-add norms into public funding and constructing the EIC as more than a passive funder.
+
+*Include:* Business Acceleration Services; mentoring, coaching, and network access provisions; "smart money" language; passages positioning the EIC as an active co-developer of the company, not a grant-making body.
+
+*Exclude:* Purely administrative grant management provisions.
+
+*Anchors:* "smart money"; Business Acceleration Services descriptions.
 
 ---
 
@@ -68,9 +224,81 @@ The full pattern-level observations and entry-by-entry revisions remain in `Read
 
 > Codes carried forward from v1: `COG_DEEPTECH`, `COG_LINEAR`, `COG_DISRUPTION`, `COG_THREAT`, `COG_MARKETFAILURE`, `COG_FINANCIALISATION`.
 >
-> _Pass 2 consideration:_ The TRL-as-disguise finding (synthesis §) may warrant a refinement of the `REG_TRL` / `COG_LINEAR` distinction — to be assessed in light of resolved `[?]` flags around Pathfinder evaluation.
+> _Pass 2 status:_ No cognitive-code definitions refined in Pass 2. `COG_LINEAR` is cross-referenced by Pattern F (TRL as Cross-Pillar Legitimation Artefact) — a relational property of how `REG_TRL` and `COG_LINEAR` co-operate, not a definitional change to either code. See `[v2]` marker on `COG_LINEAR` below.
 
-*(Definitions and anchors as in `Codebook_v1_Deductive.md` Section 3.)*
+---
+
+**COG_DEEPTECH — Deep Tech as a Taken-for-Granted Category**
+
+"Deep tech" is used as a self-evident, unproblematised category — invoking shared insider understanding without definition.
+
+*Include:* Uses of "deep tech" / "deep technology" that presume shared meaning without defining it; passages treating deep tech as a natural kind of innovation obviously distinct from other types.
+
+*Exclude:* Formal definitions of deep tech when they reveal contested boundaries (those are analytically interesting precisely because they are *not* taken for granted). Formal eligibility uses (code `REG_ELIGIBILITY`).
+
+*Anchors:* "support for the earliest stages of scientific, technological or deep tech research" (no definition given).
+
+---
+
+**COG_LINEAR — Linear Innovation Model as a Taken-for-Granted Schema** _`[v2]` cross-referenced by Pattern F (Section 7)_
+
+The assumption that innovation follows a natural linear path — from basic science through applied research to market — is treated as self-evident rather than argued for.
+
+*Include:* TRL as a developmental ladder (in its cognitive, not gatekeeping, function); science-first sequencing language; passages implying that market application is the natural endpoint of research; pipeline metaphors.
+
+*Exclude:* TRL as an eligibility threshold (code `REG_TRL`).
+
+*Anchors:* "validate the scientific basis... realise a proof of principle... explore paths to impact" (sequencing assumed natural); TRL 1–4 → 5–8 → commercial as self-evident progression.
+
+> **`[v2]` cross-reference:** Pattern F (Section 7) names the relational artefact whereby `REG_TRL` (regulative gate) and `COG_LINEAR` (cognitive schema) together produce cross-pillar legitimation — the TRL ladder simultaneously functions as eligibility rule, naturalised developmental sequence, and cognitive-legitimacy device.
+
+---
+
+**COG_DISRUPTION — Disruption as a Naturalised Innovation Outcome**
+
+Disruptive innovation — displacing existing markets or creating new ones — is treated as the self-evidently appropriate goal of deep-tech research, without being argued for.
+
+*Include:* "Disrupt", "breakthrough", "radically new" when used without qualification as if disruption were an obvious and universal aspiration; Schumpeterian language as background assumption.
+
+*Exclude:* Disruption as a valorised achievement prescribed to applicants (code `NORM_IDENTITY`). The cognitive code applies when disruption is *assumed*; the normative code applies when it is *required or celebrated*.
+
+*Anchors:* "disrupt a field and a market or create new opportunities" (stated as natural expected outcome, not argued).
+
+---
+
+**COG_THREAT — European Strategic Vulnerability as a Taken-for-Granted Premise**
+
+Europe's strategic dependence, technological vulnerability, or competitive lag behind the US and Asia is treated as established fact — the background condition motivating the programme — without being argued or evidenced.
+
+*Include:* "Strategic dependencies of the Union" as established context; the US and Asia as implicit competitive reference points; catching-up narrative as self-evident framing; passages where European vulnerability is the unstated premise of a policy choice.
+
+*Exclude:* Active argumentation for European vulnerability with evidence (that is legitimacy work — code `LEG_MORAL`). The cognitive code applies when vulnerability is *assumed*, not demonstrated.
+
+*Anchors:* "strategic dependencies of the Union" (as premise, not conclusion); competitive gap with US/Asia taken as given.
+
+---
+
+**COG_MARKETFAILURE — Private Market Failure as a Self-Evident Premise**
+
+The inability of private markets to adequately fund European deep-tech scale-up is treated as an objective, established fact requiring no demonstration.
+
+*Include:* "Market gap", "market failure", "cannot be sufficiently financed from the market" used as justificatory premises; passages where market failure is the background rationale for state intervention, not the conclusion of an argument.
+
+*Exclude:* Active, evidenced argument for market failure (code `LEG_PRAGMATIC`). The cognitive code applies when failure is *asserted*, not proven.
+
+*Anchors:* "market gap in financing deep tech scale up companies in Europe"; "significant risks which mean that it cannot be sufficiently financed from the market investors."
+
+---
+
+**COG_FINANCIALISATION — Equity Investment as the Natural Mechanism for Scale-Up**
+
+Equity investment, funding rounds, and financial market structures are treated as the self-evidently appropriate mechanism for scaling innovation — without comparing or justifying against alternative instruments such as grants or loans.
+
+*Include:* Equity-only STEP instrument presented as natural and appropriate; valuation and investment round language used as neutral vocabulary; "fundability" by private investors implicitly treated as a proxy for innovation quality.
+
+*Exclude:* Explicit arguments *for* equity over grants (those are legitimacy claims — code `LEG_PRAGMATIC`). The cognitive code applies when the financial logic is simply assumed, not argued.
+
+*Anchors:* Equity-only instrument presented without comparative justification; funding round catalysis as a self-evident programme goal.
 
 ---
 
@@ -79,7 +307,103 @@ The full pattern-level observations and entry-by-entry revisions remain in `Read
 
 > Carried forward from v1: `LOGIC_SCIENCE`, `LOGIC_MARKET`, `LOGIC_STATE`, `LOGIC_PROFESSION`, `LOGIC_TENSION`.
 >
-> _Pass 2 consolidation:_ The fuller definitions, central questions, and key distinctions from `Codebook_Logics_v1_Deductive.md` are taken as the authoritative definitions for v2 (they supersede the briefer summaries in `Codebook_v1_Deductive.md` Section 4).
+> _Pass 2 consolidation:_ The fuller definitions, central questions, and key distinctions from `Codebook_Logics_v1_Deductive.md` are taken as the authoritative definitions for v2 (they supersede the briefer summaries in `Codebook_v1_Deductive.md` Section 4). `LOGIC_STATE` is cross-referenced by the structural-state inference rule (Section 9, rule 6). `LOGIC_TENSION` is cross-referenced by the surface-visibility standard (Section 9, rule 1). See `[v2]` markers below.
+
+---
+
+**LOGIC_SCIENCE — Science Logic**
+
+*Organising principle:* Knowledge production through rigorous inquiry. The ultimate authority is scientific expertise and peer judgment. Value is measured by novelty, methodological rigour, and contribution to the knowledge frontier.
+
+*Central question:* _Is this excellent science?_
+
+*What it looks like in the text:*
+- Peer review as the primary evaluation mechanism
+- Scientific excellence, novelty, or frontier knowledge as the decisive criterion
+- Researcher-led agenda-setting (the scientist defines the question)
+- Emphasis on proof-of-principle, validation, and scientific basis
+- TRL 1–4 as the domain of legitimate scientific work
+- Interdisciplinary research valorised as a sign of scientific quality
+
+*Anchors:* "validate the scientific basis"; "proof of principle"; Pathfinder Open evaluation criteria centred on scientific merit; expert jury evaluating research quality.
+
+---
+
+**LOGIC_MARKET — Market Logic**
+
+*Organising principle:* Value creation through competition and exchange. Authority rests with investors, customers, and market signals. Value is measured by commercial viability, growth, and return.
+
+*Central question:* _Will this create and capture market value?_
+
+*What it looks like in the text:*
+- Commercial potential and market opportunity as evaluation criteria
+- Revenue, investment, and funding round language as natural vocabulary
+- Competition-based selection mechanisms (first come, first served)
+- Scalability and market size as indicators of quality
+- Private co-investment as a signal of credibility
+- Exit and return framing
+
+*Anchors:* Market opportunity assessment as an evaluation criterion; "create new markets"; funding round catalysis as a programme outcome; "first come, first served" allocation; co-investor requirements.
+
+---
+
+**LOGIC_STATE — State/Geopolitical Logic** _`[v2]` structural-state inference rule — see Section 9, rule 6_
+
+*Organising principle:* Pursuit of collective political interest. Authority rests with public institutions and legislative mandates. Value is measured by contribution to sovereignty, security, and geopolitical positioning.
+
+*Central question:* _Does this serve European strategic interests?_
+
+*What it looks like in the text:*
+- Strategic technology categories defined by state priorities, not scientific or market criteria
+- Sovereignty and strategic autonomy as the ultimate justification
+- Geopolitical competitors (US, Asia) as the reference point for success
+- Legislative mandate as the source of programme authority
+- IP retention and technology control in European hands
+- State as market corrector and geopolitical actor simultaneously
+
+*Anchors:* "strategic dependencies of the Union"; STEP Regulation as legislative origin; "protect European interests"; IP retention in EU clause; Sovereignty Seal; technology priorities set by geopolitical concern (semiconductors, quantum).
+
+> **`[v2]` cross-reference:** Section 9, rule 6 (structural-state inference rule) admits `LOGIC_STATE` co-coding where state organising principle is structurally present in a passage even when state vocabulary is not surface-visible — provided the structural inference is anchored in identifiable architectural features (e.g., STEP-Regulation-derived scope, sovereignty-conditioned instrument design). Pattern E (Section 7) anchors the catalytic-investment form of this co-coding.
+
+---
+
+**LOGIC_PROFESSION — Professional Logic**
+
+*Organising principle:* Credentialed expertise as the source of authority and quality assurance. Value is measured by conformity with professional standards and the judgment of certified practitioners.
+
+*Central question:* _Does this meet professional standards, and do qualified experts endorse it?_
+
+*What it looks like in the text:*
+- Expert jury as the legitimate evaluation body
+- External specialists conducting due diligence (technology, IP, investment)
+- Professional credentials and standards embedded in evaluation requirements
+- Specific professional tools mandated as submission elements (FTO analysis, business plan)
+- The investment adviser role as a professional authority within the programme
+
+*Anchors:* Jury of "leading experts" as evaluation mechanism; external Technology Due Diligence by qualified expert; Freedom to Operate (FTO) analysis as a mandatory submission element; investment adviser role in STEP.
+
+---
+
+**LOGIC_TENSION — Institutional Logic Tension** _`[v2]` surface-visibility standard — see Section 9, rule 1_
+
+*Organising principle:* N/A — this code marks the *absence* of a single dominant logic, where two or more logics are simultaneously present and pulling in different directions.
+
+*Central question:* _Where does the text try to serve two masters at once, and how does it manage that?_
+
+*What it looks like in the text:*
+- Hedging or qualifying language that attempts to satisfy incompatible criteria
+- Evaluation criteria drawn from different logics applied to the same proposal
+- Explicit acknowledgment of competing priorities
+- Structural segmentation used to contain a tension (e.g., Open vs. Challenges sub-calls)
+- Market instruments deployed for state goals, or scientific criteria applied to commercial decisions
+
+*Note:* Always apply alongside the relevant logic codes. `LOGIC_TENSION` + `LOGIC_SCIENCE` + `LOGIC_STATE` means a science/state tension is present in this passage. Both poles must be coded.
+
+*Anchors:* Pathfinder Open (science logic) and Pathfinder Challenges (state logic) co-existing within one programme; STEP equity instrument (market logic form) serving sovereignty goals (state logic content); scientific excellence criterion applied within a strategically scoped call.
+
+> **`[v2]` cross-reference:** Section 9, rule 1 (surface-visibility standard) requires that `LOGIC_TENSION` be legible in the text itself — through hedging, structural segmentation, or co-application of incompatible criteria — rather than inferred by the analyst from background institutional knowledge. Codings where tension was constructed analytically rather than read off the text have been retired in Pass 2 (see Section 8). Pattern A (Section 7) names the dominant rhetorical strategy by which surface-visible tensions are dissolved into apparent complementarity.
+
+---
 
 ### Key distinctions retained from v1 (Logics codebook)
 
@@ -100,9 +424,45 @@ The full pattern-level observations and entry-by-entry revisions remain in `Read
 
 > Codes carried forward from v1: `ISO_COERCIVE`, `ISO_MIMETIC`, `ISO_NORMATIVE`.
 >
-> _Pass 2 consideration:_ ~~Pattern B (Coercive Governance Cluster) is a candidate operationalisation of `ISO_COERCIVE` rather than a separate code.~~ **Resolved (Pass 2):** Pattern B confirmed as `ISO_COERCIVE` operationalisation at the hard end of the gradient, via a refinement of `ISO_COERCIVE` to include contractual discretionary authority exercised by the EIC under the grant agreement. **`[v2]` See Section 9, rule 3** for the refined coding rule, and Section 7 (Pattern B) for the intensity gradient observation.
+> _Pass 2 status:_ `ISO_COERCIVE` refined in Pass 2 via a coding rule (Section 9, rule 3) that admits contractual discretionary authority exercised by the EIC under the grant agreement as a coercive mechanism — operationalising Pattern B at the hard end of the gradient. See `[v2]` marker on `ISO_COERCIVE` below.
 
-*(Definitions and anchors as in `Codebook_v1_Deductive.md` Section 5.)*
+---
+
+**ISO_COERCIVE — Coercive Isomorphism** _`[v2]` contractual discretionary coercion admitted — see Section 9, rule 3; intensity gradient in Pattern B (Section 7)_
+
+Conformity is produced through legal mandate, regulatory requirement, or the formal authority of a more powerful actor.
+
+*Include:* Legally mandated requirements traceable to a specific regulation or decision; non-negotiable conditions where non-conformity results in exclusion or sanction; provisions where the source of obligation is explicitly the EU as a legislative authority.
+
+*Exclude:* Requirements adopted to signal professional belonging (code `ISO_NORMATIVE`).
+
+*Anchors:* STEP Regulation as programme mandate; IP retention clause; three-strike exclusion rule; KYC/AML requirements.
+
+> **`[v2]` cross-reference:** Section 9, rule 3 extends `ISO_COERCIVE` to cover contractual discretionary authority — i.e., provisions where the EIC retains discretion under the grant agreement to impose conditions, alter scope, or terminate funding without the applicant's structural recourse. Pattern B (Section 7) carries the intensity gradient (from soft Programme Manager authority through to hard contractual coercion).
+
+---
+
+**ISO_MIMETIC — Mimetic Isomorphism**
+
+Conformity is produced through imitation of a perceived successful external model — copying structures, metrics, or practices from an identifiable reference point.
+
+*Include:* Explicit benchmarking against US or Asian innovation systems; adoption of VC industry structures (jury, pitch, equity); unicorn metrics imported from US VC culture; identifiable models being copied (DARPA, Temasek, tier-1 VC firms).
+
+*Exclude:* Aspirational statements without an identifiable source model.
+
+*Anchors:* "to match and ultimately surpass the performance of the USA and Asia"; VC jury and pitch deck model; equity-only instrument as mimicry of growth equity funds.
+
+---
+
+**ISO_NORMATIVE — Normative Isomorphism**
+
+Conformity is produced through the diffusion of professional norms, standards, and best practices — organisations adopt these to be recognised as legitimate members of a professional community.
+
+*Include:* Professional standards adopted as evaluation criteria (IP profession → FTO; VC profession → business plan, pitch deck); DEI norms diffused through mandatory criteria; standardised formats that spread professional language and practices across the applicant population.
+
+*Exclude:* Legally mandated requirements (code `ISO_COERCIVE`). Direct mimicry of a specific named organisation (code `ISO_MIMETIC`).
+
+*Anchors:* Business plan and pitch deck requirement; gender balance as mandatory evaluation criterion; FTO analysis requirement.
 
 ---
 
@@ -110,8 +470,52 @@ The full pattern-level observations and entry-by-entry revisions remain in `Read
 *Codes identifying how the programme constructs and claims legitimacy — for itself and for the innovation activities it funds.*
 
 > Codes carried forward from v1: `LEG_PRAGMATIC`, `LEG_MORAL`, `LEG_COGNITIVE`, `LEG_SEAL`.
+>
+> _Pass 2 status:_ No legitimacy-code definitions refined in Pass 2. `LEG_COGNITIVE` is cross-referenced by Pattern F (TRL as Cross-Pillar Legitimation Artefact) — the cognitive-legitimacy function of the TRL ladder. See `[v2]` marker on `LEG_COGNITIVE` below.
 
-*(Definitions and anchors as in `Codebook_v1_Deductive.md` Section 6.)*
+---
+
+**LEG_PRAGMATIC — Pragmatic Legitimacy (Utility Claims)**
+
+The programme justifies itself by demonstrating concrete utility to identifiable stakeholders — what it delivers, to whom, and why those outcomes are practically valuable.
+
+*Include:* Specific financial commitments and outcome targets; BAS as tangible value-add; passages that *argue* (with evidence or specifics) that the programme addresses a real problem; matching funding round structures as evidence of impact.
+
+*Anchors:* "EUR 10–30M investment"; "EUR 50–150M funding round catalyst"; BAS provisions; evidenced market gap argument.
+
+---
+
+**LEG_MORAL — Moral Legitimacy (Normative Appropriateness Claims)**
+
+The programme justifies itself by demonstrating alignment with broader social values, ethical standards, or shared normative commitments — arguing that it is the right thing to do.
+
+*Include:* Sovereignty and strategic autonomy as moral obligations; societal benefit as ethical justification; gender equity as a value claim; European solidarity or identity appeals; passages marshalling normative arguments for the programme's existence.
+
+*Anchors:* "Reduce strategic dependencies" framed as obligation; "protect European interests"; societal challenge framing as moral justification.
+
+---
+
+**LEG_COGNITIVE — Cognitive Legitimacy (Taken-for-Grantedness)** _`[v2]` cross-referenced by Pattern F (Section 7)_
+
+The programme's existence or design is presented as natural, inevitable, or self-evidently necessary — not argued for but assumed.
+
+*Note:* This code often co-occurs with cognitive pillar codes (Section 3). The distinction: Section 3 codes describe *what is taken for granted*; `LEG_COGNITIVE` codes the *legitimacy function* of that taken-for-grantedness (i.e., the programme appears legitimate because its premises are unquestioned).
+
+*Anchors:* Programme existence naturalised by "self-evident" European tech gap; deep tech as a natural category that obviously requires institutional support.
+
+> **`[v2]` cross-reference:** Pattern F (Section 7) names the TRL ladder as a cross-pillar legitimation artefact — `REG_TRL` (regulative gate) and `COG_LINEAR` (cognitive schema) together perform the cognitive-legitimacy function coded here. Passages where the TRL ladder is presented as a self-evident developmental sequence (not argued) frequently warrant `LEG_COGNITIVE` co-coding alongside `COG_LINEAR`.
+
+---
+
+**LEG_SEAL — Sovereignty Seal as a Legitimacy Artefact**
+
+Passages describing, invoking, or relating to the STEP Sovereignty Seal — a device that decouples legitimacy certification from the funding decision itself.
+
+*Include:* All descriptions of the Seal mechanism; conditions for receiving it; how it can be used with other funders or programmes; the Seal as a portable, transferable credential.
+
+*Note:* Code alongside `LEG_MORAL` (sovereignty framing) and `NORM_OBLIGATION_STRATEGIC`. This is the most institutionally novel element in the Work Programme — code every passage that touches it.
+
+*Anchors:* "Sovereignty (STEP) Seal" awarded to NO GO proposals that meet strategic criteria; Seal valid for use with InvestEU and national programmes.
 
 ---
 
@@ -214,11 +618,37 @@ The resolution decision for each pattern is to be filled in during Pass 2.
 
 ---
 
+### Pattern F — TRL as Cross-Pillar Legitimation Artefact _(confirmed in Pass 2)_
+
+**Description (formalised in Pass 2 from `synthesis.md` §2.3):** TRL (Technology Readiness Level) functions simultaneously across two pillars within the same passages: as `REG_TRL` (regulative pillar — the gate function determining eligibility, scope boundaries, budget allocation, and instrument routing) and as `COG_LINEAR` (cognitive pillar — the taken-for-granted scientific-developmental ladder, borrowing measurement legitimacy from its NASA / US-defence origin). The two codes are not in tension; they co-code in the same passages and together constitute a legitimation mechanism. The cognitive pillar provides scientific-register surface cover (TRL-as-measurement); the regulative pillar performs the gatekeeping work beneath (TRL-as-eligibility-threshold). The disguise depoliticises what are political decisions about where in the innovation pipeline public money flows.
+
+**Source:** `synthesis.md` §2.3 ("TRL as Institutional Disguise"). Cited entries [012], [044], [046]; recurs across Pathfinder evaluation passages.
+
+**Pass 2 resolution:** **Option (c) — pure analytical observation. No codebook-level refinement of `REG_TRL` or `COG_LINEAR`.**
+
+- **Option considered:** (a) promote to new code or refine the `REG_TRL` / `COG_LINEAR` distinction; (b) introduce a coding rule disciplining REG_TRL / COG_LINEAR co-coding; (c) retain as pure analytical observation.
+- **Decision:** (c) Pattern F retained as analytical observation. v1 definitions of `REG_TRL` and `COG_LINEAR` are unchanged; v1 already permits co-coding (Coding Instructions: "a sentence can be both `REG_TRL` and `COG_LINEAR`"). No new coding rule.
+- **Rationale:** Pattern F is a *relational* property of how two correctly-applied codes interact, not a coding-distinction ambiguity. The v1 split — `REG_TRL` for regulative gate function, `COG_LINEAR` for cognitive developmental schema — is structurally sound at the pillar level. The disguise mechanism (regulatory function operating beneath cognitive surface) is itself the finding, and it requires both codes to remain distinct so that the co-occurrence is analytically visible. Collapsing them would erase the very contrast that makes the legitimation work readable. Resolves the Section 3 Pass 2 question (line 71).
+
+**Distinct from other confirmed patterns:**
+
+- **Not Pattern A.** Pattern A operates at the LOGIC code layer (Thornton): logics presented as complementary, suppressing visible conflict. Pattern F operates at the pillar code layer (Scott): one mechanism (TRL) doing double duty across regulative and cognitive pillars without conflict claim.
+- **Not Pattern D.** Pattern D is intra-chapter logic succession across sub-sections (`LOGIC_STATE` → `LOGIC_SCIENCE` → `LOGIC_PROFESSION` → `LOGIC_STATE`); Pattern F is cross-pillar legitimation within single passages.
+- **Not Pattern E.** Pattern E is the state constructing the market signal it then requires (circular validation). Pattern F is the state cognitively legitimating its regulatory gate through borrowed scientific vocabulary (cognitive cover for regulative function).
+
+**Deferred to Ch 4 / Ch 5:**
+- **Ch 4 description** of the gate-as-ladder mechanism — TRL doing double duty across `REG_TRL` and `COG_LINEAR` co-codings in Pathfinder evaluation passages.
+- **Ch 5 discussion** as a cognitive-legitimation strategy in Suchman's frame — the regulative pillar drawing on cognitive pillar resources for taken-for-granted-ness. The TRL framework borrowed from US defence carries *mimetic-isomorphic* legitimacy (synthesis §2.5) alongside its cognitive disguise — connecting Pattern F to the DARPA mimetic isomorphism finding. The TRL artefact is therefore doing legitimation work along three axes simultaneously: cognitive (scientific-measurement register), regulative (eligibility gate), and mimetic (US-defence provenance). This triple-load is what makes the artefact analytically dense.
+
+---
+
 ### Candidate Patterns Tested and Not Confirmed _(Pass 2)_
 
 This sub-section records candidate patterns examined during Pass 2 that did not meet the threshold for formalisation as patterns. The negative findings themselves carry analytical value — they sharpen the boundaries of the confirmed patterns and identify configurations where the institutional architecture *could* have been templated but was not.
 
-#### Candidate Pattern F — Sustainability as State Template _(not confirmed)_
+#### Candidate Pattern — Sustainability as State Template _(not confirmed)_
+
+_(No pattern letter assigned — letters in this codebook are reserved for confirmed patterns.)_
 
 **Hypothesis:** Sustainability framing recurs across Challenge chapters as a standardised state legitimation insert, analogous to Pattern C (State Social Equity Template). If confirmed, every Challenge would carry sustainability language regardless of subject matter, indicating a Pattern C-equivalent universal template embedded in the institutional architecture.
 
@@ -271,7 +701,7 @@ Each of the 29 `[?]` flags listed in the Unresolved Questions Index of `Readthro
 | [061] | Dual responsiveness mandate without resolution | KEPT | `LOGIC_PROFESSION` + `LOGIC_TENSION` | Organising tension is the dual sci/industrial responsiveness mandate (Pattern A in character — sci and industrial signals presented as simultaneously serviceable without resolution mechanism). PM directive authority is implicit but not the passage's central feature; Pattern A + B intersection without recoding. |
 | [067] | Geographic eligibility as state logic embedded | KEPT | None | Geographic categories (Member State, Associated Country) are state-political in origin but here function as descriptive context for consortium structure — subject of the passage is consortium architecture, not state strategic positioning. State inference is external to the text. Below threshold per Section 9 rule 6 (subject test fails). Consistent with [059] precedent. Structural observation preserved for Ch 4/5 (state operationalising EU political categories as access criteria). |
 | [071] | Equal Challenge budget allocation rationale | KEPT | None | Subject is budget allocation amount; the likely rationale (EU state aid rules) is unstated and requires external knowledge — "not a reading of what the text itself says" (analyst's own framing). Below threshold per Section 9 rule 6 (external-inference case). Consistent with [059], [067] precedent. Structural observation preserved for Ch 4/5 (equal-distribution principle as compliance with EU regulatory equity constraint). |
-| [096] | Sustainability framing recurrence (Pattern test) | KEPT + DEFERRED | None | Pass 1 None coding stands: both signals are below rule 7 threshold — `LOGIC_STATE` for "environmental sustainability" is descriptive consequence, not governing rationale (no state actor, policy document, or mandate invoked); `LOGIC_SCIENCE` for "studies point to" is rhetorical, not peer-authority. **Candidate Pattern F (Sustainability as State Template) tested and not confirmed**: universality hypothesis fails on II.2.2 evidence (line 1689 — "No sustainability or environmental language present"). Sustainability is *subject-matter-dependent*, not a universal Challenge insert. **Deferred to Ch 4/5:** sustainability as a state-policy entry vector with at least four distinct mechanisms identified across the corpus — (i) Commission Communication policy-citation [099]; (ii) explicit environmental-consequence framing [096]; (iii) sector-definition (around [117–120]); (iv) technical efficiency-proxy via compute constraint [125]/[129]. Analytical value as the *contrast case* to Pattern C: sharpens what the state social-equity template actually templates (gender mainstreaming = universal insert; sustainability = adaptive entry vector). See Section 7 "Candidate Patterns Tested and Not Confirmed". |
+| [096] | Sustainability framing recurrence (Pattern test) | KEPT + DEFERRED | None | Pass 1 None coding stands: both signals are below rule 7 threshold — `LOGIC_STATE` for "environmental sustainability" is descriptive consequence, not governing rationale (no state actor, policy document, or mandate invoked); `LOGIC_SCIENCE` for "studies point to" is rhetorical, not peer-authority. **Candidate Pattern (Sustainability as State Template) tested and not confirmed**: universality hypothesis fails on II.2.2 evidence (line 1689 — "No sustainability or environmental language present"). Sustainability is *subject-matter-dependent*, not a universal Challenge insert. **Deferred to Ch 4/5:** sustainability as a state-policy entry vector with at least four distinct mechanisms identified across the corpus — (i) Commission Communication policy-citation [099]; (ii) explicit environmental-consequence framing [096]; (iii) sector-definition (around [117–120]); (iv) technical efficiency-proxy via compute constraint [125]/[129]. Analytical value as the *contrast case* to Pattern C: sharpens what the state social-equity template actually templates (gender mainstreaming = universal insert; sustainability = adaptive entry vector). See Section 7 "Candidate Patterns Tested and Not Confirmed". |
 | [102] | Pattern A in Specific Objectives II.2.1 | KEPT | `LOGIC_MARKET` + `LOGIC_STATE` | Direct Pattern A instance — entry analysis already explicitly identifies tension-dissolution: "potential markets" and "associated impacts" presented as parallel co-requirements joined by "and", no conflict acknowledged. `LOGIC_TENSION` correctly not added per Section 9 rule 1. The "also" subordination relative to [100]'s science objectives is an analytical observation for Ch 4. Pattern A. |
 | [109] | Performative market-readiness in low-translation field | KEPT + DEFERRED | `LOGIC_SCIENCE` + `LOGIC_MARKET` + `LOGIC_STATE` (unchanged) | Analyst's Pass 1 explicit: "No `LOGIC_TENSION` on a conservative deductive pass — science objectives and exploitation requirements are listed as co-equal sub-objectives without surface-visible conflict." Flag itself states: "The tension is not surface-visible in this passage alone but emerges from the relationship between [108] and [109]" — a constructed cross-entry argument. Below rule 1 threshold. Pattern A in character. **Deferred to Ch 4/5:** the [108]→[109] juxtaposition — [108]'s explicit acknowledgement of the low translational success rate in ageing research alongside [109]'s mandatory market-readiness deliverables (exploitation plan, economic viability, regulatory approval) at proof-of-concept stage — is a *performative market-readiness* finding for Findings/Discussion: a market-logic requirement institutionally embedded in a field where the underlying science cannot yet honestly fulfil it. |
 | [115] | "Encouraged to collaborate" — soft Pattern B extension | KEPT | `LOGIC_PROFESSION` + `LOGIC_MARKET` + `LOGIC_STATE` | "Encouraged" lacks sanction force — below refined `ISO_COERCIVE` threshold. Soft end of Pattern B carried at observation level. Notable contrast with [105] "will be assigned" (mandatory) — variance in directive intensity across Challenge Portfolio passages is itself a Pattern B finding. |
@@ -316,9 +746,11 @@ This section records all codebook-level changes made during Pass 2: refinements,
 | _v2-025_  | §8 | Flag resolved (no recoding) | [011] kept as `LOGIC_MARKET`, `[?]` flag retired. "User uptake" is substantive demand-side market validation as the rationale for the instrument, above rule 7 threshold. Distinguishable from [008]/[009] cases. | [011] |
 | _v2-026_  | §8 | Flag resolved (no recoding) | [053] kept as None. Passage invokes the three award criteria as page-allocation context, not as governing values; substantive criterion-level logic content is enacted at the entries that define each criterion (e.g., [056] Excellence). Below rule 7 threshold. | [053] |
 | _v2-027_  | §7 | Pattern A instance list extension | [003] and [008] added to Pattern A instance list. Both Pass 1 codings included constructed-argument `LOGIC_TENSION` withdrawn at v2-021 / v2-023; the underlying tension-dissolution architecture (logics presented as complementary, no surface marker) is the Pattern A signature. | [003], [008]; Pattern A |
-| _v2-028_  | §8 | Flag resolved (no recoding) | [096] kept as None per rule 7. Candidate Pattern F (Sustainability as State Template) tested and not confirmed — universality fails on II.2.2 absence. Multi-mechanism finding (four distinct sustainability entry vectors when present) deferred to Ch 4/5. | [096]; candidate Pattern F |
-| _v2-029_  | §8 | Flag resolved (no recoding) | [129] kept as `LOGIC_SCIENCE` + `LOGIC_STATE`. Third sustainability entry mechanism (efficiency-proxy via compute constraint at [125]) feeds the [096] multi-mechanism analytical finding. Deferred to Ch 4/5. | [129]; candidate Pattern F |
-| _v2-030_  | §7 | Negative-finding observation added | New sub-section "Candidate Patterns Tested and Not Confirmed" introduced at the end of Section 7, with candidate Pattern F (Sustainability as State Template) recorded as the first negative case. Analytical value documented as the *contrast* with Pattern C (State Social Equity Template): Pattern C operates as universal insert; sustainability operates as subject-matter-dependent adaptive entry vector. Sharpens Pattern C's substantive claim about state-priority distribution across the institutional architecture. No new code, no new rule. | [096], [129]; candidate Pattern F; Pattern C contrast |
+| _v2-028_  | §8 | Flag resolved (no recoding) | [096] kept as None per rule 7. Candidate Pattern (Sustainability as State Template) tested and not confirmed — universality fails on II.2.2 absence. Multi-mechanism finding (four distinct sustainability entry vectors when present) deferred to Ch 4/5. | [096]; candidate Sustainability pattern |
+| _v2-029_  | §8 | Flag resolved (no recoding) | [129] kept as `LOGIC_SCIENCE` + `LOGIC_STATE`. Third sustainability entry mechanism (efficiency-proxy via compute constraint at [125]) feeds the [096] multi-mechanism analytical finding. Deferred to Ch 4/5. | [129]; candidate Sustainability pattern |
+| _v2-030_  | §7 | Negative-finding observation added | New sub-section "Candidate Patterns Tested and Not Confirmed" introduced at the end of Section 7, with the candidate Sustainability template recorded as the first negative case (no pattern letter assigned — letters reserved for confirmed patterns). Analytical value documented as the *contrast* with Pattern C (State Social Equity Template): Pattern C operates as universal insert; sustainability operates as subject-matter-dependent adaptive entry vector. Sharpens Pattern C's substantive claim about state-priority distribution across the institutional architecture. No new code, no new rule. | [096], [129]; candidate Sustainability pattern; Pattern C contrast |
+| _v2-031_  | §3 / §7 | Pattern formalisation + Section 3 question resolved | Pattern F (TRL as Cross-Pillar Legitimation Artefact) confirmed and resolved as pure analytical observation. v1 `REG_TRL` (regulative gate) and `COG_LINEAR` (cognitive developmental schema) definitions unchanged; v1 already permits co-coding. The disguise finding is a *relational* property of how the two codes interact (regulatory function operating beneath cognitive surface), not a coding-distinction ambiguity — collapsing the codes would erase the very contrast that makes the legitimation work readable. Resolves the Section 3 Pass 2 question (line 71). Triple-load finding (cognitive + regulative + mimetic via DARPA / US-defence provenance) deferred to Ch 4/5 with cross-reference to mimetic isomorphism (synthesis §2.5) and Suchman cognitive legitimacy. | synthesis §2.3; [012], [044], [046]; Pattern F |
+| _v2-032_  | §7 | Letter-housekeeping | "Candidate Pattern F — Sustainability as State Template" renamed to "Candidate Pattern — Sustainability as State Template" (no letter). Letters in this codebook are reserved for confirmed patterns; the F letter is taken by Pattern F (TRL as Cross-Pillar Legitimation Artefact) introduced at v2-031. Prior v2-028/v2-029/v2-030 entries and the [096] flag row also updated to drop the "Pattern F" reference for the candidate. | Section 7 candidate sub-section; v2-028, v2-029, v2-030, [096] row |
 
 **Coding-rule clarifications introduced in Pass 2** (running list):
 
@@ -333,11 +765,49 @@ This section records all codebook-level changes made during Pass 2: refinements,
 
 ---
 
-## CODE INDEX (v2 — to be updated as Pass 2 proceeds)
+## CODE INDEX (v2)
 
-Mirror of v1 index, with any added (`[v2-NEW]`) or withdrawn codes marked.
+Mirror of the v1 index. No codes added or withdrawn in Pass 2 — all 31 v1 codes carry forward unchanged. The `[v2] cross-reference` column flags codes whose application is disciplined or extended by Pass 2 coding rules (Section 9) or analytical patterns (Section 7). Definitional content is unchanged for all codes.
 
-*(Reproduce v1 index here when finalising v2 at end of Pass 2.)*
+| Code | Section | Primary Programme | `[v2]` cross-reference |
+|---|---|---|---|
+| REG_TRL | Regulative | PATH | Pattern F (§7) |
+| REG_ELIGIBILITY | Regulative | Both | — |
+| REG_SCOPE | Regulative | Both (Challenges & STEP > Open) | — |
+| REG_IP | Regulative | Both (stronger in STEP) | — |
+| REG_SANCTION | Regulative | Both (stronger in STEP) | — |
+| REG_MANDATE | Regulative | STEP | — |
+| REG_FINREG | Regulative | STEP | — |
+| NORM_IDENTITY | Normative | Both (different identities) | — |
+| NORM_OBLIGATION_SOCIETAL | Normative | PATH | — |
+| NORM_OBLIGATION_STRATEGIC | Normative | STEP | — |
+| NORM_COLLABORATION | Normative | PATH | — |
+| NORM_DEI | Normative | Both | §9 rule 4; Pattern C (§7) |
+| NORM_SMARTMONEY | Normative | STEP | — |
+| COG_DEEPTECH | Cognitive | Both | — |
+| COG_LINEAR | Cognitive | PATH | Pattern F (§7) |
+| COG_DISRUPTION | Cognitive | Both | — |
+| COG_THREAT | Cognitive | STEP | — |
+| COG_MARKETFAILURE | Cognitive | STEP | — |
+| COG_FINANCIALISATION | Cognitive | STEP | — |
+| LOGIC_SCIENCE | Logics | PATH | — |
+| LOGIC_MARKET | Logics | Both | §9 rule 2 (STEP catalytic co-coding); §9 rule 5 (BAS) |
+| LOGIC_STATE | Logics | STEP | §9 rule 6 (structural state inference); §9 rule 2; §9 rule 4; Patterns C, E (§7) |
+| LOGIC_PROFESSION | Logics | Both | §9 rule 5 (BAS) |
+| LOGIC_TENSION | Logics | Both | §9 rule 1 (surface-visibility standard); Pattern A (§7) |
+| ISO_COERCIVE | Isomorphism | STEP | §9 rule 3 (contractual discretionary coercion); Pattern B (§7) |
+| ISO_MIMETIC | Isomorphism | Both | — |
+| ISO_NORMATIVE | Isomorphism | Both | — |
+| LEG_PRAGMATIC | Legitimacy | Both | — |
+| LEG_MORAL | Legitimacy | Both | — |
+| LEG_COGNITIVE | Legitimacy | Both | Pattern F (§7) |
+| LEG_SEAL | Legitimacy | STEP | — |
+
+**Total: 31 codes** (unchanged from v1).
+
+**Codes with Pass 2 cross-references:** REG_TRL, NORM_DEI, COG_LINEAR, LOGIC_MARKET, LOGIC_STATE, LOGIC_PROFESSION, LOGIC_TENSION, ISO_COERCIVE, LEG_COGNITIVE (9 of 31).
+
+**Pass 2 architecture summary:** Refinements land at the coding-rule layer (Section 9, seven rules in force) and the pattern-observation layer (Section 7, Patterns A–F confirmed + one candidate not confirmed). Code definitions are unchanged; the four-pillar / four-logic / three-isomorphism / four-legitimacy scheme of v1 is preserved intact.
 
 ---
 
