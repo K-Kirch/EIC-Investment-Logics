@@ -27,9 +27,9 @@ What stage 06 *does not* do:
 |---|---|---|
 | 1 Introduction | `Chapters/01_intro.tex` | `00_admin/` (proposal, learning objectives); v1 project framing |
 | 2 Background & theoretical framework | `Chapters/02_background.tex` | `02_theory/output/Scott_ThreePillars_DiMaggio_Isomorphism.md`, `02_theory/output/Matrix_Logics_QuickReference.md`, `01_literature/references/academic/` |
-| 3 Methodology | `Chapters/03_methodology.tex` | `03_corpus/` (corpus charter + references), `04_codebook/output/Codebook_v1_Deductive.md`, `04_codebook/output/Codebook_Logics_v1_Deductive.md`, `01_literature/references/methodology_genai/` |
-| 4 Findings | `Chapters/04_results.tex` | `05_analysis/output/Readthrough_Notes_v1.md`, `05_analysis/output/synthesis.md` |
-| 5 Discussion | `Chapters/05_discussion.tex` | `05_analysis/output/synthesis.md`, `02_theory/output/` |
+| 3 Methodology | `Chapters/03_methodology.tex` | `03_corpus/` (corpus charter + references), `04_codebook/output/Codebook_v2_Inductive.md` (authoritative; v1 codebooks frozen as deductive baseline), `01_literature/references/methodology_genai/` |
+| 4 Findings | `Chapters/04_results.tex` | `05_analysis/output/synthesis_v2.md` (supersedes v1 synthesis for Ch 4), `04_codebook/output/Codebook_v2_Inductive.md` §7 pattern formalisations, `05_analysis/output/Readthrough_Notes_v1.md` (frozen) |
+| 5 Discussion | `Chapters/05_discussion.tex` | `05_analysis/output/synthesis_v2.md` (supersedes v1 synthesis for Ch 5), `04_codebook/output/Codebook_v2_Inductive.md` §7 patterns + §9 change log, `02_theory/output/` |
 | 6 Conclusion | `Chapters/06_conclusion.tex` | All upstream stages |
 | Appendix | `Backmatter/07_appendix.tex` | Codebooks, corpus catalogue, coded excerpts as evidence |
 
@@ -134,7 +134,7 @@ These rules govern *how* this stage is worked on, not the chapter content itself
 
 1. **Audit trail.** Any content edit to a tracked file in `06_report/` is logged in `../RESTRUCTURE_LOG.md` (or its successor change-log) with date, file, and one-line rationale. This is a direct extension of the project's no-rename / no-delete rule established during the restructure.
 2. **Explicit approval for content changes.** AI assistance may *propose* prose, but writing into `Chapters/*.tex` requires explicit user approval per file or per change. Build-only tweaks (packages, layout, label fixes) follow the same rule unless covered by a prior standing instruction.
-3. **No bypassing the 3-pass workflow.** Per the project's Layer 0 `CLAUDE.md`, writing chapter 4 (Findings) and chapter 5 (Discussion) is **Pass 3** work. Do not draft Findings prose before the deductive readthrough (`../05_analysis/output/Readthrough_Notes_v1.md`) is complete and Pass 2 inductive updates are resolved.
+3. **Honour the upstream supersession.** Per the project's Layer 0 `CLAUDE.md`, Pass 1 and Pass 2 are closed and Pass 3 (writing) is the current stage. Ch 4 (Findings) and Ch 5 (Discussion) draw from `../05_analysis/output/synthesis_v2.md` (authoritative) and `../04_codebook/output/Codebook_v2_Inductive.md` §7 pattern formalisations. The v1 synthesis (`synthesis.md`) and the v1 codebooks remain frozen audit artefacts and are not the source of truth for Ch 4 / Ch 5 prose. `Readthrough_Notes_v1.md` is frozen — two known v2 consequences are tracked in `synthesis_v2.md` §0.2 and `Codebook_v2_Inductive.md` §9 rather than retroactively applied.
 4. **Theory chapter is downstream of the matrix.** Chapter 2 prose follows the framework artefacts in `../02_theory/output/`. If a theoretical point isn't anchored there, do not introduce it here without first adding it to the theory output.
 5. **No silent renaming.** Chapter files, cite-keys, label names, and figure filenames are not renamed without an audit-trail entry, even within this stage.
 6. **No content from `_archive/`.** Files under `../_archive/` (including `_archive/06_report_v1_hand_rolled/`) represent superseded framings and must not be cited or quoted in the current v1 write-up without explicit approval and a fresh provenance check.
@@ -202,11 +202,17 @@ Inherited from the template via `Setup/Settings.tex`:
 
 ## 9. Status
 
-- Template-based skeleton present and verified to build on Overleaf (XeLaTeX, frontpage renders with logo + photo). Chapter prose: `\todoinline{...}` placeholders.
-- Stage 06 is **gated by stages 04 and 05**: substantive drafting of chapters 4 and 5 begins only after the analysis passes complete.
-- Outstanding pre-drafting items (also tracked in `../RESTRUCTURE_LOG.md`):
+- Template-based skeleton present and verified to build on Overleaf (XeLaTeX, frontpage renders with logo + photo).
+- Pass 1 and Pass 2 are closed upstream; the gate from stages 04 / 05 has lifted. Pass 3 (writing) is the **current** stage.
+- Chapter drafting status:
+  - Ch 3 Methodology — drafted.
+  - Ch 4 Findings — restructured to v2 patterns; first-section prose in place; subsequent sections in progress.
+  - Chs 1, 2, 5, 6 — pending Pass 3 drafting.
+  - Backmatter / appendix — pending.
+- Outstanding pre-submission items (also tracked in `../RESTRUCTURE_LOG.md`):
   - `\studentnumber` still `sXXXXXX` in `Setup/Statics.tex`.
   - Supervisor / co-supervisor names still placeholders.
   - DTU Entrepreneurship address + website to verify.
   - Editorial review of working subtitle.
   - `bibliography.bib` to be expanded from `../01_literature/references/` as citations are introduced.
+  - `\todoinline{...}` placeholders to clear before the final build (see §7).

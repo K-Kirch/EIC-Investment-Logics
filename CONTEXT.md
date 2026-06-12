@@ -4,7 +4,7 @@
 
 **Research question:** How are investment logics constructed, legitimised and contested within the EIC instruments Pathfinder and STEP, and how can these dynamics be understood through the lens of institutional theory?
 
-**Current stage:** Pass 1 (deductive readthrough) finished. Pass 2 (inductive update) next.
+**Current stage:** Pass 1 (deductive readthrough) and Pass 2 (inductive update) closed. Pass 3 (thesis writing) current.
 
 ## Stage map
 
@@ -15,8 +15,8 @@
 | `02_theory/` | Theoretical framework summaries (Scott, DiMaggio/Powell, Logics, Suchman) | v1 framework summaries complete (`output/`) |
 | `03_corpus/` | Primary documents under analysis (EIC WP 2026) | Corpus + plain-text extraction complete |
 | `04_codebook/` | Deductive codebooks derived from theory | Two v1 codebooks complete (`output/`) |
-| `05_analysis/` | Coding readthrough, MAXQDA project, pattern observations, manual colour-coded PDF cross-reference | Pass 1 finished (180 entries + synthesis); Pass 2 next |
-| `06_report/` | LaTeX write-up (DTU template, XeLaTeX) | Template populated; Ch 3 methodology drafted; Chs 1, 2, 4–6 pending Pass 2 |
+| `05_analysis/` | Coding readthrough, MAXQDA project, pattern observations, manual colour-coded PDF cross-reference | Pass 1 closed (180 entries + `synthesis.md`); Pass 2 closed (`synthesis_v2.md` supersedes for Ch 4 / Ch 5) |
+| `06_report/` | LaTeX write-up (DTU template, XeLaTeX) | Template populated; Ch 3 methodology drafted; Ch 4 findings drafting in progress; Chs 1, 2, 5, 6 pending Pass 3 drafting |
 | `_archive/` | Superseded v0 material (no-delete policy) | Holds hand-rolled v1 report, v0 QDA, old drafts |
 | `_config/` | Stable conventions (citation style, voice, DTU rules) | Scaffolded; empty |
 | `shared/` | Cross-stage assets (screenshots, Rise Europe material) | Lightly populated |
