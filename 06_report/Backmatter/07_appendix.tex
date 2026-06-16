@@ -56,24 +56,696 @@ R02 & Establishing Horizon Europe --- Regulation (EU) 2021/695 & European Parlia
 \chapter{Deductive codebook}
 \label{app:codebook-deductive}
 
-\todoinline{Reproduce (or summarise) the deductive codebook used in
-Pass~1 of the analysis: Scott's three pillars, DiMaggio \& Powell's
-isomorphism types, and Thornton et al.'s institutional logics. Provide
-code definition, example indicators, and source.}
+This appendix reproduces the deductive codebook applied in Pass~1 of the
+analysis. The codebook is organised in six sections that follow the
+theoretical framework set out in Chapter~\ref{ch:background}: the three
+pillars of \textcite{scott2014institutions}, the four institutional
+logics of \textcite{thornton2012institutional} as developed from
+\textcite{friedland1991bringing}, the three types of isomorphism in
+\textcite{dimaggio1983iron}, and the legitimacy typology of
+\textcite{suchman1995managing}. The full v1 codebook is held in the
+project repository at \texttt{04\_codebook/output/Codebook\_v1\_Deductive.md}.
+
+\paragraph{Unit of analysis.} The sentence or clause, extended to the
+full paragraph only where the meaning cannot be extracted from a
+shorter unit. A passage may receive multiple codes from different
+sections simultaneously; codes from each section are not mutually
+exclusive.
+
+\paragraph{Programme tag.} Each coded passage is marked \texttt{[PATH]}
+(Pathfinder), \texttt{[STEP]} (STEP Scale Up), or \texttt{[SHARED]}
+for introductory or shared sections.
+
+\paragraph{Ambiguity flag.} Uncertain coding decisions are marked
+\texttt{[?]} during Pass~1 and resolved in Pass~2.
+
+\section*{Section 1 --- Regulative pillar}
+
+Rules, laws, monitoring, and sanctions. Legitimacy through compliance.
+Ask: what must actors do, avoid, or demonstrate in order to be admitted
+and remain in good standing?
+
+\begin{longtable}{@{} l p{4.3cm} p{6.3cm} @{}}
+\toprule
+\textbf{Code} & \textbf{Definition} & \textbf{Anchor / example} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Code} & \textbf{Definition} & \textbf{Anchor / example} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\texttt{REG\_TRL} & TRL as formal eligibility threshold or scope boundary. & \enquote{Technology Readiness Levels from 1 to 4}; activities beyond TRL~4 not eligible. \\
+\texttt{REG\_ELIGIBILITY} & Formal admissibility: who may apply and under what conditions, independent of quality. & Concurrent-submission prohibition; nationality and establishment rules. \\
+\texttt{REG\_SCOPE} & State-directed thematic channelling toward pre-defined technology themes or societal challenges. & Named Pathfinder Challenge topics; STEP priority domains. \\
+\texttt{REG\_IP} & Intellectual-property conditions on funded entities (ownership, transfer, EU retention). & EIC Fund ensuring companies keep IP in the EU; Annex IP provisions. \\
+\texttt{REG\_SANCTION} & Formal consequences for non-compliance, failure or rule violation (exclusion, clawback, termination). & Three-strike exclusion after three unsuccessful STEP submissions. \\
+\texttt{REG\_MANDATE} & Programme provisions explicitly grounded in named EU legislative instruments. & STEP Regulation (EU)~2024/795; Decision C(2025)\,7410. \\
+\texttt{REG\_FINREG} & Financial-sector regulation imported into innovation funding. & KYC / AML compliance by the EIC Fund or EIF. \\
+\end{longtable}
+
+\section*{Section 2 --- Normative pillar}
+
+Values, norms, role expectations, and obligations. Legitimacy through
+appropriateness. Ask: what kind of actor should an applicant be, and
+what obligations does participation entail?
+
+\begin{longtable}{@{} l p{4.3cm} p{6.3cm} @{}}
+\toprule
+\textbf{Code} & \textbf{Definition} & \textbf{Anchor / example} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Code} & \textbf{Definition} & \textbf{Anchor / example} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\texttt{NORM\_IDENTITY} & Construction of the ideal applicant identity through aspirational or prescriptive language. & \enquote{Do you have an ambitious vision \dots\,?}; \enquote{game-changing innovative technology}. \\
+\texttt{NORM\_OBLIGATION\_SOCIETAL} & Research framed as carrying a duty to society beyond commercial success. & \enquote{Respond to societal needs and / or provide solutions for global challenges}. \\
+\texttt{NORM\_OBLIGATION\_STRATEGIC} & Participation framed as serving European strategic interests and competitiveness. & \enquote{Propelling Europe's economic, industrial, and technological competitiveness}. \\
+\texttt{NORM\_COLLABORATION} & Interdisciplinarity and cross-sector collaboration valorised as a signal of legitimacy. & \enquote{Interdisciplinary team of researchers and innovators}. \\
+\texttt{NORM\_DEI} & Diversity / gender requirements with evaluative weight, not boilerplate. & \enquote{Adequate gender balance, with a credible plan to fill the gaps}. \\
+\texttt{NORM\_SMARTMONEY} & EIC relationship framed as VC-style value-add partnership beyond the grant. & \enquote{Smart money}; Business Acceleration Services. \\
+\end{longtable}
+
+\section*{Section 3 --- Cognitive pillar}
+
+Shared schemas, taken-for-granted assumptions, and naturalised
+categories. Legitimacy through conformity with what is self-evident.
+Ask: what does the programme treat as obvious, unquestioned or natural
+without arguing for it?
+
+\begin{longtable}{@{} l p{4.3cm} p{6.3cm} @{}}
+\toprule
+\textbf{Code} & \textbf{Definition} & \textbf{Anchor / example} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Code} & \textbf{Definition} & \textbf{Anchor / example} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\texttt{COG\_DEEPTECH} & \enquote{Deep tech} used as a self-evident category without definition. & \enquote{Earliest stages of scientific, technological or deep tech research}. \\
+\texttt{COG\_LINEAR} & Linear innovation model (basic $\rightarrow$ applied $\rightarrow$ market) treated as a self-evident schema. & TRL~1--4 $\rightarrow$ 5--8 $\rightarrow$ commercial as natural progression. \\
+\texttt{COG\_DISRUPTION} & Disruption treated as the self-evidently appropriate goal of deep-tech research. & \enquote{Disrupt a field and a market or create new opportunities}. \\
+\texttt{COG\_THREAT} & European strategic vulnerability treated as established fact, not argued. & \enquote{Strategic dependencies of the Union} as background premise. \\
+\texttt{COG\_MARKETFAILURE} & Private market failure treated as objective premise requiring no demonstration. & \enquote{Market gap in financing deep tech scale up companies in Europe}. \\
+\texttt{COG\_FINANCIALISATION} & Equity investment treated as the self-evidently appropriate scale-up mechanism. & Equity-only STEP instrument; funding-round catalysis as a natural goal. \\
+\end{longtable}
+
+\section*{Section 4 --- Institutional logics}
+
+Cross-cutting codes identifying which deep cultural ordering principle
+organises a passage's assumptions about what matters, who has
+authority, and what counts as success.
+
+\begin{longtable}{@{} l p{4.3cm} p{6.3cm} @{}}
+\toprule
+\textbf{Code} & \textbf{Definition} & \textbf{Anchor / example} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Code} & \textbf{Definition} & \textbf{Anchor / example} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\texttt{LOGIC\_SCIENCE} & Excellence, peer review, discovery-driven research, knowledge production as an end in itself. & Pathfinder Open evaluated on scientific merit; \enquote{validate the scientific basis}. \\
+\texttt{LOGIC\_MARKET} & Commercial viability, investor returns, competition, demand signals, growth as the measure of value. & Revenue and market opportunity as criteria; \enquote{first come, first served} allocation. \\
+\texttt{LOGIC\_STATE} & Sovereignty, industrial strategy, national security, the state as ultimate arbiter of strategic value. & STEP Regulation as mandate; Sovereignty Seal; IP retention in the EU. \\
+\texttt{LOGIC\_PROFESSION} & Credentialled expertise, professional standards, the authority of specialised practitioners. & Expert jury; Technology Due Diligence; FTO analysis. \\
+\texttt{LOGIC\_TENSION} & Two or more logics simultaneously present in observable conflict, surface-visible in the text. & Pathfinder Open (science) and Challenges (state) as co-existing sub-programmes. \\
+\end{longtable}
+
+\texttt{LOGIC\_TENSION} is always applied alongside the substantive
+logic codes it links. It is reserved for tension legible in the text
+itself; tensions constructed across passages by analytical argument are
+recorded as Pattern~A observations (see
+Appendix~\ref{app:codebook-inductive}).
+
+\section*{Section 5 --- Isomorphic mechanisms}
+
+Codes identifying how the programme produces conformity and from what
+source that pressure originates.
+
+\begin{longtable}{@{} l p{4.3cm} p{6.3cm} @{}}
+\toprule
+\textbf{Code} & \textbf{Definition} & \textbf{Anchor / example} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Code} & \textbf{Definition} & \textbf{Anchor / example} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\texttt{ISO\_COERCIVE} & Conformity through legal mandate, regulatory requirement, or the formal authority of a more powerful actor. & STEP Regulation; IP retention clause; three-strike rule; KYC / AML. \\
+\texttt{ISO\_MIMETIC} & Conformity through imitation of a perceived successful external model. & Benchmarking against the USA and Asia; VC jury and pitch deck; DARPA / Temasek references. \\
+\texttt{ISO\_NORMATIVE} & Conformity through professional norms, standards, and best practices. & Business plan and pitch deck requirements; mandatory FTO analysis; DEI norms. \\
+\end{longtable}
+
+\section*{Section 6 --- Legitimacy strategies}
+
+Codes identifying how the programme constructs and claims legitimacy,
+both for itself and for the innovation activities it funds, following
+\textcite{suchman1995managing}.
+
+\begin{longtable}{@{} l p{4.3cm} p{6.3cm} @{}}
+\toprule
+\textbf{Code} & \textbf{Definition} & \textbf{Anchor / example} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Code} & \textbf{Definition} & \textbf{Anchor / example} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\texttt{LEG\_PRAGMATIC} & Justification through concrete utility to identifiable stakeholders. & EUR~10--30\,M investment; EUR~50--150\,M funding-round target; BAS provisions. \\
+\texttt{LEG\_MORAL} & Justification through alignment with broader social values or shared normative commitments. & Sovereignty and strategic autonomy framed as obligation; societal-challenge framing. \\
+\texttt{LEG\_COGNITIVE} & Existence or design presented as natural, inevitable, or self-evidently necessary. & Programme naturalised by the European tech gap; deep tech as a natural category. \\
+\texttt{LEG\_SEAL} & Sovereignty (STEP) Seal as a portable, transferable legitimacy artefact. & Seal awarded to NO~GO proposals meeting strategic criteria; valid for use with InvestEU and national programmes. \\
+\end{longtable}
+
+\section*{Code index}
+
+Thirty-one codes in total across the six sections. The right-hand
+column records the programme(s) in which the code chiefly applies.
+
+\begin{longtable}{@{} l l l @{}}
+\toprule
+\textbf{Code} & \textbf{Section} & \textbf{Primary programme} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Code} & \textbf{Section} & \textbf{Primary programme} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\texttt{REG\_TRL} & Regulative & PATH \\
+\texttt{REG\_ELIGIBILITY} & Regulative & Both \\
+\texttt{REG\_SCOPE} & Regulative & Both \\
+\texttt{REG\_IP} & Regulative & Both (stronger in STEP) \\
+\texttt{REG\_SANCTION} & Regulative & Both (stronger in STEP) \\
+\texttt{REG\_MANDATE} & Regulative & STEP \\
+\texttt{REG\_FINREG} & Regulative & STEP \\
+\texttt{NORM\_IDENTITY} & Normative & Both \\
+\texttt{NORM\_OBLIGATION\_SOCIETAL} & Normative & PATH \\
+\texttt{NORM\_OBLIGATION\_STRATEGIC} & Normative & STEP \\
+\texttt{NORM\_COLLABORATION} & Normative & PATH \\
+\texttt{NORM\_DEI} & Normative & Both \\
+\texttt{NORM\_SMARTMONEY} & Normative & STEP \\
+\texttt{COG\_DEEPTECH} & Cognitive & Both \\
+\texttt{COG\_LINEAR} & Cognitive & PATH \\
+\texttt{COG\_DISRUPTION} & Cognitive & Both \\
+\texttt{COG\_THREAT} & Cognitive & STEP \\
+\texttt{COG\_MARKETFAILURE} & Cognitive & STEP \\
+\texttt{COG\_FINANCIALISATION} & Cognitive & STEP \\
+\texttt{LOGIC\_SCIENCE} & Logics & PATH \\
+\texttt{LOGIC\_MARKET} & Logics & Both \\
+\texttt{LOGIC\_STATE} & Logics & STEP \\
+\texttt{LOGIC\_PROFESSION} & Logics & Both \\
+\texttt{LOGIC\_TENSION} & Logics & Both \\
+\texttt{ISO\_COERCIVE} & Isomorphism & STEP \\
+\texttt{ISO\_MIMETIC} & Isomorphism & Both \\
+\texttt{ISO\_NORMATIVE} & Isomorphism & Both \\
+\texttt{LEG\_PRAGMATIC} & Legitimacy & Both \\
+\texttt{LEG\_MORAL} & Legitimacy & Both \\
+\texttt{LEG\_COGNITIVE} & Legitimacy & Both \\
+\texttt{LEG\_SEAL} & Legitimacy & STEP \\
+\end{longtable}
 
 %==============================================================================
 \chapter{Inductive codes and pattern-level observations}
 \label{app:codebook-inductive}
 
-\todoinline{Document the inductive codes that emerged in Pass~2 to
-resolve \texttt{[?]} flags, together with the pattern-level observations
-(Gioia-style data structure works well here).}
+Pass~2 added no new codes to the deductive scheme: the thirty-one v1
+codes carry forward unchanged. The inductive update operates instead at
+two levels above the individual code. First, seven coding-rule
+clarifications discipline how the v1 codes are applied at the margin
+(\cref{sec:app-c-rules}). Second, six pattern-level observations
+(\cref{sec:app-c-patterns}) name recurring configurations across the
+corpus that no single passage can carry on its own. A seventh candidate
+template was tested and not confirmed; the negative finding is recorded
+in \cref{sec:app-c-not-confirmed}. The full inductive working codebook
+is held at \texttt{04\_codebook/output/Codebook\_v2\_Inductive.md}.
+
+\section{Pass~2 coding-rule clarifications}
+\label{sec:app-c-rules}
+
+The seven rules below were introduced or codified during Pass~2 to
+discipline coding decisions at the margin. Each rule refines how an
+existing v1 code applies; no rule changes a code's definition.
+
+\begin{description}[leftmargin=*, style=nextline]
+  \item[Rule~1 --- Surface-visibility standard for \texttt{LOGIC\_TENSION}.]
+    Tension must be legible in the text itself. Tensions constructed by
+    analytical argument across passages are recorded as Pattern~A
+    observations, not as \texttt{LOGIC\_TENSION} codings.
+  \item[Rule~2 --- STEP catalytic-investment co-coding (Pattern~E).]
+    In STEP passages describing the catalytic mechanism, the
+    market-interest eligibility criterion, or the market-failure award
+    criterion, code \texttt{LOGIC\_STATE}. Add \texttt{LOGIC\_MARKET}
+    as a co-code only where market mechanics (equity instrument,
+    case-by-case negotiation, co-investment structure) are
+    operationally surface-visible in that passage. The structural
+    circularity is recorded as Pattern~E.
+  \item[Rule~3 --- Contractual discretionary coercion (Pattern~B).]
+    \texttt{ISO\_COERCIVE} extends to contractual discretionary
+    authority exercised by the EIC under the grant agreement, where
+    the grant agreement is itself a legal instrument. Code where the
+    authority asserted carries explicit sanction force (termination,
+    suspension, mandated amendment) and the source of obligation is
+    the grant agreement or a Programme Manager acting under it.
+    Co-code \texttt{LOGIC\_STATE} where the state is named as the
+    actor wielding that power. Soft-direction language without
+    sanction force (\enquote{may be requested to join},
+    \enquote{encouraged to collaborate}) remains below threshold and
+    is carried as Pattern~B observation only.
+  \item[Rule~4 --- State social-equity template (Pattern~C).]
+    Where DEI mandates appear as state-mandated social policy
+    (recurrent template language, framing as a legislative
+    commitment, embedding in the evaluation or tiebreaker
+    architecture, institutional self-monitoring of equity compliance),
+    code \texttt{LOGIC\_STATE}. Add \texttt{NORM\_DEI} as a co-code
+    only where the requirement also operates as a
+    normative-organisational standard with evaluation weight against
+    a \enquote{credible plan}-type gate.
+  \item[Rule~5 --- Business Acceleration Services (BAS).]
+    Where BAS is described with professional-services framing
+    (\enquote{leading expertise}, \enquote{externally contracted},
+    \enquote{bespoke}), code \texttt{LOGIC\_PROFESSION} as the
+    organising logic. Add \texttt{LOGIC\_MARKET} as a co-code only
+    where market actors (corporates, investors, ecosystem actors) are
+    explicitly named as the pool being mobilised under professional
+    delivery; here \texttt{LOGIC\_MARKET} describes the actor pool
+    rather than independently governing the passage.
+  \item[Rule~6 --- Structural state inference.]
+    \texttt{LOGIC\_STATE} requires that the state organises the
+    passage as the actor whose institution, architecture, or
+    strategic act is the subject. Two cases meet the threshold:
+    (a)~state vocabulary or an explicit strategic / geopolitical /
+    sovereignty rationale governs the passage; (b)~the institutional
+    act being performed (eligibility redrawing, scope determination,
+    directive intervention) is itself state-institutional and is the
+    subject of the passage. Where the passage's subject is something
+    else and the state inference rests on external knowledge, code
+    None; the observation is preserved as an analytical note.
+  \item[Rule~7 --- Vocabulary versus organising logic.]
+    A logic is coded only where it \emph{organises} the passage,
+    not where it merely appears as vocabulary. Below-threshold
+    categories include VC vocabulary on administrative actions
+    (\enquote{follow on investments}, \enquote{Booster},
+    \enquote{Fast Track}); state-as-administrative-funder language
+    without strategic rationale (\enquote{direct financial support});
+    management-register language without invoked credentialled
+    authority (\enquote{proactive management}); and
+    normative-identity language describing applicant ideal types
+    (\enquote{visionary researchers}) rather than science-organising
+    governance. Apply alongside rules~1 and~6.
+\end{description}
+
+\section{Pattern-level observations}
+\label{sec:app-c-patterns}
+
+Six patterns were confirmed in Pass~2. Each is described below as a
+named configuration with a brief data structure in
+\textcite{gioia2013seeking} style: the entries that anchor it, the
+mechanism it captures, and where it appears in
+Chapter~\ref{ch:results} and Chapter~\ref{ch:discussion}. Where a
+pattern produced a coding-rule refinement, the linked rule is named.
+
+\paragraph{Pattern~A --- Tension-Dissolution.}
+Logics are presented as naturally complementary; the text dissolves a
+tension that is structurally present but rhetorically suppressed. The
+analytical inverse of \texttt{LOGIC\_TENSION}: Pattern~A marks
+surface-suppressed complementarity, where \texttt{LOGIC\_TENSION} marks
+surface-visible conflict. Linked rule: Rule~1.
+
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Anchor entries:} [003], [005], [008], [019], [039],
+    [044], [056], [057], [102], [109].
+  \item \textbf{Signature:} co-equal listing of science / market / state
+    sub-criteria without a conflict marker; juxtaposition of
+    \enquote{cross-fertilisation and exploitation}; market vocabulary
+    folded into science quality criteria.
+  \item \textbf{Reading:} Chapter~\ref{ch:results} as a recurrent
+    architectural move; Chapter~\ref{ch:discussion} as a legitimacy
+    strategy.
+\end{itemize}
+
+\paragraph{Pattern~B --- Coercive Governance Cluster.}
+A cluster spanning a graded intensity in which the EIC Programme
+Manager holds discretionary authority over capital continuity, roadmap
+direction, portfolio placement, and inter-consortium collaboration. The
+hard end carries termination authority; the soft end is encouragement.
+Linked rule: Rule~3.
+
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Anchor entries:} [024]--[027], [061], [115].
+  \item \textbf{Intensity gradient:} hard (termination, suspension,
+    mandated amendment) $\rightarrow$ intermediate (directive roadmap
+    revision under threat) $\rightarrow$ soft (\enquote{may be
+    requested}, \enquote{encouraged}).
+  \item \textbf{Reading:} Chapter~\ref{ch:results} as a contractual
+    architecture; Chapter~\ref{ch:discussion} as coercive isomorphism
+    extended into post-award discretion.
+\end{itemize}
+
+\paragraph{Pattern~C --- State Social Equity Template.}
+Near-identical passages embedding social-equity mandates (gender
+balance, female-researcher empowerment, underrepresented groups) recur
+across instruments and sections with minimal variation, indicating a
+standardised insert. Linked rule: Rule~4.
+
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Anchor entries:} [001], [017], [047], [063]; with
+    [059] (tiebreaker architecture) connecting the template to
+    evaluation ranking.
+  \item \textbf{Signature:} \enquote{adequate gender balance, with a
+    credible plan to fill the gaps} reproduced verbatim across
+    instruments; the same gender ranking appearing above SME
+    participation and Member-State geographic coverage in tiebreakers.
+  \item \textbf{Reading:} Chapter~\ref{ch:results} as a state insert;
+    Chapter~\ref{ch:discussion} as the developmental-state dimension
+    of the EIC pursuing collective political interests through an
+    innovation instrument.
+\end{itemize}
+
+\paragraph{Pattern~D --- Challenge Chapter Logic Succession Template.}
+Each Challenge chapter reproduces a consistent logic succession across
+its sub-sections, with the succession itself functioning as a template
+applied across substantively different technology domains. No linked
+rule: Pattern~D is a property of how correctly applied codings
+configure across a chapter, not of any single passage.
+
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Anchor entries:} [095]--[116] (Challenges~II.2.1
+    and~II.2.2); [117]--[129] (Challenge~II.2.3).
+  \item \textbf{Template:} Scope / background $\rightarrow$
+    \texttt{LOGIC\_STATE}; Specific Objectives $\rightarrow$
+    \texttt{LOGIC\_SCIENCE}; Portfolio Approach $\rightarrow$
+    \texttt{LOGIC\_PROFESSION}; Expected Outcomes $\rightarrow$
+    \texttt{LOGIC\_STATE}.
+  \item \textbf{Reading:} Chapter~\ref{ch:results} as a chapter-level
+    template; Chapter~\ref{ch:discussion} as a meso-level
+    institutional reproduction independent of technological content.
+\end{itemize}
+
+\paragraph{Pattern~E --- STEP Circular Market Validation.}
+The state constructs the market signal it then requires as proof of
+market legitimacy. The 20--33\% EIC anchor position structurally
+generates the \enquote{market interest} the programme then evaluates
+against. Linked rule: Rule~2.
+
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Anchor entries:} [132], [140], [141], [145], [176].
+  \item \textbf{Signature:} co-presence of \emph{market interest} as
+    eligibility criterion and \emph{market failure} as award
+    criterion, combined with the anchor position; equity-only
+    instrument with case-by-case negotiation.
+  \item \textbf{Reading:} Chapter~\ref{ch:results} as a circular
+    architecture; Chapter~\ref{ch:discussion} as a
+    developmental-state design that hybridises market mechanics with
+    state access architecture.
+\end{itemize}
+
+\paragraph{Pattern~F --- TRL as Cross-Pillar Legitimation Artefact.}
+TRL functions simultaneously as \texttt{REG\_TRL} (regulative gate
+determining eligibility, scope boundaries, budget allocation) and as
+\texttt{COG\_LINEAR} (the taken-for-granted scientific-developmental
+ladder). The two codes are not in tension; they co-code in the same
+passages and together constitute a legitimation mechanism. The
+cognitive pillar provides scientific-register surface cover; the
+regulative pillar performs the gatekeeping work beneath. No linked
+rule: v1 already permits co-coding.
+
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Anchor entries:} [012], [044], [046]; recurs across
+    Pathfinder evaluation passages.
+  \item \textbf{Triple load:} cognitive (scientific-measurement
+    register), regulative (eligibility gate), and mimetic (TRL framework
+    inherited from US defence and NASA).
+  \item \textbf{Reading:} Chapter~\ref{ch:results} as the gate-as-ladder
+    mechanism; Chapter~\ref{ch:discussion} as cognitive legitimacy in
+    \textcite{suchman1995managing}, connecting to mimetic isomorphism.
+\end{itemize}
+
+\section{Candidate pattern tested and not confirmed}
+\label{sec:app-c-not-confirmed}
+
+\paragraph{Sustainability as a state template.}
+The hypothesis was that sustainability framing recurs across Challenge
+chapters as a standardised state insert, analogous to Pattern~C. The
+universality test fails at Challenge~II.2.2 (Biotechnology for Healthy
+Ageing), where no sustainability or environmental language appears.
+Sustainability is subject-matter-dependent, not a universal template.
+
+\paragraph{Substantive finding preserved.}
+When sustainability does appear, it enters through one of four
+mechanisms: (i)~Commission-Communication policy-citation, where the
+Challenge cites a Communication that carries the sustainability frame;
+(ii)~explicit environmental-consequence framing as descriptive context;
+(iii)~sector-definition, where sustainability is constitutive of the
+technology field; (iv)~a technical efficiency-proxy, where
+sustainability is absorbed into methodology requirements through
+constrained-resource specifications. The contrast with Pattern~C
+sharpens what the equity template actually templates: the institutional
+architecture carries a small set of state priorities universally
+(gender mainstreaming) while letting others (sustainability) enter
+through subject-matter-appropriate channels.
 
 %==============================================================================
 \chapter{Readthrough audit trail (excerpt)}
 \label{app:audit-trail}
 
-\todoinline{Include a representative excerpt from
-\texttt{Readthrough\_Notes\_v1.md} showing how passages were coded —
-this evidences dependability and confirmability.}
+This appendix reproduces a representative excerpt from
+\texttt{Readthrough\_Notes\_v1.md} to evidence the dependability and
+confirmability of the coding procedure. The excerpt comprises four
+consecutive entries from the EIC Pathfinder Open chapter,
+[043]--[046], chosen because they show, side by side, the four
+decision types the readthrough produced: an uncoded entry with strong
+science-logic undertones, an uncoded entry with explicit researcher
+autonomy, a multi-coded entry with a \texttt{[?]} flag for inductive
+review, and a fully coded entry with a surface-visible
+\texttt{LOGIC\_TENSION}. The standard entry template (in force from
+[011] onward) is shown first; the four entries are then reproduced
+verbatim from the working notes. The full notes file is held in the
+project repository.
+
+\section*{Standard entry template}
+
+\begin{verbatim}
+### [NNN] --- Short descriptive title
+
+**Document location:** [Chapter / Section / Page reference]
+**Programme:** [PATH] / [STEP] / [SHARED]
+
+**Source text:**
+> *"Exact quoted passage"*
+
+**Question:** What was asked.
+
+**Analysis:** Full reasoning.
+
+**Coding:** LOGIC_X + LOGIC_Y + LOGIC_TENSION
+
+**[?] Flag (if applicable):** Unresolved question for inductive update.
+\end{verbatim}
+
+\section*{Entry [043] --- EIC Pathfinder Open: high-risk research paragraph}
+
+\textbf{Document location:} II.~EIC Pathfinder --- II.1~EIC Pathfinder
+Open / high-risk paragraph. \\
+\textbf{Programme:} \texttt{[PATH]}.
+
+\textbf{Source text:}
+\begin{quote}
+\enquote{EIC Pathfinder Open may support your work, especially if it is
+highly risky: you may set out to try things that will not work; you
+may be faced with questions that nobody knows the answer to yet; you
+may realise that there are many aspects of the problem that you do not
+master. On the contrary, if the approach you want to follow is
+incremental by nature or known, EIC Pathfinder Open will not support
+you.}
+\end{quote}
+
+\textbf{Question:} What logics are present?
+
+\textbf{Analysis:} No primary coding on a conservative deductive pass.
+The passage sets out an eligibility principle rooted in science logic
+values --- genuine unknowns, intellectual risk, and the explicit
+exclusion of incremental or known approaches. \enquote{Questions that
+nobody knows the answer to yet} is a frontier-research criterion; the
+rejection of \enquote{incremental by nature or known} is a science
+logic value judgment. This is closer to a governing criterion than the
+promotional register of [041]. However, the passage embodies science
+logic values without enacting science logic governance --- it
+encourages a scientific disposition but does not name who judges it or
+on what formal evaluative basis. The evaluative machinery (peer
+review, expert judgment, merit criteria) that would make
+\texttt{LOGIC\_SCIENCE} unambiguous is absent. A close call; below
+primary coding threshold on a conservative pass. Carried forward as an
+observation for the inductive update.
+
+\textbf{Coding:} None --- primarily promotional / eligibility framing.
+
+\section*{Entry [044] --- EIC Pathfinder Open: Gatekeepers}
+
+\textbf{Document location:} II.~EIC Pathfinder --- II.1~EIC Pathfinder
+Open / Gatekeepers. \\
+\textbf{Programme:} \texttt{[PATH]}.
+
+\textbf{Source text:}
+\begin{quote}
+Before applying to this call, you should verify that your proposal
+meets all the following essential characteristics
+(\enquote{Gatekeepers}):
+\begin{itemize}[leftmargin=*]
+  \item Convincing long-term vision of a radically new technology that
+    has the potential to have a transformative positive effect to
+    solving a challenge in our economy and society.
+  \item Concrete, novel and ambitious science-towards-technology
+    breakthrough, providing advancement towards the envisioned
+    technology.
+  \item High-risk / high-gain research approach and methodology, with
+    concrete and plausible objectives.
+\end{itemize}
+\end{quote}
+
+\textbf{Question:} What logics are present?
+
+\textbf{Analysis:} Opening (\enquote{Gatekeepers}) --- procedural. The
+state is the implied background authority for any eligibility
+criteria, but the introductory sentence does not argue a state
+rationale. Does not rise to primary coding; consistent with the
+principle established in [036]. First bullet ---
+\texttt{LOGIC\_MARKET} + \texttt{LOGIC\_STATE}. \enquote{Economy}
+invokes market logic; \enquote{society} and the possessive
+\enquote{our} frame this as a European collective interest, giving it
+a dual market / geopolitical dimension. The state is present in the
+strategic framing of whose economy and whose society is being served.
+Last two bullets --- \texttt{LOGIC\_SCIENCE}.
+\enquote{Science-towards-technology breakthrough} and \enquote{research
+approach and methodology} are explicit science logic criteria. No
+\texttt{LOGIC\_TENSION} visible on the surface --- the three logics
+are presented as complementary gatekeeping criteria rather than
+pulling against each other.
+
+\textbf{[?] Flag for inductive update:} Potential
+\texttt{LOGIC\_TENSION} between the market / state outcome framing of
+the first bullet and the science methodology framing of the last two
+bullets. Whether the instrument is ultimately organised by what it
+\emph{produces} (market disruption, societal challenge) or by how it
+\emph{works} (scientific breakthrough, research methodology) may
+reveal a tension not yet visible on a deductive pass.
+
+\textbf{Coding:} \texttt{LOGIC\_SCIENCE} + \texttt{LOGIC\_MARKET} +
+\texttt{LOGIC\_STATE}.
+
+\section*{Entry [045] --- EIC Pathfinder Open: interdisciplinary research paragraph}
+
+\textbf{Document location:} II.~EIC Pathfinder --- II.1~EIC Pathfinder
+Open / interdisciplinary research. \\
+\textbf{Programme:} \texttt{[PATH]}.
+
+\textbf{Source text:}
+\begin{quote}
+\enquote{EIC Pathfinder Open involves interdisciplinary research and
+development. By bringing diverse areas of research together, often
+with different perspectives, terminologies and methodologies, within
+individual projects and within a portfolio of projects, really new
+things can be generated, and entirely new areas of research can be
+opened up. It is up to you to compose the team that you need, that you
+can learn from, and that you can move forward with.}
+\end{quote}
+
+\textbf{Question:} What logics are present?
+
+\textbf{Analysis:} No primary coding on a conservative deductive pass.
+The passage embodies science logic values throughout ---
+interdisciplinary freedom, knowledge creation as the objective,
+\enquote{entirely new areas of research can be opened up}, and
+\enquote{it is up to you to compose the team} as an explicit statement
+of researcher autonomy. Researcher autonomy is a core science logic
+principle and is stated more explicitly here than in [043]. However,
+consistent with [043], these are science logic values expressed in an
+encouraging, applicant-facing register rather than science logic
+governance. No peer authority, evaluative criteria, or merit framework
+is invoked. The passage expresses permission rather than governing
+criteria. Below primary coding threshold; strong \texttt{LOGIC\_SCIENCE}
+undertone --- particularly researcher autonomy and knowledge creation
+as objectives --- carried forward as an observation for the inductive
+update.
+
+\textbf{Coding:} None --- primarily promotional / applicant-facing.
+
+\section*{Entry [046] --- EIC Pathfinder Open: expected outputs}
+
+\textbf{Document location:} II.~EIC Pathfinder --- II.1~EIC Pathfinder
+Open / expected outputs. \\
+\textbf{Programme:} \texttt{[PATH]}.
+
+\textbf{Source text:}
+\begin{quote}
+\enquote{The expected output of your project is the proof of principle
+that the main ideas of the envisioned future technology are feasible,
+thus validating its scientific and technological basis. Project
+results should include top-level scientific publications in open
+access. While your vision is expected to be worthwhile because of its
+potential for future impact, for instance to create new markets,
+improve our lives, or provide solutions for global challenges, these
+are not expected to be achieved in the course of your EIC Pathfinder
+Open project. However, you are expected to take the necessary measures
+in the course of the project to allow future uptake to take place.
+This includes: an adequate formal protection of the generated
+Intellectual Property (IP), a plan for future exploitation and an
+assessment of relevant aspects related to regulation, certification,
+and standardisation.}
+\end{quote}
+
+\textbf{Question:} What logics are present?
+
+\textbf{Analysis:} Both \texttt{LOGIC\_SCIENCE} and
+\texttt{LOGIC\_MARKET} are present and clearly cross the primary
+coding threshold. \texttt{LOGIC\_SCIENCE} --- strong and explicit.
+\enquote{Proof of principle}, \enquote{validating its scientific and
+technological basis}, and \enquote{top-level scientific publications
+in open access} are core science logic deliverables. Science logic
+governs what the project must produce now.
+\texttt{LOGIC\_MARKET} --- explicit. \enquote{Adequate formal
+protection of the generated IP}, \enquote{plan for future
+exploitation}, and \enquote{assessment of relevant aspects related to
+regulation, certification, and standardisation} are market-readiness
+requirements embedded as mandatory deliverables within a science-phase
+project. Market logic governs what must be prepared for later.
+\texttt{LOGIC\_TENSION} --- visible on the surface of the text. The
+passage creates an explicit temporal separation between the two
+logics: \enquote{these are not expected to be achieved in the course
+of your EIC Pathfinder Open project}. Science logic governs current
+outputs; market logic governs mandatory future-facing preparations ---
+both required simultaneously within the same project. The separation
+is an institutional compromise between the two logics that is stated
+rather than implied.
+
+\textbf{Coding:} \texttt{LOGIC\_SCIENCE} + \texttt{LOGIC\_MARKET} +
+\texttt{LOGIC\_TENSION}.
+
+\section*{Note on the excerpt}
+
+Entry [044] illustrates the conservative Pass~1 standard and the
+\texttt{[?]} flagging convention; entries [043] and [045] illustrate
+the threshold at which logic values are recognised but not coded;
+entry [046] shows a fully coded passage where the tension between two
+logics is stated in the text rather than inferred. Together the four
+entries trace the discrimination on which the coding scheme depends.
+The Pass~2 resolution of the [044] flag is recorded in
+Appendix~\ref{app:codebook-inductive} (Pattern~A; Rule~1): the flagged
+tension is constructed across bullets and so falls below the
+surface-visibility threshold for \texttt{LOGIC\_TENSION}, but is
+preserved as a Pattern~A observation.
 
