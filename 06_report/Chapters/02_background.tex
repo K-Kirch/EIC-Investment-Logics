@@ -362,26 +362,63 @@ an audience. The three pillars and the developmental-state literature
 sit alongside as targeted complements, mobilised where they earn
 their place.
 
-% Example placeholder figure. Replace with a real diagram.
 \begin{figure}[H]
     \centering
-    % \includegraphics[width=0.85\textwidth]{figures/analytical_framework.pdf}
-    \fbox{\parbox[c][6cm][c]{0.85\textwidth}{\centering
-        \textit{[Figure placeholder]}\\[4pt]
-        Diagram of the analytical framework linking the four
-        institutional logics, the three isomorphic mechanisms, the
-        three legitimacy types and Scott's three pillars to the EIC
-        instrument architecture (eligibility, evaluation, governance,
-        impact) and to the text-level signatures used in coding.}}
+    \begin{tikzpicture}[
+        every node/.style={align=center},
+        instrument/.style={draw, thick, fill=blue!8, rounded corners,
+                           minimum width=4.2cm, minimum height=0.95cm,
+                           font=\small},
+        band/.style={draw, thick, rounded corners},
+    ]
+
+    % --- Three concentric analytical bands (outer to inner) ---------------
+    \node[band, fill=orange!5,  minimum width=12.0cm,
+          minimum height=6.6cm] (outer)  at (0,0) {};
+    \node[band, fill=orange!12, minimum width=9.4cm,
+          minimum height=4.6cm] (middle) at (0,-0.45) {};
+    \node[band, fill=orange!22, minimum width=6.6cm,
+          minimum height=2.6cm] (inner)  at (0,-0.95) {};
+
+    % Band labels — sit in the annular margin at the top of each band
+    \node[anchor=north, font=\scriptsize\itshape, inner sep=4pt]
+        at (outer.north)
+        {Legitimacy (Suchman): pragmatic $\cdot$ moral $\cdot$ cognitive};
+    \node[anchor=north, font=\scriptsize\itshape, inner sep=4pt]
+        at (middle.north)
+        {Mechanisms (DiMaggio \& Powell) $+$ Pillars (Scott)};
+    \node[font=\scriptsize] at (inner.center)
+        {\textit{Logics} (Thornton et al.)\\[2pt]
+         \textbf{science $\cdot$ market $\cdot$ state $\cdot$ profession}};
+
+    % --- Two instrument columns above the bands ---------------------------
+    \node[instrument] (pf)   at (-3.8, 4.7)
+        {\textbf{Pathfinder}\\\scriptsize TRL 1--4, grants};
+    \node[instrument] (step) at ( 3.8, 4.7)
+        {\textbf{STEP Scale Up}\\\scriptsize catalytic equity};
+
+    % --- Sovereignty Seal: bridging arc above the columns -----------------
+    \draw[<->, thick, dashed] (pf.north) to[bend left=35]
+        node[above, midway, font=\scriptsize\itshape]
+        {Sovereignty Seal}
+        (step.north);
+
+    % --- Connectors from each instrument into the outer band --------------
+    \draw[->, thick, gray!70] (pf.south)
+        -- ([xshift=-3.2cm]outer.north);
+    \draw[->, thick, gray!70] (step.south)
+        -- ([xshift= 3.2cm]outer.north);
+
+    \end{tikzpicture}
     \caption[Analytical framework]{Analytical framework guiding the
-    empirical analysis.}
+    empirical analysis. Three concentric analytical bands --- logics
+    (Thornton et al.), mechanisms and pillars (DiMaggio \& Powell;
+    Scott), and legitimacy types (Suchman) --- are intersected by the
+    two EIC instruments under study, Pathfinder and STEP Scale Up. The
+    Sovereignty Seal is drawn as a bridging artefact between the two
+    instruments.}
     \label{fig:analytical-framework}
 \end{figure}
-\todoinline{Replace the placeholder with a real diagram. Suggested
-layout: three concentric bands (logics inner; mechanisms and pillars
-middle; legitimacy types outer) intersected by two columns
-representing Pathfinder and STEP, with the Sovereignty Seal as a
-bridging arrow between the columns.}
 
 \section{Chapter summary}
 \label{sec:bg-summary}
