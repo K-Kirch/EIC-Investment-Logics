@@ -50,9 +50,9 @@ indicated filename.
 
 ### Primary policy documents
 
-- [ ] `ec2024eicwp.pdf` — European Commission, *EIC Work Programme 2024*, Decision C(2024)1110. URL: https://eic.ec.europa.eu/
+- [x] `ec2024eicwp.pdf` — European Commission, *EIC Work Programme 2024*, Decision C(2024)1110. Downloaded from https://eic.ec.europa.eu/system/files/2023-12/EIC-workprogramme-2024.pdf
   - Note: the 2026 WP under analysis sits in `03_corpus/references/` — this entry is the **2024** WP, cited as policy precedent.
-- [ ] `eu2024step.pdf` — European Parliament and Council, *Regulation (EU) 2024/795 (STEP)*. URL: https://eur-lex.europa.eu/eli/reg/2024/795/oj
+- [x] `eu2024step.pdf` — European Parliament and Council, *Regulation (EU) 2024/795 (STEP)*. Downloaded from EUR-Lex (CELEX:32024R0795), 27 pp.
 
 ### Project repository (no PDF expected)
 
@@ -61,5 +61,12 @@ indicated filename.
 ## Summary
 
 - Total bib entries: 19
-- PDFs present: 6 (5 cited entries covered: 3 GenAI methodology + Draghi (2 parts) + Letta; plus 1 URL-only entry)
-- PDFs still to source: 13
+- PDFs present: 8 (7 cited entries covered: 3 GenAI methodology + Draghi (2 parts) + Letta + EIC WP 2024 + STEP regulation; plus 1 URL-only entry)
+- PDFs still to source: 11 (4 books, 2 book chapters, 5 paywalled articles — see note below)
+
+## Note on remaining items
+
+Of the 11 still missing, none are freely downloadable from the open web:
+- **Books (4):** Scott 2014, Thornton et al. 2012, Mazzucato 2018, Yin 2018 — require library access (DTU Findit) or purchase; do not commit full-text PDFs to the repo for licensing reasons.
+- **Book chapters (2):** Friedland & Alford 1991 (Powell & DiMaggio eds.), Lawrence & Suddaby 2006 (Sage Handbook) — same constraint as books.
+- **Paywalled journal articles (5):** DiMaggio & Powell 1983 (JSTOR), Meyer & Rowan 1977 (Univ. Chicago Press), Ferrary & Granovetter 2009 (Taylor & Francis), Eisenhardt 1989 (AOM), Gioia et al. 2013 (Sage) — pull via DTU library proxy or check author self-archives (Gioia in particular often has the 2013 paper on his Penn State page).
