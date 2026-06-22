@@ -31,8 +31,8 @@ indicated filename.
 
 ### Innovation policy / mission-orientation / EU funding
 
-- [ ] `draghi2024future.pdf` — Draghi (2024), *The Future of European Competitiveness*. URL: https://commission.europa.eu/topics/eu-competitiveness/draghi-report_en
-- [ ] `letta2024much.pdf` — Letta (2024), *Much More Than a Market*. URL: https://www.consilium.europa.eu/media/ny3j24sm/much-more-than-a-market-report-by-enrico-letta.pdf
+- [x] `draghi2024future_partA.pdf` + `draghi2024future_partB.pdf` — Draghi (2024), *The Future of European Competitiveness*. Published in two parts: Part A (strategy, 3.5 MB) and Part B (in-depth analysis & recommendations, 12 MB). Landing page: https://commission.europa.eu/topics/eu-competitiveness/draghi-report_en
+- [x] `letta2024much.pdf` — Letta (2024), *Much More Than a Market*. URL: https://www.consilium.europa.eu/media/ny3j24sm/much-more-than-a-market-report-by-enrico-letta.pdf
 - [ ] `mazzucato2018mission.pdf` — Mazzucato (2018), *The Value of Everything*, Allen Lane. Book.
 - [ ] `ferrary2009vc.pdf` — Ferrary & Granovetter (2009), *The Role of Venture Capital Firms in Silicon Valley*, Economy and Society 38(2). DOI 10.1080/03085140902786827.
 
@@ -61,5 +61,5 @@ indicated filename.
 ## Summary
 
 - Total bib entries: 19
-- PDFs present: 3 (plus 1 URL-only entry)
-- PDFs still to source: 15
+- PDFs present: 6 (5 cited entries covered: 3 GenAI methodology + Draghi (2 parts) + Letta; plus 1 URL-only entry)
+- PDFs still to source: 13
