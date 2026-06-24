@@ -968,3 +968,39 @@ Supervisor's reflection on Ch 5: the four items in §`sec:disc-contrib` read as 
 
 PDF build verification: no TeX distribution was reachable from this Windows shell (no `xelatex`, `latexmk` or `miktex-xelatex` on PATH; the usual MiKTeX/TeX Live install paths are empty). Per `06_report/CLAUDE.md` the project builds via Overleaf. A PDF rebuild should be run on Overleaf before submission to confirm the four edited files compile cleanly together.
 
+
+## Batch 51 — Remove "contributions" framing from the theoretical strand (strong cut)
+
+**Date:** 2026-06-24
+**Approved by:** user message "I like your recommendation. Please move forward", following an exploration of the alternative reading of the supervisor's feedback (Batch 50 reframed the four items as "analytical observations"; Batch 51 takes the more honest structural move of removing the dedicated contribution-framed block altogether and relying on Ch 4 where the observations already live).
+**Type:** Content edit (four files; one section deletion, three localised cuts).
+
+### Rationale
+
+The four items in the §`sec:disc-contrib` block of Ch 5, even after Batch 50's softening, were structural duplicates of empirical patterns already established in Ch 4 (Pattern A = §`sec:res-pattern-a`; Sovereignty Seal = §`sec:res-step-seal`; Pattern E = §`sec:res-pattern-e`; Pattern F = §`sec:res-pattern-f`; *logic-as-register* = coding rule 7, methodologically located in the Pass 2 codebook). The "contributions" block re-projected those observations into a discrete contribution-shaped section that the corpus could not actually sustain on a single Work Programme. The supervisor's reading that the items are "primarily empirical observations" admits a structural interpretation as well as a relabeling one: empirical observations belong in the Findings chapter, not in a dedicated section of the Discussion chapter that re-lists them under any heading. Ch 4's existing §`sec:res-pattern-f` closing paragraph "The triple load" and §`sec:res-step-seal` closing paragraph "Substantive finding" already frame the observations as observations, so no compensating Ch 4 edits are needed. The analytical vocabulary (*logic-as-register*, *tension-dissolution*, *circular market validation*, the Seal as portable credential) is retained throughout the analytical sections of Chs 4 and 5; only the contribution-claim framing around it is removed.
+
+### Changes by file
+
+| File | Action | Note |
+|---|---|---|
+| `06_report/Chapters/05_discussion.tex` | Edit (×2) | (i) Overview paragraph: removed the clause "sets out four analytical observations the corpus supports," from the chapter-roadmap sentence so it now lists rival explanations → practical implications → boundary conditions. (ii) Deleted the entire §`sec:disc-contrib` block (section header, label, lead paragraph, four-item `enumerate`, fifth-observation paragraph on Pattern F triple-load, and the closing paragraph on what would lift the observations to settled contributions). §7 in the rendered output now becomes "Practical and policy implications" (was §8); §8 becomes "Boundary conditions" (was §9). |
+| `06_report/Chapters/01_intro.tex` | Edit | Deleted the **Theoretical contribution** bullet from §`sec:intro-contribution`. The section now lists two bullets (Empirical contribution + Practical contribution), both unchanged. The Empirical claim ("first comparative qualitative reading … in a critical institutional register") and the Practical claim (FP10-relevant textual mechanisms) are defensible from the single corpus; the Theoretical claim was the one the supervisor's reading drove out. |
+| `06_report/Chapters/06_conclusion.tex` | Edit | (i) Intro sentence to §`sec:conc-contrib` shortened: removed `and developed in \Cref{sec:disc-contrib}` to match the disappearance of that section in Ch 5. (ii) Deleted the entire `\paragraph{Theoretical.}` block, the longest paragraph of the section. The Empirical and Practical paragraphs are unchanged, and the closing remarks at §`sec:conc-close` already do the honest summary work without needing the theoretical-contribution paragraph. |
+| `06_report/Frontmatter/Abstract.tex` | Edit (§6) | Replaced the contribution sentence ("The thesis applies institutional theory to a setting the literature has largely passed over…and develops four analytical observations…") with a single practical-implications sentence ("The thesis offers practical implications for EIC programme design, applicants, and policy makers concerned with the alignment of mission-driven funding instruments."). Section comment updated from "% --- 6. Contribution (1–2 sentences)" to "% --- 6. Practical implications (1 sentence)". Findings paragraph (§5) unchanged; the abstract now ends on the practical-implications sentence and the keywords line. |
+
+### Files unchanged
+
+`06_report/Chapters/02_background.tex`, `06_report/Chapters/03_methodology.tex`, `06_report/Chapters/04_results.tex` (Ch 4's existing §`sec:res-pattern-f` and §`sec:res-step-seal` closing paragraphs already frame those observations as observations — re-reading confirmed no compensating Ch 4 edits are needed). `06_report/main.tex`, `bibliography.bib`, `voice_card.md`, all other Frontmatter, Setup, Backmatter, Pictures.
+
+### Validation
+
+Brace balance on all four edited files: Abstract 6/6, Ch 1 58/58, Ch 5 63/63, Ch 6 37/37. The drops from Batch 50 counts (6/6, 63/63, 81/81, 45/45) correspond to the deleted blocks and balance. A repository-wide `Grep` for `sec:disc-contrib` returns zero matches: the only consumer was the now-removed `\Cref{sec:disc-contrib}` in `06_conclusion.tex` line 109, fixed in this batch. The label `sec:intro-contribution` is retained on the Ch 1 §Contributions section (now Empirical + Practical) and continues to resolve from Ch 6.
+
+### Out of scope for this batch
+
+PDF build verification (same constraint as Batch 50: no TeX distribution reachable from this shell; project builds via Overleaf). A rebuild on Overleaf should confirm the four edited files compile cleanly together and that Chs 5 and 6 renumber as expected (§7 Practical, §8 Boundary in Ch 5; two-paragraph §`sec:conc-contrib` in Ch 6).
+
+### What was deliberately preserved
+
+The interpretive work in Ch 5 §§1–5 (logic succession, tension-dissolution, coercive governance, TRL cross-pillar reading, equity template, STEP as developmental-state instrument) is unchanged. Ch 5 §6 (rival explanations) and §8 (now §7, Practical and policy implications) and §9 (now §8, Boundary conditions) are unchanged. The analytical labels *logic-as-register*, *tension-dissolution*, the Sovereignty Seal as portable field-bridging credential, *circular market validation*, and Pattern F's triple load remain in active use throughout Chs 4 and 5; only the framing of those labels as "theoretical contributions" of the thesis has been removed. The Empirical and Practical contribution claims at Ch 1 and Ch 6 are unchanged; the thesis still claims those.
+
