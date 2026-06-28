@@ -204,11 +204,14 @@ Inherited from the template via `Setup/Settings.tex`:
 
 - Template-based skeleton present and verified to build on Overleaf (XeLaTeX, frontpage renders with logo + photo).
 - Pass 1 and Pass 2 are closed upstream; the gate from stages 04 / 05 has lifted. Pass 3 (writing) is the **current** stage.
-- Chapter drafting status:
+- Chapter drafting status (all six chapters and the appendix have substantial prose and are under active revision; figures noted in recent commit history):
+  - Ch 1 Introduction — drafted.
+  - Ch 2 Background and theoretical framework — drafted; theoretical strand revised across recent batches.
   - Ch 3 Methodology — drafted.
-  - Ch 4 Findings — restructured to v2 patterns; first-section prose in place; subsequent sections in progress.
-  - Chs 1, 2, 5, 6 — pending Pass 3 drafting.
-  - Backmatter / appendix — pending.
+  - Ch 4 Findings — drafted around the v2 patterns A–F (synthesis_v2.md §6.1).
+  - Ch 5 Discussion — drafted; pattern interpretation sections in place.
+  - Ch 6 Conclusion — drafted.
+  - Backmatter / appendix — drafted (corpus, codebooks, audit-trail excerpts).
 - Outstanding pre-submission items (also tracked in `../RESTRUCTURE_LOG.md`):
   - `\studentnumber` still `sXXXXXX` in `Setup/Statics.tex`.
   - Supervisor / co-supervisor names still placeholders.

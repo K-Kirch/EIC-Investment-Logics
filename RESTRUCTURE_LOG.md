@@ -1004,3 +1004,35 @@ PDF build verification (same constraint as Batch 50: no TeX distribution reachab
 
 The interpretive work in Ch 5 §§1–5 (logic succession, tension-dissolution, coercive governance, TRL cross-pillar reading, equity template, STEP as developmental-state instrument) is unchanged. Ch 5 §6 (rival explanations) and §8 (now §7, Practical and policy implications) and §9 (now §8, Boundary conditions) are unchanged. The analytical labels *logic-as-register*, *tension-dissolution*, the Sovereignty Seal as portable field-bridging credential, *circular market validation*, and Pattern F's triple load remain in active use throughout Chs 4 and 5; only the framing of those labels as "theoretical contributions" of the thesis has been removed. The Empirical and Practical contribution claims at Ch 1 and Ch 6 are unchanged; the thesis still claims those.
 
+---
+
+## Batch 52 — Refresh README, root CONTEXT, and 06_report/CONTEXT to reflect Pass 3 state
+
+**Date:** 2026-06-28
+**Approved by:** user message "I need you to check and ensure that all files in the project is update, such as README, CLAUDE, and CONTEXT files" and follow-up "commit these doc updates".
+**Type:** Content edit (three files; status / findings refresh only — no structural changes, no chapter prose touched).
+
+### Rationale
+
+A sweep of the project's orientation documents (README, root + per-stage CONTEXT, root + 06_report CLAUDE) against the actual repository state surfaced three files whose status sections still described an earlier moment in the workflow (Pass 2 in progress; only Ch 3 drafted; appendix pending). All chapter files now carry substantial drafted prose (`Chapters/01_intro.tex` 237 lines, `02_background.tex` 437, `03_methodology.tex` 450, `04_results.tex` 787, `05_discussion.tex` 526, `06_conclusion.tex` 233, `Backmatter/07_appendix.tex` 751) and Batches 50–51 are revising the theoretical strand, not first-drafting it. The README's findings list also still itemised the Pass 1 working observations rather than the six Pass 2 patterns A–F formalised in `04_codebook/output/Codebook_v2_Inductive.md` §7. The other orientation files (root `CLAUDE.md`, `06_report/CLAUDE.md`, the per-stage CONTEXT files in `00_admin/`, `01_literature/`, `02_theory/`, `03_corpus/`, `04_codebook/`, `05_analysis/`, and `01_literature/cited/README.md`) were re-read and confirmed already aligned with the current Pass 3 state.
+
+### Changes by file
+
+| File | Action | Note |
+|---|---|---|
+| `README.md` | Edit (×3) | (i) "Analytical pipeline" — Pass 1 / Pass 2 marked _Closed_ and Pass 3 _Current_; Pass 2 outputs (`Codebook_v2_Inductive.md`, `synthesis_v2.md`) named explicitly. (ii) Repository layout — `04_codebook/` description updated from "Deductive codebooks" to "Deductive (v1) + consolidated inductive (v2) codebooks". (iii) "Working findings (Pass 1)" replaced with "Working findings (Pass 2 closed)" — the seven-bullet Pass 1 list is replaced by the six Patterns A, B, C, E, F (plus D as the intra-chapter succession headline), the Sovereignty Seal, the STEP hybrid instrument, and DARPA/Temasek/GGF mimetic isomorphism. Status sentence updated: "Pass 1 and Pass 2 closed. Pass 3 (thesis writing) underway — all six chapters and the appendix are substantially drafted in `06_report/` and under active revision." |
+| `CONTEXT.md` (root) | Edit | Stage-map row for `06_report/` updated from "Template populated; Ch 3 methodology drafted; Ch 4 findings drafting in progress; Chs 1, 2, 5, 6 pending Pass 3 drafting" to "Template populated; all six chapters and the appendix substantially drafted and under active revision". |
+| `06_report/CONTEXT.md` | Edit (§9) | "Chapter drafting status" rewritten: each of Chs 1–6 listed as drafted (with notes for Ch 2 "theoretical strand revised across recent batches" and Ch 4 "drafted around the v2 patterns A–F (synthesis_v2.md §6.1)"); appendix marked drafted ("corpus, codebooks, audit-trail excerpts"). Pre-submission items in the same section (sXXXXXX, supervisor names, address, bibliography, todoinline cleanup) left unchanged — those remain open. |
+
+### Files unchanged
+
+`CLAUDE.md` (root), `06_report/CLAUDE.md`, `06_report/voice_card.md`, and the per-stage CONTEXT files in `00_admin/`, `01_literature/`, `02_theory/`, `03_corpus/`, `04_codebook/`, `05_analysis/` — all re-read and confirmed already current. `01_literature/cited/README.md` checklist matches the present `cited/` folder (8 of 19 entries with local PDFs). No chapter prose, codebook content, synthesis content, or bibliography touched.
+
+### Validation
+
+The three edited files are markdown orientation documents; no compile to verify. Cross-checked the status claims against (a) `git log --oneline -5` showing Batches 47–51 working on cited sources and theoretical-strand cuts (i.e. revision, not first-drafting), (b) `wc -l` line counts on all six chapter files plus appendix (all 200+ lines of substantive content), (c) re-reading of chapter heads confirming each chapter is real drafted prose rather than placeholder skeleton.
+
+### Out of scope for this batch
+
+`.claude/settings.local.json` carries an unrelated permission addition (`wc:*`) that is not part of this documentation refresh and is left unstaged.
+

@@ -22,9 +22,9 @@ Document analysis only — no interviews. The empirical material is the EIC Work
 
 The analysis runs in three sequential passes:
 
-1. **Pass 1 — Deductive readthrough.** Codebook-driven entries with `[?]` flags for emerging questions. Outputs `Readthrough_Notes_v1.md` and `synthesis.md`.
-2. **Pass 2 — Inductive update.** Resolves open `[?]` flags and develops pattern-level observations.
-3. **Pass 3 — Thesis writing.** Findings and Discussion chapters draw directly from Pass 2 observations.
+1. **Pass 1 — Deductive readthrough.** Codebook-driven entries with `[?]` flags for emerging questions. Outputs `Readthrough_Notes_v1.md` and `synthesis.md`. _Closed._
+2. **Pass 2 — Inductive update.** Resolves the `[?]` flags and formalises pattern-level observations. Outputs `Codebook_v2_Inductive.md` (seven coding rules; patterns A–F in §7) and `synthesis_v2.md` (authoritative for Ch 4 / Ch 5). _Closed._
+3. **Pass 3 — Thesis writing.** Findings and Discussion chapters draw directly from Pass 2 observations. _Current._
 
 ## Repository layout
 
@@ -34,7 +34,7 @@ The analysis runs in three sequential passes:
 ├── 01_literature/      Academic, policy/grey, methodology references
 ├── 02_theory/          Framework summaries and quick-reference tables
 ├── 03_corpus/          Primary source (EIC WP 2026) + plain-text extraction
-├── 04_codebook/        Deductive codebooks (Scott pillars; institutional logics)
+├── 04_codebook/        Deductive (v1) + consolidated inductive (v2) codebooks
 ├── 05_analysis/        Readthrough notes, synthesis, MAXQDA project
 ├── 06_report/          DTU LaTeX template — thesis manuscript
 ├── CLAUDE.md           Agent orientation (Layer 0)
@@ -53,19 +53,23 @@ latexmk -xelatex main.tex
 
 See `06_report/CLAUDE.md` for LaTeX conventions and build details.
 
-## Working findings (Pass 1)
+## Working findings (Pass 2 closed)
 
-- Logic succession **Science → Market → State** as Technology Readiness Level (TRL) increases
-- Tension-dissolution pattern: competing logics presented as complementary, suppressing visible conflict
-- TRL functioning as institutional disguise
-- STEP mirroring financial market regulation
-- Sovereignty Seal as a portable legitimacy artefact
-- Programme Manager exercising soft coercive authority
-- Mimetic isomorphism against reference models (DARPA, Temasek)
+- Logic succession **Science → Market → State** as Technology Readiness Level (TRL) increases, reproduced intra-chapter (Pattern D)
+- **Pattern A** Tension-Dissolution — competing logics presented as complementary, suppressing visible conflict
+- **Pattern B** Coercive Governance Cluster — Programme Manager authority gradient
+- **Pattern C** State Social Equity Template — DEI norms anchored in state logic
+- **Pattern E** STEP Circular Market Validation — state constructs the market signal it then requires
+- **Pattern F** TRL as Cross-Pillar Legitimation Artefact (regulative + cognitive + mimetic)
+- Sovereignty Seal as field-bridging legitimacy artefact
+- STEP hybrid instrument (market mechanics on state access architecture)
+- Mimetic isomorphism against reference models (DARPA, Temasek, GGF)
+
+Full account in `05_analysis/output/synthesis_v2.md`.
 
 ## Status
 
-Pass 1 complete. Pass 2 (inductive update) in progress. Manuscript chapters not yet drafted.
+Pass 1 and Pass 2 closed. Pass 3 (thesis writing) underway — all six chapters and the appendix are substantially drafted in `06_report/` and under active revision.
 
 ## License & use
 
