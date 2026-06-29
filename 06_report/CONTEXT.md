@@ -213,9 +213,7 @@ Inherited from the template via `Setup/Settings.tex`:
   - Ch 6 Conclusion — drafted.
   - Backmatter / appendix — drafted (corpus, codebooks, audit-trail excerpts).
 - Outstanding pre-submission items (also tracked in `../RESTRUCTURE_LOG.md`):
-  - `\studentnumber` still `sXXXXXX` in `Setup/Statics.tex`.
-  - Supervisor / co-supervisor names still placeholders.
   - DTU Entrepreneurship address + website to verify.
   - Editorial review of working subtitle.
   - `bibliography.bib` to be expanded from `../01_literature/references/` as citations are introduced.
-  - `\todoinline{...}` placeholders to clear before the final build (see §7).
+  - Disable `todonotes` for final build (see §7) — no `\todoinline{...}` markers remain in `Chapters/`, `Frontmatter/`, or `Backmatter/`.
