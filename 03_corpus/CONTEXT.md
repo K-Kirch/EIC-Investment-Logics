@@ -4,9 +4,11 @@
 
 **Primary source:** EIC Work Programme 2026 (European Commission Decision C(2025)7410), Pathfinder (II.) and STEP Scale Up (VI.) sections.
 
-**Status:** placeholder — to be drafted with user approval.
+**Status:** Complete. Source PDFs and the cited Horizon Europe Regulation are in `references/`; the plain-text extraction of the Work Programme is in `output/`. No further corpus additions are expected; revisions to the corpus would require an audit-trail entry per the project's no-delete / no-rename rules.
 
 ## What lives where
 
-- `references/` — read-only source PDFs and cited legal instruments (e.g., Horizon Europe Regulation).
-- `output/` — derived corpus artefacts (e.g., plain-text extractions for search and quoting).
+- `references/EIC-Work-Programme-2026.pdf` — full 188-pp source document (EC Decision C(2025)7410).
+- `references/EIC Work Programme 2026 Path + STEP.pdf` — sliced subset under analysis (Pathfinder + STEP Scale Up sections).
+- `references/Establishing Horizon Europe - Regulation of the EU Parliament and Council.pdf` — cited legal instrument (Regulation establishing Horizon Europe).
+- `output/WP2026_extracted.txt` — plain-text extraction of the Work Programme for search and quoting.

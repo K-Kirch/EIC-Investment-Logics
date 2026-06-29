@@ -44,6 +44,8 @@ On **Overleaf**: set _Menu → Settings → Main document_ to `06_report/main.te
 | File | Purpose |
 |---|---|
 | `main.tex` | Master document — compile this one. Inputs Setup/, Frontmatter/, Chapters/, Backmatter/. |
+| `voice_card.md` | Authoritative prose voice (stance, sentence shape, punctuation, banned words, self-check). Load before drafting any chapter prose. |
+| `methodology_revision_spec.md` | Working spec for Ch 3 supervisor feedback (Edits 1–5 + Moves A–D); audit trail of which items applied. |
 | `bibliography.bib` | BibLaTeX bibliography database (`style=numeric, sorting=none`). |
 | `Setup/Statics.tex` | Personalia macros: `\thesistitle`, `\thesisauthor`, `\studentnumber`, `\thesissupervisor`, `\department`, `\addressI`, `\addressII`, `\departmentwebsite`, `\thedate`, … |
 | `Setup/Preamble.tex` | Package loading. Includes `fontspec`, `biblatex`, `tikz`, `pgfplots`, `cleveref`, `csquotes`, and the project additions (`enumitem`, `longtable`, `todonotes`). |
@@ -64,6 +66,9 @@ On **Overleaf**: set _Menu → Settings → Main document_ to `06_report/main.te
 | `Backmatter/Backpage.tex` | Back cover. |
 | `Pictures/DTU_stock_photo.jpg` | Cover photo (template-shipped DTU stock). |
 | `Pictures/Logos/{white,black,dtured}_{rgb,cmyk}.pdf` | Official DTU logos. The Frontpage selects one via `\dtulogocolour` + `\targetcolourmodel` in `Setup/Settings.tex`. |
+| `dtu-template/main.pdf` | Pristine compiled DTU template PDF, kept for visual comparison against the project build. Not part of the build. |
+| `figures/` | Scaffolded; figures used by the build live under `Pictures/` per template convention. |
+| `sections/` | Empty leftover from the archived hand-rolled tree; chapters now live under `Chapters/`. Kept (per no-delete rule) but not referenced by the build. |
 | `readme.md` | DTU LaTeX support contact info (kept from the template, not authored content). |
 
 ## Colour-model switch
@@ -84,7 +89,7 @@ On **Overleaf**: set _Menu → Settings → Main document_ to `06_report/main.te
 ## Final-build checklist
 
 1. Replace every `\todoinline{...}` and bracketed `[placeholder]`.
-2. Fill real values in `Setup/Statics.tex`: `\studentnumber` (currently `sXXXXXX`), `\thesissupervisor`, `\thesiscosupervisor` (if any). Verify `\addressI`, `\addressII`, `\departmentwebsite` against the DTU Entrepreneurship contact page.
+2. Confirm values in `Setup/Statics.tex` (currently filled: `\studentnumber{s243778}`, `\thesissupervisor{Maria-Theresa Norn}`, `\department{DTU Entrepreneurship}`, `\addressI`/`\addressII`/`\departmentwebsite` set to the DTU Entrepreneurship contact at Diplomvej, Building 372A). The `\thesiscosupervisor` macro was dropped in Batch 56 — no co-supervisor on this thesis.
 3. If switching to print, set `\targetcolourmodel` to `cmyk` in `Setup/Settings.tex`; for digital submission keep `rgb`.
 4. Fill ISSN/ISBN in `Frontmatter/Copyright.tex` if assigned by DTU.
 5. Disable `todonotes` — change `\usepackage[colorinlistoftodos,textsize=small]{todonotes}` to `\usepackage[disable]{todonotes}` in `Setup/Preamble.tex`.

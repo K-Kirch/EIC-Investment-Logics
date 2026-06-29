@@ -43,6 +43,8 @@ Front-matter content slots (`Frontmatter/Abstract.tex`, `Acknowledgements.tex`, 
 06_report/
 ├── CONTEXT.md            ← you are here (Layer 2 contract)
 ├── CLAUDE.md             ← LaTeX-specific guidance for AI assistance
+├── voice_card.md         ← authoritative prose voice for all chapters
+├── methodology_revision_spec.md ← working spec for Ch 3 supervisor feedback
 ├── main.tex              ← compile this
 ├── bibliography.bib      ← biblatex database (style=numeric)
 ├── readme.md             ← upstream DTU LaTeX support info
@@ -67,9 +69,12 @@ Front-matter content slots (`Frontmatter/Abstract.tex`, `Acknowledgements.tex`, 
 ├── Backmatter/
 │   ├── 07_appendix.tex
 │   └── Backpage.tex      ← template
-└── Pictures/
-    ├── DTU_stock_photo.jpg
-    └── Logos/{white,black,dtured}_{rgb,cmyk}.pdf
+├── Pictures/
+│   ├── DTU_stock_photo.jpg
+│   └── Logos/{white,black,dtured}_{rgb,cmyk}.pdf
+├── dtu-template/main.pdf ← pristine template PDF for visual comparison (not built)
+├── figures/              ← scaffolded; figures used by the build live under Pictures/
+└── sections/             ← empty leftover from archived hand-rolled tree (kept per no-delete)
 ```
 
 Document class is `[a4paper,twoside,11pt]{report}`. Front matter uses roman page numbering; main matter restarts at arabic 1; appendix sits under `\appendix` before the back page.
@@ -149,7 +154,7 @@ These rules govern *how* this stage is worked on, not the chapter content itself
 Before generating the submission PDF (also documented in `CLAUDE.md`):
 
 1. Replace every `\todoinline{...}` and bracketed `[placeholder]` across `Chapters/*.tex`, `Backmatter/07_appendix.tex`, and the four populated `Frontmatter/*.tex` slots.
-2. Fill real values in `Setup/Statics.tex`: `\studentnumber` (currently `sXXXXXX`), `\thesissupervisor`, `\thesiscosupervisor` (if any). Verify `\addressI`, `\addressII`, `\departmentwebsite` against the DTU Entrepreneurship contact page.
+2. Confirm values in `Setup/Statics.tex` (currently filled: `\studentnumber{s243778}`, `\thesissupervisor{Maria-Theresa Norn}`, `\department{DTU Entrepreneurship}`, `\addressI`/`\addressII`/`\departmentwebsite` set to the DTU Entrepreneurship contact at Diplomvej, Building 372A, 2800 Kgs. Lyngby). The `\thesiscosupervisor` macro was dropped in Batch 56 — no co-supervisor on this thesis.
 3. Set `\targetcolourmodel` in `Setup/Settings.tex` — `rgb` for digital submission, `cmyk` for print.
 4. Fill ISSN/ISBN in `Frontmatter/Copyright.tex` if assigned by DTU.
 5. Disable `todonotes` — change `\usepackage[colorinlistoftodos,textsize=small]{todonotes}` to `\usepackage[disable]{todonotes}` in `Setup/Preamble.tex`.
@@ -203,17 +208,20 @@ Inherited from the template via `Setup/Settings.tex`:
 ## 9. Status
 
 - Template-based skeleton present and verified to build on Overleaf (XeLaTeX, frontpage renders with logo + photo).
-- Pass 1 and Pass 2 are closed upstream; the gate from stages 04 / 05 has lifted. Pass 3 (writing) is the **current** stage.
-- Chapter drafting status (all six chapters and the appendix have substantial prose and are under active revision; figures noted in recent commit history):
+- Pass 1 and Pass 2 are closed upstream; the gate from stages 04 / 05 has lifted. Pass 3 (writing) — **draft complete; in review**.
+- Chapter draft status (all six chapters and the appendix carry substantive drafted prose):
   - Ch 1 Introduction — drafted.
-  - Ch 2 Background and theoretical framework — drafted; theoretical strand revised across recent batches.
-  - Ch 3 Methodology — drafted.
-  - Ch 4 Findings — drafted around the v2 patterns A–F (synthesis_v2.md §6.1).
-  - Ch 5 Discussion — drafted; pattern interpretation sections in place.
+  - Ch 2 Background and theoretical framework — drafted; theoretical strand revised across Batches 48–51.
+  - Ch 3 Methodology — drafted; supervisor-feedback edits applied per `methodology_revision_spec.md` (Edits 1–5, Moves A–B; Moves C–D deferred by design).
+  - Ch 4 Findings — drafted around the v2 patterns A–F (`synthesis_v2.md` §6.1).
+  - Ch 5 Discussion — drafted; pattern interpretation sections in place; "contributions" block removed in Batch 51.
   - Ch 6 Conclusion — drafted.
   - Backmatter / appendix — drafted (corpus, codebooks, audit-trail excerpts).
-- Outstanding pre-submission items (also tracked in `../RESTRUCTURE_LOG.md`):
-  - DTU Entrepreneurship address + website to verify.
+- Closed pre-submission items (resolved during drafting):
+  - `Setup/Statics.tex` personalia filled (`\studentnumber{s243778}`, `\thesissupervisor{Maria-Theresa Norn}`, `\department{DTU Entrepreneurship}`, full Diplomvej address — Batches 56–57).
+  - `\thesiscosupervisor` macro dropped (Batch 56).
+- Open review items (track here; also in `../RESTRUCTURE_LOG.md`):
   - Editorial review of working subtitle.
-  - `bibliography.bib` to be expanded from `../01_literature/references/` as citations are introduced.
-  - Disable `todonotes` for final build (see §7) — no `\todoinline{...}` markers remain in `Chapters/`, `Frontmatter/`, or `Backmatter/`.
+  - `bibliography.bib` expansion — 15 of 19 cited entries have local PDFs in `../01_literature/cited/`; 4 paywalled/book entries still to source (see `../01_literature/cited/README.md`).
+  - DTU submission-extras to prepare in `../00_admin/`: revised project plan, brief auto-evaluation of the project process (see §8 below).
+  - Final-build cleanup before submission (§7): disable `todonotes`, confirm `\targetcolourmodel`, fill ISSN/ISBN if assigned, clean rebuild and PDF inspection.

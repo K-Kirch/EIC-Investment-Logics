@@ -15,7 +15,9 @@ Master's thesis at DTU (Technical University of Denmark). Qualitative, document-
 │   └── CONTEXT.md                                         (Layer 2 stub)
 ├── 01_literature/
 │   ├── CONTEXT.md                                         (Layer 2 stub)
-│   └── references/
+│   ├── cited/                                             (PDFs of works cited in bibliography.bib; own README.md is checklist)
+│   ├── output/                                            (distilled reading notes; e.g. critical_blended_finance_to_consult.md)
+│   └── references/                                        (broader background reading; not duplicated under cited/)
 │       ├── academic/                                      (peer-reviewed sources)
 │       ├── policy_grey/                                   (EIB, JRC, dealroom reports)
 │       ├── risk_uncertainty/
@@ -49,16 +51,22 @@ Master's thesis at DTU (Technical University of Denmark). Qualitative, document-
 │   │   ├── colour-codes-cross-reference.md                (manual ↔ digital cross-reference + observations)
 │   │   └── New project.mqda                               (MAXQDA project file)
 │   └── _scratch/                                          (working notes; not citable)
-├── 06_report/                                             (DTU LaTeX template — compile main.tex)
+├── 06_report/                                             (DTU LaTeX template — compile main.tex; draft complete, in review)
 │   ├── CLAUDE.md                                          (LaTeX conventions and build instructions)
 │   ├── CONTEXT.md                                         (Layer 2 stub)
+│   ├── voice_card.md                                      (authoritative prose voice for all chapters)
+│   ├── methodology_revision_spec.md                       (working spec for Ch 3 supervisor feedback; Edits 1–5 + Moves A–D)
 │   ├── main.tex                                           (master document — compile this with XeLaTeX)
 │   ├── bibliography.bib
+│   ├── readme.md                                          (template-shipped DTU LaTeX support contact)
 │   ├── Setup/{Statics, Preamble, Settings}.tex
 │   ├── Frontmatter/{Frontpage, Copyright, Approval, Abstract, Acknowledgements, Abbreviations}.tex
 │   ├── Chapters/{01_intro, 02_background, 03_methodology, 04_results, 05_discussion, 06_conclusion}.tex
 │   ├── Backmatter/{07_appendix, Backpage}.tex
-│   └── Pictures/{DTU_stock_photo.jpg, Logos/*.pdf}
+│   ├── Pictures/{DTU_stock_photo.jpg, Logos/*.pdf}
+│   ├── dtu-template/main.pdf                              (pristine compiled template PDF kept for visual comparison)
+│   ├── figures/                                           (scaffolded; figures live under Pictures/ per template convention)
+│   └── sections/                                          (empty leftover from archived hand-rolled tree; chapters now live under Chapters/)
 │
 ├── _archive/                                              (superseded v0 material; no-delete policy)
 ├── _config/                                               (stable conventions — scaffolded, empty)
@@ -70,7 +78,7 @@ Master's thesis at DTU (Technical University of Denmark). Qualitative, document-
 
 | Keyword | Action |
 |---|---|
-| `status` | Confirm Pass 1 + Pass 2 closed; list which of Chs 1, 2, 4, 5, 6 are still to draft in `06_report/Chapters/`; surface any open Ch 4/5 deferrals from `synthesis_v2.md` §4 |
+| `status` | Confirm Pass 1 + Pass 2 closed; report draft complete (Chs 1–6 + appendix); list open review items from `06_report/CONTEXT.md` §9 |
 | `setup` | Ask which task to begin and load the appropriate files per the What to Load table |
 
 ## Routing
@@ -114,7 +122,7 @@ The analysis runs in three sequential passes. Each pass feeds the next.
     output → 04_codebook/output/Codebook_v2_Inductive.md  (seven coding rules in force; pattern formalisations §7; change log §9)
     output → 05_analysis/output/synthesis_v2.md           (Pass 2 synthesis; supersedes synthesis.md for Ch 4 / Ch 5)
         ↓
-[Pass 3 — Thesis Writing]  ← current; Ch 3 methodology drafted; Chs 1, 2, 4–6 to draft
+[Pass 3 — Thesis Writing]  ← draft complete; in review (all six chapters + appendix drafted)
     output → 06_report/Chapters/ + 06_report/Backmatter/07_appendix.tex
 ```
 

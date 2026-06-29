@@ -69,7 +69,7 @@ Full account in `05_analysis/output/synthesis_v2.md`.
 
 ## Status
 
-Pass 1 and Pass 2 closed. Pass 3 (thesis writing) underway — all six chapters and the appendix are substantially drafted in `06_report/` and under active revision.
+Pass 1 and Pass 2 closed. Pass 3 (thesis writing) — **draft complete; in review.** All six chapters and the appendix are drafted in `06_report/`; open review items are tracked in `06_report/CONTEXT.md` §9.
 
 ## License & use
 
