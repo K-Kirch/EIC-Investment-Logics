@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_analysis/CONTEXT.md",
+                "file": "05_analysis/output/synthesis_v2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CONTEXT"
+              "title": "synthesis_v2"
             }
           }
         ]
@@ -185,6 +185,11 @@
   },
   "active": "1b2fbe519a5e3c42",
   "lastOpenFiles": [
+    "01_literature/cited/DARPAorigininstitutionandcomaprisionwithDRDO (1).pdf",
+    "01_literature/references/The-Value-of-Everything.-Making-and-Taking-in-the-Global-Economy-by-Mariana-Mazzucato.pdf",
+    "01_literature/cited/The-Value-of-Everything.-Making-and-Taking-in-the-Global-Economy-by-Mariana-Mazzucato.pdf",
+    "01_literature/cited/The_Entrepreneurial_State.pdf",
+    "05_analysis/CONTEXT.md",
     "05_analysis/output/synthesis_v2.md",
     "02_theory/output/Scott_ThreePillars_DiMaggio_Isomorphism.md",
     "04_codebook/output/Codebook_v2_Inductive.md",
