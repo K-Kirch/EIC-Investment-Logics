@@ -35,8 +35,9 @@ to `06_report/bibliography.bib`.
 
 - [x] `draghi2024future_partA.pdf` + `draghi2024future_partB.pdf` (`draghi2024future`) — Draghi (2024), *The Future of European Competitiveness*. Published in two parts: Part A (strategy, 3.5 MB) and Part B (in-depth analysis & recommendations, 12 MB). Landing page: https://commission.europa.eu/topics/eu-competitiveness/draghi-report_en
 - [x] `letta2024much.pdf` (`letta2024much`) — Letta (2024), *Much More Than a Market*. URL: https://www.consilium.europa.eu/media/ny3j24sm/much-more-than-a-market-report-by-enrico-letta.pdf
-- [x] `The-Value-of-Everything.-Making-and-Taking-in-the-Global-Economy-by-Mariana-Mazzucato.pdf` (`mazzucato2018mission`) — Mazzucato (2018), *The Value of Everything*, Allen Lane. Book.
+- [x] `The_Entrepreneurial_State.pdf` (`mazzucato2013entrepreneurial`) — Mazzucato (2013), *The Entrepreneurial State: Debunking Public vs. Private Sector Myths*, Anthem Press. Book.
 - [x] `The role of venture capital firms in Silicon Valley s complex innovation network.pdf` (`ferrary2009vc`) — Ferrary & Granovetter (2009), *The Role of Venture Capital Firms in Silicon Valley*, Economy and Society 38(2). DOI 10.1080/03085140902786827.
+- [ ] `bonvillian2018darpa.pdf` (`bonvillian2018darpa`) — Bonvillian (2018), *DARPA and its ARPA-E and IARPA Clones: A Unique Innovation Organisation Model*, Industrial and Corporate Change 27(5). DOI 10.1093/icc/dty026.
 
 ### Methodology
 
@@ -57,21 +58,23 @@ to `06_report/bibliography.bib`.
 
 Note: the previous `ec2024eicwp` entry (EIC Work Programme 2024) was retired on 2026-06-29 — the thesis works with the 2026 WP, not the 2024 precedent. The PDF was moved to `01_literature/references/` and the bib cite-key was renamed from `ec2024eicwp` to `ec2025eicwp` (decision year), with the title, decision number and URL updated accordingly.
 
+Note: the previous `mazzucato2018mission` entry (Mazzucato 2018, *The Value of Everything*, Allen Lane) was retired on 2026-07-02 during the mimetic-isomorphism recast (Batch 67). *The Entrepreneurial State* (Mazzucato 2013, Anthem Press) is the canonical source for the state-as-risk-taker / market-maker argument the developmental-state passages actually make, and was substituted throughout the bib and all citation sites. The retired PDF was moved to `01_literature/references/`.
+
 ### Project repository (no PDF expected)
 
 - [x] `kirch2026thesisrepo` — URL-only entry; nothing to download. URL: https://github.com/K-Kirch/EIC-Investment-Logics
 
 ## Summary
 
-- Total bib entries: 19
+- Total bib entries: 20
 - PDFs present in `cited/`: 15
-- Cited bib entries covered: 14 — DiMaggio & Powell 1983, Meyer & Rowan 1977, Thornton et al. 2012, Friedland & Alford 1991, Draghi 2024 (2 parts), Letta 2024, Mazzucato 2018, Ferrary & Granovetter 2009, Gioia et al. 2013, 3 GenAI methodology, EIC WP 2026, STEP regulation
+- Cited bib entries covered: 14 — DiMaggio & Powell 1983, Meyer & Rowan 1977, Thornton et al. 2012, Friedland & Alford 1991, Draghi 2024 (2 parts), Letta 2024, Mazzucato 2013, Ferrary & Granovetter 2009, Gioia et al. 2013, 3 GenAI methodology, EIC WP 2026, STEP regulation
 - URL-only entries covered: 1 (`kirch2026thesisrepo`)
-- Cited bib entries still missing a PDF: 4 — Scott 2014, Lawrence & Suddaby 2006, Eisenhardt 1989, Yin 2018
+- Cited bib entries still missing a PDF: 5 — Scott 2014, Lawrence & Suddaby 2006, Eisenhardt 1989, Yin 2018, Bonvillian 2018
 
 ## Note on remaining items
 
-Of the 4 still missing, none are freely downloadable from the open web:
+Of the 5 still missing, most are not freely downloadable from the open web:
 - **Books (2):** Scott 2014, Yin 2018 — require library access (DTU Findit) or purchase; do not commit full-text PDFs to the repo for licensing reasons.
 - **Book chapter (1):** Lawrence & Suddaby 2006 (Sage Handbook) — same constraint as books.
-- **Paywalled journal article (1):** Eisenhardt 1989 (AOM) — pull via DTU library proxy or check author self-archives.
+- **Paywalled journal articles (2):** Eisenhardt 1989 (AOM), Bonvillian 2018 (Industrial and Corporate Change, OUP) — pull via DTU library proxy or check author self-archives.
