@@ -54,6 +54,16 @@ The Pass 1 synthesis was written against the deductive codebook before any `[?]`
 6. **Structural state inference** — `LOGIC_STATE` requires the state to organise the passage as actor; external-inference observations are noted, not coded.
 7. **Vocabulary-vs-organising standard** — VC, administrative-funder, management-register, and normative-identity vocabulary do not in themselves warrant primary logic coding in procedural / administrative passages.
 
+### 0.5 Post-hoc correction (Batch 65, thesis-writing pass)
+
+The §2.5 mimetic-isomorphism finding was reformulated during thesis writing after a corpus review confirmed that the Work Programme does not name DARPA, Temasek, or the Chinese Government Guidance Funds. The corpus benchmarks EIC performance generically against "the USA and Asia" at Strategic Goal 4; specific institutional comparators are supplied by the developmental-state literature.
+
+**Substantive finding retained.** DiMaggio & Powell's mimetic-isomorphism mechanism operates through structural resemblance under uncertainty and does not require the imitating organisation to name the model it imitates. The reading of STEP against the developmental-state comparator set therefore stands, on the basis of structural resemblance rather than textual citation.
+
+**Framing corrected.** The Pass 2 formulation "the EU explicitly benchmarks STEP against US (DARPA) and Asian (Temasek, Chinese Government Guidance Funds) models" (previously §2.5) presented the finding as text-inscribed benchmarking, which the corpus does not support. §2.5, §5.2 first bullet, and §6.3 fourth bullet have been reformulated to present the reading as analyst-supplied, drawing named comparators from the secondary literature and identifying their traces in the corpus through structural resemblance.
+
+Batch 66 (thesis-writing pass) develops the theoretical implications of the corrected framing: the isomorphism-mechanism asymmetry (coercive and normative textually explicit; mimetic textually implicit), the displaced-mimesis reading (strategic-autonomy vocabulary as cognitive cover for structural borrowing), and the symmetric mapping (Pathfinder Challenges resemble DARPA missions; STEP resembles the GGF template).
+
 ---
 
 ## 1. Logic Profile by Section (v2)
@@ -131,11 +141,11 @@ Progressive escalation across [021]–[027], [061], [115]:
 
 A hired technocrat — not a peer scientist, not an elected official — holds decisive authority over capital continuity. The gap between stated autonomy and operative control is the substantive finding for Ch 4/5.
 
-### 2.5 Mimetic Isomorphism: DARPA, Temasek, and Pattern F Cross-link
+### 2.5 Mimetic Isomorphism: STEP against the developmental-state comparator set (analyst-supplied)
 
-Unchanged in substance from Pass 1, with one `[v2]` cross-link:
+Reformulated during thesis-writing review (see §0.5 below); substance retained, framing corrected:
 
-The EU explicitly benchmarks STEP against US (DARPA) and Asian (Temasek, Chinese Government Guidance Funds) models. Selective mimicry — equity / catalytic investment model reproduced, embedded in EU procurement architecture (Funding and Tenders Portal, quarterly batches, Commission Award Decision). The result is a hybrid that does not fully replicate the cited models.
+STEP is legible as mimetic isomorphism at the instrument-design level when read against the developmental-state comparator set supplied by the secondary literature (Mazzucato 2018; Li 2025; Luong 2021): DARPA on the US side, Temasek and the Chinese Government Guidance Funds on the Asian side. The corpus itself benchmarks EIC performance against "the USA and Asia" at Strategic Goal 4 without naming any specific institutional referent. Structural mimicry is selective — the equity / catalytic-investment mechanics are reproduced, embedded in EU procurement architecture (Funding and Tenders Portal, quarterly batches, Commission Award Decision) — and the result is a hybrid that does not fully replicate the comparator templates. The reading identifies the comparators' traces in the corpus through structural resemblance rather than through explicit citation, consistent with DiMaggio & Powell's original account of mimetic isomorphism operating without required textual acknowledgement.
 
 `[v2] cross-link to Pattern F:` The TRL framework itself carries DARPA / US-defence provenance. Pattern F's third axis (mimetic isomorphism) is therefore not isolated to STEP — mimetic borrowing operates across Pathfinder (TRL ladder) and STEP (equity instrument) alike. The institutional logic of the EIC as a whole is partly *constituted* by mimetic borrowing from US innovation finance and US defence procurement.
 
@@ -287,7 +297,7 @@ Pattern F (§2.3) is the most significant Pass 2 refinement at the pillar level.
 
 ### 5.2 For DiMaggio & Powell isomorphism
 
-- **Mimetic isomorphism** — explicit (DARPA, Temasek, Chinese GGF benchmarking). `[v2]` extends to the TRL ladder itself via Pattern F's third axis (NASA / US-defence provenance), so mimetic isomorphism operates across Pathfinder and STEP alike, not only at the instrument-design level of STEP.
+- **Mimetic isomorphism** — analyst-supplied reading against the developmental-state comparator set (DARPA, Temasek, Chinese GGFs) drawn from the secondary literature; the corpus benchmarks generically against "the USA and Asia" at Strategic Goal 4 without naming specific institutions. Identification in the corpus is through structural resemblance rather than explicit citation, consistent with DiMaggio & Powell's original mechanism. `[v2]` extends to the TRL ladder itself via Pattern F's third axis (NASA / US-defence provenance), so the mimetic reading operates across Pathfinder and STEP alike, not only at the instrument-design level of STEP.
 - **Coercive isomorphism** — operates through Horizon Europe Regulation, EU AI Act, Chips Act citations (v1 finding). `[v2]` rule 3 now also operationalises contractual discretionary coercion as `ISO_COERCIVE` — the grant agreement itself is a legal instrument. This broadens the empirical scope of coercive isomorphism in the corpus.
 - **Normative isomorphism** — operates through professional expert evaluation, investment advisers, TDD requirements (v1 finding). `[v2]` rule 4 sharpens the boundary with state-mandated equity templates (Pattern C): DEI as `NORM_DEI` (organisational standard with evaluation weight) vs. DEI as `LOGIC_STATE` (state-mandated social policy template) operate through different isomorphic mechanisms.
 
@@ -352,7 +362,7 @@ Pass 3 = Chapters 1–6 of the thesis. The synthesis feeds Findings (Ch 4) and D
 - **Pattern A + Pattern F** — both cognitive-legitimacy strategies in Suchman's frame; Pattern A in discourse, Pattern F in designed artefact.
 - **Pattern C + Pattern E** — both developmental-state dimensions; Pattern E catalytic, Pattern C social-policy embedding.
 - **Pattern B + rule 3** — coercive isomorphism through grant-agreement mechanics, distinct from legislative-source coercion; Ch 5 should treat this as an empirical extension of DiMaggio & Powell.
-- **Pattern F mimetic axis** — connects to §2.5 DARPA / Temasek mimetic isomorphism finding; the EIC's institutional logic is partly *constituted* by mimetic borrowing from US innovation finance and US defence procurement.
+- **Pattern F mimetic axis** — connects to the §2.5 mimetic reading against the developmental-state comparator set; the EIC's institutional logic is partly legible as mimetic borrowing from US innovation finance and US defence procurement, operating through structural resemblance rather than through explicit textual citation.
 
 ---
 
