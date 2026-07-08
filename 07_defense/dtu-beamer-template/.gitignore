@@ -1,0 +1,21 @@
+# LaTeX build artefacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.pdf
+!template/logos/**/*.pdf
+
+# Editor artefacts
+*.swp
+.DS_Store
