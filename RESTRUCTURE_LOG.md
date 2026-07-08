@@ -1073,3 +1073,56 @@ The eight edited files are markdown orientation documents; no compile to verify.
 
 No chapter prose, codebook content, synthesis content, or bibliography content was edited — this is an orientation-doc refresh only. The four still-missing cited PDFs (Scott 2014, Lawrence & Suddaby 2006, Eisenhardt 1989, Yin 2018) remain open and tracked in `01_literature/cited/README.md`. The DTU submission-extras in `00_admin/` (revised plan, auto-evaluation) remain to be authored. The final-build cleanup (disable `todonotes`, set `\targetcolourmodel`, fill ISSN/ISBN, clean rebuild) remains scheduled for pre-submission per `06_report/CONTEXT.md` §7.
 
+---
+
+## Batch 70 — Scaffold 07_defense/ stage for thesis defence preparation
+
+**Date:** 2026-07-06
+**Approved by:** user message "Now, we need to extend the workflow to include the thesis defence. This would be a new folder 07_Defense" + "Looks good. I don't think we need the no delete rules and such for this folder work, since it is just for us to work through. The defense is Friday July 10th at 3.30pm."
+
+### Rationale
+
+Report submitted (final-build fixes tracked through Batches 59–69 including the STEP capital-form correction in Batch 68 and the equity-only reconciliation in Batch 69). Defence scheduled Fri 10 July 2026, 15:30 — ≤ 30 min presentation + 30 min examination. Project needs a Pass 4 stage to hold defence-prep artefacts (outline, script, Q&A prep, framework recap, weak-points self-audit, rehearsal log). User explicitly relaxed the no-delete / no-rename discipline **inside** `07_defense/` — this is a working folder, not a submission artefact — but root-level orientation updates still follow the audit-trail rule, which is why this entry exists.
+
+### Directories created (new)
+
+```
+07_defense/
+```
+
+### Files created (new)
+
+| File | Purpose |
+|---|---|
+| `07_defense/CONTEXT.md` | Layer 2 stage contract; names the relaxed no-delete rule and points to upstream source-of-truth files |
+| `07_defense/defense_brief.md` | Logistics: date/time (Fri 10 Jul 2026, 15:30), panel (Norn + external censor TBD), format (≤ 30 + 30), assessment against DTU MSc learning objectives, presentation time budget (~26 min), open items |
+| `07_defense/outline.md` | Presentation beat-by-beat: 8 beats, ~26-min budget, reserve slides for Q&A |
+| `07_defense/script.md` | Opener + verbatim RQ + hardest transitions + headline finding + closer; voice-card constraints noted |
+| `07_defense/anticipated_questions.md` | Q&A probe surface: seven groups (method / theory / findings / GenAI / contribution / limitations / reserve) with crisp responses and reserve depth |
+| `07_defense/framework_recap.md` | One-page live refresher: Scott pillars, DiMaggio-Powell isomorphism, Thornton logics, Suchman legitimacy, six patterns one-liners |
+| `07_defense/weak_points.md` | Self-audit: eight vulnerabilities with pre-cooked responses and raise-proactively flags |
+| `07_defense/rehearsal_log.md` | Empty dated-run-through log with entry template |
+
+### Changes by file (existing)
+
+| File | Action | Note |
+|---|---|---|
+| `CLAUDE.md` (root) | Edit (×5) | (i) Folder map: added `07_defense/` block between `06_report/` and `_archive/`; (ii) `06_report/` header annotation changed from "draft complete, in review" to "submitted"; (iii) Triggers `status` row rewritten to reflect submitted + defence-prep-active; new `defence`/`defense` trigger row added; (iv) Routing: three new rows for defence presentation drafting, Q&A prep, rehearsal logging; (v) What to Load: two new rows for "Draft defence presentation" and "Prep defence Q&A"; (vi) Stage Handoffs: Pass 3 annotation changed from "draft complete; in review" to "submitted"; new Pass 4 block added. |
+| `CONTEXT.md` (root) | Edit (×2) | (i) "Current stage" line updated: Pass 3 marked submitted; Pass 4 added with date. (ii) Stage map: `06_report/` status changed from "draft complete; in review" to "submitted"; new `07_defense/` row added between `06_report/` and `_archive/`. |
+
+### Files unchanged
+
+All chapter files (`06_report/Chapters/*.tex`), all upstream stage content (`02_theory/`, `03_corpus/`, `04_codebook/`, `05_analysis/`), `bibliography.bib`, per-stage `CONTEXT.md` files below root. This batch is orientation-only + new-folder scaffolding.
+
+### Rule relaxation (scoped)
+
+Inside `07_defense/` the project's standing no-delete / no-rename / audit-per-edit discipline is **not** in force, per user direction. Files there may be edited, renamed, or deleted freely as prep evolves. All other stages retain the original rules.
+
+### Validation
+
+Eight new files created and verified to exist (`Write` tool returned "File created successfully" for each). Root `CLAUDE.md` and `CONTEXT.md` edits verified by Edit tool success. No LaTeX compile touched; no upstream artefacts touched. The scaffolded content is drawn from `05_analysis/output/synthesis_v2.md` (patterns A–F, findings), `04_codebook/output/Codebook_v2_Inductive.md` (§7 patterns and §9 rules), `02_theory/output/` (framework summaries), and `Setup/Statics.tex` (personalia).
+
+### Out of scope for this batch
+
+Slide format (Beamer vs PPTX) not yet chosen. Slides file not created. External censor identity TBD. Room / online link TBD. Script prose (opener / closer) drafted only as `[to draft]` markers — not authored yet, pending user go-ahead. Anticipated-questions responses drafted from working findings but not audience-tested; rehearsal-driven refinement will happen through the log.
+

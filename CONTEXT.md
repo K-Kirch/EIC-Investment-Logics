@@ -4,7 +4,7 @@
 
 **Research question:** How are investment logics constructed, legitimised and contested within the EIC instruments Pathfinder and STEP, and how can these dynamics be understood through the lens of institutional theory?
 
-**Current stage:** Pass 1 (deductive readthrough) and Pass 2 (inductive update) closed. Pass 3 (thesis writing) — draft complete, in review.
+**Current stage:** Pass 1 (deductive readthrough) and Pass 2 (inductive update) closed. Pass 3 (thesis writing) submitted. Pass 4 (defence prep) active — defence Fri 10 July 2026, 15:30.
 
 ## Stage map
 
@@ -16,7 +16,8 @@
 | `03_corpus/` | Primary documents under analysis (EIC WP 2026) | Complete: 3 source PDFs in `references/`, plain-text extraction in `output/` |
 | `04_codebook/` | Deductive codebooks derived from theory | Two v1 codebooks frozen as deductive baseline; v2 inductive codebook authoritative (`output/Codebook_v2_Inductive.md`) |
 | `05_analysis/` | Coding readthrough, MAXQDA project, pattern observations, manual colour-coded PDF cross-reference | Pass 1 closed (180 entries + `synthesis.md`); Pass 2 closed (`synthesis_v2.md` supersedes for Ch 4 / Ch 5) |
-| `06_report/` | LaTeX write-up (DTU template, XeLaTeX) | Template populated; **draft complete**; all six chapters + appendix in review (open items tracked in `06_report/CONTEXT.md` §9) |
+| `06_report/` | LaTeX write-up (DTU template, XeLaTeX) | Template populated; **submitted**; all six chapters + appendix (open items tracked in `06_report/CONTEXT.md` §9) |
+| `07_defense/` | Defence preparation (working folder — no no-delete discipline) | Active; defence Fri 10 July 2026, 15:30; scaffolded with outline, script, anticipated questions, framework recap, weak points, rehearsal log |
 | `_archive/` | Superseded v0 material (no-delete policy) | Holds hand-rolled v1 report, v0 QDA, old drafts |
 | `_config/` | Stable conventions (citation style, voice, DTU rules) | Scaffolded; empty |
 | `shared/` | Cross-stage assets (screenshots, Rise Europe material) | Lightly populated |

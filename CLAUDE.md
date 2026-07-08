@@ -51,7 +51,7 @@ Master's thesis at DTU (Technical University of Denmark). Qualitative, document-
 │   │   ├── colour-codes-cross-reference.md                (manual ↔ digital cross-reference + observations)
 │   │   └── New project.mqda                               (MAXQDA project file)
 │   └── _scratch/                                          (working notes; not citable)
-├── 06_report/                                             (DTU LaTeX template — compile main.tex; draft complete, in review)
+├── 06_report/                                             (DTU LaTeX template — compile main.tex; submitted)
 │   ├── CLAUDE.md                                          (LaTeX conventions and build instructions)
 │   ├── CONTEXT.md                                         (Layer 2 stub)
 │   ├── voice_card.md                                      (authoritative prose voice for all chapters)
@@ -67,6 +67,15 @@ Master's thesis at DTU (Technical University of Denmark). Qualitative, document-
 │   ├── dtu-template/main.pdf                              (pristine compiled template PDF kept for visual comparison)
 │   ├── figures/                                           (scaffolded; figures live under Pictures/ per template convention)
 │   └── sections/                                          (empty leftover from archived hand-rolled tree; chapters now live under Chapters/)
+├── 07_defense/                                            (defence prep — working folder; no no-delete discipline)
+│   ├── CONTEXT.md                                         (Layer 2 stub)
+│   ├── defense_brief.md                                   (logistics — date, panel, format, timing)
+│   ├── outline.md                                         (presentation beat structure with time budget)
+│   ├── script.md                                          (opener + transitions + closer, verbatim)
+│   ├── anticipated_questions.md                           (Q&A probe surface + crisp responses)
+│   ├── framework_recap.md                                 (one-page live refresher for Q&A recall)
+│   ├── weak_points.md                                     (self-audit — what the panel will probe)
+│   └── rehearsal_log.md                                   (dated run-through log)
 │
 ├── _archive/                                              (superseded v0 material; no-delete policy)
 ├── _config/                                               (stable conventions — scaffolded, empty)
@@ -78,8 +87,9 @@ Master's thesis at DTU (Technical University of Denmark). Qualitative, document-
 
 | Keyword | Action |
 |---|---|
-| `status` | Confirm Pass 1 + Pass 2 closed; report draft complete (Chs 1–6 + appendix); list open review items from `06_report/CONTEXT.md` §9 |
+| `status` | Confirm Pass 1 + Pass 2 closed; report submitted; defence prep active (see `07_defense/defense_brief.md` for date and open items) |
 | `setup` | Ask which task to begin and load the appropriate files per the What to Load table |
+| `defence` / `defense` | Load `07_defense/CONTEXT.md` + the relevant defence-prep file per the Routing table |
 
 ## Routing
 
@@ -94,6 +104,9 @@ Master's thesis at DTU (Technical University of Denmark). Qualitative, document-
 | Review the theoretical framework | `02_theory/output/Scott_ThreePillars_DiMaggio_Isomorphism.md` |
 | Write a thesis chapter | `06_report/Chapters/0X_[chapter].tex` + `06_report/CLAUDE.md` |
 | Check LaTeX conventions or build | `06_report/CLAUDE.md` |
+| Draft the defence presentation | `07_defense/outline.md` + `07_defense/script.md` |
+| Prep Q&A | `07_defense/anticipated_questions.md` + `07_defense/framework_recap.md` + `07_defense/weak_points.md` |
+| Log a rehearsal | `07_defense/rehearsal_log.md` |
 
 ## What to Load
 
@@ -108,6 +121,8 @@ Master's thesis at DTU (Technical University of Denmark). Qualitative, document-
 | Write Ch 4 — Findings | `06_report/Chapters/04_results.tex`, `05_analysis/output/synthesis_v2.md`, `05_analysis/output/Readthrough_Notes_v1.md`, `04_codebook/output/Codebook_v2_Inductive.md` (§7 patterns), `02_theory/output/Matrix_Logics_QuickReference.md`, `06_report/CLAUDE.md`, `06_report/voice_card.md` | Framework reference files, `03_corpus/output/WP2026_extracted.txt`, `05_analysis/output/synthesis.md` (v1 frozen) |
 | Write Ch 5 — Discussion | `06_report/Chapters/05_discussion.tex`, `05_analysis/output/synthesis_v2.md`, `05_analysis/output/Readthrough_Notes_v1.md`, `04_codebook/output/Codebook_v2_Inductive.md` (§7 patterns, §9 rules), `02_theory/output/Scott_ThreePillars_DiMaggio_Isomorphism.md`, `02_theory/output/Matrix_Logics_QuickReference.md`, `06_report/bibliography.bib`, `06_report/CLAUDE.md`, `06_report/voice_card.md` | `05_analysis/output/synthesis.md` (v1 frozen) |
 | Write Ch 6 — Conclusion | `06_report/Chapters/06_conclusion.tex`, `06_report/Chapters/05_discussion.tex`, `06_report/CLAUDE.md`, `06_report/voice_card.md` | Codebooks, readthrough notes |
+| Draft defence presentation | `07_defense/outline.md`, `07_defense/script.md`, `05_analysis/output/synthesis_v2.md`, `04_codebook/output/Codebook_v2_Inductive.md` (§7 patterns), `06_report/voice_card.md` | Full chapter files (use the drafted content, not the raw source) |
+| Prep defence Q&A | `07_defense/anticipated_questions.md`, `07_defense/framework_recap.md`, `07_defense/weak_points.md`, `05_analysis/output/synthesis_v2.md`, `02_theory/output/` | Codebooks (framework_recap.md summarises what's needed) |
 
 ## Stage Handoffs
 
@@ -122,8 +137,11 @@ The analysis runs in three sequential passes. Each pass feeds the next.
     output → 04_codebook/output/Codebook_v2_Inductive.md  (seven coding rules in force; pattern formalisations §7; change log §9)
     output → 05_analysis/output/synthesis_v2.md           (Pass 2 synthesis; supersedes synthesis.md for Ch 4 / Ch 5)
         ↓
-[Pass 3 — Thesis Writing]  ← draft complete; in review (all six chapters + appendix drafted)
+[Pass 3 — Thesis Writing]  ← submitted (all six chapters + appendix)
     output → 06_report/Chapters/ + 06_report/Backmatter/07_appendix.tex
+        ↓
+[Pass 4 — Defence]  ← active (defence Fri 10 July 2026, 15:30; ≤ 30 min presentation + 30 min examination)
+    output → 07_defense/{outline, script, anticipated_questions, framework_recap, weak_points, rehearsal_log}.md + slides
 ```
 
 Pass 3 Findings (Ch 4) and Discussion (Ch 5) draw directly from `synthesis_v2.md` §6 (Ch 4 descriptive targets, Ch 5 interpretive targets) and from the §7 pattern formalisations in `Codebook_v2_Inductive.md`. `Readthrough_Notes_v1.md` is frozen — two known v2 consequences ([001] `LOGIC_TENSION` and [026] `ISO_COERCIVE` + `LOGIC_STATE`) are not retroactively applied to the v1 notes; both are logged in v2 §9 (v2-006, v2-011) and reflected in `synthesis_v2.md` §0.2.
