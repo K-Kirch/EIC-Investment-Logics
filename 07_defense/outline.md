@@ -57,7 +57,7 @@ Rationale for the restructure in `topics.md` (end-to-end review). Substantive ma
   - Payoff: shows the methodology stance is operational, not decorative. Answers LO #9 and LO #10 pre-emptively.
 - **Single-coder limitation (~15 sec):** own it here so it doesn't lurk into Q&A ambiguously.
 
-**Decision open:** does the mimetic correction feature take the ~1 min in the presentation, or move to Q&A reserve? Recommendation: **feature it.** Norn knows the story; the external censor doesn't; the pre-emptive credit is worth the minute.
+**Decision locked:** Beat 3 fuses framework + methodology + mimetic correction. Mimetic correction featured in-presentation (not held for Q&A) — Norn knows the story; the external censor doesn't; the pre-emptive credit is worth the minute.
 
 ---
 
@@ -148,7 +148,7 @@ Two lines on slide:
 
 Verbal delivery: ~30 sec on the RQ answer, ~20 sec on the open question, ~10 sec on thanks and hand-off to the panel.
 
-**Decision open:** open-question closer or clean RQ-answer closer? Recommendation: **open question**. It's the strongest move the material offers and it hands the panel a starting point they may take up productively. Risk is worth it — the alternative is a boilerplate close on strong material.
+**Decision locked:** open-question closer. Plants a seed for Q&A — if the panel picks it up as the first question, that's the gift; if they go elsewhere, the RQ answer still stands on its own line. Strongest move the material offers.
 
 ---
 
@@ -182,10 +182,15 @@ Slack: ~3 min of the 30-min slot. If rehearsals overrun, first cut is Pattern F 
 
 ---
 
-## Structural questions I want a decision on before drafting slides
+## Structural decisions
 
-1. **Combined Beat 3 (framework + method) vs separate?** Recommendation: combined. Saves ~1 min and lets mimetic correction slot in naturally. Alternative: separate 3 + 3 (loses 1 min of Findings or Discussion).
-2. **Mimetic correction in Beat 3 vs Q&A reserve?** Recommendation: Beat 3. Pre-emptive reflexivity credit outweighs the minute.
-3. **Findings crescendo (10 min) vs balanced (10 min equal weight)?** Recommendation: crescendo. Equal-weight walks past the Seal too quickly.
-4. **Discussion as centrepiece (5 min) vs traditional discussion (3 min)?** Recommendation: centrepiece. The comparative frame + Seal-as-open-question is where the presentation's originality lives.
-5. **Open-question closer vs clean RQ-answer closer?** Recommendation: open question. Strongest move; hands panel a productive starting point. Panel may take it up as the first question — that's a gift, not a trap.
+**Locked (user, 2026-07-08):**
+
+1. **Beat 3 fused** — framework + methodology + mimetic correction in one 5-min block.
+2. **Mimetic correction featured** in Beat 3 (not held for Q&A reserve).
+5. **Closer:** RQ answer + Sovereignty Seal open question. Plants a seed for Q&A.
+
+**Provisionally locked (recommendations adopted; flag if you want to revisit):**
+
+3. **Findings crescendo** — headline → A + state-surprise → E → Seal → brief B/C/F. Not balanced walk-through.
+4. **Discussion as 5-min centrepiece** — comparative demand-side statecraft + Seal-as-open-question + practice implications. Not a 3-min traditional wrap.
