@@ -38,6 +38,6 @@ Source of truth: `outline.md` v2 (7-beat crescendo, ~22:30 target, ~7:30 slack i
 
 - [ ] Room / online link
 - [ ] External censor identity
-- [ ] Slide format decision (Beamer vs PPTX)
+- [x] Slide format decision — **Beamer** (XeLaTeX, consistent with the thesis build). Slide source will live at `07_defense/slides.tex`.
 - [ ] Whether a printed handout is expected
 - [ ] Test AV setup in room if in-person
