@@ -1,6 +1,8 @@
 # Presentation Outline — v2 (post brain-dump restructure)
 
-Target: **≤ 27 min presented** (of the 30-min slot). Slack in Findings (Pattern F is the drop candidate).
+**Audience assumption:** Norn and the external censor have both read the thesis. The presentation is not a re-teach — it's an analytical performance that shows I own the material and can foreground what matters. Exposition is compressed; interpretation and reflexivity are foregrounded.
+
+Target: **~22–24 min presented** (of the 30-min slot). More slack than v2-original — the shift away from exposition frees roughly 3–4 minutes.
 
 Structural moves vs the earlier 8-beat draft (superseded — see `_scratch/outline_v1_deprecated.md` if wanted):
 - Theory + Method combined into one beat.
@@ -15,55 +17,51 @@ Rationale for the restructure in `topics.md` (end-to-end review). Substantive ma
 
 ## Beat 1 — Opener + RQ + why now (2 min, ~2 slides)
 
-**Purpose:** hook the panel; deliver the RQ verbatim so it holds for the next 60 minutes.
+**Purpose:** frame the analytical stance; deliver the RQ verbatim so it holds for the next 60 minutes. Not a summary reveal — the panel has read the abstract.
 
 - Title slide (title, author, supervisor, date). ~10 sec.
 - Stakes in one sentence: EU is contesting the state's role in industrial policy at exactly the moment STEP integrates into the EIC. Draghi/Letta anchor the "why now" without turning it into a policy essay. ~40 sec.
 - **RQ verbatim, on slide:** *How are investment logics constructed, legitimised and contested within the EIC instruments Pathfinder and STEP, and how can these dynamics be understood through the lens of institutional theory?* ~30 sec of narration + on-slide.
-- Roadmap of the talk in one line ("empirical setting → framework and method → findings → what the work leaves me with"). ~20 sec.
+- Roadmap in one line — signal *what will get airtime* (findings + Discussion + open question), not the beat structure. ~20 sec.
 
 **Decision open:** Draghi/Letta hook or straight-in? Recommendation: **one sentence of stakes, then RQ**. Compromise version from `topics.md` opener options.
 
 ---
 
-## Beat 2 — Empirical setting + corpus (3 min, ~3 slides)
+## Beat 2 — Empirical setting + corpus (1:30 min, ~2 slides)
 
-**Purpose:** orient the external censor without patronising Norn.
+**Purpose:** name the analytical point of entry into the corpus. Both readers know what the EIC is and what STEP integrates — skip the primer. Foreground what makes *this slice* interesting.
 
-- What the EIC is; Pathfinder and STEP inside it; TRL axis. One slide. ~60 sec.
-- Why WP 2026 specifically: STEP's first WP-level integration — the corpus captures a new hybrid instrument at first instance. One slide. ~45 sec.
-- Corpus at a glance: primary document (WP 2026 Path + STEP, sliced to ~110 pp); cited legal instruments (Horizon Europe Regulation, STEP Regulation 2024/795); scale. One slide. ~30 sec.
-- Scope: what's in (discursive construction of logics inside these two instruments) and what's out (implementation data, other EIC instruments). ~30 sec.
+- One-line placement: WP 2026 is STEP's first WP-level integration — a hybrid instrument at first instance. ~20 sec.
+- Corpus at a glance (one slide): primary document sliced to ~110 pp; cited legal instruments named; single-document primary corpus stated up front. ~30 sec.
+- Scope decision: what's in (discursive construction of logics inside these two instruments) vs what's out (implementation data, other EIC instruments). ~30 sec.
+- Handoff: "which brings me to how the analysis reads the text." ~10 sec.
 
 **RQ pivot handling:** don't foreground the pivot here. If it comes up in Q&A, use the honest supervisor-scoping account from `topics.md`.
 
 ---
 
-## Beat 3 — Framework + methodology (5 min, ~4 slides)
+## Beat 3 — Framework + methodology (3 min, ~2–3 slides)
 
-**Purpose:** establish the analytical apparatus and the rigour that produces the findings. Combined because they're complementary — theory chooses the pillars, method does the coding on them.
+**Purpose:** show *how* the four theories were composed and *how* the mimetic-correction story tests the method. Both readers know what Scott, DiMaggio-Powell, Thornton, Suchman say — skip the recap. What they don't know is the *composition logic* and the *reflexivity moment*.
 
-- **Framework composition (~2 min, 1 slide):**
-  - Why four bodies, one sentence each (Scott = *where*, DiMaggio-Powell = *how*, Thornton = *which*, Suchman = *what*).
-  - Composition figure — the four theories as one analytical spine. Say the "removing any one breaks a specific finding" line — pre-emptive for the theoretical-over-reach probe.
-- **Documentary analysis (~45 sec, 1 slide):**
-  - Unit of analysis is discursive construction in the text, not authorial intent. Interviews would answer a different question.
-- **Three-pass pipeline (~1 min, 1 slide with the pipeline diagram):**
-  - Pass 1 deductive (180 entries) → Pass 2 inductive (29 flags resolved, 6 patterns, 7 rules) → Pass 3 writing.
-  - GenAI-assisted; three safeguards named (a-priori codebooks, page provenance, manual colour-coded cross-reference).
-- **Mimetic correction — reflexivity moment (~1 min, 1 slide or verbal aside):**
-  - "One example of the check working" — the Batch 65 correction story (see `topics.md` mimetic-isomorphism correction section).
-  - Frame: an initial reading assumed the corpus explicitly benchmarks against DARPA/Temasek/GGF; corpus review showed it doesn't (generic "USA and Asia" at Strategic Goal 4). Reading retained on DiMaggio-Powell's structural-resemblance grounds; framing corrected across chapters; audit trail in synthesis §0.5.
-  - Payoff: shows the methodology stance is operational, not decorative. Answers LO #9 and LO #10 pre-emptively.
+- **Framework composition (~45 sec, 1 slide):**
+  - Composition figure — four theories as one analytical spine. Say the "removing any one breaks a specific finding" line — pre-emptive for the theoretical-over-reach probe.
+  - Skip per-theory summaries. Reserve slide has them if the panel probes.
+- **Method in one line + pipeline diagram (~45 sec, 1 slide):**
+  - Documentary analysis; unit is discursive construction, not authorial intent. Three-pass pipeline diagram: Pass 1 (180 entries) → Pass 2 (29 flags, 6 patterns, 7 rules) → Pass 3 writing. GenAI-assisted with three safeguards (a-priori codebooks, page provenance, manual colour-coded cross-reference).
+- **Mimetic correction — the reflexivity moment (~1:15 min, 1 slide):**
+  - This is the beat's centrepiece. Batch 65 correction: an initial reading assumed the corpus explicitly benchmarks against DARPA / Temasek / GGF; corpus review showed it doesn't (generic "USA and Asia" at Strategic Goal 4). Reading *retained* on DiMaggio-Powell structural-resemblance grounds; framing *corrected* across chapters; audit trail in synthesis §0.5.
+  - Payoff: shows the methodology stance is operational, not decorative. This is the honest moment — do not gloss it.
 - **Single-coder limitation (~15 sec):** own it here so it doesn't lurk into Q&A ambiguously.
 
-**Decision locked:** Beat 3 fuses framework + methodology + mimetic correction. Mimetic correction featured in-presentation (not held for Q&A) — Norn knows the story; the external censor doesn't; the pre-emptive credit is worth the minute.
+**Decision locked:** Beat 3 fuses framework + methodology + mimetic correction. Mimetic correction featured in-presentation — even though both readers have seen synthesis §0.5, foregrounding it verbally signals that I own the correction, not that it's buried in an audit trail.
 
 ---
 
-## Beat 4 — Findings (10 min, ~6–7 slides)
+## Beat 4 — Findings (9 min, ~6–7 slides)
 
-**Purpose:** show what the coding produced. Crescendo structure — start with the strongest finding, build to the most interesting artefact.
+**Purpose:** *not* to walk the panel through what they've already read — to show the analytical read of the strongest patterns. Crescendo structure. Panel has the details; verbal delivery foregrounds *why each pattern matters* and *what it forced open*.
 
 ### 4.1 Headline finding (2 min, 2 slides)
 
@@ -102,7 +100,7 @@ Rationale for the restructure in `topics.md` (end-to-end review). Substantive ma
 
 ## Beat 5 — Discussion — the centrepiece (5 min, ~3–4 slides)
 
-**Purpose:** three moves — comparative frame, Seal-as-open-question, practice implications. This beat carries the presentation's originality.
+**Purpose:** three moves — comparative frame, Seal-as-open-question, practice implications. This is where the presentation earns its air time — panel has read the chapter but this is the beat where I can push interpretation live, which text can't do.
 
 ### 5.1 STEP as incomplete developmental-state mimicry (2 min, 1 slide)
 
@@ -170,15 +168,15 @@ Verbal delivery: ~30 sec on the RQ answer, ~20 sec on the open question, ~10 sec
 | Beat | Target |
 |---|---|
 | 1 Opener + RQ | 2:00 |
-| 2 Setting + corpus | 3:00 |
-| 3 Framework + method + correction | 5:00 |
-| 4 Findings crescendo | 10:00 |
+| 2 Setting + corpus | 1:30 |
+| 3 Framework + method + correction | 3:00 |
+| 4 Findings crescendo | 9:00 |
 | 5 Discussion centrepiece | 5:00 |
 | 6 Limitations | 1:00 |
 | 7 Closer | 1:00 |
-| **Total** | **27:00** |
+| **Total** | **22:30** |
 
-Slack: ~3 min of the 30-min slot. If rehearsals overrun, first cut is Pattern F (Beat 4.5) — 30 sec. Second cut is 5.3 practice implications compressed to 30 sec — save 30 sec. Third cut is Beat 3 mimetic correction to Q&A reserve — save ~1 min but loses the pre-emptive reflexivity credit.
+Slack: ~7:30 min of the 30-min slot. Substantially more room than v2-original because the audience-has-read assumption compressed exposition. Do **not** back-fill this slack with more content — the extra time is deliberately budgeted for (a) pacing at natural transitions, (b) an on-the-fly extension into Beat 5.2 if a reserve slide beckons, and (c) not looking rushed under nerves. If rehearsals still overrun, first cut is Pattern F (Beat 4.5) — 30 sec.
 
 ---
 
