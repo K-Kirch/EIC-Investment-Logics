@@ -2,6 +2,8 @@
 
 Grouped by likely angle of attack. Each entry: **Q** (what they ask) → **A** (crisp response, ≤ 45 s aloud) → **Reserve** (where to go deeper if pressed).
 
+**Audience assumption:** both Norn and the external censor have read the thesis. Responses can name chapter/section landmarks and skip primer material. Probes will land as sharpening or trained-eye second reads, not as ignorant attacks.
+
 ---
 
 ## 1. Method — single-document primary corpus

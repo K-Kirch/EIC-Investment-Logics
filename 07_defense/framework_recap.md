@@ -17,7 +17,7 @@ For live recall during Q&A. Keep close to hand. Full accounts live in `../02_the
 | Type | Driver | Example in WP 2026 |
 |---|---|---|
 | **Coercive** | Power / dependence | Programme Manager authority; Commission conditionalities |
-| **Mimetic** | Uncertainty | Explicit benchmarks to DARPA, Temasek, GGF |
+| **Mimetic** | Uncertainty | Structural resemblance to DARPA / Temasek / GGF (corpus benchmark is generic "USA and Asia" at Strategic Goal 4 — reading is structural per DP&P, not textual explicit-benchmark; see synthesis §0.5) |
 | **Normative** | Professionalisation | Evaluator peer-expert norms; DEI compliance text |
 
 ## Thornton et al. (2012) — Four Logics

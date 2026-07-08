@@ -16,8 +16,8 @@
 ## Format
 
 DTU MSc Technology Entrepreneurship kandidatspeciale defence:
-- Candidate presents (target ≤ 25 min — supervisor's guidance is that most candidates don't fill the 30-min slot).
-- Panel questioning (~30 min).
+- Candidate presents (target ~22:30 per `outline.md` — supervisor's guidance is that most candidates don't fill the 30-min slot).
+- Panel questioning (~30 min). Both supervisor/internal examiner and external censor have read the submitted thesis.
 - Panel deliberates in private; grade issued on the DTU 7-point scale.
 
 ## Assessed against
@@ -30,21 +30,9 @@ DTU MSc Technology Entrepreneurship learning objectives (see `../00_admin/Learni
 - Extract implications.
 - Reflect on limitations.
 
-## Presentation time budget (working target — refine in `outline.md`)
+## Presentation time budget
 
-| Block | Target |
-|---|---|
-| Opener + RQ | 2 min |
-| Empirical setting (EIC, WP 2026, Pathfinder + STEP) | 3 min |
-| Theoretical framework | 3 min |
-| Methodology (document analysis, three-pass coding) | 3 min |
-| Findings — Patterns A–F | 8 min |
-| Discussion — key interpretive claims | 4 min |
-| Contributions + limitations | 2 min |
-| Closer | 1 min |
-| **Total** | **26 min** |
-
-Leaves ~4 min slack. If a rehearsal overruns, cut inside Findings first (drop deepest pattern into "if asked" reserve).
+Source of truth: `outline.md` v2 (7-beat crescendo, ~22:30 target, ~7:30 slack in the 30-min slot). Audience-has-read assumption drives the compression — Beats 2 and 3 skip exposition. Do not restore the 8-block breakdown here; if outline.md changes, update it there.
 
 ## Open items to confirm before Friday
 
