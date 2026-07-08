@@ -1,7 +1,13 @@
 %% Defence slide deck — MSc thesis, DTU Technology Entrepreneurship
 %% Kristian Bonde Kirch (s243778) — Friday 10 July 2026, 15:30
 %%
-%% Build:  latexmk defense.tex   (from this directory; latexmkrc sets TEXINPUTS)
+%% Build:  pdfLaTeX on Overleaf (Main document = defense.tex)
+%%         Local:  latexmk defense.tex   (latexmkrc sets TEXINPUTS to template/)
+%%
+%% Overleaf compat: the 5 beamer*.sty theme files are duplicated at the
+%% project root so kpsewhich resolves \usetheme{DTU} without TEXINPUTS.
+%% \graphicspath{{template/}} routes \includegraphics{logos/...} to the
+%% vendored template/logos/... tree.
 %%
 %% Structure follows ../outline.md v2 (7 beats, ~22:30 target).
 %% Speaker prose lives in ../script.md — slides are sparse anchors, not scripts.
@@ -52,14 +58,20 @@
 \begin{frame}{Corpus and scope}
     \textbf{Primary corpus.} EIC Work Programme 2026 — Pathfinder and STEP Scale-Up sections. Sliced to $\sim$110 pp.
 
-    \vspace{1mm}
+    \vspace{2mm}
     \textbf{Cited legal instruments.} Horizon Europe Regulation; STEP Regulation 2024/795.
 
-    \vspace{3mm}
-    \textbf{In scope.} Discursive construction of investment logics \emph{inside} these two instruments.
-
-    \vspace{1mm}
-    \textbf{Out of scope.} Implementation data. Other EIC instruments. EU innovation policy in general.
+    \vspace{5mm}
+    \begin{columns}[T,onlytextwidth]
+        \begin{column}{0.48\textwidth}
+            \textbf{In scope.}\\[1mm]
+            Discursive construction of investment logics \emph{inside} these two instruments.
+        \end{column}
+        \begin{column}{0.48\textwidth}
+            \textbf{Out of scope.}\\[1mm]
+            Implementation data. Other EIC instruments. EU innovation policy in general.
+        \end{column}
+    \end{columns}
 \end{frame}
 
 % =====================================================================
@@ -98,17 +110,14 @@
 \begin{frame}{A moment the analysis had to correct itself}
     \textbf{Initial reading.} Corpus explicitly benchmarks against DARPA, Temasek, Chinese GGF.
 
-    \vspace{1mm}
-    \textbf{Corpus review.} No named comparator. Strategic Goal 4 says \enquote{USA and Asia}.
-
     \vspace{2mm}
-    \textbf{Source of the drift.} Parallel literature (Mazzucato, Karo \& Kattel, Bonvillian) leaked into how I read the primary text.
+    \textbf{Corpus review.} No named comparator. Strategic Goal 4 says \enquote{USA and Asia}. Drift came from parallel literature (Mazzucato, Karo \& Kattel, Bonvillian) leaking into the reading.
+
+    \vspace{4mm}
+    \textbf{The reading was not wrong — the framing was.} DiMaggio \& Powell define mimetic isomorphism as \emph{structural resemblance}, not textual acknowledgement. Finding survived; framing corrected.
 
     \vspace{3mm}
-    \textbf{The reading was not wrong.} DiMaggio \& Powell define mimetic isomorphism as \emph{structural resemblance}, not textual acknowledgement. Finding survived; framing corrected. Audit trail: synthesis §0.5.
-
-    \vspace{2mm}
-    \textbf{The safeguard worked.} Provenance check caught the drift.
+    \footnotesize The provenance safeguard caught the drift. Audit trail: synthesis §0.5.
 \end{frame}
 
 % =====================================================================
@@ -146,8 +155,11 @@
 \end{frame}
 
 \begin{frame}{Pattern E — STEP Circular Market Validation}
+    \vspace{2mm}
     \begin{center}
-        \small state capital $\to$ co-investment $\to$ \emph{treated as market signal} $\to$ justifies more state capital
+        \fbox{\parbox{0.92\textwidth}{\centering \vspace{1mm}
+        state capital $\to$ co-investment $\to$ \emph{treated as market signal} $\to$ justifies more state capital
+        \vspace{1mm}}}
     \end{center}
     \vspace{3mm}
     The circle closes on itself. \textbf{Rule 2} codifies the STEP catalytic co-coding.
@@ -161,9 +173,9 @@
 
 \begin{frame}{The Sovereignty Seal — three coded functions}
     \begin{itemize}
-        \item Unlocks \textbf{InvestEU Venture Debt} — entries [152], [161].
-        \item Unlocks \textbf{Business Acceleration Services}.
-        \item Awardable on a \textbf{No-Go decision} — entry [166].
+        \item \textbf{InvestEU Venture Debt} gate — unlocks the equity channel. Entries [152], [161].
+        \item \textbf{Business Acceleration Services} gate — unlocks the network channel.
+        \item \textbf{Awarded on No-Go} — Seal decoupled from the funding decision. Entry [166].
     \end{itemize}
     \vspace{4mm}
     \textbf{Decoupling from the investment decision} — the state certifies strategic value independently of committing capital.
@@ -267,7 +279,10 @@
 
 % =====================================================================
 % Reserve slides — held for Q&A, not presented
+% \appendix resets the frame counter so the main-deck total shown in the
+% DTU footer is the number the audience sees during the presentation.
 % =====================================================================
+\appendix
 \section{Reserve (Q\&A)}
 
 \begin{frame}{Reserve — Scott's three pillars}
@@ -325,8 +340,8 @@
         \item STEP catalytic co-coding (Pattern E).
         \item \texttt{ISO\_COERCIVE} extends to contractual discretionary authority (Pattern B).
         \item \texttt{NORM\_DEI} / \texttt{LOGIC\_STATE} scope (Pattern C).
-        \item \emph{[Rule 5 — see Codebook v2 §9]}
-        \item \emph{[Rule 6 — see Codebook v2 §9]}
+        \item BAS coding — \texttt{LOGIC\_PROFESSION} organises; \texttt{LOGIC\_MARKET} co-codes as actor pool.
+        \item Structural state inference — \texttt{LOGIC\_STATE} requires the state to organise the passage; external inference $\to$ None.
         \item \texttt{LOGIC\_MARKET} — register vs organising.
     \end{enumerate}
 \end{frame}
