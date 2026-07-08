@@ -9,8 +9,20 @@
 %% \graphicspath{{template/}} routes \includegraphics{logos/...} to the
 %% vendored template/logos/... tree.
 %%
-%% Structure follows ../outline.md v2 (7 beats, ~22:30 target).
-%% Speaker prose lives in ../script.md — slides are sparse anchors, not scripts.
+%% Structure — 6 beats, ~14 min target (supervisor guidance: most defences
+%% use 10–15 min for the presentation; ceiling is 30 min).
+%%   1. What
+%%   2. Why / Journey
+%%   3. Brief How
+%%   4. Context management failure
+%%   5. STEP demand observation
+%%   6. Future research / Next steps
+%%
+%% Reserve section is generous by design — audience has read the thesis
+%% thoroughly, main deck runs lean, Reserve holds the pattern-specific
+%% frames and framework tables for Q&A recall.
+%%
+%% Speaker prose lives in ../script.md — slides are sparse anchors.
 
 \documentclass[aspectratio=169,hyperref={pdfpagelabels=false}]{beamer}
 \graphicspath{{template/}}
@@ -29,18 +41,23 @@
 \inserttitlepage
 
 % =====================================================================
-\section{Opener}
+\section{What}
 % =====================================================================
 
-\begin{frame}{Why now}
-    \begin{itemize}
-        \item Draghi and Letta (2024) — scale and depth.
-        \item Commission integrates \textbf{STEP} into the \textbf{EIC}.
-        \item WP 2026 is the first document to carry the integration \emph{at instrument level}.
-    \end{itemize}
+\begin{frame}{What the thesis asks}
+    \begin{block}{}
+        How are investment logics \textbf{constructed}, \textbf{legitimised} and \textbf{contested} within the EIC instruments Pathfinder and STEP, and how can these dynamics be understood through the lens of institutional theory?
+    \end{block}
+    \vspace{4mm}
+    \textbf{Object.} The text — EIC WP 2026, Pathfinder + STEP Scale-Up. Not evaluation of the instrument's performance.
+
     \vspace{3mm}
-    Object of the thesis: \textbf{the text}. Not the instrument's performance — how it composes its own investment logics.
+    \textbf{Anchors.} Draghi + Letta (2024); STEP integrated into the EIC; WP 2026 the first document to carry the integration \emph{at instrument level}.
 \end{frame}
+
+% =====================================================================
+\section{Journey}
+% =====================================================================
 
 \begin{frame}{The route to the question}
     \textbf{Vantage.} Four+ years in venture building, investing, and consulting. The European public-funding layer read differently from that seat than from the literature.
@@ -55,155 +72,45 @@
     \textbf{The reflexive risk.} My reading lands close to my prior view. Named as the risk it is; disciplined via rival-readings test and verbatim provenance on every code. \emph{Ch 3 — Reflexivity.}
 \end{frame}
 
-\begin{frame}{Research question}
-    \begin{block}{}
-        How are investment logics \textbf{constructed}, \textbf{legitimised} and \textbf{contested} within the EIC instruments Pathfinder and STEP, and how can these dynamics be understood through the lens of institutional theory?
-    \end{block}
+% =====================================================================
+\section{Brief How}
+% =====================================================================
+
+\begin{frame}{Brief how}
+    \textbf{Corpus.} EIC WP 2026 (Pathfinder + STEP Scale-Up, $\sim$110 pp) as primary source; Horizon Europe + STEP Regulation as cited legal background.
+
+    \vspace{3mm}
+    \textbf{Framework.} Scott (pillars) $\times$ DiMaggio \& Powell (mechanisms) $\times$ Thornton et al.\ (logics) $\times$ Suchman (legitimacy). Each does one job the others cannot.
+
+    \vspace{3mm}
+    \textbf{Method.} Three-pass documentary analysis. Pass 1 deductive (180 entries) $\to$ Pass 2 inductive (29 flags $\to$ 6 patterns, 7 rules) $\to$ Pass 3 writing.
+
     \vspace{2mm}
-    \footnotesize Roadmap: corpus $\to$ method $\to$ findings $\to$ discussion $\to$ open question.
+    \textbf{GenAI-assisted, three safeguards.} A-priori codebooks $\cdot$ page provenance $\cdot$ manual colour-coded cross-reference. Single coder — the obvious limitation.
 \end{frame}
 
 % =====================================================================
-\section{Empirical setting}
+\section{Context management failure}
 % =====================================================================
 
-\begin{frame}{Corpus and scope}
-    \textbf{Primary corpus.} EIC WP 2026 — Pathfinder + STEP Scale-Up ($\sim$110 pp). Cited legal instruments: Horizon Europe Regulation; STEP Regulation 2024/795.
-
-    \vspace{6mm}
-    \begin{columns}[T,onlytextwidth]
-        \begin{column}{0.48\textwidth}
-            \textbf{In scope.}\\[1mm]
-            Discursive construction of investment logics \emph{inside} these two instruments.
-        \end{column}
-        \begin{column}{0.48\textwidth}
-            \textbf{Out of scope.}\\[1mm]
-            Implementation data. Other EIC instruments. EU innovation policy in general.
-        \end{column}
-    \end{columns}
-\end{frame}
-
-% =====================================================================
-\section{Framework and method}
-% =====================================================================
-
-\begin{frame}{Four theories, one analytical spine}
-    Each theorist does one job the others cannot:
-    \begin{itemize}
-        \item \textbf{Scott} — pillar (\emph{where} a claim is anchored)
-        \item \textbf{DiMaggio \& Powell} — mechanism (\emph{how} it travels)
-        \item \textbf{Thornton et al.} — logic (\emph{which} content)
-        \item \textbf{Suchman} — legitimacy (\emph{whether} it holds)
-    \end{itemize}
-    \vspace{3mm}
-    Combined, not layered. Every finding names a specific combination — removing one breaks it.
-\end{frame}
-
-\begin{frame}{Method — three-pass documentary analysis}
-    \textbf{Unit of analysis:} discursive construction inside the text. Not authorial intent.
-
-    \vspace{3mm}
-    \textbf{Pipeline.} Pass 1 deductive (180 entries) $\to$ Pass 2 inductive (29 flags $\to$ 6 patterns, 7 rules) $\to$ Pass 3 writing.
-
-    \vspace{3mm}
-    \textbf{GenAI-assisted, three safeguards.} A-priori codebooks $\cdot$ page provenance $\cdot$ manual colour-coded cross-reference.
-
-    \vspace{3mm}
-    \textbf{Single coder.} Limitation — mitigated, not eliminated. \emph{The next slide is why the safeguards mattered.}
-\end{frame}
-
-\begin{frame}{A moment the analysis had to correct itself}
+\begin{frame}{Context management failure}
     \textbf{Initial reading.} Corpus explicitly benchmarks against DARPA, Temasek, Chinese GGF.
 
     \vspace{2mm}
-    \textbf{Corpus review.} No named comparator. Strategic Goal 4 says \enquote{USA and Asia}. Drift came from parallel literature (Mazzucato, Karo \& Kattel, Bonvillian) leaking into the reading.
+    \textbf{Corpus review.} No named comparator. Strategic Goal 4 says \enquote{USA and Asia}. Drift came from parallel literature (Mazzucato, Karo \& Kattel, Bonvillian) leaking into the primary-source reading.
 
-    \vspace{4mm}
+    \vspace{3mm}
     \textbf{The reading was not wrong — the framing was.} DiMaggio \& Powell define mimetic isomorphism as \emph{structural resemblance}, not textual acknowledgement. Finding survived; framing corrected.
 
     \vspace{3mm}
-    \footnotesize The provenance safeguard caught the drift. Audit trail: synthesis §0.5.
+    \textbf{What I would do differently.} Isolate primary-corpus reading sessions from secondary-literature sessions earlier. Provenance safeguard caught the drift late; earlier context discipline would have caught it at coding time.
+
+    \vspace{2mm}
+    \footnotesize Audit trail: synthesis §0.5.
 \end{frame}
 
 % =====================================================================
-\section{Findings}
-% =====================================================================
-
-\begin{frame}{Headline — logic succession across TRL}
-    \begin{block}{}
-        Across the TRL axis, WP 2026 organises as \textbf{Science $\to$ Market $\to$ State} — and the same succession is reproduced \emph{inside each Challenge chapter}.
-    \end{block}
-    \vspace{3mm}
-    Two scales at once.
-    \begin{itemize}
-        \item Aggregate: across the TRL axis.
-        \item Structural: inside every thematic block. \textbf{Pattern D}.
-    \end{itemize}
-    \vspace{2mm}
-    \footnotesize The kind of pattern you only see once you have coded provenance.
-\end{frame}
-
-\begin{frame}{Pattern A — Tension-Dissolution}
-    Competing logics presented as complementary. Rule 1 keeps the code honest: tension must be traceable in the text.
-
-    \vspace{3mm}
-    \textbf{Instrument-level extension.}
-    \begin{itemize}
-        \item \emph{Register:} market vocabulary — Venture Debt, equity, deal flow.
-        \item \emph{Organising:} state — Programme Manager authority, Commission conditionalities, sovereign access.
-    \end{itemize}
-    \vspace{2mm}
-    Rule 7 codifies the register-vs-organising check.
-
-    \vspace{3mm}
-    \footnotesize Pre-empt: state aid is a legal category (Art. 107). Pattern A is an institutional-legitimation move — different register.
-\end{frame}
-
-\begin{frame}{Pattern E — STEP Circular Market Validation}
-    \vspace{2mm}
-    \begin{center}
-        \fbox{\parbox{0.92\textwidth}{\centering \vspace{1mm}
-        state capital $\to$ co-investment $\to$ \emph{treated as market signal} $\to$ justifies more state capital
-        \vspace{1mm}}}
-    \end{center}
-    \vspace{3mm}
-    The circle closes on itself. \textbf{Rule 2} codifies the STEP catalytic co-coding.
-
-    \vspace{3mm}
-    Adjacent to Gabor (WSC critique); Mertens \& Thiemann (de-risking). Arrived at through document-internal coding, not applied from outside.
-
-    \vspace{3mm}
-    \footnotesize The pattern surfaces a rhetorical move the document works to keep invisible.
-\end{frame}
-
-\begin{frame}{The Sovereignty Seal — three coded functions}
-    \begin{itemize}
-        \item \textbf{InvestEU Venture Debt} gate — unlocks the equity channel. Entries [152], [161].
-        \item \textbf{Business Acceleration Services} gate — unlocks the network channel.
-        \item \textbf{Awarded on No-Go} — Seal decoupled from the funding decision. Entry [166].
-    \end{itemize}
-    \vspace{4mm}
-    \textbf{Decoupling from the investment decision} — the state certifies strategic value independently of committing capital.
-
-    \vspace{3mm}
-    Field-bridging: portable across public EU programmes and private investors. Synthesis §2.8.
-
-    \vspace{3mm}
-    \footnotesize Findings gives the artefact. Discussion asks what it is doing.
-\end{frame}
-
-\begin{frame}{Brief mentions — Patterns B, C, F, and a null}
-    \begin{itemize}
-        \item \textbf{Pattern B} — Coercive Governance Cluster. Programme Manager authority gradient. Rule 3.
-        \item \textbf{Pattern C} — State Social Equity Template. Standardised DEI text, state-logic anchored. Rule 4.
-        \item \textbf{Pattern F} — TRL as Cross-Pillar Legitimation Artefact. Regulative + cognitive + mimetic triple-load.
-    \end{itemize}
-    \vspace{3mm}
-    \textbf{Null result — Sustainability template not confirmed.} Four preserved entry mechanisms; analytical contrast with Pattern C.
-\end{frame}
-
-% =====================================================================
-\section{Discussion}
+\section{STEP demand observation}
 % =====================================================================
 
 \begin{frame}{STEP as incomplete developmental-state mimicry}
@@ -240,45 +147,26 @@
     \footnotesize Adjacencies: Mazzucato, Karo \& Kattel, Draghi, Letta.
 \end{frame}
 
-\begin{frame}{Practice implications}
-    \textbf{Policy officer (next instrument).} Demand-side statecraft is the under-designed side. Seal is a candidate design pattern.
+% =====================================================================
+\section{Where next}
+% =====================================================================
+
+\begin{frame}{Where next}
+    \textbf{Empirical follow-up.} Implementation data on STEP once cycles run: what companies apply, what the Seal actually flows to, whether the procurement chain (VII.5) activates.
 
     \vspace{2mm}
-    \textbf{EIC evaluator.} Seal is not a consolation prize. Operational credential. Separable from the investment decision — as entry [166] already positions it.
+    \textbf{Theoretical follow-up.} Institutional-logics engagement with EIC-style public-investment vehicles. The catalytic-state investor position (rule 2) is a candidate site.
 
     \vspace{2mm}
-    \textbf{Would-be STEP applicant.} Seal has downstream value — InvestEU + BAS gateway + procurement discretion signal — independent of whether STEP funds the round.
-\end{frame}
+    \textbf{Policy-design follow-up.} Demand-side statecraft under Article 107. The Seal as a first move, not the last.
 
-% =====================================================================
-\section{Limitations}
-% =====================================================================
-
-\begin{frame}{Limitations}
-    \begin{itemize}
-        \item \textbf{Single-document primary corpus.} Unit is discursive construction \emph{inside} this instrument.
-        \item \textbf{Single-coder interpretive analysis.} Mitigated by codified rules, provenance, cross-reference. Not eliminated.
-        \item \textbf{Point-in-time.} WP 2026 will be superseded. Patterns speak to how the document does its institutional work — transferable in mechanism if not in specifics.
-        \item \textbf{No implementation data.} Studied the text, not the deployment.
-    \end{itemize}
-\end{frame}
-
-% =====================================================================
-\section{Closer}
-% =====================================================================
-
-\begin{frame}{}
-    \vspace{3mm}
-    \textbf{Answer.}
-    \begin{block}{}
-        Investment logics in the EIC's Pathfinder and STEP are composed through a Science\,--\,Market\,--\,State succession that dissolves tensions at multiple scales: passage, chapter, instrument.
-    \end{block}
     \vspace{4mm}
     \textbf{Open question.}
     \begin{block}{}
         Whether the Sovereignty Seal is a first move toward demand-side statecraft under state-aid constraints — a question the corpus invites but does not itself answer.
     \end{block}
-    \vspace{3mm}
+
+    \vspace{2mm}
     \centering \footnotesize Thank you.
 \end{frame}
 
@@ -286,9 +174,51 @@
 % Reserve slides — held for Q&A, not presented
 % \appendix resets the frame counter so the main-deck total shown in the
 % DTU footer is the number the audience sees during the presentation.
+% Reserve is deliberately generous: audience has read the thesis, main
+% deck runs lean, Reserve holds the frames a probe might land on.
 % =====================================================================
 \appendix
 \section{Reserve (Q\&A)}
+
+% ---- Reserve: expanded opener context ----------------------------------
+\begin{frame}{Reserve — Why now (extended)}
+    \begin{itemize}
+        \item Draghi and Letta (2024) — scale and depth.
+        \item Commission integrates \textbf{STEP} into the \textbf{EIC}.
+        \item WP 2026 is the first document to carry the integration \emph{at instrument level}.
+    \end{itemize}
+    \vspace{3mm}
+    Object of the thesis: \textbf{the text}. Not the instrument's performance — how it composes its own investment logics.
+\end{frame}
+
+\begin{frame}{Reserve — Corpus and scope}
+    \textbf{Primary corpus.} EIC WP 2026 — Pathfinder + STEP Scale-Up ($\sim$110 pp). Cited legal instruments: Horizon Europe Regulation; STEP Regulation 2024/795.
+
+    \vspace{6mm}
+    \begin{columns}[T,onlytextwidth]
+        \begin{column}{0.48\textwidth}
+            \textbf{In scope.}\\[1mm]
+            Discursive construction of investment logics \emph{inside} these two instruments.
+        \end{column}
+        \begin{column}{0.48\textwidth}
+            \textbf{Out of scope.}\\[1mm]
+            Implementation data. Other EIC instruments. EU innovation policy in general.
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% ---- Reserve: framework references -------------------------------------
+\begin{frame}{Reserve — Four theories, one analytical spine}
+    Each theorist does one job the others cannot:
+    \begin{itemize}
+        \item \textbf{Scott} — pillar (\emph{where} a claim is anchored)
+        \item \textbf{DiMaggio \& Powell} — mechanism (\emph{how} it travels)
+        \item \textbf{Thornton et al.} — logic (\emph{which} content)
+        \item \textbf{Suchman} — legitimacy (\emph{whether} it holds)
+    \end{itemize}
+    \vspace{3mm}
+    Combined, not layered. Every finding names a specific combination — removing one breaks it.
+\end{frame}
 
 \begin{frame}{Reserve — Scott's three pillars}
     \begin{center}
@@ -339,6 +269,91 @@
     \end{itemize}
 \end{frame}
 
+% ---- Reserve: method + findings back-catalogue -------------------------
+\begin{frame}{Reserve — Method (three-pass documentary analysis)}
+    \textbf{Unit of analysis:} discursive construction inside the text. Not authorial intent.
+
+    \vspace{3mm}
+    \textbf{Pipeline.} Pass 1 deductive (180 entries) $\to$ Pass 2 inductive (29 flags $\to$ 6 patterns, 7 rules) $\to$ Pass 3 writing.
+
+    \vspace{3mm}
+    \textbf{GenAI-assisted, three safeguards.} A-priori codebooks $\cdot$ page provenance $\cdot$ manual colour-coded cross-reference.
+
+    \vspace{3mm}
+    \textbf{Single coder.} Limitation — mitigated, not eliminated.
+\end{frame}
+
+\begin{frame}{Reserve — Headline finding: logic succession across TRL}
+    \begin{block}{}
+        Across the TRL axis, WP 2026 organises as \textbf{Science $\to$ Market $\to$ State} — and the same succession is reproduced \emph{inside each Challenge chapter}.
+    \end{block}
+    \vspace{3mm}
+    Two scales at once.
+    \begin{itemize}
+        \item Aggregate: across the TRL axis.
+        \item Structural: inside every thematic block. \textbf{Pattern D}.
+    \end{itemize}
+    \vspace{2mm}
+    \footnotesize The kind of pattern you only see once you have coded provenance.
+\end{frame}
+
+\begin{frame}{Reserve — Pattern A: Tension-Dissolution}
+    Competing logics presented as complementary. Rule 1 keeps the code honest: tension must be traceable in the text.
+
+    \vspace{3mm}
+    \textbf{Instrument-level extension.}
+    \begin{itemize}
+        \item \emph{Register:} market vocabulary — Venture Debt, equity, deal flow.
+        \item \emph{Organising:} state — Programme Manager authority, Commission conditionalities, sovereign access.
+    \end{itemize}
+    \vspace{2mm}
+    Rule 7 codifies the register-vs-organising check.
+
+    \vspace{3mm}
+    \footnotesize Pre-empt: state aid is a legal category (Art. 107). Pattern A is an institutional-legitimation move — different register.
+\end{frame}
+
+\begin{frame}{Reserve — Pattern E: STEP Circular Market Validation}
+    \vspace{2mm}
+    \begin{center}
+        \fbox{\parbox{0.92\textwidth}{\centering \vspace{1mm}
+        state capital $\to$ co-investment $\to$ \emph{treated as market signal} $\to$ justifies more state capital
+        \vspace{1mm}}}
+    \end{center}
+    \vspace{3mm}
+    The circle closes on itself. \textbf{Rule 2} codifies the STEP catalytic co-coding.
+
+    \vspace{3mm}
+    Adjacent to Gabor (WSC critique); Mertens \& Thiemann (de-risking). Arrived at through document-internal coding, not applied from outside.
+
+    \vspace{3mm}
+    \footnotesize The pattern surfaces a rhetorical move the document works to keep invisible.
+\end{frame}
+
+\begin{frame}{Reserve — The Sovereignty Seal: three coded functions}
+    \begin{itemize}
+        \item \textbf{InvestEU Venture Debt} gate — unlocks the equity channel. Entries [152], [161].
+        \item \textbf{Business Acceleration Services} gate — unlocks the network channel.
+        \item \textbf{Awarded on No-Go} — Seal decoupled from the funding decision. Entry [166].
+    \end{itemize}
+    \vspace{4mm}
+    \textbf{Decoupling from the investment decision} — the state certifies strategic value independently of committing capital.
+
+    \vspace{3mm}
+    Field-bridging: portable across public EU programmes and private investors. Synthesis §2.8.
+\end{frame}
+
+\begin{frame}{Reserve — Patterns B, C, F, and a null result}
+    \begin{itemize}
+        \item \textbf{Pattern B} — Coercive Governance Cluster. Programme Manager authority gradient. Rule 3.
+        \item \textbf{Pattern C} — State Social Equity Template. Standardised DEI text, state-logic anchored. Rule 4.
+        \item \textbf{Pattern F} — TRL as Cross-Pillar Legitimation Artefact. Regulative + cognitive + mimetic triple-load.
+    \end{itemize}
+    \vspace{3mm}
+    \textbf{Null result — Sustainability template not confirmed.} Four preserved entry mechanisms; analytical contrast with Pattern C.
+\end{frame}
+
+% ---- Reserve: coding rules + patterns quick-scan -----------------------
 \begin{frame}{Reserve — the seven coding rules}
     \begin{enumerate}
         \item \texttt{LOGIC\_TENSION} surface-visibility (Pattern A).
@@ -360,6 +375,32 @@
         \item \textbf{E} STEP Circular Market Validation — state constructs the signal it requires.
         \item \textbf{F} TRL as Cross-Pillar Legitimation Artefact — triple-load across pillars.
     \end{itemize}
+\end{frame}
+
+% ---- Reserve: discussion + limitations back-catalogue ------------------
+\begin{frame}{Reserve — Practice implications}
+    \textbf{Policy officer (next instrument).} Demand-side statecraft is the under-designed side. Seal is a candidate design pattern.
+
+    \vspace{2mm}
+    \textbf{EIC evaluator.} Seal is not a consolation prize. Operational credential. Separable from the investment decision — as entry [166] already positions it.
+
+    \vspace{2mm}
+    \textbf{Would-be STEP applicant.} Seal has downstream value — InvestEU + BAS gateway + procurement discretion signal — independent of whether STEP funds the round.
+\end{frame}
+
+\begin{frame}{Reserve — Limitations}
+    \begin{itemize}
+        \item \textbf{Single-document primary corpus.} Unit is discursive construction \emph{inside} this instrument.
+        \item \textbf{Single-coder interpretive analysis.} Mitigated by codified rules, provenance, cross-reference. Not eliminated.
+        \item \textbf{Point-in-time.} WP 2026 will be superseded. Patterns speak to how the document does its institutional work — transferable in mechanism if not in specifics.
+        \item \textbf{No implementation data.} Studied the text, not the deployment.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Reserve — Answer in one sentence}
+    \begin{block}{}
+        Investment logics in the EIC's Pathfinder and STEP are composed through a Science\,--\,Market\,--\,State succession that dissolves tensions at multiple scales: passage, chapter, instrument.
+    \end{block}
 \end{frame}
 
 \end{document}
